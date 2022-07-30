@@ -35,18 +35,20 @@ html {
 
 body {
     margin: auto;
-    max-width: 72vw;
+    max-width: 90vw;
     text-align: left;
     font-size: var(--text-size);
 }
 article {
     margin: auto;
+    max-width: 85%;
     padding-top: 3vh;
     padding-bottom: 3vh;
 }
 section {
     text-align: center;
     align-items: center;
+    max-width: 85%;
     margin: auto;
     padding-top: 3vh;
     padding-bottom: 3vh;
