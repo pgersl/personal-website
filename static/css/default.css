@@ -8,56 +8,17 @@
     --intralink-color: #DA3838;
     --interlink-color: #50EF3E;
         /* Text formating */
-    --text-size: 0.98em;
-    --text-size-1100: calc(var(--text-size) - 0.15em);
-    --text-size-800: calc(var(--text-size-1100) - 0.09em);
-    --text-size-500: calc(var(--text-size-800) - 0.12em);
-    --text-size-320: calc(var(--text-size-500) - 0.1);
-
-    --text-size-h1: calc(var(--text-size) + 5 * 0.29em);
-    --text-size-h2: calc(var(--text-size) + 4 * 0.29em);
-    --text-size-h3: calc(var(--text-size) + 3 * 0.29em);
-    --text-size-h4: calc(var(--text-size) + 2 * 0.29em);
-    --text-size-h5: calc(var(--text-size) + 0.29em);
-
-    --text-size-h: calc(var(--text-size) + 3em);
-    --text-size-nav: calc(var(--text-size) + 0.15em);
-
-    --text-size-h1-1100: calc(var(--text-size-1100) + 5 * 0.20em);
-    --text-size-h2-1100: calc(var(--text-size-1100) + 4 * 0.20em);
-    --text-size-h3-1100: calc(var(--text-size-1100) + 3 * 0.20em);
-    --text-size-h4-1100: calc(var(--text-size-1100) + 2 * 0.20em);
-    --text-size-h5-1100: calc(var(--text-size-1100) + 0.20em);
-
-    --text-size-h-1100: calc(var(--text-size-h) - 0.6em);
-    --text-size-nav-1100: calc(var(--text-size-nav) - 0.15em);
-
-    --text-size-h1-800: calc(var(--text-size-800) + 5 * 0.20em);
-    --text-size-h2-800: calc(var(--text-size-800) + 4 * 0.20em);
-    --text-size-h3-800: calc(var(--text-size-800) + 3 * 0.20em);
-    --text-size-h4-800: calc(var(--text-size-800) + 2 * 0.20em);
-    --text-size-h5-800: calc(var(--text-size-800) + 0.20em);
-
-    --text-size-h-800: calc(var(--text-size-h-1100) - 0.5em);
-    --text-size-nav-800: calc(var(--text-size-nav-1100) - 0.10em);
-    
-    --text-size-h1-500: calc(var(--text-size-500) + 5 * 0.20em);
-    --text-size-h2-500: calc(var(--text-size-500) + 4 * 0.20em);
-    --text-size-h3-500: calc(var(--text-size-500) + 3 * 0.20em);
-    --text-size-h4-500: calc(var(--text-size-500) + 2 * 0.20em);
-    --text-size-h5-500: calc(var(--text-size-500) + 0.20em);
-
-    --text-size-h-500: calc(var(--text-size-h-800) - 0.4em);
-    --text-size-nav-500: calc(var(--text-size-nav-800) - 0.08em);
-
-    --text-size-h1-320: calc(var(--text-size-320) + 5 * 0.20em);
-    --text-size-h2-320: calc(var(--text-size-320) + 4 * 0.20em);
-    --text-size-h3-320: calc(var(--text-size-320) + 3 * 0.20em);
-    --text-size-h4-320: calc(var(--text-size-320) + 2 * 0.20em);
-    --text-size-h5-320: calc(var(--text-size-320) + 0.20em);
-    --text-size-h-320: calc(var(--text-size-h-500) - 0.3em);
-    --text-size-nav-320: calc(var(--text-size-nav-500) - 0.10em);
-
+    --text-size: 0.9em;
+    --const: 1.2;
+    --const2: 0.9;
+    --const3: 0.8;
+    --const4: 0.7;
+    --text-size-h5: calc(var(--text-size) * var(--const));
+    --text-size-h4: calc(var(--text-size-h5) * var(--const));
+    --text-size-h3: calc(var(--text-size-h4) * var(--const));
+    --text-size-h2: calc(var(--text-size-h3) * var(--const));
+    --text-size-h1: calc(var(--text-size-h2) * var(--const));
+    --text-size-h: calc(var(--text-size-h1) * var(--const));
     --font-weight: 700;
     --text-color: #FFFFFF;
     --text-color2: #383838;
@@ -74,19 +35,21 @@ html {
 
 body {
     margin: auto;
-    max-width: 1100px;
+    max-width: 72vw;
     text-align: left;
     font-size: var(--text-size);
 }
 article {
     margin: auto;
-    padding: 20px 20px 20px 20px;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
 }
 section {
     text-align: center;
     align-items: center;
     margin: auto;
-    padding: 20px 20px 20px 20px;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
 }
 header {
     font-size: var(--text-size-h);
@@ -94,12 +57,14 @@ header {
     color: var(--text-color);
     text-align: center;
     margin: auto;
-    padding: 50px 50px 50px 50px;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
 }
 footer {
     color: var(--text-color2);
     text-align: center;
-    padding: 50px 50px 50px 50px;
+    padding-top: 6vh;
+    padding-bottom: 2vh;
 }
 p {
     line-height: 2;
@@ -109,9 +74,9 @@ p {
 /* Navigation bar */
 
 nav {
-    font-size: var(--text-size-nav);
+    font-size: var(--text-size);
     text-align: right;
-    word-spacing: 10px;
+    word-spacing: 1vw;
 }
 #navigation-bar {
     max-width: 120%;
@@ -184,113 +149,23 @@ hr {
 
 /* Scaling */
 
-@media (max-width: 1100px) {
-    body h6 {
-        font-size: var(--text-size-1100);
-    }
-    header {
-        font-size: var(--text-size-h-1100);
-    }
-    nav {
-        font-size: var(--text-size-nav-1100);
-    }
-    #navigation-bar-title-link #index-navigation-bar-content h5 {
-        font-size: var(--text-size-h5-1100);
-    }
-    h1 {
-        font-size: var(--text-size-h1-1100);
-    }
-    h2 {
-        font-size: var(--text-size-h2-1100);
-    }
-    h3 {
-        font-size: var(--text-size-h3-1100);
-    }
-    h4 {
-        font-size: var(--text-size-h1-1100);
+@media (min-width: 1300px) {
+    body {
+        font-size: calc(var(--text-size) * var(--const));
     }
 }
-
-@media (max-width: 800px) {
-    body h6 {
-        font-size: var(--text-size-800);
-    }
-    header {
-        font-size: var(--text-size-h-800);
-    }
-    nav {
-        font-size: var(--text-size-nav-800);
-    }
-    #navigation-bar-title-link #index-navigation-bar-content h5 {
-        font-size: var(--text-size-h5-800);
-    }
-    h1 {
-        font-size: var(--text-size-h1-800);
-    }
-    h2 {
-        font-size: var(--text-size-h2-800);
-    }
-    h3 {
-        font-size: var(--text-size-h3-800);
-    }
-    h4 {
-        font-size: var(--text-size-h1-800);
+@media (max-width: 850px) {
+    body {
+        font-size: calc(var(--text-size) * var(--const2));
     }
 }
-
 @media (max-width: 500px) {
-    body h6 {
-        font-size: var(--text-size-500);
-    }
-    header {
-        font-size: var(--text-size-h-500);
-    }
-    nav {
-        font-size: var(--text-size-nav-500);
-    }
-    #navigation-bar-title-link #index-navigation-bar-content h5 {
-        font-size: var(--text-size-h5-500);
-    }
-    h1 {
-        font-size: var(--text-size-h1-500);
-    }
-    h2 {
-        font-size: var(--text-size-h2-500);
-    }
-    h3 {
-        font-size: var(--text-size-h3-500);
-    }
-    h4 {
-        font-size: var(--text-size-h1-500);
+    body {
+        font-size: calc(var(--text-size) * var(--const3));
     }
 }
-
 @media (max-width: 320px) {
-    @viewport {
-        width: 280px;
-    }
-    body h6 {
-        font-size: var(--text-size-320);
-    }
-    header {
-        font-size: var(--text-size-h-320);
-    }
-    nav {
-        font-size: var(--text-size-nav-320);
-    }
-    #navigation-bar-title-link #index-navigation-bar-content h5 {
-        font-size: var(--text-size-h5-320);
-    }
-    h1 {
-        font-size: var(--text-size-h1-320);
-    }
-    h2 {
-        font-size: var(--text-size-h2-320);
-    }
-    h3 {
-        font-size: var(--text-size-h3-320);
-    }
-    h4 {
-        font-size: var(--text-size-h1-320);
-    }
+    body {
+        font-size: calc(var(--text-size) * var(--const4));
+    } 
 }
