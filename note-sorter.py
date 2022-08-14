@@ -33,9 +33,9 @@ def parse_args():
 def search_links(filename):
     """Search for links in file"""
     try:
-        file = open(filename)
+        file = open(filename, encoding="utf-8")
     except FileNotFoundError:
-        print(f"File '{filename}' doesn't exis! \n Skipping...")
+        print(f"File '{filename}' doesn't exist!")
         sys.exit(1)
     linked_notes = re.findall(link_patern, file.read())
     return [x + ".md" for x in linked_notes]
@@ -54,7 +54,11 @@ def move_notes(notes, directory):
             print("Aborting...")
             sys.exit(1)
     for item in notes:
-        shutil.move(item, directory)
+        try:
+            shutil.move(item, directory)
+        except FileNotFoundError:
+            print(f"File '{item}' not found. Skipping...")
+            continue
     print(f"{str(len(notes))} files succesfully moved into directory '{directory}'.")
 
 #main

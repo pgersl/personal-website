@@ -1,0 +1,307 @@
+/* Genereal */
+
+@import url('https://fonts.googleapis.com/css2?family=Gantari:wght@100;200&family=Mulish&display=swap');
+:root {
+    /* Colors */
+    --bg-color: #1E1E1E;
+    --accent-color: #464646;
+    --accent-color2: #FFFFFF;
+    --intralink-color: #DA3838;
+    --intralink-color-active: #F76464;
+    --interlink-color: #09F3D4;
+    --interlink-color-active: #A2F7EB;
+    /* Text formating */
+    --text-size: 0.9em;
+    --const: 1.2;
+    --const2: 0.9;
+    --const3: 0.8;
+    --const4: 0.7;
+    --text-size-h5: calc(var(--text-size) * var(--const));
+    --text-size-h4: calc(var(--text-size-h5) * var(--const));
+    --text-size-h3: calc(var(--text-size-h4) * var(--const));
+    --text-size-h2: calc(var(--text-size-h3) * var(--const));
+    --text-size-h1: calc(var(--text-size-h2) * var(--const));
+    --text-size-h: calc(var(--text-size-h1) * var(--const));
+    --font-weight: 700;
+    --width: 60vw;
+    --text-color: #FFFFFF;
+    --text-color2: #383838;
+
+    
+}
+* {
+    font-family: 'Mulish', sans-serif;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+}
+
+/* Body */
+
+body {
+    margin: auto;
+    max-width: var(--width);
+    font-size: var(--text-size);
+}
+
+/* Article */
+
+article {
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+#single-article {
+    text-align: left;
+}
+#home-article {
+    text-align: left;
+    max-width: calc(var(--width) / 2);
+    float: left;
+}
+
+/* Section */
+
+section {
+    margin: auto;
+}
+#toc-section {
+    text-align: left;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    display: block;
+    border-left-style: solid;
+    border-color: var(--accent-color);
+    border-width: 1px;
+}
+#autolist-section {
+    text-align: center;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+#menu-section {
+    text-align: center;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+/* Header */
+
+header {
+    font-size: var(--text-size-h);
+    font-weight: var(--font-weight);
+    color: var(--text-color);
+    text-align: center;
+    margin: auto;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+}
+#home-main header {
+    text-align: left;
+}
+
+/* Footer */
+
+footer {
+    color: var(--text-color2);
+    text-align: center;
+    padding-top: 6vh;
+    padding-bottom: 2vh;
+}
+#home-main footer {
+    float: inline-end;
+}
+
+/* Paragraph */
+
+p {
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+/* Navbar */
+
+#navbar {
+    position: sticky;
+    top: 0;
+}
+#main-nav {
+    font-size: var(--text-size);
+    text-align: right;
+    word-spacing: 1vw;
+}
+#home-nav-content {
+    font-size: var(--text-size-h5);
+    text-align: center;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+/* Links */
+
+a {
+    color: var(--intralink-color);
+    text-decoration: none;
+}
+a[href *= "https://"] {
+    color: var(--interlink-color)
+}
+a[href *= "mailto"] {
+    color: var(--interlink-color);
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color: var(--intralink-color-active)
+}
+a[href *= "https://"]:active {
+    color: var(--interlink-color-active)
+}
+a[href *= "mailto"]:active {
+    color: var(--interlink-color-active);
+}
+#navbar-title a {
+    font-size: var(--text-size-h4);
+    font-weight: var(--font-weight);
+    color: var(--text-color);
+    text-align: left;
+    float: left;
+}
+#navbar-title a:active {
+    color: var(--intralink-color-active)
+}
+#menu-section a {
+    display: inline-block;
+    font-size: var(--text-size-h4);
+    font-weight: var(--font-weight);
+    text-align: center;
+    border: solid var(--accent-color2) 1px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    width: 10em;
+}
+#menu-section a:hover {
+    background-color: var(--accent-color);
+    text-decoration: none;
+}
+#home-nav-content a {
+    display: inline-block;
+    font-size: var(--text-size-h4);
+    font-weight: var(--font-weight);
+    text-align: center;
+    border: solid var(--accent-color2) 1px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    width: 10em;
+}
+#home-nav-content a:hover {
+    background-color: var(--accent-color);
+    text-decoration: none;
+}
+
+/* Headings */
+
+h1 {
+    font-size: var(--text-size-h1);
+    font-weight: var(--font-weight);
+}
+h2 {
+    font-size: var(--text-size-h2);
+    font-weight: var(--font-weight);
+}
+h3 {
+    font-size: var(--text-size-h3);
+    font-weight: var(--font-weight);
+}
+h4 {
+    font-size: var(--text-size-h4);
+    font-weight: var(--font-weight);
+}
+h5 {
+    font-size: var(--text-size-h5);
+    font-weight: var(--font-weight);
+}
+h6 {
+    font-size: var(--text-size);
+    font-weight: var(--font-weight);
+}
+
+/* Lists */
+
+li {
+    line-height: 2;
+    letter-spacing: 1px; 
+}
+ol {
+    counter-reset: item;
+    list-style-type: none;
+    
+}
+#autolist-section li {
+    list-style-type: none;
+}
+#TableOfContents li:before {
+    content: counters(item, ".") " ";
+    counter-increment: item;
+}
+#main-nav li {
+    display: inline;
+}
+#menu-section li {
+    list-style-type: none;
+}
+#home-nav-content li {
+    list-style-type: none;
+}
+
+/* Lines */
+
+hr {
+    background-color: var(--accent-color);
+    border: none;
+}
+#navbar hr {
+    height: 2px;
+}
+#footer hr {
+    height: 2px;
+}
+#toc hr {
+    height: 1px;
+}
+#home-main hr {
+    height: 2px
+}
+
+/* Scaling */
+
+@media (min-width: 1300px) {
+    body {
+        font-size: calc(var(--text-size) * var(--const));
+    }
+}
+@media (max-width: 850px) {
+    body {
+        font-size: calc(var(--text-size) * var(--const2));
+        max-width: calc(var(--width) + 15vw);
+    }
+}
+@media (max-width: 785px) {
+    #home-article {
+        float: none;
+        max-width: 100%;
+    }
+}
+@media (max-width: 500px) {
+    body {
+        font-size: calc(var(--text-size) * var(--const3));
+        max-width: calc(var(--width) + 25vw);
+    }
+}
+@media (max-width: 320px) {
+    body {
+        font-size: calc(var(--text-size) * var(--const4));
+        max-width: calc(var(--width) + 33vw);
+    } 
+}

@@ -1,5 +1,5 @@
 ---
 Title : Articles
-layout: list
+layout: autolist
 ---
 Here is a list of my articles.

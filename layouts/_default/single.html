@@ -2,20 +2,21 @@
 <html lang="{{.Site.LanguageCode}}">
     <head>
         {{partial "head-meta.html"  .}}
-        {{partial "style-default.html" .}}
+        {{partial "style.html" .}}
         {{partial "favicon.html" .}}
         {{partial "title.html" .}}
     </head>
     <body>
-        {{partial "navigation-bar.html" .}}
+        {{partial "navbar.html" .}}
+        {{partial "header.html" .}}
+        {{partial "toc.html" .}}
         <div id="main">
-            {{partial "header.html" .}}
             <div id="content">
-                <article>
+                <article id="single-article">
                     {{.Content}}
                 </article>
             </div>
+            {{partial "footer.html" .}}
         </div>
-        {{partial "footer.html" .}}
     </body>
 </html>

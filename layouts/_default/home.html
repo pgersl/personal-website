@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="{{.Site.LanguageCode}}">
+    <head>
+        {{partial "head-meta.html" .}}
+        {{partial "style.html" .}}
+        {{partial "title.html" .}}
+        {{partial "favicon.html" .}}
+    </head>
+    <body>
+        <div id="home-main">
+            {{partial "header.html" .}}
+            <hr>
+            <div id="content">
+                <article id="home-article">
+                        {{.Content}}
+                </article>
+                <div id="home-nav">
+                    <div id="home-nav-content">
+                        <ul>
+                            {{range .Site.Menus.main}}
+                                <li>
+                                    <a href="{{ .URL }}">{{.Name}}</a>
+                                </li>
+                            {{end}}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            {{partial "footer.html" .}}
+        </div>
+    </body>
+</html>

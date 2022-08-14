@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="{{.Site.LanguageCode}}">
+    <head>
+        {{partial "head-meta.html"  .}}
+        {{partial "style.html" .}}
+        {{partial "favicon.html" .}}
+        {{partial "title.html" .}}
+    </head>
+    <body>
+        {{partial "navbar.html" .}}
+        {{partial "header.html" .}}
+        <div id="main">
+            <div id="content">
+                <article id="autolist-article">
+                    {{.Content}}
+                </article>
+            </div>
+            <div id="autolist">
+                <section id="autolist-section">
+                    <ul>
+                        {{range.Pages}}
+                            <li>
+                                <time datetime='{{.Date.Format "2006-01-02-T15:04:05Z07:00" }}'>{{.Date.Format "Jan 2, 2006"}}</time> &ndash; <a id="articles-link" href="{{.RelPermalink}}">{{.Title}}</a>
+                            </li>
+                        {{end}}
+                </ul>
+                </section>
+            </div>
+            {{partial "footer.html" .}}
+        </div>
+    </body>
+</html>

@@ -24,7 +24,8 @@ def parse_args():
     parser = argparse.ArgumentParser(description="Link your files together and fix Roam syntax.")
     parser.add_argument("-S", "--single", help="Perform linking in a single file", action="store_true")
     parser.add_argument("-M", "--multiple", help="Perform linking in multiple files", action="store_true")
-    parser.add_argument("-f", "--filename", type=str, help="File with broken links (required if you choose a single file)")
+    parser.add_argument("-f", "--filename", type=str, help="File with broken links (required if you choose the SINGLE option)")
+    parser.add_argument("-i", "--indir", type=str, help="Direcotry of files to be edited (required if you choose the MULTIPLE option)")
     parser.add_argument("-R", "--root-dir", type=str, help="Root directory of your notes (whole path)", required=True)
     return parser.parse_args()
 
@@ -53,26 +54,37 @@ def scan_dir(directory):
         sys.exit(1)
     return os.listdir(directory)
 
+def url(name: str, root_dir):
+    """Urlize the path"""
+    name = name.lower()
+    name = name.replace(" ", "-")
+    name = name.replace(".md", "")
+    name = name.replace(str(root_dir), "")
+    return name
+    
+
 def edit_links(content: str, root_dir):
     """Edit link syntax"""
     page_aliases = re.findall(alias_page_pattern, content)
     for page_alias in page_aliases:
         full_page_alias = "[" + page_alias[0] + "]([[" + page_alias[1] + "]])"
         path = create_path(page_alias[1] + ".md", root_dir)
-        path = path.replace(".md", "")
         if path == None:
-            print(f"File '{page_alias[1]}' not found!")
-            sys.exit(1)
-        content = content.replace(full_page_alias, "[" + page_alias[0] + "](" + path + ")")
+            print(f"File '{page_alias[1]}' not found! Deleting link...")
+            content = content.replace(full_page_alias, page_alias[0])
+        else:
+            path = url(path, root_dir)
+            content = content.replace(full_page_alias, "[" + page_alias[0] + "](" + path + ")")
     links = re.findall(link_pattern, content)
     for link in links:
         full_link = "[[" + link + "]]"
         path = create_path(link + ".md", root_dir)
-        path = path.replace(".md", "")
         if path == None:
-            print(f"File '{link}' not found!")
-            sys.exit(1)
-        content = content.replace(full_link, "[" + link + "](" + path + ")")
+            print(f"File '{link}' not found! Deleting link...")
+            content = content.replace(full_link, link)
+        else:
+            path = url(path, root_dir)
+            content = content.replace(full_link, "[" + link + "](" + path + ")")
     block_aliases = re.findall(alias_block_pattern, content)
     for block_alias in block_aliases:
         full_block_alias = "[" + block_alias[0] + "](((" + block_alias[1] + ")))"
@@ -90,10 +102,14 @@ def single_file_edit(filename, root_dir):
 def multiple_file_edit(input_dir, root_dir):
     files = scan_dir(input_dir)
     for filename in files:
-        with open(filename, "r+") as file:
-            content = edit_links(file.read(), root_dir)
-            file.seek(0)
-            file.write(content)
+        full_path = os.path.join(input_dir, filename)
+        if os.path.isdir(full_path):
+            files.remove(filename)
+        else:
+            with open(os.path.join(input_dir, filename), "r+") as file:
+                content = edit_links(file.read(), root_dir)
+                file.seek(0)
+                file.write(content)
     print(f"{len(files)} files successfully edited.")
     return
     

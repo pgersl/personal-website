@@ -12,15 +12,15 @@ uglyURLs = "false"
         url = "/about"
         weight = "1"
     [[menu.main]]
+        identifier = "notes"
+        name = "Notes"
+        url = "/notes"
+        weight = "2"
+    [[menu.main]]
         identifier = "articles"
         name = "Articles"
         url = "/articles"
         weight = "3"
-    [[menu.main]]
-        identifier = "contact"
-        name = "Contact"
-        url = "/contact"
-        weight = "6"
 [frontmatter]
     date = ['date', 'publishDate', 'lastmod']
     expiryDate = ['expiryDate']
@@ -30,3 +30,6 @@ uglyURLs = "false"
     [markup.goldmark]
         [markup.goldmark.renderer]
             unsafe = "true"
+    [markup.tableOfContents]
+        ordered = true
+        startLevel = 0

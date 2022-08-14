@@ -1,0 +1,19 @@
+<div id="navbar">
+    <div id="navbar-title">
+        <a href="{{.Site.BaseURL}}">
+            {{.Site.Title}}
+        </a>
+    </div>
+    <div id="navigation-bar-content">
+        <nav id="main-nav">
+            <ul>
+                {{range.Site.Menus.main}}
+                    <li>
+                        <a href="{{.URL}}">{{.Name}}</a>
+                    </li>
+                {{end}}
+            </ul>
+        </nav>
+    </div>
+    <hr>
+</div>
