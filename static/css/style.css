@@ -199,6 +199,12 @@ a[href *= "mailto"]:active {
     background-color: var(--accent-color);
     text-decoration: none;
 }
+#404-section a {
+    color: var(--intralink-color);
+}
+#404-section a:active {
+    color: var(--intralink-color-active);
+}
 
 /* Headings */
 
