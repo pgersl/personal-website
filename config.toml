@@ -33,3 +33,4 @@ uglyURLs = "false"
     [markup.tableOfContents]
         ordered = true
         startLevel = 0
+        endLevel = 6
