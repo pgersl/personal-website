@@ -198,7 +198,7 @@ pm: true
     - na díle pracoval asi 20 let
     - řeší univerzální jazyk, univerzální vzdělání
     - vydával k tomu velké slovníky
-##### Pedagogické spisy**
+##### Pedagogické spisy
 - jsou psány převážně latinsky
 ###### Pedagogické zásady
 - škola by měla být pro všechny
