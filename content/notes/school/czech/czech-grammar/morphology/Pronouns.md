@@ -957,7 +957,7 @@ jež
 
 2
             </th>
-            <td colspan="3>
+            <td colspan="3">
 
 jichž
             </td>
@@ -967,7 +967,7 @@ jichž
 
 3
             </th>
-            <td colspan="3>
+            <td colspan="3">
 
 jimž
             </td>
@@ -977,7 +977,7 @@ jimž
 
 4
             </th>
-            <td colspan="3>
+            <td colspan="3">
 
 jež
             </td>
@@ -987,7 +987,7 @@ jež
 
 6
             </th>
-            <td colspan="3>
+            <td colspan="3">
 
 nichž
             </td>
@@ -997,7 +997,7 @@ nichž
 
 7
             </th>
-            <td colspan="3>
+            <td colspan="3">
 
 jimiž
             </td>
