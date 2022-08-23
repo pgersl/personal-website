@@ -2,6 +2,7 @@
 title: About
 layout: single
 toc: true
+pm: false
 ---
 # Who?
 My name is Petr Geršl. I'm a czech highschool student interested in chemistry, physics and music. I am currently attending [this school](https://www.cmgp.cz/). I don't particularly enjoy school, but I do enjoy learning new things. I think I am open-minded and can change opinions if presented with good arguments. I grew up in the Moravia region of the Czech Republic and love it here still.
@@ -18,6 +19,8 @@ The main reasons I'm making this website are:
 This site will hopefully help accomplish these goals and encourage me to learn new things.
 # Copyright
 All of the content you see on this website is released under the **GNU GPLv3 license**. The code can be viewed on github (see the link below). To make use of my photos or music, **contact me**.
+
+If you think that your rights are being violated, please **contact me**. I'm sure we'll sort things out.
 # Contact
 - **Email**: <a href="mailto:pgersl.xyz@gmail.com">pgersl.xyz@gmail.com</a>  
 - **GitHub**: [pgersl](https://github.com/pgersl)

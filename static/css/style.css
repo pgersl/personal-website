@@ -1,15 +1,21 @@
 /* Genereal */
 
 @import url('https://fonts.googleapis.com/css2?family=Gantari:wght@100;200&family=Mulish&display=swap');
+
 :root {
     /* Colors */
-    --bg-color: #1E1E1E;
-    --accent-color: #464646;
+    --bg-color: #080708;
+    --bg-color2: #292929;
+    --accent-color: #292929;
     --accent-color2: #FFFFFF;
+    --accent-color3: #F1D302; 
+    --text-color: #FFFFFF;
+    --text-color2: #292929;
+    --text-color3: #F1D302;
     --intralink-color: #DA3838;
-    --intralink-color-active: #F76464;
-    --interlink-color: #09F3D4;
-    --interlink-color-active: #A2F7EB;
+    --intralink-color-active: #F2B1B1;
+    --interlink-color: #25C7C7;
+    --interlink-color-active: #D3F4F4;
     /* Text formating */
     --text-size: 0.9em;
     --const: 1.2;
@@ -22,22 +28,17 @@
     --text-size-h2: calc(var(--text-size-h3) * var(--const));
     --text-size-h1: calc(var(--text-size-h2) * var(--const));
     --text-size-h: calc(var(--text-size-h1) * var(--const));
+    --text-size-s: calc(var(--text-size) * var(--const3));
     --font-weight: 700;
     --width: 60vw;
-    --text-color: #FFFFFF;
-    --text-color2: #383838;
-
-    
-}
-* {
-    font-family: 'Mulish', sans-serif;
-    color: var(--text-color);
-    background-color: var(--bg-color);
 }
 
 /* Body */
 
 body {
+    font-family: 'Mulish', sans-serif;
+    color: var(--text-color);
+    background-color: var(--bg-color);
     margin: auto;
     max-width: var(--width);
     font-size: var(--text-size);
@@ -56,6 +57,9 @@ article {
     text-align: left;
     max-width: calc(var(--width) / 2);
     float: left;
+}
+#note-article {
+    text-align: left;
 }
 
 /* Section */
@@ -81,6 +85,11 @@ section {
     text-align: center;
     padding-top: 3vh;
     padding-bottom: 3vh;
+}
+#path-menu-section {
+    text-align: left;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
 }
 
 /* Header */
@@ -119,10 +128,6 @@ p {
 
 /* Navbar */
 
-#navbar {
-    position: sticky;
-    top: 0;
-}
 #main-nav {
     font-size: var(--text-size);
     text-align: right;
@@ -166,21 +171,20 @@ a[href *= "mailto"]:active {
     text-align: left;
     float: left;
 }
-#navbar-title a:active {
-    color: var(--intralink-color-active)
-}
 #menu-section a {
     display: inline-block;
     font-size: var(--text-size-h4);
     font-weight: var(--font-weight);
     text-align: center;
-    border: solid var(--accent-color2) 1px;
+    border: solid;
+    border-color: var(--accent-color2);
+    border-width: 1px;
     padding-left: 1vw;
     padding-right: 1vw;
     width: 10em;
 }
 #menu-section a:hover {
-    background-color: var(--accent-color);
+    background-color: var(--bg-color2);
     text-decoration: none;
 }
 #home-nav-content a {
@@ -188,7 +192,9 @@ a[href *= "mailto"]:active {
     font-size: var(--text-size-h4);
     font-weight: var(--font-weight);
     text-align: center;
-    border: solid var(--accent-color2) 1px;
+    border: solid;
+    border-color: var(--accent-color2);
+    border-width: 1px;
     padding-left: 1vw;
     padding-right: 1vw;
     margin-top: 1vh;
@@ -205,9 +211,28 @@ a[href *= "mailto"]:active {
 #err-section a:active {
     color: var(--intralink-color-active);
 }
+#path-menu-section a {
+    display: block;
+    font-size: var(--text-size-h5);
+    border: solid;
+    border-color: var(--accent-color);
+    border-width: 3px;
+    padding-left: 0.7vw;
+    padding-right: 0.7vw;
+    padding-top: 0.7vh;
+    padding-bottom: 0.7vh;
+    width: fit-content;
+}
+#path-menu-section a:hover {
+    text-decoration: none;
+    background-color: var(--bg-color2);
+}
 
 /* Headings */
 
+h1, h2, h3, h4, h5, h6 {
+    color: var(--text-color3);
+} 
 h1 {
     font-size: var(--text-size-h1);
     font-weight: var(--font-weight);
@@ -239,13 +264,16 @@ li {
     line-height: 2;
     letter-spacing: 1px; 
 }
-ol {
+#autolist-section li {
+    list-style-type: none;
+}
+#note-articel li {
+    list-style-type: disc;
+}
+#TableOfContents ol {
     counter-reset: item;
     list-style-type: none;
     
-}
-#autolist-section li {
-    list-style-type: none;
 }
 #TableOfContents li:before {
     content: counters(item, ".") " ";
@@ -282,6 +310,105 @@ hr {
 }
 #home-main hr {
     height: 2px
+}
+
+/* Tables */
+
+.note-table {
+    border: solid;
+    border-width: 4px;
+    border-color: var(--accent-color3);
+    background-color: var(--bg-color2);
+    text-align: left;
+    width: var(--width);
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+.note-table tr, td, th {
+    border: solid;
+    border-width: 1px;
+    border-color: var(--accent-color2);
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+}
+.note-table thead th {
+    border-bottom-width: 2px;
+    border-top-width: 2px;
+}
+.note-table tbody th {
+    border-right-width: 2px;
+    border-left-width: 2px;
+}
+.note-table th {
+    color: var(--text-color3);
+}
+.note-table caption {
+    caption-side: bottom;
+    font-style: italic;
+    font-size: var(--text-size-s);
+}
+tbody.it td {
+    font-style: italic;
+}
+tbody.it th {
+    font-style: normal;
+}
+.center {
+    text-align: center;
+}
+.it {
+    font-style: italic;
+}
+.bf {
+    font-weight: var(--font-weight);
+}
+
+/* Images */
+
+.note-fig img {
+    display: block;
+    max-width: 60%;
+    max-height: 40vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: auto;
+    margin-right: auto 
+}
+.note-fig figcaption, .note-fig-w figcaption {
+    caption-side: bottom;
+    text-align: center;
+    font-style: italic;
+    font-size: var(--text-size-s);
+}
+.note-fig-w img {
+    display: block;
+    width: 100%;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: auto;
+    margin-right: auto
+}
+
+/* Blockquotes */
+
+blockquote p {
+    background-color: var(--bg-color2);
+    display: block;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 3vw;
+    padding-right: 1vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border-left: solid;
+    border-color: var(--accent-color3);
+    border-width: 10px;
+    font-style: italic;
 }
 
 /* Scaling */

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="{{.Site.LanguageCode}}">
+    <head>
+        {{partial "head-meta.html"  .}}
+        {{partial "style.html" .}}
+        {{partial "favicon.html" .}}
+        {{partial "title.html" .}}
+        {{partial "tex.html" .}}
+    </head>
+    <body>
+        {{partial "navbar.html" .}}
+        <div id="note-main">
+            {{partial "path-menu.html" .}}
+            {{partial "header.html" .}}
+            {{partial "toc.html" .}}
+            <div id="content">
+                <article id="note-article">
+                    {{.Content}}
+                </article>
+            </div>
+            {{partial "footer.html" .}}
+        </div>
+    </body>
+</html>

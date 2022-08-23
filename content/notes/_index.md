@@ -2,6 +2,7 @@
 title: "Notes"
 layout: single
 toc: false
+pm: false
 ---
 These are the notes I took. Read about my notes [here](/notes/about-my-notes).
 <div id="menu">

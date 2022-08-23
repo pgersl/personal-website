@@ -6,13 +6,13 @@ toc: "true"
 # Notes you can find here
 I make two types of notes. 
 
-The first type is the **notes from school**. I don't make notes from every subject, because I am either not interested or I find the subject to be so utterly useless I can't be bothered to write them. I also don't write many notes from the maths class, since there is usually not that much theory and there is much more practice and I use a physical paper notebook or a small whiteboard to do solve the problems.
+The first type is the **[notes from school](/notes/school/)**. I don't make notes from every subject, because I am either not interested or I find the subject to be so utterly useless I can't be bothered to write them. I also don't write many notes from the maths class, since there is usually not that much theory and there is much more practice and I use a physical paper notebook or a small whiteboard to do solve the problems.
 
 I took loads of paper notes in the past and I kept them in an archive of sorts. Of course, I don't have my notes from the first grade, I started archiving these notes since I went to the grammar school I am currently attending. I am planning to rewrite them into markdown in the future and publish them here.
 
 My school notes are organized by subject and not by grade, because I just don't find it that useful to sort them that way. I might also add new notes into these subjects and move them from school notes to the second type.
 
-The second type is **research notes**. These notes I write myself from textbooks I choose to go through from topics of my liking. Currently, that is chemistry, music and English. These notes are much more profound and more linked together. Sources are also listed.
+The second type is **[research notes](/notes/research/)**. These notes I write myself from textbooks I choose to go through from topics of my liking. Currently, that is chemistry, music and English. These notes are much more profound and more linked together. Sources are also listed.
 
 Obviously, **I don't share all my notes here**. I used to take a lot of personal notes (which I might get back into) which were not intended to be shared. I also track my tasks and projects, prepare presentations and take notes for those. These would be useless without context, thus they are not here.   
 

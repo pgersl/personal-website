@@ -5,12 +5,14 @@
         {{partial "style.html" .}}
         {{partial "favicon.html" .}}
         {{partial "title.html" .}}
+        {{partial "tex.html" .}}
     </head>
     <body>
         {{partial "navbar.html" .}}
-        {{partial "header.html" .}}
-        {{partial "toc.html" .}}
-        <div id="main">
+        <div id="single-main">
+            {{partial "path-menu.html" .}}
+            {{partial "header.html" .}}
+            {{partial "toc.html" .}}
             <div id="content">
                 <article id="single-article">
                     {{.Content}}
