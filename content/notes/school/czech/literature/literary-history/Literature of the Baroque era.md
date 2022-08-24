@@ -64,23 +64,23 @@ pm: true
 - německý spisovatel
 - bojoval ve třicetileté válce poté, co mu byli zavražděni rodiče a byl unesen
 ## Dobrodružný Simplicius Simplicissimus
-    - je to výchovný pikarsekní román
-        - pikareskní znamená parodie na rytířský
-    - má šest knih
-    - s humorem je zde vylíčen život prosťáčka, kterého unesli vojáci do armády
-    - popisuje krutost války
+- je to výchovný pikarsekní román
+    - pikareskní znamená parodie na rytířský
+- má šest knih
+- s humorem je zde vylíčen život prosťáčka, kterého unesli vojáci do armády
+- popisuje krutost války
 # Český literární barok
 ## Historický kontext
-    - 1618 - Stavovské povstání
-    - 1620 - bitva na Bílé hoře
-        - poprava 27 českých pánů na Staroměstském náměstí v Praze
-    - dochízá ke konverzi na katlicismus
-        - do čech přichází Jezuitský řád
-    - spousta lidí se rozhodla emigrovat
-    - probíhá těžká germanizace
-    - dochází k úpadku češtiny a literatury
-        - česky se mluví jen na venkově
-    - relativně vzkvétá malířství a sochařství
+- 1618 - Stavovské povstání
+- 1620 - bitva na Bílé hoře
+    - poprava 27 českých pánů na Staroměstském náměstí v Praze
+- dochízá ke konverzi na katlicismus
+    - do čech přichází Jezuitský řád
+- spousta lidí se rozhodla emigrovat
+- probíhá těžká germanizace
+- dochází k úpadku češtiny a literatury
+    - česky se mluví jen na venkově
+- relativně vzkvétá malířství a sochařství
 ## Literární tvorba
 - _lidová tvorba_
     - ústní lidová slovesnost
@@ -100,10 +100,10 @@ pm: true
 - byl velmi obětavý, obzvlášť při morové epidemii, na kterou zemřel
 - dílo ma filosofický a mytický ráz
 #### Co Bůh? Člověk?
-    - je to lyrická báseň
-    - patří k vrcholům českého baroka
-    - je to promlouvání k Bohu a zkoumání smyslu lidského života
-    - skladba je koncipovaná jako kontrast mezi velikostí Boha a pomíjivostí člověka
+- je to lyrická báseň
+- patří k vrcholům českého baroka
+- je to promlouvání k Bohu a zkoumání smyslu lidského života
+- skladba je koncipovaná jako kontrast mezi velikostí Boha a pomíjivostí člověka
 ### Bohuslav Balbín
 - byl to jezuitský kněz a učitel
 - věnoval se historii potom, co byl zbaven funkce učitele
@@ -127,8 +127,8 @@ pm: true
 - byl to kněz a varháník
 - skládal různé písně a melodie
 #### Loutna česká
-    - je to dílo, ve které se objevuje mystická erotika
-    - některé písně se hrají dodnes
+- je to dílo, ve které se objevuje mystická erotika
+- některé písně se hrají dodnes
 ### Antonín Koniáš
 ## Exilová literatura
 - je psána autory, kteří české země opustily pro nekonvertování na katolictví

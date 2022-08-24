@@ -1,7 +1,7 @@
 ---
 title: "Příslovečné určení"
 layout: note
-toc: true
+toc: false
 pm: true
 ---
 - značka: Pu

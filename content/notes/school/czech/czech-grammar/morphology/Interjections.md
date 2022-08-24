@@ -1,7 +1,7 @@
 ---
 title: "Citoslovce"
 layout: note
-toc: true
+toc: false
 pm: true
 ---
 - interjekce vyjadřují **hlasy a zvuky** (_frrr, haf, žbluňk_), **city a nálady** (_ach, fuj, blé_) nebo **kontakt** (_hyjé, ťu ťu ťu_)

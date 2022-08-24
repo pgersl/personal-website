@@ -1,7 +1,7 @@
 ---
 title: "Absolutní hodnota"
 layout: note
-toc: true
+toc: false
 pm: true
 ---
 - _absolutní hodnota_ $|a|$ [reálného čísla](/notes/school/maths/numerical-fields/real-numbers) čísla $a$ je definována takto:

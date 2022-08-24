@@ -1,7 +1,7 @@
 ---
 title: "Reálná čísla"
 layout: note
-toc: true
+toc: false
 pm: true
 ---
 - $\mathbb{R}\in\mathbb{Q}\cup\mathbb{I}$

@@ -1,7 +1,7 @@
 ---
 title: "Doplněk"
 layout: note
-toc: true
+toc: false
 pm: true
 ---
 - značka: Do
@@ -17,4 +17,3 @@ pm: true
     - [zájmenem](/notes/school/czech/czech-grammar/morphology/pronouns)
     - [číslovkou](/notes/school/czech/czech-grammar/morphology/numerals)
     - [slovesem](/notes/school/czech/czech-grammar/morphology/verbs) v infinitivu
-ivu

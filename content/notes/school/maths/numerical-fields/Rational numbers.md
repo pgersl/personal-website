@@ -1,7 +1,7 @@
 ---
 title: "Racionální čísla"
 layout: note
-toc: true
+toc: false
 pm: true
 ---
 - každé _racionální číslo_ lze zapsat jako poměr dvou různých [celých čísel](/notes/school/maths/numerical-fields/whole-numbers)

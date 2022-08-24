@@ -50,44 +50,46 @@ pm: true
     - jednoduše pochopitelné
 # Attické období (500 - 300 BC)
 - rozvoj dramatu
-- největší rozkvět literatury
-    - vyvinulo se z oslav, _dionýsie_
-    - byly spojeny s předváděním různých příběhů
-    - později začíná vznikat dialog
-    - hrají nejdříve muži v amfiteátrech
-    - docházi ke konfliktu postav
-    - herci měli masky s otvory na ústa
-    - hra je uvedená _prologem_ a uzavřená _epilogem_
-    - hry byli psány ve verších, nerýmovaných
-    - na scéně bylo málo herců a chorus, později se přidávalo více herců
-    - dodržovala se _trojí jednota_ (místo, čas, děj)
-    - pravidla pro psaní dramatu shrnul _Aristotéles_ v díle _Poetika_
-    - **tragédie** byla vysoký žánr, měl vést ke _katarzi_ (uvolnění, vyjádření emocí)
-        - vystupují lidé z vyšších vrstev společnosti
-        - řeší se vážná témata
-        - končí tragicky
-        - má 5 částí:
-            - _expozice_ - úvod do děje
-            - _kolize_ - náraz na zápletku
-            - _krize_ - uvědomění zápletky
-            - _peripetie_ - řešení zápletky a komplikace
-            - _katastrofa_ - vyřešení zápletky, tragický konec
-    - **komedie** byla nízký žánr
-        - nemusel dodržovat pravidla
-        - tématy je soudobí život
-        - vystupují i postavy z nižších vrstev společnosti
-        - děj se dříve měnil, později už byla jasná dějová linie
-    - **Aischylos** (600s/500s BC)
-        - bývá považován za zakladatele trageédie
-        - zavádí 2 herce na scénu
-        - sepsal 94 tragédií, dochovalo se 7, zbytek jen podle názvu
-        - **Orestiea**
-            - námět se týká mýtu o _Agamemnonovi_
-            - když šel do Trójské války, obětoval svoji dceru
-            - když se vrací zpět, je zavražděn svou manželkou a jejím milencem
-            - hlavním hrdinou je _Orestes_, který chce pomstít svého otce
-            - nakonec zabyje vlastní matku
-            - prosí o odpuštění bohů, zastane se bohyně _Athéna_
+## Rozkvět literatury
+- vyvinulo se z oslav, _dionýsie_
+- byly spojeny s předváděním různých příběhů
+- později začíná vznikat dialog
+- hrají nejdříve muži v amfiteátrech
+- docházi ke konfliktu postav
+- herci měli masky s otvory na ústa
+- hra je uvedená _prologem_ a uzavřená _epilogem_
+- hry byli psány ve verších, nerýmovaných
+- na scéně bylo málo herců a chorus, později se přidávalo více herců
+- dodržovala se _trojí jednota_ (místo, čas, děj)
+- pravidla pro psaní dramatu shrnul _Aristotéles_ v díle _Poetika_
+### Tragédie 
+- byla vysoký žánr, měl vést ke _katarzi_ (uvolnění, vyjádření emocí)
+- vystupují lidé z vyšších vrstev společnosti
+- řeší se vážná témata
+- končí tragicky
+- má 5 částí:
+    - _expozice_ - úvod do děje
+    - _kolize_ - náraz na zápletku
+    - _krize_ - uvědomění zápletky
+    - _peripetie_ - řešení zápletky a komplikace
+    - _katastrofa_ - vyřešení zápletky, tragický konec
+### Komedie 
+- byla nízký žánr
+- nemusel dodržovat pravidla
+- tématy je soudobí život
+- vystupují i postavy z nižších vrstev společnosti
+- děj se dříve měnil, později už byla jasná dějová linie
+## Aischylos (600s/500s BC)
+- bývá považován za zakladatele tragédie
+- zavádí 2 herce na scénu
+- sepsal 94 tragédií, dochovalo se 7, zbytek jen podle názvu
+### Orestiea
+- námět se týká mýtu o _Agamemnonovi_
+- když šel do Trójské války, obětoval svoji dceru
+- když se vrací zpět, je zavražděn svou manželkou a jejím milencem
+- hlavním hrdinou je _Orestes_, který chce pomstít svého otce
+- nakonec zabyje vlastní matku
+- prosí o odpuštění bohů, zastane se bohyně _Athéna_
 ## Sofokles
 - byl váženou osobností
 - vrchol dramatu

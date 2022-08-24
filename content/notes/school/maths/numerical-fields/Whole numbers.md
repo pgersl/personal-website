@@ -1,7 +1,7 @@
 ---
 title: "Celá čísla"
 layout: note
-toc: true
+toc: false
 pm: true
 ---
 - _celá čísla_ jsou všechna čísla od $-\infty$ do $\infty$ bez desetinného rozvoje

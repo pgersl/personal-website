@@ -1,7 +1,7 @@
 ---
 title: "Grafická stránka jazyka"
 layout: note
-toc: true
+toc: false
 pm: true
 ---
 - _grafém_

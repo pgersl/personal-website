@@ -53,7 +53,7 @@ pm: true
             - popisný
         - jazyková stránka:
             - většinou nejsou připravené
-            - používá se i [nespisovný jazyk](/notes/school/czech/czech-grammar/national-language)
+            - používá se i [nespisovný jazyk](/notes/school/czech/czech-grammar/introduction-to-czech-grammar/national-language)
             - často používáme _elipsu_ a nehovoříme v celých větách
             - často dochází k syntaktickým chybám
             - používáme výplňová slova

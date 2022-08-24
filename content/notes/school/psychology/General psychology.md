@@ -11,9 +11,11 @@ pm: true
 - člověk díky nim ukláda poznatky
 - všechny poznávací procesy  jsou dílší kompetence schopnosti inteligence
 ### Vnímání
-- _poznávání přítomnosti_
-- _reflexní přijetí podnětů určité kvality příslušnými smysly_
-- _indvidiuálně specifické zobrazení reality, její zaměření a selekce_
+> Poznávání přítomnosti.
+
+> Reflexní přijetí podnětů určité kvality příslušnými smysly.
+
+> Indvidiuálně specifické zobrazení reality, její zaměření a selekce.
 - _počitek_
     - vlastnost pozorovaného objektu
 - _vjem_
@@ -25,52 +27,54 @@ pm: true
 #### Gestaltické principy
 - _gestaltpsychologie_
 - celek vždy směřuje k co nejjednoduššímu uspořádání prvků do jednoho celku
-- **princip figury a pozadí**
-    - rozdělení obrazu na dominantní obrazec a pozadí
-- **princip blízkosti**
-    - vznímání spojuje dohromady
-- **princip podobnosti**
-    - seskupení objektů podle jejich podobnosti
-- **princip uzavřenosti a dobrého tvaru**
-    - tendence vnímat tvary jako úplné
-- **princip symetrie**
-    - tendence vnímat objekty jakoby uspořádané okolo svého středu
-- **princip konstantnosti**
-    - dle zkušenosti vnímáme objekt ve stejné velikosti, poloze, tvaru, i když se v daném momentě jeví jinak
+##### Princip figury a pozadí
+- rozdělení obrazu na dominantní obrazec a pozadí
+##### Princip blízkosti
+- vznímání spojuje dohromady
+##### Princip podobnosti
+- seskupení objektů podle jejich podobnosti
+##### Princip uzavřenosti a dobrého tvaru
+- tendence vnímat tvary jako úplné
+##### Princip symetrie
+- tendence vnímat objekty jakoby uspořádané okolo svého středu
+##### Princip konstantnosti
+- dle zkušenosti vnímáme objekt ve stejné velikosti, poloze, tvaru, i když se v daném momentě jeví jinak
 #### Vliv na vnímání
-- vliv sociální skupiny
-    - _konformita_
-        - spojování chování, přesvědčení a chování s jistou sociální skupinou
-- vliv sociální zkušenosti
-    - _chyba prvního dojmu_
-        - generalizace na základě emocí
-    - _haló efekt_
-        - přeceňování významu viditelných znaků
-    - _efekt vztahu_
-        - vnímání pozitivních znaků na těch, kteří nám jsou sympatičtí
-    - _princip projekce_
-        - v projevu ostatních vidíme to, co se týká nás samotným
+##### Vliv sociální skupiny
+###### Konformita
+- spojování chování, přesvědčení a chování s jistou sociální skupinou
+##### Vliv sociální zkušenosti
+###### Chyba prvního dojmu
+- generalizace na základě emocí
+###### Haló efekt
+- přeceňování významu viditelných znaků
+###### Efekt vztahu
+- vnímání pozitivních znaků na těch, kteří nám jsou sympatičtí
+###### Proncip vedle mě sedí
+- sníze sympatizujeme s lidmi, kteří jsou nám podobní
+###### Princip projekce
+- v projevu ostatních vidíme to, co se týká nás samotným
 ### Paměť
-- _uchování a následné vybavení dříve vnímané věci_
+> Uchování a následné vybavení dříve vnímané věci.
 - je na ní závislé postupné obohacování zkušeností, tedy učení
 #### Fáze paměti
-- **zakódování**
-    - selekce (ekonomické fungování paměti), tendence k zachování rovnováhy a jednoznačnosti
-- **uchování**
-    - paměť rozdělujeme podle této fáze na:
-        - _krátkodobou paměť_
-            - desítky vteřin (vzácněji několik minut), kapacita je omezená
-            - _paměť procesní_
-                - informace je uchována jen po dobu konání akce
-        - _dlouhodobá paměť_
-            - subjektivně významné vzpomínky a dovednosti
-- **vybavení**
-    - vlivy ovlivňující kvalitu vybavené informace:
-        - 1. psychycký a fyzický stav, motivace, emoce, důležitost, pozornost, inteligence,...
-        - 2. schopnost paměti, délka fáze uchování, aktivita v této fázi
-        - 3. motivace, asociace, konstruktivní paměť
+##### Zakódování
+- selekce (ekonomické fungování paměti), tendence k zachování rovnováhy a jednoznačnosti
+##### Uchování
+- paměť rozdělujeme podle této fáze na:
+    - _krátkodobou paměť_
+        - desítky vteřin (vzácněji několik minut), kapacita je omezená
+        - _paměť procesní_
+            - informace je uchována jen po dobu konání akce
+    - _dlouhodobá paměť_
+        - subjektivně významné vzpomínky a dovednosti
+##### Vybavení
+- vlivy ovlivňující kvalitu vybavené informace:
+    - psychycký a fyzický stav, motivace, emoce, důležitost, pozornost, inteligence,...
+    - schopnost paměti, délka fáze uchování, aktivita v této fázi
+    - motivace, asociace, konstruktivní paměť
 ### Představivost
-- _schopnost vytvářet představy, tj. smyslové obrazy něčeho, co právě teď nevnímáme_
+> Schopnost vytvářet představy, tj. smyslové obrazy něčeho, co právě teď nevnímáme.
 - má vždy subjektivní povahu
 #### Funkce představivosti
 - zajišťuje kontinuitu lidského prožívání a hodnocení
@@ -85,7 +89,7 @@ pm: true
         - vyobrazení něčeho nereálného 
 ### Učení
 #### Definice učení
-- _Podmínka trvalejší modifikace psychických a somatických funkcí_
+> Podmínka trvalejší modifikace psychických a somatických funkcí.
 - vzniká na základě zkušenosti
 - může vést k trvalé změně v prožívání, uvažování a chování
 - funkcí je _adaptace_
@@ -117,13 +121,13 @@ pm: true
     - odměna má většinou silnější efekt
 - **Burrhus Frederich Skinner**
     - autor teorie _programového učení_
-    - 1. _princip aktivní odpovědi_
+    - _princip aktivní odpovědi_
         - kontakt se studenty
-    - 2. _princip minimálních kroků_
+    - _princip minimálních kroků_
         - student potřebuje vidět výsledky
-    - 3. _princip průběžného podmiňování_
+    - _princip průběžného podmiňování_
         - student musí být při učení aktivní
-    - 4. _princip individuálního tempa_
+    - _princip individuálního tempa_
         - student se musí učit dle vlastního tempa
 ##### Habituace
 - opakovaný stimul přestane vyvolávat reakci
@@ -158,7 +162,7 @@ pm: true
 - vznikají sociální role
     - dochází k identifikaci ve společnosti
 ### Myšlení
-- Mentální manipulace s různými informacemi, která slouží k porozumění jejich podstatě a k analýze různých souvislostí a vzahů, na jejichž základě odvozuje určité závěry
+> Mentální manipulace s různými informacemi, která slouží k porozumění jejich podstatě a k analýze různých souvislostí a vzahů, na jejichž základě odvozuje určité závěry.
 #### Proces manipulace
 - _pojem_
     - slovo, symbol, který odráží klíčové vlastnosti objektu
@@ -213,7 +217,7 @@ pm: true
 - _průběžná kontrola_
 - _zhodnocení správnosti řešení_
 #### Kognitivní vývoj
-- dle Piaget
+- dle Piageta
 - _senzomotorická inteligence_
 - _symbolické a předpojené myšlení_
 - _názorové myšlení_
@@ -221,11 +225,11 @@ pm: true
 - _formální logické myšlení_
 #### Jazyk a řeč
 ##### Definice
-- _jazyk_ je kognitivní a komunikační kód definovaný určitými symboly
-    - je prostředkem poznávání
-    - je chápán a užíván na úrovni myšlení
-    - je aktivní i pasivní
-- _řeč_ je jazyková dovednost nebo schopnost vyjádřit zvuky obsah vědomí
+> Jazyk je kognitivní a komunikační kód definovaný určitými symboly.
+- je prostředkem poznávání
+- je chápán a užíván na úrovni myšlení
+- je aktivní i pasivní
+> Řeč je jazyková dovednost nebo schopnost vyjádřit zvuky obsah vědomí.
 ##### Jazykové kompetence
 - _fonologicko-fonetické_
     - výslovnost
@@ -249,10 +253,11 @@ _metalingvistické vědomí_
     - vědomosit a schopnost uvažovat o jazyku
 #### Inteligence
 ##### Definice
-- je to obecný základ, na kterém je závislá úroveň poznávacího výkonu
-- je to psychická vlastnost a zároveň schopnost, která je částěčně vrozená, ale dá se rozvíjet
-    - míra dědičnosti 50-70%
-- je to schopnost myslet, učit se a adaptovat se
+> Obecný základ, na kterém je závislá úroveň poznávacího výkonu.
+
+> Psychická vlastnost a zároveň schopnost, která je částěčně vrozená, ale dá se rozvíjet.
+
+> je to schopnost myslet, učit se a adaptovat se.
 ##### Projevy inteligence
 - pohotovost vnímání
 - prostorová představivost
@@ -278,7 +283,7 @@ _metalingvistické vědomí_
 - temperament a komplex vlastností
 ##### Měření inteligence
 - má původ v americké armádě
-###### Inteligenční kvocient_ (IQ)
+###### Inteligenční kvocient (IQ)
 - počítá se podílem mentálního a skutečného věku vynásobeno stem
 - velikost IQ je rovnoměrně rozdělená ve společnosti (_Gaussova křivka_)
     - průměrná hodnota je 100
@@ -409,12 +414,12 @@ _metalingvistické vědomí_
 - _temperament_
     - dynamičnost osobnosti
 ### Vztahově-postojové vlastnosti
-    - vznikají na základě hodnot a vztahu k nim
-    - vyjadřují naše postoje a hodnoty
-    - jsou získané
-        - vliv má sociální skupina a socializace
-    - _charakter_
-        - je to soubor hodnot, kterým dáváme v životě přednost
+- vznikají na základě hodnot a vztahu k nim
+- vyjadřují naše postoje a hodnoty
+- jsou získané
+    - vliv má sociální skupina a socializace
+- _charakter_
+    - je to soubor hodnot, kterým dáváme v životě přednost
 ### Výkonové vlastnosti
 - určují jak úspěšně nebo neúspěšně jsme schopni vykonávat určitou funkci
 - jsou částečně vrozené a získáné
@@ -447,8 +452,8 @@ _metalingvistické vědomí_
 - některé činnosti usnadňují a jiné škodí
 ### Aktivačně-motivační vlastnosti
 #### Motiv
-    - pohnutka, příčina činnosti a jednání člověka
-    - má směr, cíl, intenzitu a trvalost
+- pohnutka, příčina činnosti a jednání člověka
+- má směr, cíl, intenzitu a trvalost
 #### Potřeba
 - stav nedostatku nebo nadbytku něčeho, co nás vede k činnostem, kterými tento nedostatek nebo nadbytek uspokojujeme
 ##### Maslowova hierarchie potřeb

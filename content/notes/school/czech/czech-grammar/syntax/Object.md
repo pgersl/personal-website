@@ -1,7 +1,7 @@
 ---
 title: "Předmět"
 layout: note
-toc: true
+toc: false
 pm: true
 ---
 - značka: Pt

@@ -1,5 +1,5 @@
 ---
-title: "Česká nářečí"
+title: "Dialekty"
 layout: note
 toc: true
 pm: true
@@ -8,7 +8,7 @@ pm: true
 # Nářečí a jejich umístění
 - Nařečí lašská - Ostravsko
 - Nářečí moravsko-slovenská - Zlínsko
-    - > D**a**j m**ú**ku ze mlýna vozík.
+    > D**a**j m**ú**ku ze mlýna vozík.
 - Nářečí hanácká - Brněnsko, Olomoucko
 - Nářečí středočeská - části Vysočiny, Středočeský kraj
 - Nářečí severovýchodočeská a podkrkonošská - Krkonoše, Královéhradecko

@@ -1,7 +1,7 @@
 ---
 title: "Norma a kodifikace"
 layout: note
-toc: true
+toc: false
 pm: true
 ---
 - _norma_ je nepsané pravidlo vnímané většinovou společností

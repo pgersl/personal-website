@@ -1,7 +1,7 @@
 ---
 title: "Buňka"
 layout: note
-toc: true
+toc: false
 pm: true
 ---
 - je to základní stavební i funkční jednotka živých organismů

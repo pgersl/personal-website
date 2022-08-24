@@ -50,7 +50,7 @@ pm: true
 - působil u jezuitů
 - přestěhoval se do Anglie, kde se věnoval psaní a překládání
 #### Příběh rytíře des Grieux a Manon Lescaut
-    - je to román o rytíři a Manon
+- je to román o rytíři a Manon
 ## Německo
 ### Sturm und Drang
 - preromantické literární hnutí

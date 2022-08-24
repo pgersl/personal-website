@@ -217,8 +217,8 @@ pm: true
 #### Knížky o hře šachové
 - o hře šachové
 ## Jan Hus
+- 1371, Husinec - 6. 7. 1415, Kostnice
 - studoval na Karlově univerzitě
-- *1371, Husinec - *6. 7. 1415, Kostnice
     - získal titul _mistr_
     - nějakou dobu byl rektorem
 - kázal v Betlémské kapli

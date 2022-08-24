@@ -9,7 +9,7 @@ pm: true
 - prostředí s vyšší koncentrací jiné látky
 - buňka ztrácí vodu (smršťuje se)
 - **rostlinné buňky**
-    - má buněčnou stěnu*
+    - má [buněčnou stěnu](/notes/school/biology/cell-organels#buněčná-stěna-eu)
     - zmenšuje se jen obsah buňky
     - cytoplazmatická membrána se oddělí od buněčné stěny (_plazmolýza_)
 - **živočišné buňky**

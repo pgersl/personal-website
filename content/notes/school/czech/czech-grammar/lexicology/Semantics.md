@@ -20,21 +20,21 @@ pm: true
 - **slova podřazená** dohromady tvoří **slova souřadná**
 # Slova jednoznačná a mnohoznačná
 ## Jednoznačná slova
-    - mají pouze jeden lexikální význam
-    - nejčastěji se jedná o:
-        - běžná slova (_stůl, dveře_)
-        - vlastní jména (_Praha, Petr_)
-        - odborné názvy (_pedagog, biologie_)
-        - zvukomalebné citoslovce (_mňam, haf_)
+- mají pouze jeden lexikální význam
+- nejčastěji se jedná o:
+    - běžná slova (_stůl, dveře_)
+    - vlastní jména (_Praha, Petr_)
+    - odborné názvy (_pedagog, biologie_)
+    - zvukomalebné citoslovce (_mňam, haf_)
 ## Mnohoznačná slova
-    - mají základní lexikální význam a několik dalších, druhotných, lexikálních významů (_koruna, hlava, tisk_)
-    - vznikají:
-        - **metaforou**
-            - přenesením významu na základě vnější podobnosti 
-            - př.: _ucho_ (lidské a hrníčku)
-        - **metonimii**
-            - přenesením významu na základě vnitřní souvislosti 
-            - př.: _smetana_ (Má rád **smetanu**., Poslouchá **Smetanu**.)
+- mají základní lexikální význam a několik dalších, druhotných, lexikálních významů (_koruna, hlava, tisk_)
+- vznikají:
+    - **metaforou**
+        - přenesením významu na základě vnější podobnosti 
+        - př.: _ucho_ (lidské a hrníčku)
+    - **metonimii**
+        - přenesením významu na základě vnitřní souvislosti 
+        - př.: _smetana_ (Má rád **smetanu**., Poslouchá **Smetanu**.)
 # Souslový a frazémy
 - **slovo**
     - skupina hlásek, která má v daném jazyce určitý význam

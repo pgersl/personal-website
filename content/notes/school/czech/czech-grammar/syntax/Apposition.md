@@ -1,7 +1,7 @@
 ---
 title: "Přístavek"
 layout: note
-toc: true
+toc: false
 pm: true
 ---
 - je to rozvíjející větný člen

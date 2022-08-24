@@ -21,8 +21,8 @@ pm: true
 ### Náboženská lyrika
 - modlitby a náboženské písně
 #### Píseň tvorstva
-    - napsal ji František z Assisi
-    - modlitba oslavující Boha
+- napsal ji František z Assisi
+- modlitba oslavující Boha
 ## Světská literatura
 ### Hrdinský epos
 - příběh s bohatým dějem
@@ -40,7 +40,7 @@ pm: true
 #### Píseň o Cidovi
 - hrdina zvany _Cid_ se vyznamená v boji s Maury
 - pomstí zneuctění svých dcer
-#### Píseň o Nileunzích**
+#### Píseň o Nibelunzích
 - _Nibelungové_ - skřítci, kteří střeží poklad
 - hlavní hrdina tento poklad získává
 - hrdina je zavražděn a jeho žena vymíšlí pomstu
@@ -72,7 +72,7 @@ pm: true
 #### Milion
 - _Marco Polo_ popisuje cestu po východní Asii a Číně
 - italsý cestopis
-#### Mandevillův cestopis**
+#### Mandevillův cestopis
 - fiktivní spis o cestách do exotických zemí
 ### Kronika
 - chronologické zaznamenání historických událostí

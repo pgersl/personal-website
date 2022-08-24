@@ -81,7 +81,7 @@ pm: true
 ## Gaius Iulius Caesar
 - byl to římský císař, významný řečník a státník
 - psal i poezii, ale jeho spisy jsou významější
-### Spisy o válce Galské**
+### Spisy o válce Galské
 - o dobití _Gálie_
 ### Zápisky o válce občanské
 - o osobních pocitech z občanské války
@@ -102,7 +102,7 @@ pm: true
 - literatura katolické církve
 - filosofické, teologické spisy
 - má apologetický ráz (obhajují)
-## Sv. Agustýn**
+## Sv. Agustýn
 - konvertoval ke křesťanství
 - žil hříšný život, později se stal dokonce biskupem
 ### Vyznání

@@ -20,7 +20,7 @@ pm: true
 - věta je zakončena vykřičníkem (!) nebo v mírnějším případě tečkou (.)
 ## Věta přací
 - vyjadřuje přání
-- obsahuje [částici](/notes/school/czech/czech-grammar/morphology/grammatical-particle) (kéž, ať,...) a sloveso v indikativu nebo kondicionálu
+- obsahuje [částici](/notes/school/czech/czech-grammar/morphology/grammatical-particles) (kéž, ať,...) a sloveso v indikativu nebo kondicionálu
 - věta končí vykřičníkem (!) nebo tečkou (.)
 ## Věta zvolací
 - všechny typy vět můžeme vyslovit s velkým citovým zaujetím a potom je nazýváme _zvolací_ (_oznamovcací zvolací, tázací zvolací, rozkazovací zvolací, přací zvolací_)
@@ -40,9 +40,9 @@ pm: true
 ## Větný ekvivalent
 - pokud výpověď neobsahuje určité sloveso, nejedná se o větu, ale o _větný ekvivalent_
 - jeho zákledem může být:
-    - [podstatné jméno](/notes/school/czech/czech-grammarmorphology//nouns) (_Jano!_)
+    - [podstatné jméno](/notes/school/czech/czech-grammar/morphology/nouns) (_Jano!_)
     - [přídavné jméno](/notes/school/czech/czech-grammar/morphology/adjectives) (_Úžasné!_)
     - infinitiv (_Sednout!_)
     - [příslovce](/notes/school/czech/czech-grammar/morphology/adverbs) (_Dobře!_)
-    - částice (_Ano._)
+    - částice(_Ano._)
     - [citoslovce](/notes/school/czech/czech-grammar/morphology/interjections) (_Fuj!_)

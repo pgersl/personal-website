@@ -17,6 +17,6 @@ pm: true
     - Gilgameš se pak vydává na pouť za nesmrtelností, kterou nakonec nenajde
     - Gilgameš se v průběhu eposu mění a umírní se
 # Chamurapiho zákoník
-    - obsahuje první zcela dochované zákony
-    - některé zákony jsou psány veršovaně
-    - psáno klínovým písmem
+- obsahuje první zcela dochované zákony
+- některé zákony jsou psány veršovaně
+- psáno klínovým písmem

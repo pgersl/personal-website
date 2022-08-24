@@ -1,7 +1,7 @@
 ---
 title: "Úvod do syntaxe"
 layout: note
-toc: true
+toc: false
 pm: true
 ---
 - _syntax_ je nauka o **stavbě věty, souvětí a souvislého textu**

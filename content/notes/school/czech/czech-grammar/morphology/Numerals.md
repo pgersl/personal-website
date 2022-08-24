@@ -253,6 +253,6 @@ Skloňování číslovek 'tři' a 'čtyři'
     </caption>
 </table>
 
-- základní čislovky se skloňují podle vzorů [podstatných jmen](/notes/school/czech/czech-grammar/morphology/nouns)
-- řadové a násobné čislovky se skloňují podle vzorl [přídavných jmen](/notes/school/czech/czech-grammar/morphology/adjectives)
+- základní čislovky se skloňují podle [vzorů podstatných jmen](/notes/school/czech/czech-grammar/morphology/nouns#vzor)
+- řadové a násobné čislovky se skloňují podle [vzorů přídavných jmen](/notes/school/czech/czech-grammar/morphology/adjectives#vzor)
 - některé neurčité číslovky jsou nesklonné

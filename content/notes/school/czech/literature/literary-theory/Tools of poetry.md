@@ -19,17 +19,11 @@ pm: true
 - střídají se _lehké_ (_nepřízvučné_ - U) a _těžké_ (_přízvučné_ - -) stopy
 - **základní typy metra**:
     - **trochej** - první slabika je přízvučná, druhá nepřízvučná (-U)
-        - > Velké, šíré, rodné lány, 
-        - > jak jsou krásné vaše strany
-        - > ...
+        > Velké, šíré, rodné lány, <br> jak jsou krásné vaše strany <br> ...
     - **daktyl** - první slabika je přízvučná, dvě další nepřízvučné (-UU)
-        - > Stříhaly do hola malého chlapečka,
-        - > kadeře padali k zemi a zmírali
-        - > ...
+        > Stříhaly do hola malého chlapečka, <br> kadeře padali k zemi a zmírali <br> ...
     - **jamb** - první slabika je nepořízvučná a druhá je přízvučná (U-)
-        - > Byl pozdní večer, první máj,
-        - > večerní máj byl lásky čas
-        - > ...
+        > Byl pozdní večer, první máj, <br> večerní máj byl lásky čas <br> ...
 # Verš
 - jeden řádek v básni nebo veršovaném textu
 - **typy veršů**

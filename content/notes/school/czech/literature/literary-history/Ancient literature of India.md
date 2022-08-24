@@ -16,8 +16,8 @@ pm: true
 - jsou psány v _sanskrtu_ 
 - _rgvédy_ - hymny, oslavné texty
 # Púrány
-    - eposy
-    - obsáhlé básnické texty
+- eposy
+- obsáhlé básnické texty
 ## Ramajáma
 - Ráma musí odejít
 - musí bojovat o svou ženu Sítu
@@ -26,6 +26,6 @@ pm: true
 - válka rodů
 # Sútry
 - odborné spisy
-## Kámasútra**
+## Kámasútra
     - kniha rozkoše
     - pojednání o erotice

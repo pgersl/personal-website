@@ -1,7 +1,7 @@
 ---
 title: "Částice"
 layout: note
-toc: true
+toc: false
 pm: true
 ---
 - uvozují sampstatné věty a naznačují jejich druh (př.: _**Kéž** bych vyhrál._)

@@ -5,7 +5,7 @@ toc: true
 pm: true
 ---
 # Úvod
-- 14. - 16. století
+- 14.- 16. století
 - z francouzského _renaissance_ - _znovuzrození_
 - vrací se antické pojetí člověka
 - rozvoj měšťanské vrstvy
@@ -276,17 +276,17 @@ pm: true
     - _JIndřich VI._
 #### 2. období (o roce 1600)
 ##### Tragédie
-    - _Romeo a Julie_
-        - milenci z verony
-        - 2 rody (Kapuleti, Motekové)
-        - končí smrtí obou milenců
-    - _Hamlet_
-        - o dánském kralevici
-        - > Být či nebýt
-    - _Othelo_
-        - o benátském mouřenínovi
-    - _Macbeth_
-    - _Král Lear_
+- _Romeo a Julie_
+    - milenci z verony
+    - 2 rody (Kapuleti, Motekové)
+    - končí smrtí obou milenců
+- _Hamlet_
+    - o dánském kralevici
+    > Být či nebýt
+- _Othelo_
+    - o benátském mouřenínovi
+- _Macbeth_
+- _Král Lear_
 #### 3. období (do roku 1616)
 - vyrovnání, harmonie
 - pohádkové náměty

@@ -13,21 +13,21 @@ pm: true
 - _nižší rostliny_ příjmají celým povrchem těla
 - _vyšší rostliny_ příjmají vodu kořenovým systémem (_absorpční zóna_ - místa s nejtenšími částmi kořenu)
 ### Ovlivnění
-    - teplto půdy (se snížením teploty se snižuje příjem)
-    - obsah kyslíku v půdě (čím více kyslíku, tím vyšší příjem)
-    - intentzita transpirace (se zvyšujícím výdejem vody se zvyšuje příjem)
+- teplto půdy (se snížením teploty se snižuje příjem)
+- obsah kyslíku v půdě (čím více kyslíku, tím vyšší příjem)
+- intentzita transpirace (se zvyšujícím výdejem vody se zvyšuje příjem)
 ## Transport vody
 ### Na krátké vzdálenosti
 - mezi buňkami
-- **apoplast**
-    - pasivní transport
-    - probíhá mezi buněčnými stěnami* a mezibuněčnými prostory
-    - nespotřebovává se energie, je rychlejší
-- **symplast**
-    - aktivní transport
-    - mezi buňkami
-    - přes membrány* a cytoplazmu*
-    - spotřebovává se energie
+#### Apoplast
+- pasivní transport
+- probíhá mezi [buněčnými stěnami](/notes/school/biology/cell-organels#buněčná-stěna-eu) a mezibuněčnými prostory
+- nespotřebovává se energie, je rychlejší
+#### Symplast
+- aktivní transport
+- mezi buňkami
+- přes [membrány](/notes/school/biology/cell-organels#cytoplazmatická-membrána-pronotesschoolbiologyprokaryotic-cell-i-eunotesschoolbiologyeukaryotic-cell) a [cytoplazmu](/notes/school/biology/cell-organels#cytoplazma-pro-i-eu)
+- spotřebovává se energie
 
 <figure class="note-fig">
     <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fhaygot.s3.amazonaws.com%2Fquestions%2F637829_609673_ans.PNG&f=1&nofb=1" alt="Schéma transportu vody na krátké vzdálenosti (apoplast a symplast)">

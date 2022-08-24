@@ -565,8 +565,8 @@ Skloňování přídavných jmen měkkých
 </table>
  
 ## Skloňování přídavných jmen přivlastňovacích
-    - vzory jsou _otcův_ a _matčin_
-    - při rozhodování o tvrdém či měkkém i/y si pomáháme pouze vzorem matčin
+- vzory jsou _otcův_ a _matčin_
+- při rozhodování o tvrdém či měkkém i/y si pomáháme pouze vzorem matčin
 
 <table class="note-table">
     <thead>

@@ -1,7 +1,7 @@
 ---
 title: "Přirozená čísla"
 layout: note
-toc: true
+toc: false
 pm: true
 ---
 - _přirozená čísla_ jsou všechna čísla od $1$ do $\infty$ bez desetinného rozvoje

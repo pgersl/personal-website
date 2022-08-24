@@ -8,7 +8,7 @@ pm: true
 - je to hlavní větný člen, bez kterého nemůže existovat česká věta
 - vypovídá o nějaké skušenosti vyjádřené zpravidla [podmětem](/notes/school/czech/czech-grammar/syntax/subject)
 # Přísudek slovesný
-- je tořen pouze [slovesem](/notes/school/czech/czech-grammar/morphology/verbs) (jednoduchým či složeným)
+- je tvořen pouze [slovesem](/notes/school/czech/czech-grammar/morphology/verbs) (jednoduchým či složeným)
 # Přísudek jmenný se sponou a beze spony
 - **přísudek jmenný se sponou** 
     - je tvořen jménem ([podstatným](/notes/school/czech/czech-grammar/morphology/nouns) nebo [přídavným](/notes/school/czech/czech-grammar/morphology/adjectives)) a _sponovým slovesem_ (_být, bývat, stát se, stávat se_)

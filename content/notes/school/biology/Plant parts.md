@@ -68,7 +68,7 @@ Schéma stavby kořenů
     <img src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2FCKQJVtooPR.png?alt=media&token=7a74a269-8862-435e-bdf3-b0f670dbda6c" alt="Homorhize a allorhize">
     <figcaption>
 
-Homorhize a allorhize
+Allorhize a homorhize
     </figcaption>
 </figure>
 

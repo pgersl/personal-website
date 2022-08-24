@@ -1,7 +1,7 @@
 ---
 title: "Rovnoměrný přímočarý pohyb"
 layout: note
-toc: true
+toc: false
 pm: true
 ---
 - nejjednodušší přímočarý pohyb

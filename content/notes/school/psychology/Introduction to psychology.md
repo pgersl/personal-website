@@ -76,9 +76,9 @@ pm: true
 - je to stav určité aktivace, která se projevuje bdělostí
 - má vždy subjektivní charakter a projevuje se uvědoměním duševních obsahů
 ### Okruhy vědomí
-    - proživání aktivního duševního dění
-    - subjektivní zpracování
-    - uvědomění sebe sama
+- proživání aktivního duševního dění
+- subjektivní zpracování
+- uvědomění sebe sama
 ### Stavy vědomí
 - **bdělé vědomí**
     - koncentrovaná pozornost

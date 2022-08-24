@@ -26,10 +26,10 @@ Vokalický trojúhelník
 </figure>
 
 #### Dvojhlásky
-    - samohláskový zvuk, při kterém se mění poloha jazyka
-    - _ou_
-    - _au_
-    - _eu_
+- samohláskový zvuk, při kterém se mění poloha jazyka
+- _ou_
+- _au_
+- _eu_
 ### Souhlásky
 - _konsonanty_
 - vzduchový proud naráží na překážku
@@ -79,8 +79,8 @@ Vokalický trojúhelník
     - tvoří páry se znělými souhláskami
 - pouze neznělé
     - _c, č_
-###### Ř
-    - znělost se mění podle pozice
+###### ř
+- znělost se mění podle pozice
 ##### Podle tvrdosti
 ###### Měkké
 - _ž, š, č, ř, c, j, ď, ť, ň_
