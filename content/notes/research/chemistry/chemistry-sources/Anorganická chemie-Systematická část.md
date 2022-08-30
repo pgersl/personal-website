@@ -1,5 +1,5 @@
 ---
-title: Anorganická chemie - Systematiká část
+title: Anorganická chemie - Systematická část
 layout: single
 toc: true
 pm: false
