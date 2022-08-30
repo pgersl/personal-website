@@ -139,7 +139,7 @@ Na analytickou chemii je perfektní velmi silně autistická stránka Michaela C
 - [Chemie pro čtyřletá gymnázia 2. díl](/notes/research/chemistry/chemistry-sources/chemie-pro-čtyřletá-gymnázia-2.-díl)
 - [Chemie pro čtyřletá gymnázia 3. díl](/notes/research/chemistry/chemistry-sources/chemie-pro-čtyřletá-gymnázia-3.-díl)
 - [Obecná a anorganická chemie](/notes/research/chemistry/chemistry-sources/obecná-a-anorganická-chemie)
-- [Anorganická chemie - Systematická část](/notes/research/chemistry/chemistry-sources/anorganická-chemie---systematická-část)
+- [Anorganická chemie - Systematická část](/notes/research/chemistry/chemistry-sources/anorganická-chemie-systematická-část)
 - [Anorganická chemie kovů](/notes/research/chemistry/chemistry-sources/anorganická-chemie-kovů)
 - [Stručný přehled chemie prvků](/notes/research/chemistry/chemistry-sources/stručný-přehled-chemie-prvků)
 ## Online sources
