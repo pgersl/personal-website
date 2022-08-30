@@ -5,8 +5,9 @@
 :root {
     /* Colors */
     --black: #080708;
-    --dark-grey: #292929;
-    --white: #FFFFFF;
+    --dark-grey: #1C1C1C;
+    --grey: #292929;
+    --white: #F7F8F7;
     --red: #DA3838;
     --light-pink: #F2B1B1;
     --blue: #25C7C7;
@@ -73,7 +74,7 @@ section {
     padding-bottom: 1vh;
     display: block;
     border-left-style: solid;
-    border-color: var(--dark-grey);
+    border-color: var(--grey);
     border-width: 1px;
 }
 #autolist-section {
@@ -110,7 +111,7 @@ header {
 /* Footer */
 
 footer {
-    color: var(--dark-grey);
+    color: var(--grey);
     text-align: center;
     padding-top: 6vh;
     padding-bottom: 2vh;
@@ -145,7 +146,7 @@ a {
     color: var(--red);
     text-decoration: none;
 }
-a[href *= "https://"] {
+a[href *= "http"] {
     color: var(--blue)
 }
 a[href *= "mailto"] {
@@ -157,7 +158,7 @@ a:hover {
 a:active {
     color: var(--light-pink)
 }
-a[href *= "https://"]:active {
+a[href *= "http"]:active {
     color: var(--light-blue)
 }
 a[href *= "mailto"]:active {
@@ -183,7 +184,7 @@ a[href *= "mailto"]:active {
     width: 10em;
 }
 #menu-section a:hover {
-    background-color: var(--dark-grey);
+    background-color: var(--grey);
     text-decoration: none;
 }
 #home-nav-content a {
@@ -203,7 +204,7 @@ a[href *= "mailto"]:active {
     width: 10em;
 }
 #home-nav-content a:hover {
-    background-color: var(--dark-grey);
+    background-color: var(--grey);
     text-decoration: none;
 }
 #err-section a {
@@ -226,7 +227,7 @@ a[href *= "mailto"]:active {
 }
 #path-menu-section a:hover {
     text-decoration: none;
-    background-color: var(--dark-grey);
+    background-color: var(--grey);
 }
 
 /* Headings */

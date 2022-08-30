@@ -3,6 +3,7 @@ title = "Petr Geršl"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 uglyURLs = "false"
+enableEmoji = "true"
 [params]
     description = "Personal website of Petr Geršl"
 [menu]
