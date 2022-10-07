@@ -7,7 +7,7 @@ pm: true
 - **spisovný jazyk** je nejdůležitější forma [národního jazyka](/notes/school/czech/czech-grammar/introduction-to-czech-grammar/national-language)
 - je to dorozumívací prostředek všech příslušníků čéského národa
 - piší se jím knihy, časopisy, je vyučovacím jazykem ve školách, užívá se ve státní správě a také v rozhlasu a televizi
-- je jedním z jednacích jazyků Evropské unie
+- spisovná čeština je jedním z jednacích jazyků Evropské unie
 # Varianty spisovné češtiny
 - **neutrální**
     - je nejduležitější

@@ -34,4 +34,4 @@ enableEmoji = "true"
     [markup.tableOfContents]
         ordered = true
         startLevel = 0
-        endLevel = 6
+        endLevel = 3
