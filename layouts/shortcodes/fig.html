@@ -1,0 +1,10 @@
+<figure {{with .Get "class"}}class="{{.}}"{{end}}>
+    <img src="{{.Get "src"}}" alt="{{.Get "alt"}}">
+    <figcaption>
+        {{with .Get "cap"}}
+            {{.}}
+        {{else}}
+            {{.Get "alt"}}
+        {{end}}
+    </figcaption>
+</figure>

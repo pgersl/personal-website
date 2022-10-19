@@ -127,6 +127,7 @@ Na analytickou chemii je perfektní velmi silně autistická stránka Michaela C
 - [Anorganická chemie](/notes/research/chemistry/inorganic-chemistry/inorganic-chemistry)
 - [Organická chemie](/notes/research/chemistry/organic-chemistry/organic-chemistry)
 - [Biochemie](/notes/research/chemistry/biochemistry/biochemistry)
+- [AP Chemistry](/notes/research/chemistry/ap-chemistry/)
 
     </section>
 </div>

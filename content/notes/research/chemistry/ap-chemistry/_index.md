@@ -1,0 +1,15 @@
+---
+title: AP Chemistry
+layout: single
+toc: false
+pm: true
+---
+These are the notes I took preparing for the AP Cheistry exam (will write more about the exam and the course I am taking later).
+
+<div id="menu">
+    <section id="menu-section">
+
+- [Atomic structure and properties](/notes/research/chemistry/ap-chemistry/atomic-structure-and-properties/)
+
+    </section>
+</div>
