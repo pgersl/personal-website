@@ -106,3 +106,62 @@ pm: true
 #### Odá na radost
 - byla zhudebněna Ludwigem van Beethoven
 - stala se hymnou EU
+# Světový romantismus
+## Úvod
+### Historicko-umělecký kontext
+- vzniká na přelomu 18. a 19. století
+    - dominuje první polovině 19. století
+    - potom koexistovalo několik distinktivních stylů
+- pojem _romantismus_ pochází ze slova _román_, což je velmi populární žánr v tomto období
+- významně se rozvijí i ostatní druhy umění kromě literatury
+    - v hudbě dominují nové tonální tendence a chromatika, oblíbený je klavír
+        - významnýmy skladateli jsou Sergej Rachmaninoff, Pyotr I. Čajkovskij, Rimsky Korsakov, Bedřich Smetana, Antonín Dvořák, později potom Richard Wagner, Gustav Mahler a Richard Strauss
+    - v umění jsou populárními tématy revoluce a akty
+### Typické znaky
+- je to směr opačný ke klasicismu
+    - zobrazuje subjektivní prožitek a dává důraz na emoce a nitro postav
+    - autor se často ztotožňuje s hrdinou
+    - velký zájem o středověkou a gotickou historii
+    - do popředí se dostává jedinec
+    - hrdina zažívá _rozpor srdce a světa_
+        - konflikt mezi společností a hrdinou
+        - jedinec naráží na společnost, je nepochopen
+        - hrdina se většinou nedokáže vyrovnat se společností
+    - velká skupina postav pochází z okraje společnosti
+        - hrdinou je často kat
+        - populární jsou také ci*áni
+- vemi často se děj odehrává na venkově
+    - často se objevuje divoká a tajemná příroda
+    - objevuje se hřbitov, popraviště, jezero, temná příroda
+    - prostředím je také často nějaká z gotických budov (hrady, katedrály)
+### Nové žánry
+- **balada**
+    - lyricko-epická báseň s pochmurným dějem a tragickým koncem
+    - prozaické texty se znaky balady se nazývají _baladické_ 
+- **byronská povídka/poema**
+    - lyricko-epická rozsáhlá báseň s dlouhými popisy a výrazným romantickým hrdinou
+    - děj je poměrně jednoduchý
+    - báseň je pochmurná a tragická
+    - na konci se autor ztotožňuje hrdinou
+- **historický román a povídka**
+    - populární primárně v anglii
+## Anglie
+### George Gordon Byron
+- 1778 - 1824
+- pocházel z aristokratické rodiny
+- nechtěl se ztotožnit se společností
+    - opustil svou manželku a odešel do ciziny
+    - cestoval různě po Evropě, dlouho pobýval v Itálii a v Řecku
+- nakazil se morem
+#### Dílo
+- psal primárně byronské povídky
+##### Lara
+- byronská balada
+- vypráví o dívce převlečené za muže
+##### Chlide Haroldova pouť
+- je to moderní epos
+- hlavní hrdina pochybuje o svém životě šlechtice a vydává se na pouť Evropou
+- prochází všemi možnými kouty a vidí tam nesvobodu a protestuje
+- je unášen historií navštívených míst
+- v závěru přechází hrdina k filozofickým úvahám o svobodě, ubývá děj
+- často se objevují popisy přírody kolem
