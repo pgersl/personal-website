@@ -165,3 +165,27 @@ pm: true
 - je unášen historií navštívených míst
 - v závěru přechází hrdina k filozofickým úvahám o svobodě, ubývá děj
 - často se objevují popisy přírody kolem
+### Percy Bysshe Shelley
+- básník
+- pocházel z bohaté rodiny
+- často vystupoval proti společnosti
+- psal lyrickou poezii a filozofická dramata
+#### Odpoutaný Prometheus
+- dramatická báseň psaná ve verších
+- zabývá se myšlenkou svobody jedince
+- přepracovává mýtus o Prometheovi
+- _titanismus_
+    - hlavní hrdina se nevzdává v boji proti něčemu mnohem silnějšímu
+### Walter Scott
+- je to spisovatel skotského původu
+- pocházl z vážené rodiny
+- byl první, kdo psal byronskou povídku
+- původně vydával své povídky anonymně
+    - hned jeho první román ho dost proslavil
+- je zakladatel historické prózy
+    - čerpá primárně se skotských a anglických dějin
+- jeho hrdinové jsou vzory šlechetnosti a vlastenectví
+#### Waverly
+- vypráví o povstání Skotska proti Anglii
+- je inspirován skutečnými událostmi
+#### Ivanhoe
