@@ -26,13 +26,7 @@ pm: true
 - syntéza důležitých látek
 ## Stavba kořenů
 
-<figure class="note-fig">
-    <img src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2FzWPhRDu8v5.png?alt=media&token=65d35044-e325-454a-a63a-183a7c11c9b8" alt="Schéma stavby kořenů">
-    <figcaption>
-
-Schéma stavby kořenů
-    </figcaption>
-</figure>
+{{< fig class="note-fig" src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2FzWPhRDu8v5.png?alt=media&token=65d35044-e325-454a-a63a-183a7c11c9b8" alt="Schéma stavby kořenů" >}}
 
 ### Podélná stavba kořene
 - větvení
@@ -64,13 +58,7 @@ Schéma stavby kořenů
 - **Homorhizie**
     - svázčité kořeny
 
-<figure class="note-fig">
-    <img src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2FCKQJVtooPR.png?alt=media&token=7a74a269-8862-435e-bdf3-b0f670dbda6c" alt="Homorhize a allorhize">
-    <figcaption>
-
-Allorhize a homorhize
-    </figcaption>
-</figure>
+{{< fig class="note-fig" src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2FCKQJVtooPR.png?alt=media&token=7a74a269-8862-435e-bdf3-b0f670dbda6c" alt="Homorhize a allorhize" >}}
 
 ## Dělení kořenů
 ### Podle vzhledu
@@ -140,13 +128,7 @@ Allorhize a homorhize
 ## Stavba listu
 ### Základní stavba
 
-<figure class="note-fig">
-    <img src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2FrJjg7qlp9K.png?alt=media&token=96f2ced9-72e5-4d6d-8830-85df53eae456" alt="Základní stvaba listu">
-    <figcaption>
-
-Základní stavba listu
-    </figcaption>
-</figure>
+{{< fig class="note-fig" src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2FrJjg7qlp9K.png?alt=media&token=96f2ced9-72e5-4d6d-8830-85df53eae456" alt="Základní stvaba listu" >}}
 
 - řapík
     - připevnění ke stonku
@@ -157,13 +139,7 @@ Základní stavba listu
     - opora listu
 ### Řez listem
 
-<figure class="note-fig">
-    <img src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2FWPvC95tMvd.png?alt=media&token=026ad5df-e902-4a7d-847f-284bffce1b25" alt="Vnitřní stavba listu">
-    <figcaption>
-
-Vnitřní stavba listu
-    </figcaption>
-</figure>
+{{< fig class="note-fig" src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2FWPvC95tMvd.png?alt=media&token=026ad5df-e902-4a7d-847f-284bffce1b25" alt="Vnitřní stavba listu" >}}
 
 - kutikula
     - voskovitá vrstva
@@ -179,13 +155,7 @@ Vnitřní stavba listu
         - mezi buňkami je průdochová štěrbina
         - většinou na spodní straně listu
 
-<figure class="note-fig">
-    <img src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2FvDcEMK19XQ.png?alt=media&token=cccc2dce-80f2-40be-a691-5d40ccc04b01" alt="Stavba průduchu listu">
-    <figcaption>
-
-Stavba průduchu listu
-    </figcaption>
-</figure>
+{{< fig class="note-fig" src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2FvDcEMK19XQ.png?alt=media&token=cccc2dce-80f2-40be-a691-5d40ccc04b01" alt="Stavba průduchu listu" >}}
 
 ## Dělení listů
 ### Podle řapíku
@@ -205,33 +175,15 @@ Stavba průduchu listu
         - lístky vyrustají z jednoho místa
 ### Podle tvaru čepele
 
-<figure class="note-fig-w">
-    <img src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2FcvsNxcIlEY.png?alt=media&token=3537ba40-f473-4521-b1cf-27db90d6ed85" alt="Dělení listů podle tvaru čepele">
-    <figcaption>
-
-Dělení listů podle tvaru čepele
-    </figcaption>
-</figure>
+{{< fig class="note-fig" src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2FcvsNxcIlEY.png?alt=media&token=3537ba40-f473-4521-b1cf-27db90d6ed85" alt="Dělení listů podle tvaru čepele" >}}
 
 ### Podle okraje čepele
 
-<figure class="note-fig-w">
-    <img src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2Fo8BOqXKfi2.png?alt=media&token=107f56d3-0ccb-46c7-a5b6-d7dfd0914461" alt="Dělení listů podle okraje čepele">
-    <figcaption>
-
-Dělení listů podle okraje čepele
-    </figcaption>
-</figure>
+{{< fig class="note-fig" src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2Fo8BOqXKfi2.png?alt=media&token=107f56d3-0ccb-46c7-a5b6-d7dfd0914461" alt="Dělení listů podle okraje čepele" >}}
 
 ### Podle postavení na stonku
 
-<figure class="note-fig-w">
-    <img src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2FaIS6O4ujOz.png?alt=media&token=fe49ea0d-2ada-40c1-9054-85909dd52468" alt="Dělení listů podle postavení na stonku">
-    <figcaption>
-
-Dělení listů podle postavení na stonku
-    </figcaption>
-</figure>
+{{< fig class="note-fig" src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2FaIS6O4ujOz.png?alt=media&token=fe49ea0d-2ada-40c1-9054-85909dd52468" alt="Dělení listů podle postavení na stonku" >}}
 
 ## Přeměny listu
 - _děložní_
@@ -264,13 +216,7 @@ Dělení listů podle postavení na stonku
 - slouží k pohlavnímu rozmnožování
 ## Stavba květu
 
-<figure class="note-fig">
-    <img src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2Fh5qgZi8x55.png?alt=media&token=9a53bb76-9864-4639-9a83-aa29493c4004" alt="Stavba květu">
-    <figcaption>
-
-Stavba květu
-    </figcaption>
-</figure>
+{{< fig class="note-fig" src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2Fh5qgZi8x55.png?alt=media&token=9a53bb76-9864-4639-9a83-aa29493c4004" alt="Stavba květu" >}}
 
 ### Květní stopka
 - upevňuje květ ke stonku
@@ -300,13 +246,8 @@ Stavba květu
 - soubor tyčinek se nazývá _andreceum_
 ##### Stavba
 
-<figure class="note-fig">
-    <img src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2Fo3UsTjhp2e.png?alt=media&token=faad2331-4375-4692-ad1e-350ae14a2855" alt="Stavba tyčinky">
-    <figcaption>
-    
-Stavba tyčinky
-    </figcaption>
-</figure>
+
+{{< fig class="note-fig" src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2Fo3UsTjhp2e.png?alt=media&token=faad2331-4375-4692-ad1e-350ae14a2855" alt="Stavba tyčinky" >}}
 
 - _nitka_
 - _prašník_
@@ -317,13 +258,7 @@ Stavba tyčinky
 - soubor pestíků se nazývá _gyneceum_
 ##### Stavba
 
-<figure class="note-fig">
-    <img src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2F8CzJ6v7RJh.png?alt=media&token=5263fe20-064d-4687-b275-80e9ee39c95e" alt="Stavba pestíku">
-    <figcaption>
-
-Stavba pestíku
-    </figcaption>
-</figure>
+{{< fig class="note-fig" src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2F8CzJ6v7RJh.png?alt=media&token=5263fe20-064d-4687-b275-80e9ee39c95e" alt="Stavba pestíku" >}}
 
 - _semeník_
     - spodní rozšířená část
@@ -369,38 +304,20 @@ Stavba pestíku
 - květy na přibližně stejných stopkách
 - např.: _rybíz_
 
-<figure class="note-fig">
-    <img src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2FqmEXvvTZpT.png?alt=media&token=6b3f6c24-4fa2-4f52-8ba1-7a87b70bedfa" alt="Schéma hroznu">
-    <figcaption>
-
-Schéma hroznu
-    </figcpation>
-</figure>
+{{< fig class="note-fig" src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2FqmEXvvTZpT.png?alt=media&token=6b3f6c24-4fa2-4f52-8ba1-7a87b70bedfa" alt="Schéma hroznu" >}}
 
 ###### Lata
 - hlavní stonek s postranními hrozny
     - směrěm k vrcholu se zkracují
 - např.: _šeřík_
 
-<figure class="note-fig">
-    <img src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2F6K1ob2yJ1j.png?alt=media&token=e0ce04d5-3e8d-43f0-918a-70053f6eace9" alt="Schéma laty">
-    <figcaption>
-
-Schéma laty
-    </figcpation>
-</figure>
+{{< fig class="note-fig" src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2F6K1ob2yJ1j.png?alt=media&token=e0ce04d5-3e8d-43f0-918a-70053f6eace9" alt="Schéma laty" >}}
 
 ###### Klas
 - přisedlé květy na hlavním vřetenu
 - např.: _jitrocel_
 
-<figure class="note-fig">
-    <img src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2FfQL0A0riLj.png?alt=media&token=41ec7a7a-9aee-4a3e-8b93-1c8319fc20e9" alt="Schéma klasu">
-    <figcaption>
-
-Schéma klasu
-    </figcpation>
-</figure>
+{{< fig class="note-fig" src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2FfQL0A0riLj.png?alt=media&token=41ec7a7a-9aee-4a3e-8b93-1c8319fc20e9" alt="Schéma klasu" >}}
 
 ###### Jehněda
 - převislé květenství
@@ -408,25 +325,13 @@ Schéma klasu
 - opadává vcelku
 - např.: _líska_
 
-<figure class="note-fig">
-    <img src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2F1x7Hyq6A_H.png?alt=media&token=47605a8b-278f-4e3a-afc8-25ebab550f49" alt="Schéma jehnědy">
-    <figcaption>
-
-Schéma jehnědy
-    </figcpation>
-</figure>
+{{< fig class="note-fig" src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2F1x7Hyq6A_H.png?alt=media&token=47605a8b-278f-4e3a-afc8-25ebab550f49" alt="Schéma jehnědy" >}}
 
 ###### Okolík
 - přibližně dlouhé květní stopky vyrůstající z jednoho místa
 - např.: _prvosenka_
 
-<figure class="note-fig">
-    <img src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2Fopu7vrhPzB.png?alt=media&token=8935e98f-0721-4290-9677-76c2547c77ab" alt="Schéma okolíku">
-    <figcaption>
-
-Schéma okolíku
-    </figcpation>
-</figure>
+{{< fig class="note-fig" src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2Fopu7vrhPzB.png?alt=media&token=8935e98f-0721-4290-9677-76c2547c77ab" alt="Schéma okolíku" >}}
 
 ###### Strboul
 - velmi zkrácené postranní vřeteno
@@ -434,13 +339,7 @@ Schéma okolíku
 - květy míří na všechny strany
 - např.: _jetel_
 
-<figure class="note-fig">
-    <img src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2FiKq9w-ZUU2.png?alt=media&token=e0ba33d7-c971-4c17-809d-07dace0f311b" alt="Schéma strboulu">
-    <figcaption>
-
-Schéma strboulu
-    </figcpation>
-</figure>
+{{< fig class="note-fig" src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2FiKq9w-ZUU2.png?alt=media&token=e0ba33d7-c971-4c17-809d-07dace0f311b" alt="Schéma strboulu" >}}
 
 ###### Úbor
 - květy na rozšířeném lůžku
@@ -448,13 +347,7 @@ Schéma strboulu
     - soubor listenů na spodní straně
 - např.: _heřmánek_
 
-<figure class="note-fig">
-    <img src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2FnAcxV8fho6.png?alt=media&token=a9066096-dc90-40b3-8008-a94242fca2b4" alt="Schéma úboru">
-    <figcaption>
-
-Schéma úboru
-    </figcpation>
-</figure>
+{{< fig class="note-fig" src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2FnAcxV8fho6.png?alt=media&token=a9066096-dc90-40b3-8008-a94242fca2b4" alt="Schéma úboru" >}}
 
 ##### Vrcholičnaté
 - postranní vřetena přerůstají zkrácené hlavní vřeteno
@@ -463,39 +356,21 @@ Schéma úboru
 - více postranních vřeten ve stejné výšce
 - např.: _bez černý_
 
-<figure class="note-fig">
-    <img src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2FUrctrbtUw3.png?alt=media&token=7639249a-6070-4f7b-b967-caa0cdc7f6e5" alt="Schéma vrcholíku">
-    <figcaption>
-
-Schéma vrcholíku
-    </figcpation>
-</figure>
+{{< fig class="note-fig" src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2FUrctrbtUw3.png?alt=media&token=7639249a-6070-4f7b-b967-caa0cdc7f6e5" alt="Schéma vrcholíku" >}}
 
 ###### Vidlan
 - dvouramenný vrcholík
     - dvěpostranní vřetena a na ních několik dalších postranních vřeten
 - např.: _knotovka bílá_
 
-<figure class="note-fig">
-    <img src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2Fub5aNFnyUF.png?alt=media&token=03f3677a-4fde-4360-b248-ceeed67a2e39" alt="Schéma vidlanu">
-    <figcaption>
-
-Schéma vidlanu
-    </figcpation>
-</figure>
+{{< fig class="note-fig" src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2Fub5aNFnyUF.png?alt=media&token=03f3677a-4fde-4360-b248-ceeed67a2e39" alt="Schéma vidlanu" >}}
 
 ###### Vijan
 - jednoramenný vrcholík
     - vyvyjí se jen jedno postranní vřeteno
 - např.: _pomněnka_
 
-<figure class="note-fig">
-    <img src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2FUBnmZy9mWP.png?alt=media&token=a75b1a2c-1db4-4419-b06b-e44b889ed2dc" alt="Schéma vijanu">
-    <figcaption>
-
-Schéma vijanu
-    </figcpation>
-</figure>
+{{< fig class="note-fig" src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2FUBnmZy9mWP.png?alt=media&token=a75b1a2c-1db4-4419-b06b-e44b889ed2dc" alt="Schéma vijanu" >}}
 
 #### Složená
 - kombinace dvou jednoduchých květenství

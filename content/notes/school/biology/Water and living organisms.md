@@ -29,12 +29,7 @@ pm: true
 - přes [membrány](/notes/school/biology/cell-organels#cytoplazmatická-membrána-pronotesschoolbiologyprokaryotic-cell-i-eunotesschoolbiologyeukaryotic-cell) a [cytoplazmu](/notes/school/biology/cell-organels#cytoplazma-pro-i-eu)
 - spotřebovává se energie
 
-<figure class="note-fig">
-    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fhaygot.s3.amazonaws.com%2Fquestions%2F637829_609673_ans.PNG&f=1&nofb=1" alt="Schéma transportu vody na krátké vzdálenosti (apoplast a symplast)">
-    <figcaption>
-
-Schéma transportu vody na krátké vzdálenosti
-</figure>
+{{< fig class="note-fig" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fhaygot.s3.amazonaws.com%2Fquestions%2F637829_609673_ans.PNG&f=1&nofb=1" alt="Schéma transportu vody na krátké vzdálenosti (apoplast a symplast)" caption="Schéma transportu vody na krátké vzdálenosti" >}}
 
 ### Na dlouhé vzdálenosti
 - pomocí cevních svazků
