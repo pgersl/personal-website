@@ -14,7 +14,7 @@ $$1\ N_A=6.022\cdot{10^{23}}\ mol^{-1}$$
 - with the weight of an atom, the wieght of a mole increases
 - the number of moles of a substance is called _ammount of substance_ $n$
 # Molar mass $M$
-- _molar mass_ is the weight of one mole of a substance
+- **_molar mass_** is the weight of one mole of a substance
 - molar mass of an atom is derived from the relative atomic weight (which can be found in the periodic table)
     - _relative atomic weight_ $m_a$ has specifies the weight of a mole of a substance composed only of single atoms
     - molar mass specifies the weight of a mole of a substance composed of either single atoms or molecules

@@ -18,9 +18,9 @@ pm: true
 # Calculating mass using the curvture of the flightpath of a charged particle
 - within any point of the path of the charged particle, there exists an equilibrium of _electromagnetic force_ (moving the particle from a straight path) and _centrifugal force_ (reacting to the electromagnetic force)
 $$F_{electromagnetic}=F_{centrifugal}$$
-thus:
+- thus:
 $$zvB=\cfrac{mv^2}{r}$$
-where
+- where
     - $z$ is _charge_
     - $v$ is _velocity_
     - $B$ is _magnetic field strength_ (in a vacuum)

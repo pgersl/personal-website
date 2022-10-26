@@ -15,7 +15,7 @@ pm: true
 - ex. $_8^{18}O_2^{-1}$ - _dioxygen-18 (-1) anion_
 # Denoting pure substances
 ## Structural formula
-- _structural formulae_ denote every atom and bond of the substance
+- **_structural formulae_** denote every atom and bond of the substance
     - some formulae also add free electron pairs
 - ex.
 
@@ -25,7 +25,24 @@ pm: true
     - groups of distinct physical or chemical properties are written together
 - ex. Condensed strucural formula of hydrogen peroxide
 $$HO-OH$$
-- it is most used in organic chemistry 
+- it is most commonly used in organic chemistry 
 ## Molecular formula
-- _molecular formulae_ denote only the numbers of atoms in the substance
-- it is most used in inorganic chemistry
+- **_molecular formulae_** denote only the numbers of atoms in the substance
+- ex. Molecular formula of hydrogen peroxide
+$$H_2O_2$$
+- it is most commonly used in inorganic chemistry
+## Empirical formula
+- **_empirical formulae_** denote only the most simplified ratios of individual atoms compared to one another
+- it is based on simple observations of an unknown substance (hence the name) that determine which atoms can be found in a substance
+- it also obeys the _law od definite proportions_
+> The simple ratio of atoms in any sample of a pure substance is always preserved.
+- ex. Empirical formula of hydrogen peroxide
+$$HO$$
+- it omits all structural descriptors and thus can lead to confusion and misrepresentation
+# Mass fraction $w$
+- **_mass fraction_** tells us the fraction of mass a component of a substance takes up
+$$w_i=\cfrac{m_i}{m}$$
+- where:
+    - $w_i$ is the _mass fraction of substance_ $i$
+    - $m_i$ is the _actual mass of substance_ $i$
+    - $m$ is the _actual mass of the whole sample_
