@@ -33,10 +33,10 @@ $$m=\cfrac{zBr}{v}$$
     - it has the unit called _Dalton_ (_Da_)
     - _relative atomic mass_ is different from _atomic mass_, since atomic mass represents the mass of a single isotope
         - relative atomic mass does not have a unit
-# Reading results of mass spectrums
-- the results of mass spectrum meassurements are usually ploted on a graph with the y-axis representing relative intensity and the x-axis representing $m/z$
+# Reading mass spectra
+- the results of mass spectrometry meassurements are usually ploted on a graph with the y-axis representing relative intensity and the x-axis representing $m/z$
 - if only one isotope of an element is present in a sample, we only see one peak
 - if there are multiple isotopes present in the sample, we se multiple peaks
 
-{{< fig class="note-fig" src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2Fbp72ZvQgyK.png?alt=media&token=8dd51e98-3796-42c1-ae05-dc4cbbcc4bd8" alt="Result of mass spectromy of chlorine" >}}
+{{< fig class="note-fig" src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2Fbp72ZvQgyK.png?alt=media&token=8dd51e98-3796-42c1-ae05-dc4cbbcc4bd8" alt="Result of mass spectrometry of chlorine" >}}
 
