@@ -188,4 +188,63 @@ pm: true
 #### Waverly
 - vypráví o povstání Skotska proti Anglii
 - je inspirován skutečnými událostmi
-#### Ivanhoe
+## Francie
+### Victor Hugo
+### Stendhal
+- psal pod pseudonymem
+- v mladí byl v Napoleonově armádě
+- po válce v Rusku žil v Itálii a poté v německém městě _Stendhal_
+- psal hlavně romány
+    - mají často psychologickou tematiku
+- jeho hrdinové často řeší nějakou životní změnu
+#### Dílo
+##### Červený a černý
+- barvy jsou symbolické - červená symbolizuje revoluci a barvu vojenského kabátce a černá symbolizuje tradici a slávu
+- hlavní hrdinou je mladý muž _Julián Sorel_
+- dříve byl voják, ale poté se pokrytecky rohodne stát se knězem
+- stane se nakonec domacím učitelem
+- skrze svoji milenku se posouvá dál ve své kariéře
+- se svojí druhou mladší milenkou potom zplodí dítě
+- svoji starou milenku po hádce zastřelí
+- nakonec u soudu veškerou obhajobu odmítne a je popraven
+##### Kartouza Parmská
+- hlavní hrdinou je mladý muž
+- dlouhý čas tráví v cele
+- venku zanechal svoji milenku, která se mezitím stila vdát
+- jakmile se dostance pryč z vězení, naváže opět milostný vztah se svou milenkou
+- s milenkou zplodí dítě, které ale později onemocní a zemře
+- po tom všem se rozhodne odejít do kláštěra
+## Rusko
+### Alexandr Serejevič Puškin
+- pocházel z aristokratické rodiny
+- měl obrovský literární záběr
+- byl velmi oblíbený i za svého života a jeho dílo bylo opěvováno
+- měl velmi radikální a reviluční názory
+    - byl kvůli tomu několikrát ve vyhnanství
+    - car se stal osobně cenzorem jeho děl a nechal ho hlídat v jeho sídle
+    - nesměl bez dovolení opustit svoje sídlo
+- zemřel v souboji
+- v jeho dílech se často objevuje ruská příroda a vyšší vrstvy
+- velký význam u něj hraje nenaplněná láska, myšlenka svobody a city obecně
+- v některých dílech se vyskytují také fantastické motivy
+- psal prózu, poezii i drama
+- spousta z jeho prací je lyrických
+    - častým žánrem byla poema
+### Dílo
+#### Cikáni
+- poema
+- hlavní hrdina se zamiluje do cigánky
+- cestuje s nimi a zalíbí se mu jejich styl života
+- nakonec zabije svou milenku i jejího partnera
+#### Bachčisarajská fontána
+- poema
+- je to místo na Krymu
+- dílo je inspirováno místní lidovou tvorbou
+- jedná se o převyprávění pověsti
+- Tatarský chán se zamiluje do polské dívky a unese ji do svého harému
+- jeho ostatní dívky jsou na něj naštvané, protože se jim nevěnuje tolik jako polské dívce
+- polská dívka je nakonec jedou ženou z harému zavražděna a vražedkyně je popravena
+- chán se poté vrací často k fontáně, kde bylo tělo polské dívky nalezeno, jeho svět se zhroutil
+- na symbol lásky a smutku se na fonánu pokládají červená a žlutá růže
+#### Evžen Oněgin
+- román ve verších
