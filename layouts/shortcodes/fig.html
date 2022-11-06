@@ -1,5 +1,7 @@
 <figure {{with .Get "class"}}class="{{.}}"{{end}}>
-    <img src="{{.Get "src"}}" alt="{{.Get "alt"}}">
+    <a href="{{.Get "src"}}">
+        <img src="{{.Get "src"}}" alt="{{.Get "alt"}}">
+    </a>
     <figcaption>
         {{with .Get "cap"}}
             {{.}}

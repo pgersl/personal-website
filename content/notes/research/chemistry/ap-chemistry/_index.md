@@ -10,6 +10,7 @@ These are the notes I took preparing for the AP Cheistry exam (will write more a
     <section id="menu-section">
 
 - [Atomic structure and properties](/notes/research/chemistry/ap-chemistry/atomic-structure-and-properties/)
+- [Molecular and ionic compound structure and properties](/notes/research/chemistry/ap-chemistry/molecular-and-ionic-compound-structure-and-properties/)
 
     </section>
 </div>
