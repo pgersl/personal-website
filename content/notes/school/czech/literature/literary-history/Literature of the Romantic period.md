@@ -215,11 +215,11 @@ pm: true
 - s milenkou zplodí dítě, které ale později onemocní a zemře
 - po tom všem se rozhodne odejít do kláštěra
 ## Rusko
-### Alexandr Serejevič Puškin
+#### Alexandr Serejevič Puškin
 - pocházel z aristokratické rodiny
 - měl obrovský literární záběr
 - byl velmi oblíbený i za svého života a jeho dílo bylo opěvováno
-- měl velmi radikální a reviluční názory
+- měl velmi radikální a revoluční názory
     - byl kvůli tomu několikrát ve vyhnanství
     - car se stal osobně cenzorem jeho děl a nechal ho hlídat v jeho sídle
     - nesměl bez dovolení opustit svoje sídlo
@@ -230,13 +230,13 @@ pm: true
 - psal prózu, poezii i drama
 - spousta z jeho prací je lyrických
     - častým žánrem byla poema
-### Dílo
-#### Cikáni
+#### Dílo
+##### Cikáni
 - poema
 - hlavní hrdina se zamiluje do cigánky
 - cestuje s nimi a zalíbí se mu jejich styl života
 - nakonec zabije svou milenku i jejího partnera
-#### Bachčisarajská fontána
+##### Bachčisarajská fontána
 - poema
 - je to místo na Krymu
 - dílo je inspirováno místní lidovou tvorbou
@@ -246,5 +246,29 @@ pm: true
 - polská dívka je nakonec jedou ženou z harému zavražděna a vražedkyně je popravena
 - chán se poté vrací často k fontáně, kde bylo tělo polské dívky nalezeno, jeho svět se zhroutil
 - na symbol lásky a smutku se na fonánu pokládají červená a žlutá růže
-#### Evžen Oněgin
+##### Evžen Oněgin
 - román ve verších
+- je to dílo, ve kterém se poprvé objevuje archetyp _zbytečného člověka_
+    - je to hrdina, který má výrazné sny a ideály, ale nedokáže je naplnit
+    - není pro společnost vůbec užizečný
+    - celý život promarní svou vlastní vinou
+##### Piková dáma
+- novela
+- vypráví o zbytečném člověku, který propadne hazardu a pro velké prohře páchá sebevraždu
+##### Boris Godunov
+### Michail Jurjevič Lermontov
+- pocházel z aristokratické rodiny
+- studoval důstojnickou školu
+- pro své revoluční myšlenky byl vyslán na Kavkaz (do vyhnanství)
+- po vyhnanství si užíval zábavu
+- jednoho ze svých spolužáků urazil a v souboji s ním zemřel
+- psal mnoho lyrických děl
+#### Dílo
+##### Démon
+- poema
+- Démon se zamiluje do kněžny Tamary a způsobí smrt jeího nápadníka
+- snaží se ji přesvědčit o tom, aby s ním strávila život
+- Démon se nakonec dostává do podsvětí a Tamara se po smrti dostává do ráje
+- _démonismus_
+    - démon je odsouzen Bohem a snaží se dosáhnout štěstí, ale to se mu nepodaří
+##### Hrdina naší doby
