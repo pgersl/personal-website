@@ -9,3 +9,5 @@ pm: true
 - [Structure of ionic solids](/notes/research/chemistry/ap-chemistry/molecular-and-ionic-compound-structure-and-properties/structure-of-ionic-solids)
 - [Structure of metals and alloys](/notes/research/chemistry/ap-chemistry/molecular-and-ionic-compound-structure-and-properties/structure-of-metals-and-alloys)
 - [Lewis diagrams](/notes/research/chemistry/ap-chemistry/molecular-and-ionic-compound-structure-and-properties/lewis-diagrams)
+- [Resonance and formal charge](/notes/research/chemistry/ap-chemistry/molecular-and-ionic-compound-structure-and-properties/resonance-and-formal-charge)
+- [VSEPR and bond hybridization](/notes/research/chemistry/ap-chemistry/molecular-and-ionic-compound-structure-and-properties/vsepr-and-bond-hybridization)
