@@ -12,7 +12,7 @@ These are the notes I took at school.
 - [Matematika](/notes/school/maths/)
 - [Fyzika](/notes/school/physics/)
 - [Biologie](/notes/school/biology/)
-- [Psychologie](/notes/school/psychology/)
+- [Základy společenských věd](/notes/school/social-sciences/)
 - [Dějepis](/notes/school/history/)
     
     </section>
