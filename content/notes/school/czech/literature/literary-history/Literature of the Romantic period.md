@@ -153,12 +153,11 @@ pm: true
     - opustil svou manželku a odešel do ciziny
     - cestoval různě po Evropě, dlouho pobýval v Itálii a v Řecku
 - nakazil se morem
-#### Dílo
 - psal primárně byronské povídky
-##### Lara
+#### Lara
 - byronská balada
 - vypráví o dívce převlečené za muže
-##### Chlide Haroldova pouť
+#### Chlide Haroldova pouť
 - je to moderní epos
 - hlavní hrdina pochybuje o svém životě šlechtice a vydává se na pouť Evropou
 - prochází všemi možnými kouty a vidí tam nesvobodu a protestuje
@@ -197,8 +196,7 @@ pm: true
 - psal hlavně romány
     - mají často psychologickou tematiku
 - jeho hrdinové často řeší nějakou životní změnu
-#### Dílo
-##### Červený a černý
+#### Červený a černý
 - barvy jsou symbolické - červená symbolizuje revoluci a barvu vojenského kabátce a černá symbolizuje tradici a slávu
 - hlavní hrdinou je mladý muž _Julián Sorel_
 - dříve byl voják, ale poté se pokrytecky rohodne stát se knězem
@@ -207,7 +205,7 @@ pm: true
 - se svojí druhou mladší milenkou potom zplodí dítě
 - svoji starou milenku po hádce zastřelí
 - nakonec u soudu veškerou obhajobu odmítne a je popraven
-##### Kartouza Parmská
+#### Kartouza Parmská
 - hlavní hrdinou je mladý muž
 - dlouhý čas tráví v cele
 - venku zanechal svoji milenku, která se mezitím stila vdát
@@ -215,7 +213,7 @@ pm: true
 - s milenkou zplodí dítě, které ale později onemocní a zemře
 - po tom všem se rozhodne odejít do kláštěra
 ## Rusko
-#### Alexandr Serejevič Puškin
+### Alexandr Serejevič Puškin
 - pocházel z aristokratické rodiny
 - měl obrovský literární záběr
 - byl velmi oblíbený i za svého života a jeho dílo bylo opěvováno
@@ -230,13 +228,12 @@ pm: true
 - psal prózu, poezii i drama
 - spousta z jeho prací je lyrických
     - častým žánrem byla poema
-#### Dílo
-##### Cikáni
+#### Cikáni
 - poema
 - hlavní hrdina se zamiluje do cigánky
 - cestuje s nimi a zalíbí se mu jejich styl života
 - nakonec zabije svou milenku i jejího partnera
-##### Bachčisarajská fontána
+#### Bachčisarajská fontána
 - poema
 - je to místo na Krymu
 - dílo je inspirováno místní lidovou tvorbou
@@ -246,13 +243,13 @@ pm: true
 - polská dívka je nakonec jedou ženou z harému zavražděna a vražedkyně je popravena
 - chán se poté vrací často k fontáně, kde bylo tělo polské dívky nalezeno, jeho svět se zhroutil
 - na symbol lásky a smutku se na fonánu pokládají červená a žlutá růže
-##### Evžen Oněgin
+#### Evžen Oněgin
 - román ve verších
 - je to dílo, ve kterém se poprvé objevuje archetyp _zbytečného člověka_
     - je to hrdina, který má výrazné sny a ideály, ale nedokáže je naplnit
     - není pro společnost vůbec užizečný
     - celý život promarní svou vlastní vinou
-##### Piková dáma
+#### Piková dáma
 - novela
 - vypráví o zbytečném člověku, který propadne hazardu a pro velké prohře páchá sebevraždu
 ##### Boris Godunov
@@ -263,12 +260,62 @@ pm: true
 - po vyhnanství si užíval zábavu
 - jednoho ze svých spolužáků urazil a v souboji s ním zemřel
 - psal mnoho lyrických děl
-#### Dílo
-##### Démon
+#### Démon
 - poema
 - Démon se zamiluje do kněžny Tamary a způsobí smrt jeího nápadníka
 - snaží se ji přesvědčit o tom, aby s ním strávila život
 - Démon se nakonec dostává do podsvětí a Tamara se po smrti dostává do ráje
 - _démonismus_
     - démon je odsouzen Bohem a snaží se dosáhnout štěstí, ale to se mu nepodaří
-##### Hrdina naší doby
+#### Hrdina naší doby
+## Německo
+### Bratři Grimmové 
+- Jacob a Wilhelm Grimmové
+- byli to jazykovědci, studovali práva
+- učili na univerzitě
+- zajímali se o ústní lidovou slovestnost
+- potupně sbírali a zkoumali lidové pohádky
+- často zvažovali jstli pohádky upravovat nebo ponechat původní
+    - nakonec přišli na kompromis
+- v jejich pohádkách se jim podařilo zachytit 10 německých nářečí
+- často jsou inspirováni germánskou mytologií
+#### Pohádky bratří Grimmů
+- byli silně ivlivněny horrorem
+- tresty v nich byli velmi kruté a morbidní
+- patří mezi ně: Popelka, Sněhurka, Červená Karkulka, Jeníček a Mařenka a další
+- díky nim existují některé z klasických představ o magických bytostech
+- boj zla s dobrem je klasickým tématem všech
+- příběhy končí odplatou za spáchané zlo, krutě a brutálně
+### Novalis
+- básník
+- patří k prvním romantickým básníkům
+- zemřel mladý na tuberkulózu
+- pocházel ze šlechtické rodiny
+- smrt jeho snoubenky ho hodně poznamenala
+    - bylo jí tehdy 13
+#### Hymny noci
+- jsou velmi pesimistické
+- obsahují motivy smrti a ztracené lásky
+### Heinrich Heine
+- 1797 - 1856
+- je na přelomu romantismu a realismu
+- je to jeden z nejslavnějších německých básníků
+- pocházel z bohaté židovské rodiny
+    - později konvertoval k protestanství
+- byl silně cenzurován
+    - je považován za nejcenzurovanějšího básníka v historii
+        - nebyl cenzurován jen ve své době
+            - primárně v době nacismu
+                - některá jeho díla byla tehdy vydávána anonymně
+    - útočil na politiku i církev
+    - sympatizoval se socialsty
+        - znal Karla Marxe
+        - tvrdil ale, že jejich ideje by mohly mít špatný vliv na kulturu
+    - psal také velmi eroticky
+- některé jeho básně byli zhudebněny
+- typický je pro něj cynismus, sarkasmus, sebeironie a satyra
+- objevují se u něj i romantické motivy
+
+> Bůh mi odpustí. Je to jeho zaměstnání.
+
+> Jestliže jsou lidé schopni pálit knihy, pak jsou schopni pálit i lidi.
