@@ -66,9 +66,9 @@ pm: true
     - je složen ze dvou dvoudobých taktů
     - vedlejší přízvuk je na třetí době
     - ve starších notách se znači $C$
-        - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2F5W8H1nFt5l.png?alt=media&token=0d6590e3-2732-48f3-b775-fd5e80ec1243)
+        {{< fig class="note-fig" src=https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2F5W8H1nFt5l.png?alt=media&token=0d6590e3-2732-48f3-b775-fd5e80ec1243" alt="Historické znčení čtyřdobého taktu" >}}
         - přeškrtnuté $C$ (_alla breve_) značilo dvoupůlový takt
-            - ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2FlLmr1xfb8B.png?alt=media&token=8c7f0cd4-df32-4d8d-a0e3-4d384274ceba)
+            {{< fig class="note-fig" src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2FlLmr1xfb8B.png?alt=media&token=8c7f0cd4-df32-4d8d-a0e3-4d384274ceba" alt="Historické značení dvoupůlového taktu" >}}
 - **Šestidobý takt**
     - je složen ze dvou třídobých taktů
     - vedlejší na je čtvrté době

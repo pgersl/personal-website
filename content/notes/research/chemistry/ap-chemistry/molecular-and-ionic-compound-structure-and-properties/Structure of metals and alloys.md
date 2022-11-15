@@ -4,7 +4,7 @@ layout: note
 toc: true
 pm: true
 ---
-# Pute metals
+# Pure metals
 - metals usually have a much higher number of electrons in the highest enrgy orbitals due to the electrons in _d_-orbitals and in _f_-orbitals
 - electrons are _delocalized_ in metals and can flow almost freely through the whole lattice
 - metalic bond explains many characteristics of metals

@@ -17,5 +17,3 @@ pm: true
 - značí se svislou čárkou v notách po ukázce opakování
 - má-li se opakovat celý takt, potom se opakování značí čákou se dvěma tečkami
     - více taktové opakování lze takto značit také, ale obvykle se to nepoužívá
-# Repetice
-- značí opakování větší šásti skladby
