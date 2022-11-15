@@ -28,7 +28,7 @@ pm: true
 # Nové druhy hudby
 - zprvu je barokní hudba velmi neustálená a jednotlivá díla majívelmi obecné formy
 - později se ustaluje několik nových přesněji definovaných druhů
-- # Vokálně-instrumentální druhy
+# Vokálně-instrumentální druhy
 ## Opera
 - opera má své počátky už ve starověku, kde se v některých částech dramatu text zpíval za instrumentálního doprovodu
 - v období baroka se začíná prokomponovávat celý text
