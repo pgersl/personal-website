@@ -320,3 +320,21 @@ pm: true
 
 > Jestliže jsou lidé schopni pálit knihy, pak jsou schopni pálit i lidi.
 #### Kniha písní
+- jeho nejvýznamnější básnícká sbírka
+## Polsko
+- literatura v Polsku j kvůli poměrům hodně vlastenecká
+    - území se postupně zmenšovalo ve prospěch impérií okolo
+### Adam Mickiewicz
+- pocházel ze šlechtického rodu 
+- obhajoval zájmy Polska a byl za to později vykázán do Ruska
+- většinu života strávil v Německu, Švýcarsku a Francii
+- zemřel v Turecku na choleru
+- psal poezii a prózu
+#### Ǒda na mladost
+- je to první jeho báseň
+- přeje si v ní spravedlivější svět
+#### Konrad Wallenrod
+- historický epos
+- líší skutečné události z bojů v Litvě
+#### Pan Tadeáš
+- národní epos
