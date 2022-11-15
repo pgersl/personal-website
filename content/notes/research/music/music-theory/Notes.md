@@ -35,7 +35,7 @@ pm: true
 - nad a pod osnovou můžeme přidávat _pomocné linky_
 - linky a mezery číslujeme zdola nahorů, pomocné linky nad osnovou číslujeme stejně jako zbytek osnovy a pomocné linky pod osnovou zezhora dolů
 
-{{< fig class="note-fig" src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2FjkC4TnB5b5.jpg?alt=media&token=5f0bfff1-28e0-435b-bc38-343177f29c21" alt="Číslování linek v notové osnově>}}
+{{< fig class="note-fig" src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2FjkC4TnB5b5.jpg?alt=media&token=5f0bfff1-28e0-435b-bc38-343177f29c21" alt="Číslování linek v notové osnově" >}}
 
 - noty se zapisují na linky i do mezer
 - nožky not se zapisují nahoru od třetí linky notové osnovy
@@ -53,7 +53,6 @@ pm: true
     - **F klíč** (**basový klíč**) - určuje postavení noty _f_ na čtvrté lince
     - **C klíč** (**altový klíč**) - určuje postavení noty _c1_ na třetí lince
     - **C klíč** (**tenorový klíč**) - určuje postavení noty _c1_ na čtvrté lince
-- **Umístění základní tónové řady v tónové soustavě**:
     {{< fig class="note-fig" src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2F4oItrfJMhA.jpg?alt=media&token=db8c71b5-aba9-401a-94d4-6a3f5b823ae8" alt="Umístění základní tónové řady v tónové soustavě" >}}
 - nejvíce se používají klíče houslový a basový
     - zakončení houslového klíče je na druhé lince, kde se nachází i nota _g1_, proto _G klíč_
