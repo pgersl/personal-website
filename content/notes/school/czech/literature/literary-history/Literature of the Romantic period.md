@@ -319,3 +319,4 @@ pm: true
 > Bůh mi odpustí. Je to jeho zaměstnání.
 
 > Jestliže jsou lidé schopni pálit knihy, pak jsou schopni pálit i lidi.
+#### Kniha písní
