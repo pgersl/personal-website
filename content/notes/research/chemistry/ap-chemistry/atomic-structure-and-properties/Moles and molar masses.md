@@ -6,7 +6,7 @@ pm: true
 ---
 
 # Avogadro constant $N_A$
-- _Avigadro constant_ specifies the ammount of particles in a mole of any substance
+- _Avogadro constant_ specifies the ammount of particles in a mole of any substance
 $$1\ N_A=6.022\cdot{10^{23}}\ mol^{-1}$$
 - it is defined as the number of atoms in precisely 12 grams of $^{12}C$ isotope
 # Mole of a substance $mol$
