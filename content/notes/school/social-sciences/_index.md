@@ -8,3 +8,4 @@ pm: true
 - [Obecná psychologie](/notes/school/social-sciences/general-psychology)
 - [Úvod do sociologie](#)
 - [Sociální percepce](/notes/school/social-sciences/social-perception)
+- [Postoje](/notes/school/social-sciences/opinions)

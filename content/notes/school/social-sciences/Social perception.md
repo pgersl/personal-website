@@ -59,6 +59,6 @@ pm: true
 ## Chyba prostředí
 - jiná prostředí ovlivňují naše chování a vyjadřování
 ## Pygmalionský efekt
-- přisuzování vlsnotstí nebo profese na základě fyzických vlastností
+- přisuzování vlastností nebo profese na základě fyzických vlastností
 ## Efekt setrvačnosti
 - pamatujeme na zkušenosti se skupinami a ovlivňujeme tím naše vnímání
