@@ -9,3 +9,5 @@ pm: true
 - [Solids, liquids and gasses](/notes/research/chemistry/ap-chemistry/intermolecular-forces-and-properties/solids-liquids-and-gasses)
 - [The ideal gas law](/notes/research/chemistry/ap-chemistry/intermolecular-forces-and-properties/the-ideal-gas-law)
 - [The kinetic molecular theory of gases](/notes/research/chemistry/ap-chemistry/intermolecular-forces-and-properties/the-kinetic-molecular-theory-of-gases)
+- [Deviations from the ideal gas law](/notes/research/chemistry/ap-chemistry/intermolecular-forces-and-properties/deviations-from-the-ideal-gas-law)
+- [Mixtures and solutions](/notes/research/chemistry/ap-chemistry/intermolecular-forces-and-properties/mixtures-and-solutions)
