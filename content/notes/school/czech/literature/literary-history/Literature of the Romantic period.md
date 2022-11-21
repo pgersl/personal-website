@@ -324,6 +324,8 @@ pm: true
 ## Polsko
 - literatura v Polsku j kvůli poměrům hodně vlastenecká
     - území se postupně zmenšovalo ve prospěch impérií okolo
+- _messianismus_
+    - je to přesvědčení, že Poláci se obětují podobně jako Kristus za svobodu ostatních národů
 ### Adam Mickiewicz
 - pocházel ze šlechtického rodu 
 - obhajoval zájmy Polska a byl za to později vykázán do Ruska
@@ -338,3 +340,31 @@ pm: true
 - líší skutečné události z bojů v Litvě
 #### Pan Tadeáš
 - národní epos
+## Amerika
+### Edgar Allan Poe
+- 1809 - 1849
+- pocházel z rodiny, která byla rozpadlá (_Poeovi_)
+    - otec rodinu brzy opsutil, matka byla alkoholička, bratr propadl alkoholu a později droám
+- byl adoptován rodinou Allanových
+    - poskytla mnohem pevější zázemí
+    - část života strávili v Británii, která ho velmi inspirovala
+- nedostudoval žádnou školu, z každé ho vyhodili
+- vzal si svoji třináctiletou sestřenici
+    - později zemřela, a Poe upadl do velkých depresí
+- později propadl alkoholu a drogám a velmi se zadlužil
+- zenmřel na zranění po rvačce, opilý a zdrogovaný
+- v některých jeho dílech se objevují náznaky moderních směrů
+- psal poezii i prózu
+- psal literaturu hrůzy a patří k významným sposovatelům žánru horroru
+    - nezakládají se na nadpřirozenu, ale na lidských vlastnostech
+- je zakladatelem detektivky
+    - zavádí _detektiva amatéra_
+    - jeho nejznámějším detektivem je _Dupin_
+        - je to předobraz _Sherlocka Holmese_
+- k literatuře a psaní přistupoval velmi racionálně
+    - napsal esej _Filosofie básnické skladby_, ve které popisuje proces tvorby básně
+#### Jáma a kyvadlo
+- hororová povídka
+#### Zlatý Skarabeus
+#### Vraždy v ulici Morgue
+#### Havran
