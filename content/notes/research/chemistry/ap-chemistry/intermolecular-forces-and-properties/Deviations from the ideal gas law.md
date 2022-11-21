@@ -5,7 +5,7 @@ toc: true
 pm: true
 ---
 - [the ideal gas law](/notes/research/chemistry/ap-chemistry/intermolecular-forces-and-properties/the-ideal-gas-law) is an approximation for the real world gasses
-# Compressability
+# Compressibility
 - the ideal gas law neglects the volume of the gas and its changing properties based on it
 - at low enough pressure, it is almost absurd speaking of a volume of gas when the molecules of it are so far apart
 - an ideal gas can be compressed infinitely and it never condenses
