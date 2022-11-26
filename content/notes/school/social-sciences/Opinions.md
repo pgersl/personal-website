@@ -48,3 +48,23 @@ pm: true
 - rozpor teze je silná
 - vyvijí aktivitu, která ezi zniční nebo znemožní
 # Identita
+> Identita je prožívání pocitu totožnosti, toho, kdo jsem já, a kam patřím.
+
+- _psychofyziologická identita_
+    - naše chování a osobnost se zakládá na našich fyzických vlastnostech
+- _osobní identita_
+    - naše chování se zakládá na našich vlastnostech
+    - ovlivňuje ji také temperament
+    - člověk se srovnává se svými limity
+- _sociální identita_
+    - je to naše začlenění do společnosti
+    - utváří se od utlého věku
+## Utváření osobní identity
+- _bazální důvěra_ X _nedůvěra_
+- _autonomie_ X _stud, pochybnost_
+- _iniciativa_ X _posit viny_
+- _smysl počínání_ X _méněcennost_
+- _identita_ X _zmatení rolí_
+- _intimita_ X _izolovanost_
+- _generavita_ X _stagnace_
+- _integrita ego_ X _zoufalství
