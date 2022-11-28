@@ -11,3 +11,7 @@ pm: true
 - [The kinetic molecular theory of gases](/notes/research/chemistry/ap-chemistry/intermolecular-forces-and-properties/the-kinetic-molecular-theory-of-gases)
 - [Deviations from the ideal gas law](/notes/research/chemistry/ap-chemistry/intermolecular-forces-and-properties/deviations-from-the-ideal-gas-law)
 - [Mixtures and solutions](/notes/research/chemistry/ap-chemistry/intermolecular-forces-and-properties/mixtures-and-solutions)
+- [Representation of solutions](/notes/research/chemistry/ap-chemistry/intermolecular-forces-and-properties/representation-of-solutions)
+- [Separating solutions into solute and solvent](/notes/research/chemistry/ap-chemistry/intermolecular-forces-and-properties/separating-solutions-into-solute-and-solvent)
+- [Spectroscopy and electromagnetic spectrum](/notes/research/chemistry/ap-chemistry/intermolecular-forces-and-properties/spectroscopy-and-electromagnetic-spectrum)
+- [Beer-Lambert Law](/notes/research/chemistry/ap-chemistry/intermolecular-forces-and-properties/beer-lambert-law)
