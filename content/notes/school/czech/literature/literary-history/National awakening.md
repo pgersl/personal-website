@@ -60,15 +60,14 @@ pm: true
 - stal se vychovatelem ve šlechtické rodině Nosticů
     - byli jeho mecenáši
 - psal německy a latinou
-### Dílo
-#### Dějiny české řeči a literatury
+### Dějiny české řeči a literatury
 - napsáno německy
 - systematicky zachycuje vývoj české literatury a jazyka
 - nejvýše staví Veleslavínské období a pokládá ho za vzorové
-#### Zevrubná mluvnice jazyka českého
+### Zevrubná mluvnice jazyka českého
 - je to kodifikace soudobé mluvené češtiny
 - čerpal primárně z Veleslavínské češtiny
-#### Německo-český slovník
+### Německo-český slovník
 - oživoval stará slova
 - odvozoval nová slova
 - další slova přejímal z jiných slovanských jazyků (polština, ruština)
@@ -84,17 +83,16 @@ pm: true
 - _Jungmannova jazyková škola_
     - byla to skupina Jungmannových spolupracovníků
     - spolupracovali na mnohých dílech, které považujeme za Jungmannova vlastní
-### Dílo
-#### Slovesnost
+### Slovesnost
 - učebnice pro gymnázia o literatuře
 - je doplněna dobovými ukázkami
-#### Historie literatury české
+### Historie literatury české
 - několikasvazkové dílo
 - zabývá se nejstarší literaturou
 - je velmi podrobná a obshauje historicko-společenský kontext
 - obsahovala všechna díla jmenovaných autorů
     - bylo jich asi 1500
-#### Slovník česko-německý
+### Slovník česko-německý
 - je pětidílný
 - pracovala na něm celá Jungmannova škola
 ## Pavel Josef Šafařík
@@ -102,10 +100,9 @@ pm: true
 - _panslavismus_
     - přesvědčení, že slované jsou jeden národ a slovanské jazyky jsou dialekty jednoho jazyka
 - psal česky
-### Dílo
-#### Slovanské starožitnosti
+### Slovanské starožitnosti
 - popisuje nejstarší dějiny Slovanů
-#### Dějiny slovanské řeči a literatury v nářečích
+### Dějiny slovanské řeči a literatury v nářečích
 - popisuje historii literatury do 10. století
 ## František Palacký
 - pocházel z Moravy a studoval Bratislavě
@@ -117,8 +114,7 @@ pm: true
 - věnoval se politice
 - vlastenci ho neměli rádi
     - neuznával češšství
-### Dílo
-#### Dějiny národa českého v Čechách a v Moravě
+### Dějiny národa českého v Čechách a v Moravě
 - od nejstarších dějin do roku 1526
 - popisuje historii Čechů a jejich konflikt s Němci
 - nejvýše hodnotí husitství
@@ -127,6 +123,39 @@ pm: true
 - 30. až 40. léta 19. století
 - píše se ve stylu [romantismu](/notes/school/czech/literature/literary-history/literature-of-the-romantic-period#světový-romantismus)
 - vznikají první památky srovnatelné se zahraničním literární uměním
+- hlavním účelem tvorby je vzdělávání o češtině a sběr ústní lidové slovesnosti
+## Karel Hynek Mácha
+- TODO
+- píše mnoho lyrickou, případně lyricko-epickou poezii, ale také prózu, primárně povídky
+    - jeho próza je _lyrizovaná_ (děj ustupuje od pozadí a je jednoduchý)
+### Obrazy ze života mého
+- soubor povídek
+- obsahuje subjektivní a autobiografické prvky
+- _Večer na Bezdězu_
+    - je inspirovaná jeho cestami
+- _Márynka_
+    - je o povídka o chudé dívce
+    - je o básníkovi, který se do ní platonicky zamiluje, pravidelně ji potkává
+    - jednou ji nepotkal a zjistil, že zemřela na tuberkolózu
+### Kat
+- původně to měla být tetralogie
+- stihl dokončit jen první díl
+- jednalo se o historický román
+#### Křivoklát
+- odehrává se v době Karla IV.
+- nevlastní bratr Karla IV. byl katem
+- kat byl nepochopen, nezapadal, neměl stejná práva
+### Cikáni
+- román
+- podobná zápletka jako v Maji
+- hlavní hrdina zabije svého otce kvůli lásce
+- hlavního hrdinu portrétuje jako sám sebe
+### Pouť Krkonošská
+- je to romantické prozaické vylíčení jeho pouti do Krkonoš
+- je plná tajemna a obsahuje postavu osamělého poutníka
+### Boleslav, Bratrovrah, Bratři
+- je to dramatická trilogie
+- celé hry nestlihl dokončit
 # Revoluční fáze
 - 40. až 50. léta 19. století
 - píše se ve stylu realismu

@@ -189,6 +189,24 @@ pm: true
 - je inspirován skutečnými událostmi
 ## Francie
 ### Victor Hugo
+- jeho tvorba má přesah do 2. poloviny 19. století
+- uznávaný politik, hmotně zajištěný
+- odešel do exilu, psal v něm a vrátil se zpět
+- psal všechny literární druhy
+#### Legenda věků
+- cyklus epických básní
+- reaguje na vývoj lidstva k humanitě
+#### Chrám matky boží v Paříži
+- historický román o tragické lásce
+- hlavním motive je gotika
+- hlavní hrdina je Qasimodo, postižený hrbáč, ušlechtilá duše
+- kněz v Notre-Dame de Paris Froll se zamiluje do dívky Esmeraldy a chce, aby ji Quasimodo unesl
+- Quasimodo se do ní ale zamiluje taky
+#### Bídníci
+- román
+- hlavním hrdinou je Jean Valjean
+    - je to bývalý trestanec, který se vypracuje na bohatého měšťana
+    - minulost ho stále dohání
 ### Stendhal
 - psal pod pseudonymem
 - v mladí byl v Napoleonově armádě
@@ -268,6 +286,8 @@ pm: true
 - _démonismus_
     - démon je odsouzen Bohem a snaží se dosáhnout štěstí, ale to se mu nepodaří
 #### Hrdina naší doby
+- hlavní hrdinou je Pičkeri
+    - je to zbytečný člověk
 ## Německo
 ### Bratři Grimmové 
 - Jacob a Wilhelm Grimmové
@@ -332,7 +352,7 @@ pm: true
 - většinu života strávil v Německu, Švýcarsku a Francii
 - zemřel v Turecku na choleru
 - psal poezii a prózu
-#### Ǒda na mladost
+#### Óda na mladost
 - je to první jeho báseň
 - přeje si v ní spravedlivější svět
 #### Konrad Wallenrod
@@ -363,8 +383,4 @@ pm: true
         - je to předobraz _Sherlocka Holmese_
 - k literatuře a psaní přistupoval velmi racionálně
     - napsal esej _Filosofie básnické skladby_, ve které popisuje proces tvorby básně
-#### Jáma a kyvadlo
-- hororová povídka
-#### Zlatý Skarabeus
-#### Vraždy v ulici Morgue
-#### Havran
+- mezi jeho nejslavnější díla patří _Jáma a Kyvadlo, Zlatý Skarabeus, Vraždy v ulici Morgue, Havran_
