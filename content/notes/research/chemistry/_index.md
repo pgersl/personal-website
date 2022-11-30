@@ -123,10 +123,10 @@ Na analytickou chemii je perfektní velmi silně autistická stránka Michaela C
 <div id="menu">
     <section id="menu-section">
 
-- [Obecná chemie](/notes/research/chemistry/general-chemistry/general-chemistry)
-- [Anorganická chemie](/notes/research/chemistry/inorganic-chemistry/inorganic-chemistry)
-- [Organická chemie](/notes/research/chemistry/organic-chemistry/organic-chemistry)
-- [Biochemie](/notes/research/chemistry/biochemistry/biochemistry)
+- [Obecná chemie](/notes/research/chemistry/general-chemistry/)
+- [Anorganická chemie](/notes/research/chemistry/inorganic-chemistry/)
+- [Organická chemie](/notes/research/chemistry/organic-chemistry/)
+- [Biochemie](/notes/research/chemistry/biochemistry/)
 - [AP Chemistry](/notes/research/chemistry/ap-chemistry/)
 
     </section>
