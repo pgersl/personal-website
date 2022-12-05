@@ -122,7 +122,7 @@ pm: true
 - nejčastěji pohárkovitý tvar těla nebo tvoří povlaky na rostlinách a kamenech
 - mořské houby bývají pestře zbarvené a často vytváří trsy
 - sladkovodní houby mají nahnědlou / nazelenalou barvu
-- tělo se skládá z ektodermu, které tvoří pokožku (ochranná funkce) tvořena epitalem
+- tělo se skládá z ektodermu, které tvoří pokožku (ochranná funkce) tvořena _epitalem_
 - střední vrstva je mezoglea (mezenchym)
     - rosolovitá, pružná, obsahuje různé typy buněk
     - **_Amebocyty_**
@@ -130,14 +130,14 @@ pm: true
         - příjem potravy fagocytózou
         - rozklad živin a roznes po těle
     - **_Skleroblasty_**
-        - křemité jehlice z oxidu uhličitého – sklerity
+        - křemité jehlice z oxidu uhličitého – _sklerity_
             - různě složité: jednoduché, trojosé, čtyřosé
     - **_Spongoblasty_**
         - vytváří pružná pevná vlákna ze sponginu (na bázi kolagenu)
             - opěrná funkce
     - **_Archeocyty_**
         - uplatňují se při vegetaci houby
-        - mohou z nich vznikat všechny typy buněk 🡪 dobrá regenerace
+        - mohou z nich vznikat všechny typy buněk -> dobrá regenerace
         - uplatnění také při rozmnožování (pohlavním i nepohlavním)
 - vnitřek houby vystlán entodermem 
     - entoderm tvořen buňkami _choanocyty_
@@ -164,7 +164,7 @@ pm: true
 ### Pohlavní
 - většinou hermafrodité někdy mohou být genochoristé
 - pohlavní buňky mohou vznikat z archeocytů vajíčka a z choarocytu spermie
-	- houby vypustí oplozená vajíčka do vody – vznik larvy umfiblastuly
+	- houby vypustí oplozená vajíčka do vody – vznik larvy _umfiblastuly_
 	- larva plave a přisedne ke dnu a vznikne nová houba
 	- houby nasaje spermie dovnitř oxtiemi a oplodní vajíčko, z oplozeného vajíčka vznikne larva
 ## Systém houbovců
@@ -186,7 +186,7 @@ pm: true
     - je tvořena pouze sponyiovitými vlákny
     - využívá se na mytí
 - _houba koňská_
-    - žihe v moři
+    - žije v moři
 - _houba domečková_
     - symbiotizuje s rakem
         - nahrazuje krunýř
