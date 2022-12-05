@@ -15,7 +15,7 @@ pm: true
     - _pohlavní dimorfismus_
         - fyzická odlišnost mezi samcem a samicí
 - _hermafrodité_
-    - často mají pouze jeden ze dvou pohlavních orgánu funkčníé
+    - často mají pouze jeden ze dvou pohlavních orgánu funkční
     - v případě obou funkčních pohlavních orgánů dojde k výměně spermií
 ### Nepohlavní
 - _pučení_
@@ -116,19 +116,70 @@ pm: true
         - prvoústa vznikají chlípením ektodermu
     - _druhoústí_
         - prvoústa se mění na řitní otvor a vznikají na druhé straně zárodku
-# Systém hub
-## Vápenaté
+# Houbovci (_porifera_)
+## Charakteristika
+- žijí převážně v moři, ale můžou se vyskytovat i ve sladké vodě
+- nejčastěji pohárkovitý tvar těla nebo tvoří povlaky na rostlinách a kamenech
+- mořské houby bývají pestře zbarvené a často vytváří trsy
+- sladkovodní houby mají nahnědlou / nazelenalou barvu
+- tělo se skládá z ektodermu, které tvoří pokožku (ochranná funkce) tvořena epitalem
+- střední vrstva je mezoglea (mezenchym)
+    - rosolovitá, pružná, obsahuje různé typy buněk
+    - **_Amebocyty_**
+        - měňavkovitý tvar
+        - příjem potravy fagocytózou
+        - rozklad živin a roznes po těle
+    - **_Skleroblasty_**
+        - křemité jehlice z oxidu uhličitého – sklerity
+            - různě složité: jednoduché, trojosé, čtyřosé
+    - **_Spongoblasty_**
+        - vytváří pružná pevná vlákna ze sponginu (na bázi kolagenu)
+            - opěrná funkce
+    - **_Archeocyty_**
+        - uplatňují se při vegetaci houby
+        - mohou z nich vznikat všechny typy buněk 🡪 dobrá regenerace
+        - uplatnění také při rozmnožování (pohlavním i nepohlavním)
+- vnitřek houby vystlán entodermem 
+    - entoderm tvořen buňkami _choanocyty_
+    - buňky mají plazmatický límeček a bičík
+    - napomáhají proudění vody a potravy
+    - potravu zachytávají a dopravují do mezogley amébocytům
+- ve stěnách houby jsou malé otvory – _ostie_ 
+    - jsou tvořeny buňkami porocyty
+    - přivádí vodu s otravou
+- uprostřed houby je velký otvor – _osculum_ 
+    - odvod vody a nestrávených zbytků
+## Rozmnožování hub
+### Nepohlavní
+- _vnější pučení_
+    - na houbě se vytvoří pupen a doroste do dospělého živočicha 
+    - často se vytváří kolonie – zůstávají spolu spojené
+- _vnitřní pučení_
+    - typické pro sladkovodní houby 
+    - na konci léta se houba rozpadá a vzniká vnitřní pupen – _gemule_ 
+	    - archeocyty jsou obaleny pevnou odolnou membránou
+	    - zimu přečkávají ve stavu anabiózy 
+	    - na jaře se se za pomoci póru archeocyty uvolní do vody a vzniknou nové houby
+	    - gemule mohou být přenášeny vodními ptáky
+### Pohlavní
+- většinou hermafrodité někdy mohou být genochoristé
+- pohlavní buňky mohou vznikat z archeocytů vajíčka a z choarocytu spermie
+	- houby vypustí oplozená vajíčka do vody – vznik larvy umfiblastuly
+	- larva plave a přisedne ke dnu a vznikne nová houba
+	- houby nasaje spermie dovnitř oxtiemi a oplodní vajíčko, z oplozeného vajíčka vznikne larva
+## Systém houbovců
+### Vápenaté
 - mají vápenatou kostru z uhličitanu vápenatého
 - mají pohárkový tvar a tvoří kolonie
 - výška do 10 cm
 - _houba voštínatá_
-## Křemité
+### Křemité
 - žijí v teplých mořích
 - mají kostru z oxidu křemičitého
     - tvoří jehlice
 - výška je 50 - 150 cm
 - _houba pletená (venušin kos)_
-## Rohovité
+### Rohovité
 - tělo je vystuženo sponyiovitými vlákny
     - občas mohou mít i křemičité jehlice
 - _houba mycí_
