@@ -9,3 +9,4 @@ pm: true
 - [Úvod do sociologie](/notes/school/social-sciences/introduction-to-sociology)
 - [Sociální percepce](/notes/school/social-sciences/social-perception)
 - [Postoje](/notes/school/social-sciences/opinions)
+- [Teorie společnosti](/notes/school/social-sciences/theories-of-society)

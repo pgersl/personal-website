@@ -4,7 +4,7 @@ layout: note
 toc: true
 pm: true
 ---
-> Postoj je sklon člověka reagovat ustáleným způsobem ustáleným způsobem na předmět, osobu nebo situaci.
+> Postoj je sklon člověka reagovat ustáleným způsobem na předmět, osobu nebo situaci.
 
 - odráží hodnotící vztahy
 # Funkce postojů
