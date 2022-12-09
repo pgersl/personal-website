@@ -19,3 +19,4 @@ pm: true
     - [Systém rostlin](/notes/school/biology/system-of-plants)
 - **G6**
     - [Biologie 2](/notes/school/biology/bio2)
+    - [Biologie 3](/notes/school/biology/bio3)
