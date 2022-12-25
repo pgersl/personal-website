@@ -14,7 +14,7 @@ pm: true
     - it doesn't exist in the real world, some molecules do come close to it though
         - the molecules need to be very small and the intermolecular forces very week
         - $O_2$, $N_2$, $CO_2$ and $H_2$
-- ideal gas interacts with its container, poushing in the walls resulting in _pressure_ $P$
+- ideal gas interacts with its container, poushing in the walls resulting in _pressure_ $p$
 - the _speed_ $v$ of the particles is directly proportional to the gas' _temperature_ $T$
 - the size of the container with the gas determines its _volume_ $V$
 - **_closed system_** is a system which doesn't exchange energy nor matter with its surroundings
@@ -37,7 +37,7 @@ pm: true
 - discovered by Joseph Louis Gay-Lussac
 > For constant volume, pressure is directly proportional to temperature
 > $$P=kT$$
-> $$\cfrac{P}{T}=k$$
+> $$\cfrac{p}{T}=k$$
 
 - at a constant volume, if we want to increase pressure, we also need to increase the speed of the particles (temperature)
 ## Avogadro's law
@@ -47,7 +47,7 @@ pm: true
 > $$\cfrac{V}{n}=k$$
 # Ideal gas law
 - it is a combination of all already mentioned laws
-$$\cfrac{PV}{nT}=k$$
+$$\cfrac{pV}{nT}=k$$
 - the constant $k$ is known as the **_unversal gas contant_** $R$ ($\approx{8.3145\ J\cdot{K^{-1}}\cdot{mol^{-1}}}$)
 - since the constant is universal, a mixture of multiple different ideal gasses will behave as an ideal gas still
 ## Dalton's law
@@ -57,5 +57,5 @@ $$\cfrac{PV}{nT}=k$$
 - the partial pressure can be calculated as the product of the molar fraction of the gas and the overall pressure
 $$P_i=x_iP$$
 - also:
-$$\cfrac{P_i}{P}=\cfrac{n_i}{n}$$
+$$\cfrac{p_i}{p}=\cfrac{n_i}{n}$$
 - the oressure and ammount of substance of whatever kind is virtually the same for an ideal gas
