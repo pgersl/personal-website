@@ -32,3 +32,4 @@ pm: true
 - **Trubýši**
     - mohou světélkovat
     - josu spojeni trávicí soustavou
+- **Medúzka sladkovodní**

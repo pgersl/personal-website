@@ -156,6 +156,39 @@ pm: true
 ### Boleslav, Bratrovrah, Bratři
 - je to dramatická trilogie
 - celé hry nestlihl dokončit
+## Karel Jaromír Erben
+- pracoval pro České muzeum a byl také archivářem města Prahy
+    - nebyla to příliš dobře placená zaměstání a často je střídal
+- celý život se zabýval lidovou tvorbou
+    - sesbíranou tvorbu někdy vydával
+    - nejedná se o příliš významná jeho díla
+        - nejvýnamnější je _Dlouhý, Široký a Bystrozraký_ nebo _Stříbrný vlas děda Vševěda_
+- píše básně a pohádky jí inspirované
+    - pohádky jsou fantiastické s velkým množstvím nadpřirozených postav
+    - psal je po vzoru lidových pohádek
+    - v básních se inspiroval lidovou tvorbou
+### Kytice (z pověstí národních)
+- vyšla až v roce 1853
+    - pracoval na ní asi 20 let
+- je to soubor 13 balad
+- vystupují v nich tajemné bytosti
+- je v nich ponuré a tajemné protstředí typické pro romantismus
+- vždy se řeší nějaký konflikt nebo provinění a následuje trest
+    - je to základní etické paradigma všech Erbenových balad
+    - některé tresty jsou později zmírněny, ale dávají silnou lekci
+        - dojde k tomu tehdy, když trestaný své chyby lituje
+- provinění je mnohdy pochopitelné a trest je velmi krutý
+- mají _zrcadlovou kompozici_
+    - balady (poslední a první, druhá a dvanáctá,...) spolu mají něco společného
+- mají velký spád a rychle plyne
+- objevuje se _dějová zkratka_
+    - často používá přímoiu řeč a citoslovce
+    - _onomaotopoie_ - zvukomalba
+    - téměř nepoužívá spojovací výrazy
+- _Záhořovo lože_
+    - je to umělecká polemika s Májem
+    - hlavní postava se dopouší mnoha chyb 
+    - 100 let se potom kaje a jeho duše je spasena
 # Revoluční fáze
 - 40. až 50. léta 19. století
 - píše se ve stylu realismu
