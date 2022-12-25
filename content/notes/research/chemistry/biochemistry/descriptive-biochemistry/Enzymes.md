@@ -99,7 +99,7 @@ pm: true
 - je reverzibilní
     - _komplex enzym-inhibitor_ se snadno disociuje
 - např. _chemoterapeutika, antibiotiky_
-- ## Nekompetetivní inhibice
+## Nekompetetivní inhibice
 - inhibitor se váže mimo aktivní centrum
 - změní se konformace aktivního centra a nemůže vzniknou komplex enzym-substrát
 - zvýšení koncentrace substrátu nemá na rychlost reakce vliv
@@ -150,7 +150,7 @@ pm: true
 - tvoří se pomocí názvu substrátu, názvu reakce a suffixu **-asa**
     - _cyklochromoxidasa, alkoholdehydrogenasa, acetyltransferasa_
 # Klasifikace enzymů
-    - jsou rozděleny do šesti tříd podle typu reakce
+- jsou rozděleny do šesti tříd podle typu reakce
 
 <table class="note-table">
     <thead>
@@ -175,11 +175,11 @@ Příklad
     </thead>
     <tbody>
         <tr>
-            <td class="center" rowspan="2">
+            <td class="center">
 
 1
             </td>
-            <td class="it" rowspan="2">
+            <td class="it">
 
 Oxidoreduktasy
             </td>
@@ -187,7 +187,7 @@ Oxidoreduktasy
 
 oxidace a redukce (přenos elektronů, [vodíku](/notes/research/chemistry/inorganic-chemistry/periodic-table/hydrogen) nebo reakce s [kyslíkem](/notes/research/chemistry/inorganic-chemistry/periodic-table/oxygen))
             </td>
-            <td rowspan="2">
+            <td>
 
 dehydrogenasy, oxidasy
             </td>
