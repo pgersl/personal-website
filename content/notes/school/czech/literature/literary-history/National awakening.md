@@ -189,6 +189,26 @@ pm: true
     - je to umělecká polemika s Májem
     - hlavní postava se dopouší mnoha chyb 
     - 100 let se potom kaje a jeho duše je spasena
+## Božena Němcová
+- pochází z obce Ratibořice, kde je dodnes zachováván její kraj
+- vzala si za muže finančího úředníka, ale vztah s ním se rozpadá, neboť jejich vztah nenaplňoval Boženiny představy
+- byla to vlastenkyně a znala se s mnohými autory stejného myšlení
+- její dílo _Babička_ je v podsatě dílo autobiografické z jejího dětství
+- sbírala ústní lidovou slovesnost
+- psala pohádky
+    - nepříliš často se v nich vyskytují nadpřirozené bytosti a ustupují do pozadí
+    - vždy vítězí dobrota člověka
+- často psala reportáže z míst, kde pobývala
+    - projevuje v nich svůj zájem o venkov
+- je jednou ze zakladatelů venkovské prózy
+    - děj se odehrává na věnkově
+    - v ústředí je dobrý člověk (morální vzor), často ženy
+    - hlavní postavou může být také člověk ze špatného prostředí 
+        - zároveň ale jsou tyto povídky zakončeny smířlivě až idealsticky
+### Babička: Obrazy venovského života
+- toto dílo bylo sepsáno v těžké době v jejím životě
+    - zrovna se rozdělili s mužem a zemřel její nejstarší syn
+- jedná se o pohled do idealiovaného jejího dětství
 # Revoluční fáze
 - 40. až 50. léta 19. století
 - píše se ve stylu realismu
