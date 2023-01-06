@@ -36,7 +36,7 @@ pm: true
     - rodina je pouze atomární
     - nejdůležitější skupinou je stát
     - solidarita je organická
-# Historie sociologie
+# Vznik sociologie
 - vzniká v polovině 19. století
     - důvodem je situace po Francouzské revoluci
 - _August Comte_
