@@ -359,7 +359,66 @@ Obsahy hlavních a stopových prvků v lidském těle (o hmotnosti 70 kg)
 ## Přenos oxidu uhličitého
 - krom přenosu kyslíku usnadňuje hemoglobin také přenos oxidu uhličitého v krvy
 - navázáním kyslíku na hem se uvolní s proteinu protony
-    - $Hb(O_2)_nH_x+O_2\leftrightharpoons{Hb(O_2)_{n+1}+xH^+}$
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <mstyle displaystyle="true" scriptlevel="0">
+    <mrow data-mjx-texclass="ORD">
+      <mtable rowspacing=".5em" columnspacing="1em" displaystyle="true">
+        <mtr>
+          <mtd>
+            <mi>H</mi>
+            <mi>b</mi>
+            <mo stretchy="false">(</mo>
+            <msub>
+              <mi>O</mi>
+              <mn>2</mn>
+            </msub>
+            <msub>
+              <mo stretchy="false">)</mo>
+              <mrow data-mjx-texclass="ORD">
+                <mi>n</mi>
+              </mrow>
+            </msub>
+            <msub>
+              <mi>H</mi>
+              <mi>x</mi>
+            </msub>
+            <mo>+</mo>
+            <msub>
+              <mi>O</mi>
+              <mn>2</mn>
+            </msub>
+            <mo stretchy="false">&#x21CB;</mo>
+            <mrow data-mjx-texclass="ORD">
+              <mi>H</mi>
+              <mi>b</mi>
+              <mo stretchy="false">(</mo>
+              <msub>
+                <mi>O</mi>
+                <mn>2</mn>
+              </msub>
+              <msub>
+                <mo stretchy="false">)</mo>
+                <mrow data-mjx-texclass="ORD">
+                  <mi>n</mi>
+                  <mo>+</mo>
+                  <mn>1</mn>
+                </mrow>
+              </msub>
+              <mo>+</mo>
+              <mi>x</mi>
+              <msup>
+                <mi>H</mi>
+                <mo>+</mo>
+              </msup>
+            </mrow>
+          </mtd>
+        </mtr>
+      </mtable>
+    </mrow>
+  </mstyle>
+</math>
+
 - tomuto jevu se říká **Bohrův efekt**
 - při depozici kyslíku se tedy protony zachycují zpátky
     - protony vznikají hydratací plynného oxidu uhličitého, který je poté snadnejší ve formě hydrogenuhličitanu
@@ -372,9 +431,9 @@ Obsahy hlavních a stopových prvků v lidském těle (o hmotnosti 70 kg)
     - pochází z cysteinových zbytků
 - železo přechází mezi oxidačními stavy $II$ a $III$
 ### Rubredoxin
-    - obsahuje jeden atom železa
-    - atom železa je koordinován čtyřmi atomy síry 
-    - přenášejí jeden elektron
+- obsahuje jeden atom železa
+- atom železa je koordinován čtyřmi atomy síry 
+- přenášejí jeden elektron
 ### Ferredoxiny
 - jsou to větší látky
 - obsahují několik železných atomů v klasrech $Fe_2S_2$ nebo $Fe_4S_4$
