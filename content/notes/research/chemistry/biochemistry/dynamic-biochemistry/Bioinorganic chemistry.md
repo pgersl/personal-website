@@ -353,9 +353,9 @@ Obsahy hlavních a stopových prvků v lidském těle (o hmotnosti 70 kg)
         - nositelé těchto hemoglobinů trpí chorobou _methemoglobinemií_
             - mají obvykle namodralou pleť
 #### Myoglobin
-    - obsahuje jednu molekulu profinu
-    - v buňkách udržuje kyslík před samotným použitím
-    - snadno z hemoglobinu přebírá kyslík, protože kyslík je v myoglobinu stabilnější
+- obsahuje jednu molekulu profinu
+- v buňkách udržuje kyslík před samotným použitím
+- snadno z hemoglobinu přebírá kyslík, protože kyslík je v myoglobinu stabilnější
 ## Přenos oxidu uhličitého
 - krom přenosu kyslíku usnadňuje hemoglobin také přenos oxidu uhličitého v krvy
 - navázáním kyslíku na hem se uvolní s proteinu protony
