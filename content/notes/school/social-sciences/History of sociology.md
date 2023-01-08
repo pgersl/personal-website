@@ -43,7 +43,7 @@ pm: true
 - studoval Aristotelovy spisy a argumentoval pro jeho myšlenky
 - zástával absolutní monarchii, zároveň ale tvrdí, že správný panovník by se měl řídit myšlenkami církve
 ## Renesance
-### Thomas Moore
+### Thomas More
 - ve své době odmítal přechod Anglie na protestantství
 - napsal dílo _Utopie_
     - popisuje v něm naprosto ideální společnosti

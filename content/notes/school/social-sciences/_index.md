@@ -9,8 +9,10 @@ pm: true
 - [Obecná psychologie](/notes/school/social-sciences/general-psychology)
 
 **Sociální psychologie**
+- [Socializace](/notes/school/social-sciences/socialisation)
 - [Sociální percepce](/notes/school/social-sciences/social-perception)
 - [Postoje](/notes/school/social-sciences/opinions)
+- [Komunikace](/notes/school/social-sciences/communication)
 
 **Sociologie**
 - [Úvod do sociologie](/notes/school/social-sciences/introduction-to-sociology)

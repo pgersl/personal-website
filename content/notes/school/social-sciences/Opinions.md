@@ -28,7 +28,7 @@ pm: true
 ## Emoční hodnocení
 - postoje vyvolávají emoce
 ## Pobídka k chování
-- docázi k vyprovokování nějaké aktivity
+- docházi k vyprovokování nějaké aktivity
 # Typy postojů
 ## Angažovanost
 - je to absolutní souhlas s tezí a její silná obhajoba
