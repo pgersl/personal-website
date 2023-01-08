@@ -125,9 +125,23 @@ pm: true
 - vznikají první památky srovnatelné se zahraničním literární uměním
 - hlavním účelem tvorby je vzdělávání o češtině a sběr ústní lidové slovesnosti
 ## Karel Hynek Mácha
-- TODO
+- 1810 - 1836
+- studoval práva
 - píše mnoho lyrickou, případně lyricko-epickou poezii, ale také prózu, primárně povídky
     - jeho próza je _lyrizovaná_ (děj ustupuje od pozadí a je jednoduchý)
+### Máj
+- je to relativně rozsáhlá lyricko-epická báseň/byronská povídka
+- velkou část tvoří popisy přírody a popisy pocitů
+    - častá je úvahová lyrika
+- má čtyři části a dva mezizpěvy (intermezza), zároveň obsahuje věnování českému národu
+- byl kritizován za ateismus
+- příběh:
+    - Vilém je loupežník, který nikdy nepoznal své rodiče
+    - Jarmila je jeho milá, je ale svedena
+    - Vilém svůdce zabije, později se dozví, že je to jeho otec, je zadržen a uvězněn a odsouzen k popravě
+    - poté, co se Jarmila o rozsudku dozví páchá sebevraždu
+    - Vilém je popraven
+    - po několika letech se na místo těchto událostí vrací básník Hynek
 ### Obrazy ze života mého
 - soubor povídek
 - obsahuje subjektivní a autobiografické prvky
@@ -189,11 +203,51 @@ pm: true
     - je to umělecká polemika s Májem
     - hlavní postava se dopouší mnoha chyb 
     - 100 let se potom kaje a jeho duše je spasena
+## Josef Kajetán Tyl
+- 1808 - 1856
+- byl to "miláček národy"
+- obrozenecké myšlenky vzdělávání
+- celoživotně se věnoval divadlu
+    - cestoval po Evropě v kočovné herecké společnosti
+- pracoval také jako účetní v Praze
+- byl dramaturgem Stavovského divadla
+    - překládal hry do češtiny
+    - psal tehdy i vlastní hry
+    - po vzestupu cenzury odešel
+- organizoval akce a plesy vlastenců
+- byl to také významný novinář
+    - založil _Květy_
+        - psal tam vlastenecké povídky
+### Historické divadelní hry
+- _Kutnohorští havíři_
+- _Jan Hus_
+- _Krvavé křtiny čili Drahomíra a její synové_
+### Současné divadelní hry
+- _Fidlovačka aneb žádný hněv a žádná rvačka_
+    - pochází odtud píseň _Kde domov můj_ - česká hymna
+        - hudbu složil František Škroup
+- _Paličova dcera_
+    - překombinovaný vlastenecký poučný děj
+### Báchorky
+- _Strakonický dudák_
+    - Švanda se zamiluje do Dorotky
+        - otec odmítá provdat dceru osyřelému chudákovi
+    - vydá se na cesty za penězi
+        - matka je lesní ženou a očaruje jeho dudy
+        - konfliktní s vlasteneckými myšlenkami (bohatství a cestování)
+    - přidá se k němu Vocílka, který jej dále "odvádí od domova"
+    - skončí ve vězení, odkud ho dostane jeho matka (očarovaný zapomene)
+    - Dorotka se jej vydá hledat
+        - najde jej v lese, kde jej lesní ženy chtějí utancovat k smrti
+        - na vše si vzpomene a následně se vezmou
 ## Božena Němcová
+- 1820 - 1862
+- původně Barbora Panklová
 - pochází z obce Ratibořice, kde je dodnes zachováván její kraj
 - vzala si za muže finančího úředníka, ale vztah s ním se rozpadá, neboť jejich vztah nenaplňoval Boženiny představy
 - byla to vlastenkyně a znala se s mnohými autory stejného myšlení
 - její dílo _Babička_ je v podsatě dílo autobiografické z jejího dětství
+- zemřela těžce nemocná
 - sbírala ústní lidovou slovesnost
 - psala pohádky
     - nepříliš často se v nich vyskytují nadpřirozené bytosti a ustupují do pozadí
@@ -209,6 +263,14 @@ pm: true
 - toto dílo bylo sepsáno v těžké době v jejím životě
     - zrovna se rozdělili s mužem a zemřel její nejstarší syn
 - jedná se o pohled do idealiovaného jejího dětství
+## Karel Sabina
+- 1813 - 1877
+- "zrádce národa"
+    - v 40. letech 18. století se anagažoval proti Rakousku
+    - později se upsal jako konfident rakouské policie
+- byl to přítel Máchy
+- psal libreta - _Prodaná nevěsta, Braniboři v Čechách_
+- napsal povídku _Oživlé hroby_
 # Revoluční fáze
 - 40. až 50. léta 19. století
 - píše se ve stylu realismu

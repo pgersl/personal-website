@@ -6,7 +6,7 @@ pm: true
 ---
 # Obecně
 - jsou to živočichové s paprsčitě souměrným tělem
-- mezi ektodermem a mezodermem mají vrstvu rosolovité hmoty - _mezoglea_
+- mezi ektodermem a entodermem mají vrstvu rosolovité hmoty - _mezoglea_
     - má opornou funkci
     - neobsahuje volné buňky
 - mají slepě končící trávící dutinu - _láčka_
