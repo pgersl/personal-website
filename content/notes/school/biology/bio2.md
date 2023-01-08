@@ -79,7 +79,7 @@ pm: true
     - tvoří se jen u suchozemských živočichů
         - ryby mají vaječné obaly
 - vchlípením ektodermu do nervové trubice - _neuroly_ (procese je _neurulace_) začíná organogeneze 
-##### Diablastika
+##### Diblastika
 - probíhá u živočichů se **2 zárodečnými listy**
     - _ektoderm_ na povrchu
         - tvoří pokožku
@@ -89,7 +89,7 @@ pm: true
         - je mezi ekto- a endodermem
         - je tvořena mezibuněčnou hmotou
     - mezoderm se nevyvijí
-##### Triablastika
+##### Triblastika
 - probíhá u živočichů se třemi zárodečnými listy
 - od ploštěnců výš
 - mají odlišné typy tělních dutin

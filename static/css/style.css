@@ -37,7 +37,8 @@ body {
     color: var(--white);
     background-color: var(--black);
     margin: auto;
-    max-width: var(--width);
+    width: 95vw;
+    max-width: 1000px;
     font-size: var(--text-size);
 }
 ::selection {
@@ -370,20 +371,26 @@ tbody.it th {
 
 /* Images */
 
+figure {
+    margin: 0;
+}
+
 .note-fig img {
     display: block;
-    max-width: 60%;
-    max-height: 40vh;
-    margin-top: 1vh;
-    margin-bottom: 1vh;
-    margin-left: auto;
-    margin-right: auto 
+    width: 90vw;
+    max-width: 500px;
+    margin: auto;
 }
 .note-fig figcaption, .note-fig-w figcaption {
     caption-side: bottom;
     text-align: center;
     font-style: italic;
     font-size: var(--text-size-s);
+    display: block;
+    margin: auto;
+    margin-top: 1vh;
+    width: 90vw;
+    max-width: 500px;
 }
 .note-fig-w img {
     display: block;
@@ -423,7 +430,6 @@ blockquote p {
 @media (max-width: 850px) {
     body {
         font-size: calc(var(--text-size) * var(--const2));
-        max-width: calc(var(--width) + 15vw);
     }
 }
 @media (max-width: 785px) {
@@ -439,12 +445,10 @@ blockquote p {
 @media (max-width: 500px) {
     body {
         font-size: calc(var(--text-size) * var(--const3));
-        max-width: calc(var(--width) + 25vw);
     }
 }
 @media (max-width: 320px) {
     body {
         font-size: calc(var(--text-size) * var(--const4));
-        max-width: calc(var(--width) + 33vw);
     } 
 }
