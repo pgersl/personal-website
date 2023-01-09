@@ -1,6 +1,6 @@
 /* Genereal */
 
-@import url('https://fonts.googleapis.com/css2?family=Gantari:wght@100;200&family=Mulish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 
 :root {
     /* Colors */
@@ -33,7 +33,7 @@
 /* Body */
 
 body {
-    font-family: 'Mulish', sans-serif;
+    font-family: 'DM+Sans', sans-serif;
     color: var(--white);
     background-color: var(--black);
     margin: auto;
