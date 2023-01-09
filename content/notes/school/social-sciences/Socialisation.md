@@ -22,7 +22,7 @@ pm: true
 - _adjustace_ - přizpůsobení okolí jedinci
 - _maladaptace_ - nepřizpůsobení jedince okolí
 - _maladjustace_ - negativní ovlivnění okolí jedincem
-# Vliv na socializace
+# Vliv na socializaci
 ## Sociální instituce
 - primární - **rodina**
     - je nejdůležitější
