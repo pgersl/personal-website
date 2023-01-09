@@ -17,11 +17,22 @@ enableEmoji = "true"
         name = "Notes"
         url = "/notes"
         weight = "2"
-    [[menu.main]]
-        identifier = "articles"
-        name = "Articles"
-        url = "/articles"
-        weight = "3"
+    #[[menu.main]]
+    #    identifier = "articles"
+    #    name = "Articles"
+    #    url = "/articles"
+    #    weight = "3"
+    #[[menu.main]]
+    #    identifier = "music"
+    #    name = "Music"
+    #    url = "/music"
+    #    weight = "4"
+    #[[menu.main]]
+    #    identifier = "photos"
+    #    name = "Photos"
+    #    url = "/photos"
+    #    weight = "5"
+    
 [frontmatter]
     date = ['date', 'publishDate', 'lastmod']
     expiryDate = ['expiryDate']
