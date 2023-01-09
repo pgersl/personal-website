@@ -10,8 +10,9 @@ These are the notes I took myself in my free time. Read more about them in the d
     <section id="menu-section">
 
 - [Chemistry](/notes/research/chemistry/)
-- [English](/notes/research/english/)
 - [Music](/notes/research/music/)
+- [English](#)
+- [Latin](/notes/research/latin)
 
     </section>
 </div>
