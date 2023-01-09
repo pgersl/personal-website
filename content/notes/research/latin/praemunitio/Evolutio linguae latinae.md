@@ -4,7 +4,7 @@ layout: note
 toc: true
 pm: true
 ---
-# PERIODVS PRAEHISORICVS
+# PERIODVS PRAEHISTORICVS
 - do 7. stol. ACN
 - je to nevýznamný jazyk malé skupiny obyvatel _Latia_
 - nemá písemné pamártky
