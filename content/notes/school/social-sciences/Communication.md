@@ -5,16 +5,13 @@ toc: true
 pm: true
 ---
 > Komunikace je prostředek dorozumívání mezi živými organismy.
-# Funkce komunikace:
+# Funkce komunikace
 - sdílení emocí
 - sdílení informací, [postojů](/notes/school/social-sciences/opinions) a názorů
 - dorozumívání pro spolupráci
 - ovlivnění ostatních
 - tlachání
 - estetika
-- _paralingvistika_
-    - je to způsob intonace, důrazů a pauz
-    - skrze jedno sdělení lze tak říct více věcí najednou
 # Průběh komunikace
 - **_komunikátor_** je osoba, která předává sdělení
 - **_komuniké_** je předávané sdělení
