@@ -56,3 +56,9 @@ pm: true
 ### Francis Bacon
 - napsal dílo _Nová Atlantida_
     - reaguje na platónské myšlení
+### Znaky utopického státu
+- musí být zcela izolovaný od okolního světa
+    - skrze hranice mohou pronikat kontradiktující ideje
+    - hodí se také izolace internetového světa, rádií a televizního vysílání
+- zásádní je výchova dětí a jejich indoktrinace v ideologii
+- utopie počítá se soběstačností a nezávislostí
