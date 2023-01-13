@@ -14,6 +14,7 @@ TODO
     <section id="menu-section">
 
 - [PRAEMVNITIO](/notes/research/latin/praemunitio/)
+- [NVMERALIA](/notes/research/latin/numeralia)
 
     </section>
 </div>

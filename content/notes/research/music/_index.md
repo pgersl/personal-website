@@ -1,7 +1,7 @@
 ---
 title: "Music"
 layout: single
-toc: false
+toc: true
 pm: true
 ---
 # Introduction
