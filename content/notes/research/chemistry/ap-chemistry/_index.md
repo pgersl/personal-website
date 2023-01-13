@@ -13,6 +13,7 @@ These are the notes I took preparing for the AP Cheistry exam (will write more a
 - [Molecular and ionic compound structure and properties](/notes/research/chemistry/ap-chemistry/molecular-and-ionic-compound-structure-and-properties/)
 - [Intermolecular forces and properties](/notes/research/chemistry/ap-chemistry/intermolecular-forces-and-properties/)
 - [Chemical reactions](/notes/research/chemistry/ap-chemistry/chemical-reactions/)
+- [Kinetics](/notes/research/chemistry/ap-chemistry/kinetics/)
 
     </section>
 </div>
