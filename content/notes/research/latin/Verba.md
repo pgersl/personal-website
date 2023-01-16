@@ -274,3 +274,423 @@ Přehled přípon v konjugacích slovesných tvarů odvozených od prézentního
 - infinitiv prézentu aktiva: _-ā-re_
 - infinitiv prézentu pasiva: _-ā-rī_
 - imperativ: sg. _-ā_, pl. _-āte_
+### Konjugace indikativu prézentu
+**Aktivum**
+
+<table class="note-table">
+    <thead>
+        <tr>
+            <th class="center">
+
+Persona
+            </th>
+            <th>
+
+Sg.
+            </th>
+            <th>
+
+Pl.
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="center">
+
+1
+            </td>
+            <td class="it">
+
+laud-ō
+            </td>
+            <td class="it">
+
+laud-ā-mus
+            </td>
+        </tr>
+        <tr>
+            <td class="center">
+
+2
+            </td>
+            <td class="it">
+
+laud-ā-s
+            </td>
+            <td class="it">
+
+laud-ā-tis
+            </td>
+        </tr>
+        <tr>
+            <td class="center">
+
+3
+            </td>
+            <td class="it">
+
+laud-a-t
+            </td>
+            <td class="it">
+
+laud-a-nt
+            </td>  
+        </tr>
+    </tbody>
+    <caption>
+
+Konjugace indikativu prézentu aktiva 1. slovesné třídy
+    </caption>
+</table>
+
+**Pasivum**
+
+<table class="note-table">
+    <thead>
+        <tr>
+            <th class="center">
+
+Persona
+            </th>
+            <th>
+
+Sg.
+            </th>
+            <th>
+
+Pl.
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="center">
+
+1
+            </td>
+            <td class="it">
+
+laud-o-r
+            </td>
+            <td class="it">
+
+laud-ā-mur
+            </td>
+        </tr>
+        <tr>
+            <td class="center">
+
+2
+            </td>
+            <td class="it">
+
+laud-ā-ris
+            </td>
+            <td class="it">
+
+laud-ā-minī
+            </td>
+        </tr>
+        <tr>
+            <td class="center">
+
+3
+            </td>
+            <td class="it">
+
+laud-ā-tur
+            </td>
+            <td class="it">
+
+laud-a-ntur
+            </td>  
+        </tr>
+    </tbody>
+    <caption>
+
+Konjugace indikativu prézentu pasiva 1. slovesné třídy
+    </caption>
+</table>
+
+## Imperfektum
+- tvorba imperfekta: prézentní kmen + formant **_-ba-_** + osobní přípona prézentu
+### Konjugace indikativu imperfekta
+**Aktivum**
+
+<table class="note-table">
+    <thead>
+        <tr>
+            <th class="center">
+
+Persona
+            </th>
+            <th>
+
+Sg.
+            </th>
+            <th>
+
+Pl.
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="center">
+
+1
+            </td>
+            <td class="it">
+
+laud-ā-**ba**-m
+            </td>
+            <td class="it">
+
+laud-ā-**bā**-mus
+            </td>
+        </tr>
+        <tr>
+            <td class="center">
+
+2
+            </td>
+            <td class="it">
+
+laud-ā-**bā**-s
+            </td>
+            <td class="it">
+
+laud-ā-**bā**-tis
+            </td>
+        </tr>
+        <tr>
+            <td class="center">
+
+3
+            </td>
+            <td class="it">
+
+laud-ā-**ba**-t
+            </td>
+            <td class="it">
+
+laud-ā-**ba**-nt
+            </td>  
+        </tr>
+    </tbody>
+    <caption>
+
+Konjugace indikativu imperfekta aktiva 1. slovesné třídy
+    </caption>
+</table>
+
+**Pasivum**
+
+<table class="note-table">
+    <thead>
+        <tr>
+            <th class="center">
+
+Persona
+            </th>
+            <th>
+
+Sg.
+            </th>
+            <th>
+
+Pl.
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="center">
+
+1
+            </td>
+            <td class="it">
+
+laud-ā-**ba**-r
+            </td>
+            <td class="it">
+
+laud-ā-**bā**-mur
+            </td>
+        </tr>
+        <tr>
+            <td class="center">
+
+2
+            </td>
+            <td class="it">
+
+laud-ā-**bā**-ris
+            </td>
+            <td class="it">
+
+laud-ā-**bā**-minī
+            </td>
+        </tr>
+        <tr>
+            <td class="center">
+
+3
+            </td>
+            <td class="it">
+
+laud-ā-**bā**-tur
+            </td>
+            <td class="it">
+
+laud-ā-**ba**-ntur
+            </td>  
+        </tr>
+    </tbody>
+    <caption>
+
+Konjugace indikativu imperfekta pasiva 1. slovesné třídy
+    </caption>
+</table>
+
+## Futurum
+- tvorba futura: prézentní kmen + formant **_-b-_** + osobní přípona prézentu
+### Konjugace indikativu futura I
+**Aktivum**
+
+<table class="note-table">
+    <thead>
+        <tr>
+            <th class="center">
+
+Persona
+            </th>
+            <th>
+
+Sg.
+            </th>
+            <th>
+
+Pl.
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="center">
+
+1
+            </td>
+            <td class="it">
+
+laud-ā-**b**-ō
+            </td>
+            <td class="it">
+
+laud-ā-**b**-imus
+            </td>
+        </tr>
+        <tr>
+            <td class="center">
+
+2
+            </td>
+            <td class="it">
+
+laud-ā-**b**-is
+            </td>
+            <td class="it">
+
+laud-ā-**b**-itis
+            </td>
+        </tr>
+        <tr>
+            <td class="center">
+
+3
+            </td>
+            <td class="it">
+
+laud-ā-**b**-it
+            </td>
+            <td class="it">
+
+laud-ā-**b**-unt
+            </td>  
+        </tr>
+    </tbody>
+    <caption>
+
+Konjugace indikativu prézentu aktiva 1. slovesné třídy
+    </caption>
+</table>
+
+**Pasivum**
+
+<table class="note-table">
+    <thead>
+        <tr>
+            <th class="center">
+
+Persona
+            </th>
+            <th>
+
+Sg.
+            </th>
+            <th>
+
+Pl.
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="center">
+
+1
+            </td>
+            <td class="it">
+
+laud-ā-**b**-or
+            </td>
+            <td class="it">
+
+laud-ā-**b**-imur
+            </td>
+        </tr>
+        <tr>
+            <td class="center">
+
+2
+            </td>
+            <td class="it">
+
+laud-ā-**b**-eris
+            </td>
+            <td class="it">
+
+laud-ā-**b**-iminī
+            </td>
+        </tr>
+        <tr>
+            <td class="center">
+
+3
+            </td>
+            <td class="it">
+
+laud-ā-**b**-itur
+            </td>
+            <td class="it">
+
+laud-ā-**b**-untur
+            </td>  
+        </tr>
+    </tbody>
+    <caption>
+
+Konjugace indikativu prézentu pasiva 1. slovesné třídy
+    </caption>
+</table>
