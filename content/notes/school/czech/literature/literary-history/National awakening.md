@@ -271,6 +271,29 @@ pm: true
 - byl to přítel Máchy
 - psal libreta - _Prodaná nevěsta, Braniboři v Čechách_
 - napsal povídku _Oživlé hroby_
+## Karel Havlíček Borovský
+- odmítal národnostní radikalismus, ale zároveň se stavvěl proti soudobému režimu
+    - nebyl oblíbený ani vládou, ani lidem
+- snažil o osvětu a vliv a prospění společnosti
+    - původně chtěl být knězem
+    - absolvoval gymnázium a nastoupil do arcibiskupského semináře
+        - byl neposlušný a byl vyloučen
+    - později chtěl být profesorem , ale to se mu také nepovedlo
+    - později si uvědomoval, že chce být spisovatelem
+- s rodinou žili ve vesničce Borová, později se přestěhoval s rodinou do Boru
+    - dnes Havlúčkova Borová a Havlíčkův Brod
+- původně si idealizoval východní země
+    - po výpravě do Ruska ale názor změnil
+    - po návratu do Čech ostře zkritizoval Tylův román Poslední Čech
+- vydával české noviny
+    - procházeli cenzurou českých cenzorů, často vlastenců
+    - mnohdy se mu podařila vydat i vlastenecká tvrzení
+    - často dávalo prostor Boženě Němcové
+        - nehovořila s vlasteneckým pathosem
+- v 19. století se u něj a vlastně v celé české společnosti problém etnicity
+    - všímal si, že ve všech západních zemích je v jednom státě jeden národ, zatímco v Habsburské monarchii existovalo několik etnik
+- později byl zvolen poslancem říšského sněmu ve Vídni
+    - v té době byl ve vazbě, ale nedlouho po zvolení byl propuštěn
 # Revoluční fáze
 - 40. až 50. léta 19. století
 - píše se ve stylu realismu
