@@ -270,6 +270,7 @@ Přehled přípon v konjugacích slovesných tvarů odvozených od prézentního
 
 # CONIVGATIO PRIMA
 - první konjugace zahrnuje všechna pravidelná slovesa s prézentním kmenem zakončeným na vokál _-ā_
+- vzor: _laud-ō, laud-ā-re_
 ## Prézens
 - infinitiv prézentu aktiva: _-ā-re_
 - infinitiv prézentu pasiva: _-ā-rī_
@@ -692,5 +693,1279 @@ laud-ā-**b**-untur
     <caption>
 
 Konjugace indikativu prézentu pasiva 1. slovesné třídy
+    </caption>
+</table>
+
+# CONIVGATIO SECONDA
+- druhá konjugace zahrnuje všechna pravidelná slovesa s prézentním kmenem zakončeným na vokál _-ē_
+- vzor: _dēle-ō, dēl-ē-re_ 
+## Prézens
+- infinitiv prézentu aktiva: _-ē-re_
+- infinitiv prézentu pasiva: _-ē-rī_
+- imperativ: sg. _-ē_, pl. _-ēte_
+### Konjugace indikativu prézentu
+**Aktivum**
+
+<table class="note-table">
+    <thead>
+        <tr>
+            <th class="center">
+
+Persona
+            </th>
+            <th>
+
+Sg.
+            </th>
+            <th>
+
+Pl.
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="center">
+
+1
+            </td>
+            <td class="it">
+
+dēl-e-ō
+            </td>
+            <td class="it">
+
+dēl-ē-mus
+            </td>
+        </tr>
+        <tr>
+            <td class="center">
+
+2
+            </td>
+            <td class="it">
+
+dēl-ē-s
+            </td>
+            <td class="it">
+
+dēl-ē-tis
+            </td>
+        </tr>
+        <tr>
+            <td class="center">
+
+3
+            </td>
+            <td class="it">
+
+dēl-e-t
+            </td>
+            <td class="it">
+
+dēl-e-nt
+            </td>  
+        </tr>
+    </tbody>
+    <caption>
+
+Konjugace indikativu prézentu aktiva 2. slovesné třídy
+    </caption>
+</table>
+
+**Pasivum**
+
+<table class="note-table">
+    <thead>
+        <tr>
+            <th class="center">
+
+Persona
+            </th>
+            <th>
+
+Sg.
+            </th>
+            <th>
+
+Pl.
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="center">
+
+1
+            </td>
+            <td class="it">
+
+dēl-e-o-r
+            </td>
+            <td class="it">
+
+dēl-ē-mur
+            </td>
+        </tr>
+        <tr>
+            <td class="center">
+
+2
+            </td>
+            <td class="it">
+
+dēl-ē-ris
+            </td>
+            <td class="it">
+
+dēl-ē-minī
+            </td>
+        </tr>
+        <tr>
+            <td class="center">
+
+3
+            </td>
+            <td class="it">
+
+dēl-ē-tur
+            </td>
+            <td class="it">
+
+dēl-e-ntur
+            </td>  
+        </tr>
+    </tbody>
+    <caption>
+
+Konjugace indikativu prézentu pasiva 2. slovesné třídy
+    </caption>
+</table>
+
+## Imperfektum
+- tvorba imperfekta: prézentní kmen + formant **_-ba-_** + osobní přípona prézentu
+### Konjugace indikativu imperfekta
+**Aktivum**
+
+<table class="note-table">
+    <thead>
+        <tr>
+            <th class="center">
+
+Persona
+            </th>
+            <th>
+
+Sg.
+            </th>
+            <th>
+
+Pl.
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="center">
+
+1
+            </td>
+            <td class="it">
+
+dēl-ē-**ba**-m
+            </td>
+            <td class="it">
+
+dēl-ē-**bā**-mus
+            </td>
+        </tr>
+        <tr>
+            <td class="center">
+
+2
+            </td>
+            <td class="it">
+
+dēl-ē-**bā**-s
+            </td>
+            <td class="it">
+
+dēl-ē-**bā**-tis
+            </td>
+        </tr>
+        <tr>
+            <td class="center">
+
+3
+            </td>
+            <td class="it">
+
+dēl-ē-**ba**-t
+            </td>
+            <td class="it">
+
+dēl-ē-**ba**-nt
+            </td>  
+        </tr>
+    </tbody>
+    <caption>
+
+Konjugace indikativu imperfekta aktiva 2. slovesné třídy
+    </caption>
+</table>
+
+**Pasivum**
+
+<table class="note-table">
+    <thead>
+        <tr>
+            <th class="center">
+
+Persona
+            </th>
+            <th>
+
+Sg.
+            </th>
+            <th>
+
+Pl.
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="center">
+
+1
+            </td>
+            <td class="it">
+
+dēl-ē-**ba**-r
+            </td>
+            <td class="it">
+
+dēl-ē-**bā**-mur
+            </td>
+        </tr>
+        <tr>
+            <td class="center">
+
+2
+            </td>
+            <td class="it">
+
+dēl-ē-**bā**-ris
+            </td>
+            <td class="it">
+
+dēl-ē-**bā**-minī
+            </td>
+        </tr>
+        <tr>
+            <td class="center">
+
+3
+            </td>
+            <td class="it">
+
+dēl-ē-**bā**-tur
+            </td>
+            <td class="it">
+
+dēl-ē-**ba**-ntur
+            </td>  
+        </tr>
+    </tbody>
+    <caption>
+
+Konjugace indikativu imperfekta pasiva 2. slovesné třídy
+    </caption>
+</table>
+
+## Futurum
+- tvorba futura: prézentní kmen + formant **_-b-_** + osobní přípona prézentu
+### Konjugace indikativu futura I
+**Aktivum**
+
+<table class="note-table">
+    <thead>
+        <tr>
+            <th class="center">
+
+Persona
+            </th>
+            <th>
+
+Sg.
+            </th>
+            <th>
+
+Pl.
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="center">
+
+1
+            </td>
+            <td class="it">
+
+dēl-ē-**b**-ō
+            </td>
+            <td class="it">
+
+dēl-ē**b**-imus
+            </td>
+        </tr>
+        <tr>
+            <td class="center">
+
+2
+            </td>
+            <td class="it">
+
+dēl-ē-**b**-is
+            </td>
+            <td class="it">
+
+dēl-ē-**b**-itis
+            </td>
+        </tr>
+        <tr>
+            <td class="center">
+
+3
+            </td>
+            <td class="it">
+
+dēl-ē-**b**-it
+            </td>
+            <td class="it">
+
+dēl-ē-**b**-unt
+            </td>  
+        </tr>
+    </tbody>
+    <caption>
+
+Konjugace indikativu prézentu aktiva 2. slovesné třídy
+    </caption>
+</table>
+
+**Pasivum**
+
+<table class="note-table">
+    <thead>
+        <tr>
+            <th class="center">
+
+Persona
+            </th>
+            <th>
+
+Sg.
+            </th>
+            <th>
+
+Pl.
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="center">
+
+1
+            </td>
+            <td class="it">
+
+dēl-ē-**b**-or
+            </td>
+            <td class="it">
+
+dēl-ē-**b**-imur
+            </td>
+        </tr>
+        <tr>
+            <td class="center">
+
+2
+            </td>
+            <td class="it">
+
+dēl-ē-**b**-eris
+            </td>
+            <td class="it">
+
+dēl-ē-**b**-iminī
+            </td>
+        </tr>
+        <tr>
+            <td class="center">
+
+3
+            </td>
+            <td class="it">
+
+dēl-ē-**b**-itur
+            </td>
+            <td class="it">
+
+dēl-ē-**b**-untur
+            </td>  
+        </tr>
+    </tbody>
+    <caption>
+
+Konjugace indikativu prézentu pasiva 2. slovesné třídy
+    </caption>
+</table>
+
+# CONIVGATIO TERTIA
+- třetí konjugace zahrnuje slovesa, jejichž kmen končí konsonantem
+- část sloves třetí konjugace tvoří také i-kmeny
+- vzory: _leg-ō, leg-e-re; capiō, cap-e-re_
+## Prézens
+- infinitiv prézentu aktiva: _-e-re_
+- infinitiv prézentu pasiva: _-ī_
+- imperativ: sg. _-e_, pl. _-ite_
+### Konjugace indikativu prézentu
+**Aktivum**
+
+<table class="note-table">
+    <thead>
+        <tr>
+            <th class="center">
+
+Persona
+            </th>
+            <th>
+
+Sg.
+            </th>
+            <th>
+
+Pl.
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="center">
+
+1
+            </td>
+            <td class="it">
+
+leg-ō
+            </td>
+            <td class="it">
+
+leg-**i**-mus
+            </td>
+        </tr>
+        <tr>
+            <td class="center">
+
+2
+            </td>
+            <td class="it">
+
+leg-**i**-s
+            </td>
+            <td class="it">
+
+leg-**i**-tis
+            </td>
+        </tr>
+        <tr>
+            <td class="center">
+
+3
+            </td>
+            <td class="it">
+
+leg-**i**-t
+            </td>
+            <td class="it">
+
+leg-**u**-nt
+            </td>  
+        </tr>
+    </tbody>
+    <caption>
+
+Konjugace indikativu prézentu aktiva 3. slovesné třídy
+    </caption>
+</table>
+
+**Pasivum**
+
+<table class="note-table">
+    <thead>
+        <tr>
+            <th class="center">
+
+Persona
+            </th>
+            <th>
+
+Sg.
+            </th>
+            <th>
+
+Pl.
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="center">
+
+1
+            </td>
+            <td class="it">
+
+leg-o-r
+            </td>
+            <td class="it">
+
+leg-**i**-mur
+            </td>
+        </tr>
+        <tr>
+            <td class="center">
+
+2
+            </td>
+            <td class="it">
+
+leg-**e**-ris
+            </td>
+            <td class="it">
+
+leg-**i**-minī
+            </td>
+        </tr>
+        <tr>
+            <td class="center">
+
+3
+            </td>
+            <td class="it">
+
+leg-**i**-tur
+            </td>
+            <td class="it">
+
+leg-**u**-ntur
+            </td>  
+        </tr>
+    </tbody>
+    <caption>
+
+Konjugace indikativu prézentu pasiva 3. slovesné třídy
+    </caption>
+</table>
+
+### Konjugace indikativu prézentu i-kmenů
+**Aktivum**
+
+<table class="note-table">
+    <thead>
+        <tr>
+            <th class="center">
+
+Persona
+            </th>
+            <th>
+
+Sg.
+            </th>
+            <th>
+
+Pl.
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="center">
+
+1
+            </td>
+            <td class="it">
+
+cap-**i**-ō
+            </td>
+            <td class="it">
+
+cap-**i**-mus
+            </td>
+        </tr>
+        <tr>
+            <td class="center">
+
+2
+            </td>
+            <td class="it">
+
+cap-**i**-s
+            </td>
+            <td class="it">
+
+cap-**i**-tis
+            </td>
+        </tr>
+        <tr>
+            <td class="center">
+
+3
+            </td>
+            <td class="it">
+
+cap-**i**-t
+            </td>
+            <td class="it">
+
+cap-**i**-**u**-nt
+            </td>  
+        </tr>
+    </tbody>
+    <caption>
+
+Konjugace indikativu prézentu aktiva i-kmenů 3. slovesné třídy
+    </caption>
+</table>
+
+**Pasivum**
+
+<table class="note-table">
+    <thead>
+        <tr>
+            <th class="center">
+
+Persona
+            </th>
+            <th>
+
+Sg.
+            </th>
+            <th>
+
+Pl.
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="center">
+
+1
+            </td>
+            <td class="it">
+
+-o-r
+            </td>
+            <td class="it">
+
+-mur
+            </td>
+        </tr>
+        <tr>
+            <td class="center">
+
+2
+            </td>
+            <td class="it">
+
+-ris
+            </td>
+            <td class="it">
+
+-minī
+            </td>
+        </tr>
+        <tr>
+            <td class="center">
+
+3
+            </td>
+            <td class="it">
+
+-tur
+            </td>
+            <td class="it">
+
+-ntur
+            </td>  
+        </tr>
+    </tbody>
+    <caption>
+
+Konjugace indikativu prézentu pasiva i-kmenů 3. slovesné třídy
+    </caption>
+</table>
+
+## Imperfektum
+- tvorba imperfekta: prézentní kmen + formant **_-ba-_** + osobní přípona prézentu
+### Konjugace indikativu imperfekta
+**Aktivum**
+
+<table class="note-table">
+    <thead>
+        <tr>
+            <th class="center">
+
+Persona
+            </th>
+            <th>
+
+Sg.
+            </th>
+            <th>
+
+Pl.
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="center">
+
+1
+            </td>
+            <td class="it">
+
+-**ēba**-m
+            </td>
+            <td class="it">
+
+-**ēbā**-mus
+            </td>
+        </tr>
+        <tr>
+            <td class="center">
+
+2
+            </td>
+            <td class="it">
+
+-**ēbā**-s
+            </td>
+            <td class="it">
+
+-**ēbā**-tis
+            </td>
+        </tr>
+        <tr>
+            <td class="center">
+
+3
+            </td>
+            <td class="it">
+
+-**ēba**-t
+            </td>
+            <td class="it">
+
+-**ēba**-nt
+            </td>  
+        </tr>
+    </tbody>
+    <caption>
+
+Konjugace indikativu imperfekta aktiva 3. slovesné třídy
+    </caption>
+</table>
+
+**Pasivum**
+
+<table class="note-table">
+    <thead>
+        <tr>
+            <th class="center">
+
+Persona
+            </th>
+            <th>
+
+Sg.
+            </th>
+            <th>
+
+Pl.
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="center">
+
+1
+            </td>
+            <td class="it">
+
+-**ēba**-r
+            </td>
+            <td class="it">
+
+-**ēbā**-mur
+            </td>
+        </tr>
+        <tr>
+            <td class="center">
+
+2
+            </td>
+            <td class="it">
+
+-**ēbā**-ris
+            </td>
+            <td class="it">
+
+-**ēbā**-minī
+            </td>
+        </tr>
+        <tr>
+            <td class="center">
+
+3
+            </td>
+            <td class="it">
+
+-**ēbā**-tur
+            </td>
+            <td class="it">
+
+-**ēba**-ntur
+            </td>  
+        </tr>
+    </tbody>
+    <caption>
+
+Konjugace indikativu imperfekta pasiva 3. slovesné třídy
+    </caption>
+</table>
+
+### Konjugace indikativu imperfekta i-kmenů
+**Aktivum**
+
+<table class="note-table">
+    <thead>
+        <tr>
+            <th class="center">
+
+Persona
+            </th>
+            <th>
+
+Sg.
+            </th>
+            <th>
+
+Pl.
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="center">
+
+1
+            </td>
+            <td class="it">
+
+-**ēba**-m
+            </td>
+            <td class="it">
+
+-**ēbā**-mus
+            </td>
+        </tr>
+        <tr>
+            <td class="center">
+
+2
+            </td>
+            <td class="it">
+
+-**ēbā**-s
+            </td>
+            <td class="it">
+
+-**ēbā**-tis
+            </td>
+        </tr>
+        <tr>
+            <td class="center">
+
+3
+            </td>
+            <td class="it">
+
+-**ēba**-t
+            </td>
+            <td class="it">
+
+-**ēba**-nt
+            </td>  
+        </tr>
+    </tbody>
+    <caption>
+
+Konjugace indikativu imperfekta aktiva i-kmenů 3. slovesné třídy
+    </caption>
+</table>
+
+**Pasivum**
+
+<table class="note-table">
+    <thead>
+        <tr>
+            <th class="center">
+
+Persona
+            </th>
+            <th>
+
+Sg.
+            </th>
+            <th>
+
+Pl.
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="center">
+
+1
+            </td>
+            <td class="it">
+
+-**ēba**-r
+            </td>
+            <td class="it">
+
+-**ēbā**-mur
+            </td>
+        </tr>
+        <tr>
+            <td class="center">
+
+2
+            </td>
+            <td class="it">
+
+-**ēbā**-ris
+            </td>
+            <td class="it">
+
+-**ēbā**-minī
+            </td>
+        </tr>
+        <tr>
+            <td class="center">
+
+3
+            </td>
+            <td class="it">
+
+-**ēbā**-tur
+            </td>
+            <td class="it">
+
+-**ēba**-ntur
+            </td>  
+        </tr>
+    </tbody>
+    <caption>
+
+Konjugace indikativu imperfekta pasiva i-kmenů 3. slovesné třídy
+    </caption>
+</table>
+
+## Futurum
+- tvorba futura: prézentní kmen + formant **_-b-_** + osobní přípona prézentu
+### Konjugace indikativu futura I
+**Aktivum**
+
+<table class="note-table">
+    <thead>
+        <tr>
+            <th class="center">
+
+Persona
+            </th>
+            <th>
+
+Sg.
+            </th>
+            <th>
+
+Pl.
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="center">
+
+1
+            </td>
+            <td class="it">
+
+-**b**-ō
+            </td>
+            <td class="it">
+
+**b**-imus
+            </td>
+        </tr>
+        <tr>
+            <td class="center">
+
+2
+            </td>
+            <td class="it">
+
+-**b**-is
+            </td>
+            <td class="it">
+
+-**b**-itis
+            </td>
+        </tr>
+        <tr>
+            <td class="center">
+
+3
+            </td>
+            <td class="it">
+
+-**b**-it
+            </td>
+            <td class="it">
+
+-**b**-unt
+            </td>  
+        </tr>
+    </tbody>
+    <caption>
+
+Konjugace indikativu prézentu aktiva 3. slovesné třídy
+    </caption>
+</table>
+
+**Pasivum**
+
+<table class="note-table">
+    <thead>
+        <tr>
+            <th class="center">
+
+Persona
+            </th>
+            <th>
+
+Sg.
+            </th>
+            <th>
+
+Pl.
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="center">
+
+1
+            </td>
+            <td class="it">
+
+-**b**-or
+            </td>
+            <td class="it">
+
+-**b**-imur
+            </td>
+        </tr>
+        <tr>
+            <td class="center">
+
+2
+            </td>
+            <td class="it">
+
+-**b**-eris
+            </td>
+            <td class="it">
+
+-**b**-iminī
+            </td>
+        </tr>
+        <tr>
+            <td class="center">
+
+3
+            </td>
+            <td class="it">
+
+-**b**-itur
+            </td>
+            <td class="it">
+
+-**b**-untur
+            </td>  
+        </tr>
+    </tbody>
+    <caption>
+
+Konjugace indikativu prézentu pasiva 3. slovesné třídy
+    </caption>
+</table>
+
+### Konjugace indikativu futura I i-kmenů
+**Aktivum**
+
+<table class="note-table">
+    <thead>
+        <tr>
+            <th class="center">
+
+Persona
+            </th>
+            <th>
+
+Sg.
+            </th>
+            <th>
+
+Pl.
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="center">
+
+1
+            </td>
+            <td class="it">
+
+-**b**-ō
+            </td>
+            <td class="it">
+
+**b**-imus
+            </td>
+        </tr>
+        <tr>
+            <td class="center">
+
+2
+            </td>
+            <td class="it">
+
+-**b**-is
+            </td>
+            <td class="it">
+
+-**b**-itis
+            </td>
+        </tr>
+        <tr>
+            <td class="center">
+
+3
+            </td>
+            <td class="it">
+
+-**b**-it
+            </td>
+            <td class="it">
+
+-**b**-unt
+            </td>  
+        </tr>
+    </tbody>
+    <caption>
+
+Konjugace indikativu prézentu aktiva i-kmenů 3. slovesné třídy
+    </caption>
+</table>
+
+**Pasivum**
+
+<table class="note-table">
+    <thead>
+        <tr>
+            <th class="center">
+
+Persona
+            </th>
+            <th>
+
+Sg.
+            </th>
+            <th>
+
+Pl.
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="center">
+
+1
+            </td>
+            <td class="it">
+
+-**b**-or
+            </td>
+            <td class="it">
+
+-**b**-imur
+            </td>
+        </tr>
+        <tr>
+            <td class="center">
+
+2
+            </td>
+            <td class="it">
+
+-**b**-eris
+            </td>
+            <td class="it">
+
+-**b**-iminī
+            </td>
+        </tr>
+        <tr>
+            <td class="center">
+
+3
+            </td>
+            <td class="it">
+
+-**b**-itur
+            </td>
+            <td class="it">
+
+-**b**-untur
+            </td>  
+        </tr>
+    </tbody>
+    <caption>
+
+Konjugace indikativu prézentu pasiva i-kmenů 3. slovesné třídy
     </caption>
 </table>
