@@ -16,6 +16,7 @@ TODO
 - [PRAEMVNITIO](/notes/research/latin/praemunitio/)
 - [NVMERALIA](/notes/research/latin/numeralia)
 - [VERBA LATINA](/notes/research/latin/verba)
+- [NOMINA LATINA](/notes/research/latin/nomina)
 
     </section>
 </div>
