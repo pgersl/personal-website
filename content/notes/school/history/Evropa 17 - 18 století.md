@@ -10,9 +10,14 @@ pm: true
 - _Karel I._ - neshodoval se s parlamentem
     - _problém Irska a Skotska_
         - snažil se o jejich připojení
+        - nepodařilo se mu to kvůli katolíkům
 - 1640
     - _krátký parlament_ - 1640
+        - založil ho pro schválení daňových zákonů
+        - neměl prostředky po probléech se Skotskem a Irskem
+        - rozpustil ho
     - _dlouhý parlament_ - 1640 - 1653
+        - vznikl potom, co král musel přistoupit na podmínky starého parlamentu
 ## Parlament
 - _presbyteriáni_
     - chtěli konstituční monarchii
@@ -36,16 +41,19 @@ pm: true
 - Skotové vydali Karla I. parlamentu
 - Karel I. byl popraven
 - Cromwell se chopil moci
-## Cromwell
+## Oliver Cromwell
 - opíral se o armádu a independenty
 - 1653 - rozehnal parlament
 - zavedl diktatura - _lord protektor_
 - prosadil náboženskou toleranci, ale v politice byli jen protestanti
 - navigační akta
+    - obchod s koloniemi pouze pro britské lodě
+    - nejvíc se dotklo Nizozemska
+        - vyhlásili válku a prohráli
 - parlament složil podle vlastních představ
 - tvrdě postupoval proti irsku
     - kolonizoval ho a okupoval
-- v roce 1658 odstoupil
+- v roce 1658 zemřel a jeho syn odstoupil
 ## Po revoluci
 - Stuartovci se vrátili na trůn - _Karel II._
 - slíbil ponechat majetkové změny z revoluce
@@ -68,6 +76,7 @@ pm: true
     - v čele první ministr
         - od roku 1661 panovník
 - _merkantilismus_
+    - podpora lokálního průmylsu a pouze exportu
 - posilování moci v koloniích
 - _dvůr_
 - zvyšují se rozdíly ve společnosti
@@ -79,17 +88,26 @@ pm: true
     - země byla katolická
 - třicetiletá válka
 - _galikanismus_
+    - církevní sněmy mají větší moc než papež
 ## Ludvík XIV.
 - 1643 - 1715
 - ministrem byl Jules Mazarin
-    - fronda
+    - vládl nejdřív místo Ludvíka XIV. 
+        - potlačil povstání proti němu
     - _Vestfálský mír_
+        - mírová smlouva ukončující třicetiletou válku
     - finanční problémy
 - král sám předsedal vládě
 - Francie se stává nejvýznamnější světovou velmocí
 - expanze do Nizozemí
 - Versailles
+- zrušil edikt Nantský
+    - nedošlo k náboženským válkám
+    - nemělo to žádný velký efekt
 ### Války o Španělské dědictví
+- Habsburkové bojovali o Španělsko
+- prohráli
+- na trůn usedl trůn Bourbonů, ale nesměli se podle smlouvy spojit s Francií
 # Rusko
 ## Petr I.
 - vedl války
@@ -127,9 +145,9 @@ pm: true
 # Polsko
 - postupný úpadek
     - upadá obchod
-    - roste moc šlchty
+    - roste moc šlechty
     - války
-    - na trůně byl sašský kurfiřt
+    - na trůně byl saský kurfiřt
     - náboženská netolerance
     - ekonomika v rozkladu
     - tuhé nevolnictví
@@ -157,10 +175,12 @@ pm: true
 - příliš velké změny se nestaly
     - Prusko se stáhlo ze Saska
 - Habsburkové a Rusové se ubránili
+### Kolonie
+- Francie přišla o většinu kolonií v Americe Španěly a Brity
 ## Po válce
 - 1763 - uzavření mírové smlouvy v Paříži
 - obrovské finanční vytížení a lidské ztráty ze všech stran
-- zmenšení vlivu Francie a Španělska v koloniích
+- zmenšení vlivu Francie v koloniích
 - důkaz obrovské převahy Británie
     - zisky v Severní Americe
     - výhry v Indii
@@ -193,7 +213,7 @@ pm: true
     - rozhoduje o nich britský parlament
 ### Bostonské pití čaje
 - prosinec 1773
-- kolonisté převlečení za indiány naházeli čas z lodí do vody
+- kolonisté převlečení za indiány naházeli čaj z lodí do vody
 ## Válka za nezávislost
 - 1774 - 1. kongres ve Filadelfii
     - bojkot na britské zboží
@@ -202,9 +222,9 @@ pm: true
     - boj za nezávislost
     - kontinentální armáda
         - pod vedením George Washingtona
-- 4. července 1776 - prohlášení o nezávisloti a unii
+- 4. července 1776 - _Deklarace nezávislosti_ a prohlášení unie
     - vzniká USA
-    - vítězství ve válce díky podpoe Francie, Španělska a Nizozemí
+    - vítězství ve válce díky podpoře Francie, Španělska a Nizozemí
 - články konfederace
     - volná unie
     - demokratické principy
@@ -238,9 +258,9 @@ pm: true
 ## Města
 - rychlý rozvoj
 - rozvoj průmyslu
-- roste životní úrove%n
+- roste životní úroveň
 - stěhování do měst
-- růst některých větších měat
+- růst některých větších měst
 - hierarchie
     - zámožní obyvatelé
     - řemeslnící
@@ -250,7 +270,7 @@ pm: true
 - _moravský Manchaster_
 - rozmach textilního průmyslu
 - intelektuální rozvoj
-    - včtenářské spolky, vědecký výzkum, divadla, zednáři
+    - čtenářské spolky, vědecký výzkum, divadla, zednáři
 - německé město
 - náboženská tolerance
 # Francie před revolucí
@@ -258,7 +278,7 @@ pm: true
 - neplatí daně
 - ovláda většinu úřadů
 - šlechtic buď narozením nebo úřadem
-- ve Francii příloiš nepodniká, ale žije nákladně a chudne
+- ve Francii příliš nepodniká, ale žije nákladně a chudne
 - _buržoazie_
     - bohatá vrstva
     - chtěji dosáhnout šlechtického postavení
@@ -268,7 +288,7 @@ pm: true
 - král vystupuje jako zástupce Boha
 - častý prodej ministerských úřadů
 - velký vliv vysoké šlechty a duchovenstva
-- obrovské rozdíly vdaňovém zatížení
+- obrovské rozdíly v daňovém zatížení
 - růst obyvatelstva
 - **Snaha o reformy**
     - zadlužené království po sedmileté válce
@@ -281,7 +301,7 @@ pm: true
 - rostou ceny
 - neúroda
 - Ludvík XVI. měl probémy se šlechtou a členy vlastního rodu
-- obyvatelstvo časot samo debatuje
+- obyvatelstvo často samo debatuje
 - vážnost monarchie klesá
 - skandály královny
 - společnost si všímá rozmarného života aristokratů
