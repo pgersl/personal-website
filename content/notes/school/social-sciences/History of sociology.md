@@ -255,3 +255,70 @@ Komunismus
 Koncepce společenské smlouvy
     </caption>
 </table>
+
+# Sociologie jako věda
+## Sociálně-filosofická sociologie
+- začína v období francouzské revoluce a pokračuje dál v první polovině 19. století 
+### August Comte
+- 1798 - 1857, Francie
+- je to jeden ze zakladatelů _pozitivismu_
+    - je to přesvědčení, že všechno lze vysvětlit vědecky a racionálně
+- snažil se o exaktní popis společnosti - _sociální fyzika_
+- klasifikoval nově vědy, nejvýš postavil sociologii
+### Herbert Spencer
+- 1820 - 1903, Anglie
+- hleděl na sociologii z biologického hlediska
+- aplikoval darwinistickou teorii přirozeného výběru
+- navazuje na Aristotelův organicismus
+### Karl Marx
+- 1818 - 1883, Německo
+- vytvořil ekonomické základy společneských vztahů
+- _teorie konfliktu_
+    - člověk je přirozeně konfliktní
+#### Třídní a beztřídní společnosti
+- **prvotně-pospolní společnost**
+    - je to společnost zcela bez tříd
+    - nic nikomu přesně nepatří
+    - výrobním prostředkem je příroda
+- **otrocká sppolečnost**
+    - je to společnost s jadně definovanou třídou utlačovatelů a utlačovaných
+    - výrobním prostředkem jsou lidé (otroci)
+- **feudální společnost**
+    - je to společnost s jadně definovanými třídami prostého lidu a šlechty
+    - výrobním prostředkem je půda a lidé na ní
+- **kapitalistická společnost**
+    - je to společnost se třídami buržoázie (vlastníky) a proletariátu (pracovníku)
+    - výrobním prostředkem je _kapitál_
+        - jsou to prostředky, které pomáhají tvořit další prostředky
+- **socialistická společnost**
+    - je to společnost, ve které je hierarchie kapitalistické společnosti opačná
+    - výrobním prostředkem je stále kapitál
+- **komunistická společnost**
+    - je to beztřídní společnost
+    - všichni pracují a všichni vlastní jeden společný majetek
+    - všichni jsou si rovni
+## Klasická sociologie
+### Emil Durkheim
+- považuje sociologii jako vědu o sociálních jevech
+    - dějí se nezávisle na nás a ovlivňují nás
+- _kolektivní vědomí_
+    - je to jev vytvořený lidmi, kterému se ale sami podřizují
+- _teorie konsensu_
+    - zákládá se na tom, že člověk je automaticky solidární
+    - _pocit anomie_ - pocit v momentě, kdy člověk nemůže být solidární
+- fenomén _sebevraždy_
+    - _anomická sebevražda_
+        - společnost mi vadí, nedokážu s nimi být solidární
+    - _altruistická sebevražda_
+        - musím obětovat můj život pro dobro společnosti
+    - _egoistická sebevražda_
+        - společnost mi ubližuje, musím ji pro výčitky šokovat
+### Max Weber
+- považuje sociologii jako vědu o sociálním jednání
+    - společnost ovlivňuej sociální jevy
+- _teorie ideálního typu_
+    - _tradiční_
+    - _racionálně-hodnotové_
+    - _racionálně-účelové_
+    - _emotivní_
+### Wilfredo Pareto

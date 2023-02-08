@@ -20,3 +20,4 @@ pm: true
 - [Klasicistní literatura](/notes/school/czech/literature/literary-history/literature-of-the-classical-era)
 - [Romantická literatura](/notes/school/czech/literature/literary-history/literature-of-the-romantic-period)
 - [Literatura národního obrození](/notes/school/czech/literature/literary-history/national-awakening)
+- [Literatura realismu](/notes/school/czech/literature/literary-history/literature-of-the-realist-period)
