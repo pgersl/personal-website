@@ -305,7 +305,8 @@ hr {
     background-color: var(--dark-grey);
     border: none;
 }
-#navbar hr {    margin: 0;
+#navbar hr {    
+    margin: 0;
     height: 2px;
 }
 #footer hr {

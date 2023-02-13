@@ -527,3 +527,121 @@ abl.
 Přehled plurálních koncovek latinských deklinací
     </caption>
 </table>
+
+# DECLINATIO PRIMA
+- zahrnuje substantiva s kmenovým vokálem _-ā-_
+- v nominativu bývají zakončena na _-a_
+- jejich genitivní koncovka je vždy **_-ae_**
+- rodem se jedná primárně o feminina
+    - skupina obsahuje i maskulina a t nejčastěji se jedná o jména můžských bytostí (_agricola, poēta_), národů (_Scytha_) a zeměpisných názvů (_Garunna_)
+
+## Vzor _fēmina_
+
+<table class="note-table">
+    <thead>
+        <tr>
+            <th>
+
+Pád
+            </th>
+            <th>
+
+Sg.
+            </th>
+            <th>
+
+Pl.
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>
+
+nom.
+            </th>
+            <td class="it">
+
+fēmin-**a**
+            </td>
+            <td class="it">
+
+fēmin-**ae**
+            </td>
+        </tr>
+        <tr>
+            <th>
+
+gen.
+            </th>
+            <td class="it">
+
+fēmin-**ae**
+            </td>
+            <td class="it">
+
+fēmin-**ārum**
+            </td>
+        </tr>
+        <tr>
+            <th>
+
+dat.
+            </th>
+            <td class="it">
+
+fēmin-**ae**
+            </td>
+            <td class="it">
+
+fēmin-**īs**
+            </td>
+        </tr>
+        <tr>
+            <th>
+
+akuz.
+            </th>
+            <td class="it">
+
+fēmin-**am**
+            </td>
+            <td class="it">
+
+fēmin-**ās**
+            </td>
+        </tr>
+        <tr>
+            <th>
+
+vok.
+            </th>
+            <td class="it">
+
+fēmin-**a**
+            </td>
+            <td class="it">
+
+fēmin-**ae**
+            </td>
+        </tr>
+        <tr>
+            <th>
+
+abl.
+            </th>
+            <td class="it">
+
+fēmin-**ā**
+            </td>
+            <td class="it">
+
+fēmin-**īs**
+            </td>
+        </tr>
+    </tbody>
+    <caption>
+
+Deklinace vzoru _fēmina_
+    </caption>
+</table>
