@@ -14,6 +14,7 @@ These are the notes I took preparing for the AP Cheistry exam (will write more a
 - [Intermolecular forces and properties](/notes/research/chemistry/ap-chemistry/intermolecular-forces-and-properties/)
 - [Chemical reactions](/notes/research/chemistry/ap-chemistry/chemical-reactions/)
 - [Kinetics](/notes/research/chemistry/ap-chemistry/kinetics/)
+- [Thermochemistry and reaction thermodynmics](/notes/research/chemistry/ap-chemistry/thermochemistry-and-reaction-thermodynamics/)
 
     </section>
 </div>
