@@ -533,7 +533,8 @@ Přehled plurálních koncovek latinských deklinací
 - v nominativu bývají zakončena na _-a_
 - jejich genitivní koncovka je vždy **_-ae_**
 - rodem se jedná primárně o feminina
-    - skupina obsahuje i maskulina a t nejčastěji se jedná o jména můžských bytostí (_agricola, poēta_), národů (_Scytha_) a zeměpisných názvů (_Garunna_)
+    - skupina obsahuje i maskulina
+        - nejčastěji se jedná o jména můžských bytostí (_agricola, poēta_), národů (_Scytha_) a zeměpisných názvů (_Garunna_)
 
 ## Vzor _fēmina_
 
@@ -645,3 +646,922 @@ fēmin-**īs**
 Deklinace vzoru _fēmina_
     </caption>
 </table>
+
+# DECLINATIO SECONDA
+- zahrnuje substantiva s kmenovým vokálem _-o-_
+- v nominativu bývají zakončena na _-us, -er_ (přip. _-ir_) nebo _-um_
+- jejich genitivní koncovka je vždy _-ī_
+- rody jsou různé
+    - substantiva zakončena na _-us_ jsou většinou maskulina nebo feminina označující země, města, ostrovy a stromy
+    - substantiva zakončená na _-er_ jsou obvykle maskulina
+    - substantiva zakončená na _-um_ jsou primárně neutra a ženská jména
+## Vzor _dominus_
+
+<table class="note-table">
+    <thead>
+        <tr>
+            <th>
+
+Pád
+            </th>
+            <th>
+
+Sg.
+            </th>
+            <th>
+
+Pl.
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>
+
+nom.
+            </th>
+            <td class="it">
+
+domin-**us**
+            </td>
+            <td class="it">
+
+domin-**ī**
+            </td>
+        </tr>
+        <tr>
+            <th>
+
+gen.
+            </th>
+            <td class="it">
+
+domin-**ī**
+            </td>
+            <td class="it">
+
+domin-**ōrum**
+            </td>
+        </tr>
+        <tr>
+            <th>
+
+dat.
+            </th>
+            <td class="it">
+
+domin-**ō**
+            </td>
+            <td class="it">
+
+domin-**īs**
+            </td>
+        </tr>
+        <tr>
+            <th>
+
+akuz.
+            </th>
+            <td class="it">
+
+domin-**um**
+            </td>
+            <td class="it">
+
+domin-**ōs**
+            </td>
+        </tr>
+        <tr>
+            <th>
+
+vok.
+            </th>
+            <td class="it">
+
+domin-**e**
+            </td>
+            <td class="it">
+
+domin-**ī**
+            </td>
+        </tr>
+        <tr>
+            <th>
+
+abl.
+            </th>
+            <td class="it">
+
+domin-**ō**
+            </td>
+            <td class="it">
+
+domin-**īs**
+            </td>
+        </tr>
+    </tbody>
+    <caption>
+
+Deklinace vzoru dominus
+    </caption>
+</table>
+
+## Vzor _verbum_
+
+<table class="note-table">
+    <thead>
+        <tr>
+            <th>
+
+Pád
+            </th>
+            <th>
+
+Sg.
+            </th>
+            <th>
+
+Pl.
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>
+
+nom.
+            </th>
+            <td class="it">
+
+verb-**um**
+            </td>
+            <td class="it">
+
+verb-**a**
+            </td>
+        </tr>
+        <tr>
+            <th>
+
+gen.
+            </th>
+            <td class="it">
+
+verb-**ī**
+            </td>
+            <td class="it">
+
+verb-**ōrum**
+            </td>
+        </tr>
+        <tr>
+            <th>
+
+dat.
+            </th>
+            <td class="it">
+
+verb-**ō**
+            </td>
+            <td class="it">
+
+verb-**īs**
+            </td>
+        </tr>
+        <tr>
+            <th>
+
+akuz.
+            </th>
+            <td class="it">
+
+verb-**um**
+            </td>
+            <td class="it">
+
+verb-**a**
+            </td>
+        </tr>
+        <tr>
+            <th>
+
+vok.
+            </th>
+            <td class="it">
+
+verb-**um**
+            </td>
+            <td class="it">
+
+verb-**a**
+            </td>
+        </tr>
+        <tr>
+            <th>
+
+abl.
+            </th>
+            <td class="it">
+
+verb-**ō**
+            </td>
+            <td class="it">
+
+verb-**īs**
+            </td>
+        </tr>
+    </tbody>
+    <caption>
+
+Deklinace vzoru verbum
+    </caption>
+</table>
+
+## Vzor _puer_
+
+<table class="note-table">
+    <thead>
+        <tr>
+            <th>
+
+Pád
+            </th>
+            <th>
+
+Sg.
+            </th>
+            <th>
+
+Pl.
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>
+
+nom.
+            </th>
+            <td class="it">
+
+puer
+            </td>
+            <td class="it">
+
+puer-**ī**
+            </td>
+        </tr>
+        <tr>
+            <th>
+
+gen.
+            </th>
+            <td class="it">
+
+puer-**ī**
+            </td>
+            <td class="it">
+
+puer-**ōrum**
+            </td>
+        </tr>
+        <tr>
+            <th>
+
+dat.
+            </th>
+            <td class="it">
+
+puer-**ō**
+            </td>
+            <td class="it">
+
+puer-**īs**
+            </td>
+        </tr>
+        <tr>
+            <th>
+
+akuz.
+            </th>
+            <td class="it">
+
+puer-**um**
+            </td>
+            <td class="it">
+
+puer-**ōs**
+            </td>
+        </tr>
+        <tr>
+            <th>
+
+vok.
+            </th>
+            <td class="it">
+
+puer
+            </td>
+            <td class="it">
+
+puer-**ī**
+            </td>
+        </tr>
+        <tr>
+            <th>
+
+abl.
+            </th>
+            <td class="it">
+
+puer-**ō**
+            </td>
+            <td class="it">
+
+puer-**īs**
+            </td>
+        </tr>
+    </tbody>
+    <caption>
+
+Deklinace vzoru puer
+    </caption>
+</table>
+
+## Vzor _ager_
+
+<table class="note-table">
+    <thead>
+        <tr>
+            <th>
+
+Pád
+            </th>
+            <th>
+
+Sg.
+            </th>
+            <th>
+
+Pl.
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>
+
+nom.
+            </th>
+            <td class="it">
+
+ager
+            </td>
+            <td class="it">
+
+agr-**ī**
+            </td>
+        </tr>
+        <tr>
+            <th>
+
+gen.
+            </th>
+            <td class="it">
+
+agr-**ī**
+            </td>
+            <td class="it">
+
+agr-**ōrum**
+            </td>
+        </tr>
+        <tr>
+            <th>
+
+dat.
+            </th>
+            <td class="it">
+
+agr-**ō**
+            </td>
+            <td class="it">
+
+agr-**īs**
+            </td>
+        </tr>
+        <tr>
+            <th>
+
+akuz.
+            </th>
+            <td class="it">
+
+agr-**um**
+            </td>
+            <td class="it">
+
+agr-**ōs**
+            </td>
+        </tr>
+        <tr>
+            <th>
+
+vok.
+            </th>
+            <td class="it">
+
+ager
+            </td>
+            <td class="it">
+
+agr-**ī**
+            </td>
+        </tr>
+        <tr>
+            <th>
+
+abl.
+            </th>
+            <td class="it">
+
+agr-**ō**
+            </td>
+            <td class="it">
+
+agr-**īs**
+            </td>
+        </tr>
+    </tbody>
+    <caption>
+
+Deklinace vzoru ager
+    </caption>
+</table> 
+
+# DECLINATIO TERTIA
+- zahrnuje substantiva s konsonatickými kmeny a kmenovým vokálem _-i-_
+- v nominativu mají různá zakončení
+- jejich genitivní koncovka je _-is_
+- rody jsou různé a v jejich zakončeních nejsou rozdíly
+## Maskulina a feminina
+### Vzor _mīles_
+
+<table class="note-table">
+    <thead>
+        <tr>
+            <th>
+
+Pád
+            </th>
+            <th>
+
+Sg.
+            </th>
+            <th>
+
+Pl.
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>
+
+nom.
+            </th>
+            <td class="it">
+
+mīles
+            </td>
+            <td class="it">
+
+mīlit-**ēs**
+            </td>
+        </tr>
+        <tr>
+            <th>
+
+gen.
+            </th>
+            <td class="it">
+
+mīlit-**is**
+            </td>
+            <td class="it">
+
+mīlit-**um**
+            </td>
+        </tr>
+        <tr>
+            <th>
+
+dat.
+            </th>
+            <td class="it">
+
+mīlit-**ī**
+            </td>
+            <td class="it">
+
+mīlit-**ibus**
+            </td>
+        </tr>
+        <tr>
+            <th>
+
+akuz.
+            </th>
+            <td class="it">
+
+mīlit-**em**
+            </td>
+            <td class="it">
+
+mīlit-**ēs**
+            </td>
+        </tr>
+        <tr>
+            <th>
+
+vok.
+            </th>
+            <td class="it">
+
+mīles
+            </td>
+            <td class="it">
+
+mīlit-**ēs**
+            </td>
+        </tr>
+        <tr>
+            <th>
+
+abl.
+            </th>
+            <td class="it">
+
+mīlit-**e**
+            </td>
+            <td class="it">
+
+mīlit-**ibus**
+            </td>
+        </tr>
+    </tbody>
+    <caption>
+
+Deklinace vzoru milites
+    </caption>
+</table>
+
+### Vzor _civis_ (i-kmeny)
+- i-kmeny zahrnují:
+    - substantiva zakončená v nom. sg. na _-is_ nebo _-ēs_, mají-li v gen. stejný počet slabik
+    - substantiva, jejichžjmen je zakočen alespoň dvěma konsonanty (_gēns, -ntis_)
+        - neplatí pouze pro substantiva:
+            - _parēns, parentis_ (f. i m.)
+            - _pater, patris_ (m.)
+            - _māter, mātris_ (f.)
+            - _frāter, pāter_ (m.)
+
+<table class="note-table">
+    <thead>
+        <tr>
+            <th>
+
+Pád
+            </th>
+            <th>
+
+Sg.
+            </th>
+            <th>
+
+Pl.
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>
+
+nom.
+            </th>
+            <td class="it">
+
+cīv-**is**
+            </td>
+            <td class="it">
+
+cīv-**ēs**
+            </td>
+        </tr>
+        <tr>
+            <th>
+
+gen.
+            </th>
+            <td class="it">
+
+cīv-**is**
+            </td>
+            <td class="it">
+
+cīv-**ium**
+            </td>
+        </tr>
+        <tr>
+            <th>
+
+dat.
+            </th>
+            <td class="it">
+
+cīv-**\ī**
+            </td>
+            <td class="it">
+
+cīv-**ibus**
+            </td>
+        </tr>
+        <tr>
+            <th>
+
+akuz.
+            </th>
+            <td class="it">
+
+cīv-**em**
+            </td>
+            <td class="it">
+
+cīv-**ēs**
+            </td>
+        </tr>
+        <tr>
+            <th>
+
+vok.
+            </th>
+            <td class="it">
+
+cīv-**is**
+            </td>
+            <td class="it">
+
+cīv-**ēs**
+            </td>
+        </tr>
+        <tr>
+            <th>
+
+abl.
+            </th>
+            <td class="it">
+
+cīv-**e**
+            </td>
+            <td class="it">
+
+cīv-**ibus**
+            </td>
+        </tr>
+    </tbody>
+    <caption>
+
+Deklinace vzoru civis
+    </caption>
+</table>
+
+## Neutra
+### Vzor _carmen_
+
+<table class="note-table">
+    <thead>
+        <tr>
+            <th>
+
+Pád
+            </th>
+            <th>
+
+Sg.
+            </th>
+            <th>
+
+Pl.
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>
+
+nom.
+            </th>
+            <td class="it">
+
+carmen
+            </td>
+            <td class="it">
+
+carmin-**a**
+            </td>
+        </tr>
+        <tr>
+            <th>
+
+gen.
+            </th>
+            <td class="it">
+
+carmin-**is**
+            </td>
+            <td class="it">
+
+carmin-**um**
+            </td>
+        </tr>
+        <tr>
+            <th>
+
+dat.
+            </th>
+            <td class="it">
+
+carmin-**ī**
+            </td>
+            <td class="it">
+
+carmin-**ibus**
+            </td>
+        </tr>
+        <tr>
+            <th>
+
+akuz.
+            </th>
+            <td class="it">
+
+carmen
+            </td>
+            <td class="it">
+
+carmin-**a**
+            </td>
+        </tr>
+        <tr>
+            <th>
+
+vok.
+            </th>
+            <td class="it">
+
+carmen
+            </td>
+            <td class="it">
+
+carmin-**a**
+            </td>
+        </tr>
+        <tr>
+            <th>
+
+abl.
+            </th>
+            <td class="it">
+
+carmin-**e**
+            </td>
+            <td class="it">
+
+carmin-**ibus**
+            </td>
+        </tr>
+    </tbody>
+    <caption>
+
+Deklinace vzoru carmen
+    </caption>
+</table>
+
+### Vzor _mare_
+
+<table class="note-table">
+    <thead>
+        <tr>
+            <th>
+
+Pád
+            </th>
+            <th>
+
+Sg.
+            </th>
+            <th>
+
+Pl.
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>
+
+nom.
+            </th>
+            <td class="it">
+
+mare
+            </td>
+            <td class="it">
+
+mar-**ia**
+            </td>
+        </tr>
+        <tr>
+            <th>
+
+gen.
+            </th>
+            <td class="it">
+
+mar-**is**
+            </td>
+            <td class="it">
+
+mar-**ium**
+            </td>
+        </tr>
+        <tr>
+            <th>
+
+dat.
+            </th>
+            <td class="it">
+
+mar-**ī**
+            </td>
+            <td class="it">
+
+mar-**ibus**
+            </td>
+        </tr>
+        <tr>
+            <th>
+
+akuz.
+            </th>
+            <td class="it">
+
+mare
+            </td>
+            <td class="it">
+
+mar-**ia**
+            </td>
+        </tr>
+        <tr>
+            <th>
+
+vok.
+            </th>
+            <td class="it">
+
+mare
+            </td>
+            <td class="it">
+
+mar-**ia**
+            </td>
+        </tr>
+        <tr>
+            <th>
+
+abl.
+            </th>
+            <td class="it">
+
+mar-**ī**
+            </td>
+            <td class="it">
+
+mar-**ibus**
+            </td>
+        </tr>
+    </tbody>
+    <caption>
+
+Deklinace vzoru mare
+    </caption>
+</table>
+
+# ADIECTIVA
+## Adjektiva 1. a 2. deklinace
+- jsou trojvýchodná
+    - maskulina jsou zakončena na _-us_ a _-er_
+    - neutra jsou zakončena na _-um_
+    - feminina jsou zakončena na _-a_
+- maskulina a neutra se skloňují podle vzorů 2. deklinace a feminina podle vzoru 1. deklinace
