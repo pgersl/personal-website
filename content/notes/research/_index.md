@@ -11,7 +11,7 @@ These are the notes I took myself in my free time. Read more about them in the d
 
 - [Chemistry](/notes/research/chemistry/)
 - [Music](/notes/research/music/)
-- [English](#)
+- [English](/notes/research/english/)
 - [Latin](/notes/research/latin)
 
     </section>

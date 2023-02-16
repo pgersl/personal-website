@@ -1,0 +1,101 @@
+---
+title: "English"
+layout: single
+toc: true
+pm: true
+---
+# Introduction
+TODO
+# Notes
+- **Tenses**
+    - **_Present tense_**
+        - [Present continuous](/notes/research/english/present-continuous)
+        - [Present simple](/notes/research/english/present-simple)
+        - [Present simple and continuous](/notes/research/english/present-simple-and-continuous)
+    - **_Past tense_**
+        - [Past simple](/notes/research/english/past-simple)
+        - [Past continuous](/notes/research/english/past-continuous)
+        - [Past simple and past continuous](/notes/research/english/past-simple-and-past-continuous)
+        - [Present perfect](/notes/research/english/present-perfect)
+        - [Present perfect continuous](/notes/research/english/present-perfect-continuous)
+        - [Uses of present perfect and present perfect continuous](/notes/research/english/uses-of-present-perfect-and-present-perfect-continuous)
+        - [For and since](/notes/research/english/for-and-since)
+        - [Present perfect and past simple](/notes/research/english/present-perfect-and-past-simple)
+        - [Past perfect](/notes/research/english/past-perfect)
+        - [Past perfect and past simple](/notes/research/english/past-perfect-and-past-simple)
+        - [Have and have got](/notes/research/english/have-and-have-got)
+        - [Used to](/notes/research/english/used-to)
+    - **_Future tense_**
+        - [Present tenses for the future](/notes/research/english/present-tenses-for-the-future)
+        - [I'm going to](/notes/research/english/im-going-to)
+        - [Will and shall](/notes/research/english/will-and-shall)
+        - [Differences between I will and I'm going to](/notes/research/english/differences-between-i-will-and-im-going-to)
+        - [Future continuous and perfect](/notes/research/english/future-continuous-and-perfect)
+- **Modals**
+    - [Can, could and be able to](/notes/research/english/can-could-and-be-able-to)
+    - [Could do and could have done](/notes/research/english/could-do-and-could-have-done)
+    - [Must and can't](/notes/research/english/must-and-cant)
+    - [May and might](/notes/research/english/may-and-might)
+    - [Have to and must](/notes/research/english/have-to-and-must)
+    - [Must, mustn't and needn't](/notes/research/english/must-mustnt-and-neednt)
+    - [Should](/notes/research/english/should)
+    - [I'd better and it's time](/notes/research/english/id-better-and-its-time)
+    - [Would](/notes/research/english/would)
+    - [Requests, offers, permissions and invitations](/notes/research/english/requests,-offers,-permissions-and-invitations)
+- **Conditionals**
+    - [Conditionals](/notes/research/english/conditionals)
+    - [Wish](/notes/research/english/wish)
+- **[Passive](/notes/research/english/passive)**
+- **[Reported speech](/notes/research/english/reported-speech)**
+- **[Questions](/notes/research/english/questions)**
+    - [Auxiliary verbs](/notes/research/english/auxiliary-verbs)
+    - [Question tags](/notes/research/english/question-tags)
+- **[Verb composites](/notes/research/english/verb-composites)**
+    - [Gerundium clauses](/notes/research/english/gerundium-clauses)
+- **Articles and nouns**
+    - [Countable and uncountable](/notes/research/english/countable-and-uncountable)
+    - [Articles](/notes/research/english/articles)
+    - [Singular and plural](/notes/research/english/singular-and-plural)
+    - [Noun composites](/notes/research/english/noun-composites)
+    - [Ownership](/notes/research/english/ownership)
+- **Pronouns and determiners**
+    - [Reflexive pronouns](/notes/research/english/reflexive-pronouns)
+    - [Possesive pronouns](/notes/research/english/possesive-pronouns)
+    - [There and it](/notes/research/english/there-and-it)
+    - [Some and any](/notes/research/english/some-and-any)
+    - [No and none](/notes/research/english/no-and-none)
+    - [Quantifiers - much and little](/notes/research/english/quantifiers-much-and-little)
+    - [Quantifiers - all, most, no, none](/notes/research/english/quantifiers-all-most-no-none)
+    - [Determinors](/notes/research/english/determinors)
+    - [All, every, whole](/notes/research/english/all-every-whole)
+    - [Each and every](/notes/research/english/each-and-every)
+- **Relative clauses**
+    - **_Type 1 relative clauses_**
+        - [Relative clauses with who, that and which](/notes/research/english/relative-clauses-with-who-that-and-which)
+        - [Relative clauses with and without who, that, which](/notes/research/english/relative-clauses-with-and-without-who-that-which)
+        - [Relative clauses with whose, whom and where](/notes/research/english/relative-clauses-with-whose-whom-and-where)
+    - **_Type 2 relative clauses_**
+        - [Extra information clauses](/notes/research/english/extra-information-clauses)
+        - [Gerundium and past simple clauses](/notes/research/english/gerundium-and-past-simple-clauses)
+- **Adjectives and adverbs**
+    - [Adjectives ending in -ing and -ed](/notes/research/english/adjectives-ending-in-ing-and-ed)
+    - [More adjectives at once](/notes/research/english/more-adjectives-at-once)
+    - [Differences between adjectives and adverbs](/notes/research/english/differences-between-adjectives-and-adverbs)
+    - [So and such](/notes/research/english/so-and-such)
+    - [Enough and too](/notes/research/english/enough-and-too)
+    - [Quite, pretty, rather and fairly](/notes/research/english/quite-pretty-rather-and-fairly)
+    - [Comparative](/notes/research/english/comparative)
+    - [Superlative](/notes/research/english/superlative)
+    - [Word order](/notes/research/english/word-order)
+    - [Still, any more, yet, already](/notes/research/english/still-any-more-yet-already)
+    - [Even](/notes/research/english/even)
+- **Prepositions**
+    - [In, at, on](/notes/research/english/in-at-on)
+    - [To, at, in and into](/notes/research/english/to-at-in-and-into)
+    - [By](/notes/research/english/by)
+    - [Noun and preposition](/notes/research/english/noun-and-preposition)
+    - [Adjective and preposition](/notes/research/english/adjective-and-preposition)
+    - [Verb and preposition](/notes/research/english/verb-and-preposition)
+- **[Phrasal verbs](/notes/research/english/phrasal-verbs)**
+# Sources
+TODO
