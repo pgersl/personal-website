@@ -78,7 +78,7 @@ pm: true
 - povídky
 - romantické prvky
 - inspirace ukrajinským folklórem
-## Nikolajevič Tolstoj
+## Lev Nikolajevič Tolstoj
 - 1828 - 1910
 - pocházel ze šlechtického rodu
 - byl pedogogem a filosofem
@@ -171,5 +171,53 @@ pm: true
 - každý skončí groteskní katastrofou
 ## Émile Zola
 - 1840 - 1902
-- naturalismus
-
+- byl hlavních představitelům naturalismus
+- část dětství pobíval na venkově, ale později se vrátil do Paříže
+- do společnosti v Paříži se dostal díky svému příteli malíři Paulu Cézannemovi
+- pracoval v nakladatelství
+- zemřel na otravu oxidem uhelnatým náhodou ve spánku po ucpání komínu
+### Tereza Raquinová
+- román
+- je to tragický příběh ženy, která touží po změně v monotónním životě
+- spolu se svým milencem zavraždí manžela
+- výčitky svědomí a neutěšené prostředí je nakonec oba doženou ke společné sebevraždě
+### Rougon-Macquart
+- je to cyklus 20 románu, ve kterým studuje rodinu Rougon-Macquartových
+- podobá se Lidské komedii
+- prostřednictvím osudů členů této rodiny popisuje společnost konce 19. století
+- některé postavy se objevují ve více dílech a vyvíjejí se
+- **Břicho Paříže**
+    - odehrává se na velké pařížské tržnici
+    - mladý Florent uteče z galejí a tajně žije v Paříži
+    - stane se inspektorem tržnice
+    - jeho minulost se ale projeví a je odsouzen k vyhnanství
+- **Zabiják** a **Nana**
+    - jsou to volně na sebe navazující romány
+    - je o luxusní prostituce Naně, která svoje milence dožene až na dno společnosti a využívá je
+    - její syn poté umírá na neštovice a později na ně umíra i ona sama
+- **Germinal**
+    - je o boji francouzských horníků za lepší životní podmínky a o založení dělnického hnutí
+## Guy de Maupassant
+- 1850 - 1893
+- byl to spisovatel a novinář
+- pocházel z vyšších vrstev
+- jeho tvorba je ovlivněna silně nejen realismem, ale také naturalismem
+- část studií trávil na církevním internátu, odkud byl vyloučen
+- po prusko-francouzské válce pracoval jako úředníl, předtím studoval práva, ale ta nedostudoval
+- své dílo napsal v relativně krátké době
+    - jedná se primárně o povídky a jen několik románů
+### Kulička
+- povídka
+- je to podobenství francouzské společnosti
+- popisuje počestné a vážené občany, ze kterých se vyklubou sobci a pokrytci
+### Miláček
+- román
+- hlavním hrdinou je Georges Duroy, úředník
+- svoji kariéru vybuduje využíváním mocných a bohatých žen
+### Příběh jednoho života
+- román
+- je o dívce Janě, která je vychovávána v kláštěře
+- po sňatku se střetává s realitou
+### Petr a Jan
+- román
+- zachycuje ralitu mezi zcela odlišnými bratry
