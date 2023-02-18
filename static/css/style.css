@@ -48,6 +48,19 @@ body {
     color: var(--white);
     background: var(--red);
 }
+::-webkit-scrollbar {
+    width: 14px
+}
+::-webkit-scrollbar-track {
+    background: var(--black);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--grey);
+    border-radius: 7px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: var(--dark-grey);
+}
 
 /* Article */
 

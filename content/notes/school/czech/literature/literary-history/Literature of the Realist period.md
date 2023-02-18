@@ -45,10 +45,11 @@ pm: true
 - trpěl epilepsií
 ### Zločin a trest
 - román
-- Raskalniov zabije lichvářku Soňu
+- Raskalnikov zabije lichvářku Soňu
 - je pro svět zbytečný, ale obhajuje si to nedostatkem peněz
 - teorie společenského pokroku prostřednictvím "velkých lidí"
 ### Idiot
+- román
 - kníže Myškin je bezelstný a hodný, proto je to idiot
 ### Bratři Karamuzovi
 - otec má tři syny
@@ -76,8 +77,15 @@ pm: true
 - zemřel předčasně na depresi, vyčerpání a hlad
 ### Večery na samotě u Dikuňky
 - povídky
-- romantické prvky
+- romantické prvky (napětí, tajemnost)
 - inspirace ukrajinským folklórem
+### Petrohradské povídky
+- povídky z Petrohradu
+- romantické prvky
+### Mrtvé duše
+- satirický román
+- původně trilogie, napsán byl ale jen první díl
+- měl se podobat stukturně [Božské komedii](/notes/school/czech/literature/literary-history/literature-of-the-renaissance-era#božská-komedie)
 ## Lev Nikolajevič Tolstoj
 - 1828 - 1910
 - pocházel ze šlechtického rodu
@@ -146,7 +154,22 @@ pm: true
     - v každém zachycuje jistý společenský aspekt
     - jsou rozděleny na tři tematické celky: mravy, filosofie a analytika
     - nejvíce se proslavili 3
+- je insporována Božskou komedií
 - **Otec Goriot**
+    - otec Goriot má dvě dcery
+    - celý život se jim věnuje, živí je a dává jim peníze
+    - nakonec se obě provdají za šlechtice
+    - dcery se otci zcizí a stydí se za něj
+    - dcery nepříjdou za otcem ani na smrtelnou postel
+- **Ztracená iluze**
+    - basník Lucien hledá své místo ve světě, nechce se zaprodat
+    - jeho sestra se provdá za jeho přítele Darida
+    - po zbohatnutí je zhnusen společností a chce spáchat sebevraždu
+        - nakonec je zachráněn knězem Hexxerou
+- **Lesk a bída kurtizán**
+    - zobrazuje nespravedlivou společnosti s úplatky a známostmi
+    - _kurtizána_ je prostitka na spodině společnosti
+        - v tomto románu je jí Ester
 ## Gustave Flaubert
 - 1821 - 1880
 - tvořil v období přechodu mezi romantismem a realismem
@@ -158,8 +181,10 @@ pm: true
 ### Paní Bovaryová
 - román
 - podobá se Anně Karenině
-- žena je nevěrná svému muži, ale nepřizná to
-- pod nátlakem spáchá sebevraždu
+- Emma je nevěrná svému muži
+- zjistí, že její milenec ji má jen pro zábavu a ne z lásky
+- prožívá spoustu zklamání a vrací se zpět k manželovi
+- když hrozí, že všechno vyjde najevo spáchá sebevraždu
 ### Citová výchova
 - román
 - Fréderick je snílek, ale nic pro jejich dosažení nedělá
@@ -193,7 +218,10 @@ pm: true
     - jeho minulost se ale projeví a je odsouzen k vyhnanství
 - **Zabiják** a **Nana**
     - jsou to volně na sebe navazující romány
-    - je o luxusní prostituce Naně, která svoje milence dožene až na dno společnosti a využívá je
+    - **Zabiják** je o rodině dívky Gereaisi, kterou její manžel opouští
+    - nový manžel se zraní, příjde o práci a na nedlouho potom zemře
+    - **Nana** je o osudech Gereaisi
+    - stane se luxusní prostitutkou, která svoje milence dožene až na dno společnosti a využívá je
     - její syn poté umírá na neštovice a později na ně umíra i ona sama
 - **Germinal**
     - je o boji francouzských horníků za lepší životní podmínky a o založení dělnického hnutí
@@ -205,7 +233,7 @@ pm: true
 - část studií trávil na církevním internátu, odkud byl vyloučen
 - po prusko-francouzské válce pracoval jako úředníl, předtím studoval práva, ale ta nedostudoval
 - své dílo napsal v relativně krátké době
-    - jedná se primárně o povídky a jen několik románů
+    - jedná se primárně o povídky (ca. 300) a jen několik románů
 ### Kulička
 - povídka
 - je to podobenství francouzské společnosti
@@ -221,3 +249,81 @@ pm: true
 ### Petr a Jan
 - román
 - zachycuje ralitu mezi zcela odlišnými bratry
+# Anglie
+## Charles Dickens
+- píše ve stylu kritického romantismu
+- měl náročné dětství
+    - otec rodinu zadlužil a šel za t odo vězení
+    - od 12 let pracoval v továrně a živil rodinu
+    - stalo se to jeho ústředním tématem
+- od 15 let se věnoval psaní a novinářství
+    - psal humoristický seriál na pokračování pro noviny
+- později začal psát vlastní díla
+### Kronika Pickwickova klubu
+- humoristický román
+- vydělal si tím
+- skupina mužů si založí klub a pořádají výpravy na venkov
+- každá výprava končí katastrofou, klub nezvládá normální situace
+### Oliver Twist
+- román
+- Oliver vyrustá v sirotčinci
+- hladoví a za sa smělost žádosti o přidání jídla je potrestán
+- je vyslán na nucené práce, odkud uteče
+- bylo s ním tvrdě zacházeno
+- v Londýně se dostane do zločinecké bandy
+- ujme se ho potom laskavý pán, který zjistí, že má nějaké příbuzné a zdědí peníze
+### David Copperfield
+- román
+- chlapec zažil domácí násilí a tvrdé zacházení
+- odchází a hledá své uplatnění
+## Charlotte Brontëová
+- psala poezii ale nejvíce ji proslavila její próza
+- některá díla psala se svým bratrem
+### Jana Eyrová
+- román s autobiografickými prvky
+- Jana vyrůstá v sirotčinci, kde je s ní krutě zacházeno
+- v 18 odchází a pracuje jako vychovatelka u bohaté rodiny
+- v rodině se seznámí s otcem bez maminky
+## Emily Brontëová
+- objevuje se u ní prvky realismu i romantismu
+- vydávala pod pseudonymem
+### Na větrné hůrce
+- román
+- objevují se v něm motivy romantické (nenávist, msta, tajemno, nenaplněná láska) a realisitcké (psychologie postav, popis prostředí)
+# Norsko
+## Henrik Ibsen
+- byl to dramatik
+- psal moderní dramata
+- působyl jako politik a vyslanec
+- jeho hry byly populární už za jeho života
+- upouští od klasického dělení na komedie a tragédie
+### Nora
+- drama
+- často se uvádí pod jiným názvem (_Domov loutek, Dům pro panenky_)
+- naráží na rovnocenné postavení muže a ženy a manželství
+- Nořin manžel je bohatý, pracuje v bance
+- vyhodí jednoho zaměstnance, který pak Noru vydíra na základě zfalšovaného podpisu svého otce
+- Nora se nakonec přimluví, ale manžel odmítne
+- později přijde dopis o zfalšování
+- manžel zakáže Noře styk s dětmi, ale zůstane s ní, později ji chce vzít na milost
+- Nora od manžela ale sama odejde, protože nechce být mužskou loutkou
+# Polsko
+## Henryk Sienkiewicz
+- získal Nobelovu cenu za literaturu
+- psal historickou prózu na polské dějiny
+    - je částečně vlastenecká
+    - na křesťanské a antické motivy
+### Pouští a pralesem
+- dobrodružný román pro mládež
+- vypráví o unesených dětech, které pralesem utíkají a putují zpět
+### Trilogie Ohněm a mečem, Potopa, Pan Wolodiyjowski
+- romány
+- byla napsaná pro nesvobodné Poláky
+- postavy se prolínají
+- vypráví o bojích proti Ukrajině, Švédsku (třicetiletá válka) a Turkům
+### Quo vadis
+- román
+- odehrává se v Říme v době vlády císaře Nerona
+- po Římském požáru jsou pronásledováni křesťané
+- vystupují v něm i skutečné postavy
+- název pochází z křesťanského příběhu o apoštolovi Petrovi, který při odchodu z Říma potká Ježíše a ptá se se kam kráčí (_Quo vadis, domine?_)
