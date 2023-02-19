@@ -1,0 +1,118 @@
+---
+title: "Biologie 4 - Ploštěnci, hlísti, vířnici"
+layout: note
+toc: true
+pm: true
+---
+# Triblastika
+- probíhá u živočichů se třemi zárodečnými listy
+- od ploštěnců výš
+- mají odlišné typy tělních dutin
+    - **_Schizocoela_**
+        - ploštěnci a tasemnice
+        - pokožka - ektoderm, trávicí trubice - entoderm
+        - mezi nimi se tvoří _mezenchym_
+            - je tvořen buňkami, dutinami a tělní tektutinou
+                - _míza_
+        - nepravá druhotná tělní dutina je _schizocoel_
+    - **_Pseudocoel_**
+        - škrkavky
+        - ektoderm i endoderm vytvářejí trávicí trubici
+        - pod pokožkou je svalový vak
+        - mezi vakem a trávicí trubicí je míza
+        - nepravá druhotná tělní dutina je _pseudocoel_
+    - **_Coelomata_**
+        - měkkýši a vyšší živočichové
+        - mají ektoderm, endoderm i mezoderm
+            - z mezodermu pak vznikají orgány
+        - uprostřed váčku je pravá druhotná dutina tělní _coelom_
+    - dělí se do dvou skupin:
+        - _prvoústí_
+            - prvoústa vznikají chlípením ektodermu
+        - _druhoústí_
+            - prvoústa se mění na řitní otvor a vznikají na druhé straně zárodku
+- je pro ně typická dvoustranná souměrnost
+    - pohybují se primárně jedním směrem
+- vytvořila se u nich příď obsahující smyslové orgány a záď
+- mají různé další soustavy s různou specializací (gangliová nervová, průchodná trávicí, osmoregulační, exerkční, cévní, dýchací, lokomoční, skeletární)
+- systematicky se dělí na dvě řady
+## $\alpha$: Provústí (_Protostomia_)
+- jejich ústní otvor se vyvinul z blastoporu
+- mají odlišné typy tělních dutin
+    - **_Schizocoela_**
+        - ploštěnci a tasemnice
+        - pokožka - ektoderm, trávicí trubice - entoderm
+        - mezi nimi se tvoří _mezenchym_
+            - je tvořen buňkami, dutinami a tělní tektutinou
+                - _míza_
+        - nepravá druhotná tělní dutina je _schizocoel_
+    - **_Pseudocoel_**
+        - škrkavky
+        - ektoderm i endoderm vytvářejí trávicí trubici
+        - pod pokožkou je svalový vak
+        - mezi vakem a trávicí trubicí je míza
+        - nepravá druhotná tělní dutina je _pseudocoel_
+    - **_Coelomata_**
+        - měkkýši a vyšší živočichové
+        - mají ektoderm, endoderm i mezoderm
+            - z mezodermu pak vznikají orgány
+        - uprostřed váčku je pravá druhotná dutina tělní _coelom_
+        - dělí se na živočichy s tělem:
+            - _nečlánkovým_
+            - _článkvaným stejnocenně_
+            - _článkovaným nestejnocenně_
+## $\beta$: Druhústí (_Deuterostomia_)
+- během ontogeneze vzniká v blastoporu otvor řitní a otvor ústní se prolamuje druhotně na protilehlém konci těla
+# Ploštěnci (_Plathelminthes_) - schizocoel
+- mají zploštěná těla z hřbetní a břišní strany
+- vnitřní prostor vyplňuje řídká parenchymatická tkáň
+    - jsou v ní uloženy vnitřní orgány
+- typické jsou pro ně vylučovací orgány _protonefridie_
+- jejich základem jsou plaménkové buňky
+- jsou téměř vždy hermafroditi s nepřímým vývojem
+    - u parazitů prbíhá vývoj ve velmi složitých cyklech
+## Ploštěnky (_Turbellaria_)
+- žijí ve vodě nebo vlhké půdě
+- mají zploštěné tělo
+- jejich délka se pohybuje v rozmezí desetin mm do několika cm
+- na hřbetě mají hmatové buňky a párové oči
+- pokožka je pigmentována
+- pohyb je umožněn řasinkovým epitelem prostřednictvím svalů podkožního svalového vaku
+- živí se dravě
+- jejjich trávicí dutina má slepá ramena
+    - plní hlavně funkci trávení a rozvodu živin
+- příjmací otvor slouoží také k vyvrhování nestrávených zbytků
+- dýchyjí celým povrchem těla
+- mají vyvinuté vylučovací ústrojí tvořené pláménkovými buňkami
+    - hromadí se zde tělu škodlivé nebo nepotřebné ve vodě rozpustné látky
+    - vířivé brvy vyhánějí tyto látky ven z těla
+- nervová soustava má v přední části živočicha zauzliny, z nichž vedou nervy do smyslových orgánů
+- zpravidla jsou to hermafrodity
+    - nakladená vajíčka ve formě kokonů usazují na kameny ve vodě
+- sladkovodní ploštěnky mají přímý vývoj
+- mořské ploštěnky mají nepřímý vývoj
+- **Zástupci**
+    - _ploštěnka mléčná_
+        - žije v potocích pod kameny
+    - _ploštěnka potoční_
+        - má kopinatou příď
+    - _ploštěnka černá_
+        - má větší počet očí
+## Motolice
+- mají nečlánkováné tělo
+- parazitují primárně na obratlovcích
+- vývoj probíhá na bezobratlích
+- často střídají hostitele a mají složité vývojové cykly
+- některá smyslová ústrojí byla potlačena ve prospěch ochranných orgánů a vyvinutého pohlavního ústrojí
+- tvarově jsou velmi rozmanité
+- jejich jednovrstevnatá pokožka vylučuje kutikulu, která chrání před žaludečními šťávami
+- mají svalnatý hltan, kterým nasávají živiny hostitele
+- téměř celé tělo vyplňují pohlavní orgány
+    - varlata jsou párová, vaječníky nepárové
+    - jsou to hermafroditi
+    - spermie jim dozrávají dřív
+- **Zástupci**
+    - _motolice jaterní_
+        - cizopasí ve žlučových kanálcích ovcí pasených na podmáčených loukách
+        - její tělo je protáhle lupenovité
+        - na břišní straně v přední části má dvě přísavky, na té přední má ústní otvor 

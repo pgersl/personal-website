@@ -20,3 +20,4 @@ pm: true
 - **G6**
     - [Biologie 2](/notes/school/biology/bio2)
     - [Biologie 3](/notes/school/biology/bio3)
+    - [Biologie 4](/notes/school/biology/bio4)
