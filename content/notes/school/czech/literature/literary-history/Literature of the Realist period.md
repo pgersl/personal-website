@@ -86,6 +86,15 @@ pm: true
 - satirický román
 - původně trilogie, napsán byl ale jen první díl
 - měl se podobat stukturně [Božské komedii](/notes/school/czech/literature/literary-history/literature-of-the-renaissance-era#božská-komedie)
+### Revizor
+- satirické drama
+- 5 dějství
+- kritizuje úplatkářství, podvody a litskou hloupost
+- do městečka má přijít revizor a lidé se ho bojí, protože jejich městečko je ve špatném stavu
+- do městečka přichází Chlestakov, o němž si lidé myslí, že je to opravdový revizor
+- on je v tom nechá a lidé se o něj starají, všechno mu dávají
+- pochlubí se o tom svému příteli v dopise, ale provalí se to, Chlestakov potom odchází
+- po jeho odchodu přichází pravý revizor
 ## Lev Nikolajevič Tolstoj
 - 1828 - 1910
 - pocházel ze šlechtického rodu
