@@ -37,7 +37,7 @@ pm: true
 - byl proti carskému režimu a byl proto nějakou dobu v exilu
 - měl duševní problémy
     - bratrova smrt ho silně zasáhla
-- snažil se o nápravu psolečnosti
+- snažil se o nápravu společnosti
 - pocházel z bohatší rodiny
 - věnoval se literatuře v novinách
 - psal hlavně romány, novely a romány v dopisech
@@ -55,15 +55,15 @@ pm: true
 - otec má tři syny
     - jeden je nemanželský
     - ostatní jsou z různých manželství
-- nemanželský syn zabije svého otce a hodí to na nestaršího obratra
+- nemanželský syn zabije svého otce a hodí to na nejstaršího obratra
 ### Zápisky z mrtvého domu
 - autobiografický román
 - traumatické zážitky z vyhnanství na Sibiři
-- popis vězňu a jejich životů
+- popis vězňů a jejich životů
 ## Nikolaj Vasiljevič Gogol
 - narodil se na Ukrajině
 - je považován za zakladatele ruského realismu
-- po studiích se přial k herecké společnosti
+- po studiích se přidal k herecké společnosti
     - nebyl úspěšný
     - začal se zde věnovat psaní
 - přítel [Puškina](/notes/school/czech/literature/literary-history/literature-of-the-romantic-period#alexandr-serejevič-puškin)
@@ -89,9 +89,9 @@ pm: true
 ### Revizor
 - satirické drama
 - 5 dějství
-- kritizuje úplatkářství, podvody a litskou hloupost
+- kritizuje úplatkářství, podvody a lidskou hloupost
 - do městečka má přijít revizor a lidé se ho bojí, protože jejich městečko je ve špatném stavu
-- do městečka přichází Chlestakov, o němž si lidé myslí, že je to opravdový revizor
+- do městečka přichází Chlestakov, o němž si lidé myslí, že je opravdový revizor
 - on je v tom nechá a lidé se o něj starají, všechno mu dávají
 - pochlubí se o tom svému příteli v dopise, ale provalí se to, Chlestakov potom odchází
 - po jeho odchodu přichází pravý revizor
