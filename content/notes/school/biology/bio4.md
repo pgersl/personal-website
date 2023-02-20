@@ -82,7 +82,7 @@ pm: true
 - jejjich trávicí dutina má slepá ramena
     - plní hlavně funkci trávení a rozvodu živin
 - příjmací otvor slouoží také k vyvrhování nestrávených zbytků
-- dýchyjí celým povrchem těla
+- dýchají celým povrchem těla
 - mají vyvinuté vylučovací ústrojí tvořené pláménkovými buňkami
     - hromadí se zde tělu škodlivé nebo nepotřebné ve vodě rozpustné látky
     - vířivé brvy vyhánějí tyto látky ven z těla
@@ -91,14 +91,14 @@ pm: true
     - nakladená vajíčka ve formě kokonů usazují na kameny ve vodě
 - sladkovodní ploštěnky mají přímý vývoj
 - mořské ploštěnky mají nepřímý vývoj
-- **Zástupci**
-    - _ploštěnka mléčná_
-        - žije v potocích pod kameny
-    - _ploštěnka potoční_
-        - má kopinatou příď
-    - _ploštěnka černá_
-        - má větší počet očí
-## Motolice
+### Zástupci
+- **_ploštěnka mléčná_**
+    - žije v potocích pod kameny
+- **_ploštěnka potoční_**
+    - má kopinatou příď
+- **_ploštěnka černá_**
+    - má větší počet očí
+## Motolice (_Trematoda_)
 - mají nečlánkováné tělo
 - parazitují primárně na obratlovcích
 - vývoj probíhá na bezobratlích
@@ -107,12 +107,181 @@ pm: true
 - tvarově jsou velmi rozmanité
 - jejich jednovrstevnatá pokožka vylučuje kutikulu, která chrání před žaludečními šťávami
 - mají svalnatý hltan, kterým nasávají živiny hostitele
+    - pokračuje jícnem
+    - jícnem se potrava dostává do rozsáhlé gatrovaskulární sítě
+### Rozmnožování
 - téměř celé tělo vyplňují pohlavní orgány
-    - varlata jsou párová, vaječníky nepárové
-    - jsou to hermafroditi
-    - spermie jim dozrávají dřív
-- **Zástupci**
-    - _motolice jaterní_
-        - cizopasí ve žlučových kanálcích ovcí pasených na podmáčených loukách
-        - její tělo je protáhle lupenovité
-        - na břišní straně v přední části má dvě přísavky, na té přední má ústní otvor 
+- varlata jsou párová, vaječníky nepárové
+- jsou to protoerandričtí hermafroditi
+- spermie jim dozrávají dřív
+    - k oplození nemůže dojít vlastními spermiemi
+- oplozená vajíčka jsou vplavována spolu s výkaly žlučovodem ven
+    - ve vodě se mění na pohyblivou larvu - _miracidium_
+    - musí během jednoho dne proniknout do dutiny plže _bahnatky malé_
+    - v těle bahnatky se mění na vakovitou _sporocystu_
+    - rýhováním se přeměňuje na _redii_, uvnitř které se tvoří larvy s přísavkami - _cerkárie_
+    - cerkárie opuští tělo hostitele a zapouzdří se na zatopené trávě
+    - po usazení čekají larvy na konzumaci novým hostitelem
+    - motolice jsou obrovsky plodné, protože existuje velké riziko, že cyklus nebude dokončen
+### Zástupci
+- **_motolice jaterní_** (_fasciola hepatica_)
+    - cizopasí ve žlučových kanálcích ovcí pasených na podmáčených loukách
+    - její tělo je protáhle lupenovité
+    - na břišní straně v přední části má dvě přísavky, na té přední má ústní otvor
+    - způsobuje těžké trávicí poruchy, úhyn
+    - napadená zvířata jsou velmi málo užitková
+- **_krevnička močová_** (_schistosoma haematobium_)
+    - žije v oblastech pěstování rýže
+    - způsobuje nemoc _billhariózu_
+        - projevuje se těžkými záněty močového měchýře
+    - hrotitá samiččí vajíčka způsobují protrhání močových cest, krvácení a sekundární infekci
+    - jako jedna z mála motolic je pohlavně oddělena
+        - sameček má samišku permanentně umístěnou v břišní rýze a průběžně ji oplodňuje
+## Tasemnice (_Cestoda_)
+- jsou přizpůsobeni životu v těle hostitele
+- v dospělosti žijí ve střevech obratlovců
+- jejich larva (_onkosféra_) se dostává do krevního oběhu a do svalů, kde se přeměňuje na klidové stádium - _larvocysta_ (_boubel_)
+    - některé druhy se encystují (usazují) i na jiných místech v organismu nebo v tělech korýšů
+- plnohodnotný jedinec je tvořen i pouhou hlavičkou o velikosti špendlíku
+    - nazývá se _skolex_
+    - na jejím zúženém konci je věnec příchytných háčků - _rostelum_
+        - za ním jsou přísavky
+        - je charakteristický pro každý druh tasemnice
+    - za krčkem jsou ploché články, které se průběžně rozšiřují - _proglotoidy_
+- tělo tasemnice může dosáhnout délky i několika metrů
+- jednovrstevná pokožka vylučuje kutikulu, která tasemnici chrání před prostředím
+- pod pokožkou je svalový vak, který umožňuje pohyb tasemnice
+- zralé články se na konci těla odtrhují spolu s výkaly a opouštějí hostitele
+- mají anaerobní metabolismus
+- živiny přímají celým povrchem těla
+    - nemají trávicí trubici
+- vylučují protonefridiemi
+- po stranách těla mají podelné nervové pruhy
+- jsou to proterandričtí hermafroditi
+    - poslední články těla jsou vyplněny oplodněnými vajíčky
+### Zástupci
+- **_tasemnice dlouhočlenná_** (_taenia solium_)
+    - v dospělosti žije v tenkém střevě člověka
+    - byla běžná při chovu prasat
+    - po pozření proglotoidu se v praseti vylíhnou onkosfér, která pak ve svalech tvoří bělavé boubele
+    - při nedokonalé teplné úpravě se tasemnice dostala do lidského střeva a usadí se skolex
+    - s přechodem na vepřové velkochovy tento druh téměř vymizel
+- **_tasemnice bezbranná_** (_taeniarhynchus saginatus_)
+    - její hlavička není opatřena háčky
+    - mívá až 2000 článků a dosahuje délky až 10 metrů
+    - žije v tenkém střevě člověka
+    - do těla se dostává kozumací tepelně neupraveného hovězího masa z dobytka, který se pase na pastvinách hnojených fekáliemi ze septiků nebo kanalizace
+- **_měchožil zhoubný_** (_echinococcus granulosus_)
+    - jeho tělo dosahuje jen několika mm a je tvořeno čtyřmi články
+    - žije ve střevě šelem
+    - mezihostitelem je primárně srnčí zvěř, dobytek, ale také člověk
+    - onkosféra se usazuje v játrech a tvoří boubel (_echinokok_) asi o velikosti kedlubny s obrovským množstvím skolexů
+- **_škulovec široký_** (_diphyllobothrium latum_)
+    - jeho tělo přesahuje délku 10 metrů a má více než 4000 článků
+    - vyskytuje se v Pobaltí, Kanadě a Japonsku
+    - jeho vývoj začína v buchance a pokračuje přes rybu
+    - posledním hostelem je konzument ryb, včetně člověka
+    - jeho skolex obsahuje přísavné rytiny - _botridie_
+- **_řemenatka ptačí_** (_ligula intestinalis_)
+    - parazituje ve střeceh racků a volavek
+    - mezihostiteli jsou buchanky a ryby
+    - ryby jím napadené mají deformované břicho a v pokročilém stádiu
+# Pásnice (_Nemertini_) - schizocoel
+- jsou to draví vodní živočichové
+- jejich tělo je nečlánkvané, mírně shora zploštělé
+- má zřetelnou hlavovou část
+- pod jednovrstevnou pokožkou krytou řasinkovým epitelem je svalový vak
+- trávicí trubice prostupuje celým tělem
+- cévní soustava je uzavřená
+- dýchají celým povrchem těla
+- vylučují protonefridiemi
+    - obalují stěny cév
+- mají gangliovou nervovou soustavu
+- mořské pásnice jsou gonochoristé, sldkovodní hermafroditi
+## Zástupci
+- **_pásmovka veliká_** (_linneus longissimus_)
+    - je to nejdělší bezobratlý živočich
+    - dosahuje délky až 30 metrů
+- **_pásemnička sladkovodní_**
+    - žije ve Vltavě
+# Vířníci (_Rotatoria_) - pseudocoel
+- jsou součástí zooplanktonu rybníků a jezer
+- lze je získat z nálevů spolu s trepkami
+- jejich tělo se rozděluje na část hlavovou a tělovou
+- hlavová část obsahuje smyslové orgány (smyslová tykadla, pohárkovité oči a brvy)
+- tělová část je vakovitá krytá kutikulárním krunýřem
+- na povrchu tělové části je hojně horizontálně rýhaná noha
+- množí se partenogeneticky
+    - samičky kladou neoplozená vajíčka
+    - bez oplození samcem se vajíčka vyvinou v další samičky
+    - samci se objevují až na podzim
+- ve vodních nádržích je běžný _kruhýřenka obecná_
+# Hlístice (_Nematoda_) - pseudocoel
+- jsou evolučně velmi vyspělé
+- vytvářejí kutikulu, kterou periodicky svlékají a mohou tak snadno parazitovat
+    - svlékání se řídí hormonálně
+- tělem prostupuje trávicí trubice s ústním a řitním otvorem
+- pseudocoelní dutinu vyplňuje míza a produkty anaerobního dýchání
+- nemají dýchycí ani cévní soustavu
+- žijí ve vodním prostředí, vlhké půdě nebo paraziticky
+- ústa jsou obvykle vybavena kutikulárními zuby
+    - aktivně jimi narušují tkáně hostitele
+- za ústním otvorem je hltan pro nasávání živin
+- je pro ně typická pružnost a současně pevnost
+    - je to díky sloučeni pružnosti pseudocoelní dutiny vyplněné tekutinou a pevnou kutikulou
+- vylučují jednobuněčnými vylučovacími trubicemi
+- jednovrstevná pokožka vytváří soubuní vylučující kutikulu
+## Rozmnožování
+- jsou to gonochoristé s výtazným pohlavním dimorfismem
+- samečci jsou drobnější
+- u vyúštění samčího pohlavního ústrojí jsou dvě štětinky (_spikuly_), kterými se aktivně rozevíra rozmnožovací otvor samičky
+- samičí pohlavní orgány jsou párové
+- nadprodukují vajíčka
+    - jsou velmi lehká, dokážou být unášena i průvanem
+## Zástupci
+- **_škrkavka dětská_** (_ascaris lumbricoides_)
+    - cizopasí v tnkém střevě člověka
+        - ochuzuje ho o živiny a intoxikuje svými metabolity
+        - poškozuje kapilární síť a ucpává nebo i perforuje střeva
+    - způsobuje nemoc _ascardióza_
+        - jejími příznaky je zvracení, nechutenství a bolest hlavy
+    - oplodněné vajíčko putuje s výkaly ven z hostitele
+    - vajíčka potřebují strávit nějaký čas trávit na kyslíku
+    - infekcí se dostanou do těla, kde projdou skrze stěnu tenkého střeva a krví se dostanou do jater a později do plic
+        - zde podněcují ke kašly a po polknutí v hlenu a dostávají znovu do střeva, kde dospívají
+    - šíří se často mezi dětmi
+- **_háďátka_** (_rhabditoidea_)
+    - jsou volně žijící
+    - parazitují na na hospodářských rostlinách
+    - _háďátko řepné, háďátko pšeničné_
+- **_roup dětský_** (_enterobius vermicularis_)
+    - žije v tlustém střevě a konečníku dětí
+        - může žít i v dospělých, kteří pijí hodně mléka
+    - způsobuje nemoc _oxyurióza_
+        - projevuje se snadnou podráždivostí, vyčerpáním, svěděním a kopřivkami
+    - samičky kladou vajíčka do záhybů kůže v okolí řitního otvoru
+        - může jich být i 10000
+        - šíří se větrem, mouchami, ale hlavně špatně umytým ložním prádlem
+        - rozhodující význam má dodržování hygienických předpisů v řízeních s více dětmi
+- **_vlasovec mízní_** (_wuchereria bancrofti_)
+    - ucpávají mízní cévy
+    - městnající se lymfa způsobuje zbytnění postiženných částí těla
+        - zároveň způsobuje horečky a zimnice
+        - nemoc je _elefantióza_
+    - ve spojivkovém vaku žije _vlasovec oční_
+        - způsobuje oční záněty a nádory kůže
+- **_svalovec stočený_** (_trichinella spiralis_)
+    - vyskytuje se ve svalstvu potkanů
+    - z potkanů se může dostat do prasat nebo šelem
+    - do člověka se dostává požitím nakaženého vepřového masa
+    - rozrušuje svalová vlákna
+    - ve vzniklém váčku se obklopují pozdrem z vápenatých solí
+    - způsobují nemoc _trichinelózu_
+        - v první fázi (střevní) jsou symptomy: vysoké horečky, bolesti břicha, zvraení, ekzémy, kloubové bolesti, velká žízeň, otoky
+            - tato fáze je ještě léčitelná
+        - ve druhé fázi (svalové) nastávají řezavé svalové bolesti
+- **_srostlice trvalá_** (_syngamus trachea_)
+    - postihuje kurovité ptáky
+    - postižení ptáci frkají a rozšiřují v hlenu vajíčka
+    - její příbuzný druh parazituje na dýchacích cestách srnčí zvěře
+    - nemoc je _strongylóza_
