@@ -15,6 +15,7 @@ These are the notes I took preparing for the AP Cheistry exam (will write more a
 - [Chemical reactions](/notes/research/chemistry/ap-chemistry/chemical-reactions/)
 - [Kinetics](/notes/research/chemistry/ap-chemistry/kinetics/)
 - [Thermochemistry and reaction thermodynmics](/notes/research/chemistry/ap-chemistry/thermochemistry-and-reaction-thermodynamics/)
+- [Equilibrium](/notes/research/chemistry/ap-chemistry/equilibrium/)
 
     </section>
 </div>
