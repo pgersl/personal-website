@@ -13,33 +13,41 @@ pm: true
 - nová slova vznikají přidáváním _předpon_ či _přípon_ nebo obojím k _základovému slovu_
 # Stavba slova
 - ve slovech podle jejich stavby rozlišujeme jednotlivé části, **morfémy**
-- ## Kořen (radix)
-    - je to společná část pro všechna příbuzná slova
-    - někdy se při tvorbě příbuzných slov tvarově obměňuje
-        - některá slova mají pouze kořen
-            - při obýbání se připojují koncovky
-- ## Předpona (prefix)
-    - stojí před kořenem
-    - často se připojuje k celému slovu
-    - obměňuje význam slova
-- ## Přípona (sufix)
-    - sotjí za kořenem
-    - obměňuje význam slova
-- ## Koncovka (flexivní sufix)
-    - je to zakončení slova, které se mění při skloňování nebo časování u ohebných slovních druhů
-        - někdy chybí, v takovém případě mluvíme o _nulové koncovce_
-- ## Interfix
-    - přidává se ke kořenu při odvozování slova 
-        - př.: _modr-o-bílý_
-- ## Cirkumfix
-    - připojuje se před i za jiný morfém
-        - př.: _nej-krásn-ější_ (_nej_ a _ější_ je jediný morfém)
+    - **afixy**
+        - jsou to skupiny obalující kořen
+        - _derivativní afixi_
+            - vytváří slova s novým významem
+        - _flektivní afixi_
+            - vytváří slova se stejným významem, pouze mění felxi nebo konjugaci
+## Kořen (radix)
+- je to společná část pro všechna příbuzná slova
+- někdy se při tvorbě příbuzných slov tvarově obměňuje
+    - některá slova mají pouze kořen
+        - při obýbání se připojují koncovky
+## Předpona (prefix)
+- stojí před kořenem
+- často se připojuje k celému slovu
+- obměňuje význam slova
+## Přípona (sufix)
+- sotjí za kořenem
+- obměňuje význam slova
+## Koncovka (flektivní sufix)
+- je to zakončení slova, které se mění při skloňování nebo časování u ohebných slovních druhů
+    - někdy chybí, v takovém případě mluvíme o _nulové koncovce_
+## Interfix
+- přidává se ke kořenu při odvozování slova 
+    - př.: _modr-o-bílý_
+## Cirkumfix
+- připojuje se před i za jiný morfém
+    - př.: _nej-krásn-ější_ (_nej_ a _ější_ je jediný morfém)
 # Příbuzná slova
 - slova, která jsou si významově blízka a mají stejnou společnou část 
 - př.: _nosič_ - _nepřenosný_
 # Slovotvorný rozbor
-- zabývá se rozdělením slova na _slovotvorný základ_ a _přípony_ a _předpony_
-- _slovotvorný základ_ je zbytek ze základového slova
+- zabývá se rozdělením slova na _slovotvorný základ_ a _slovotvorné formanty_
+    - _slovotvorný základ_ je zbytek ze základového slova
+        - _základové slovo_ je slovo, ze kterého nové slovo vzniklo
+    - _slovotvorný formant_ je neplnovýznamová skupina, která se k novým slovům přidává
 - příklady:
     - DRÁTEK -> slovotvorný základ: _DRÁT_ + přípona _-EK_
     - DÁMSKÝ -> slovotv. zákl.: _DÁM_ (_dáma_) + přípona _-SKÝ_
