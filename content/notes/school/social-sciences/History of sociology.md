@@ -321,4 +321,19 @@ Koncepce společenské smlouvy
     - _racionálně-hodnotové_
     - _racionálně-účelové_
     - _emotivní_
+- _ideální typy sociálních vůdců_
+    - _charismatický vůdce_
+    - _racionální vůdce_
+    - _tradiční vůdce_
 ### Wilfredo Pareto
+- byl členem fašistické strany v Itálii
+- považuje sociologii za vědu o politických důsledcích sociálního jednání
+- tvrdí, že v lidské společnosti existuje přirozená nerovnost
+- _terorie elit_
+    - v každé lidské činnosti existují lidé, kteří jsou elitou, a lidé, kteří jsou masou
+## Sociologie 20. století
+### Ferdinand Tönnies
+- popisuje společnost ve vzájemných vztazích
+    - v tradiční společnosti jsou intimní (_společenství_)
+        - tvrdí, že je lepší
+    -. v moderní společnosti jsou anonymní (_společnost_)

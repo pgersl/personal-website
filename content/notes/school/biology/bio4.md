@@ -8,29 +8,6 @@ pm: true
 - probíhá u živočichů se třemi zárodečnými listy
 - od ploštěnců výš
 - mají odlišné typy tělních dutin
-    - **_Schizocoela_**
-        - ploštěnci a tasemnice
-        - pokožka - ektoderm, trávicí trubice - entoderm
-        - mezi nimi se tvoří _mezenchym_
-            - je tvořen buňkami, dutinami a tělní tektutinou
-                - _míza_
-        - nepravá druhotná tělní dutina je _schizocoel_
-    - **_Pseudocoel_**
-        - škrkavky
-        - ektoderm i endoderm vytvářejí trávicí trubici
-        - pod pokožkou je svalový vak
-        - mezi vakem a trávicí trubicí je míza
-        - nepravá druhotná tělní dutina je _pseudocoel_
-    - **_Coelomata_**
-        - měkkýši a vyšší živočichové
-        - mají ektoderm, endoderm i mezoderm
-            - z mezodermu pak vznikají orgány
-        - uprostřed váčku je pravá druhotná dutina tělní _coelom_
-    - dělí se do dvou skupin:
-        - _prvoústí_
-            - prvoústa vznikají chlípením ektodermu
-        - _druhoústí_
-            - prvoústa se mění na řitní otvor a vznikají na druhé straně zárodku
 - je pro ně typická dvoustranná souměrnost
     - pohybují se primárně jedním směrem
 - vytvořila se u nich příď obsahující smyslové orgány a záď
@@ -65,39 +42,66 @@ pm: true
 - během ontogeneze vzniká v blastoporu otvor řitní a otvor ústní se prolamuje druhotně na protilehlém konci těla
 # Ploštěnci (_Plathelminthes_) - schizocoel
 - mají zploštěná těla z hřbetní a břišní strany
-- vnitřní prostor vyplňuje řídká parenchymatická tkáň
-    - jsou v ní uloženy vnitřní orgány
+- mezoderm není dobře vyvinut
+    - vnitřní prostor vyplňuje řídká parenchymatická tkáň
+        - jsou v ní uloženy vnitřní orgány
 - typické jsou pro ně vylučovací orgány _protonefridie_
-- jejich základem jsou plaménkové buňky
+    - jejich základem jsou plaménkové buňky
+        - nsasávají vodu s odpadními látkami a vylučují ji z těla ven
+            - uvnitř jsou bičíky, které usměrňují tok
+        - zároveň plní osmoregulační funkci
 - jsou téměř vždy hermafroditi s nepřímým vývojem
     - u parazitů prbíhá vývoj ve velmi složitých cyklech
+- nemají dýchací soustavu
+    - dýchají celým povrchem těla
 ## Ploštěnky (_Turbellaria_)
 - žijí ve vodě nebo vlhké půdě
+    - některé tropické ploštěnky jsou barevné
 - mají zploštěné tělo
 - jejich délka se pohybuje v rozmezí desetin mm do několika cm
 - na hřbetě mají hmatové buňky a párové oči
 - pokožka je pigmentována
 - pohyb je umožněn řasinkovým epitelem prostřednictvím svalů podkožního svalového vaku
+    - ma také ochranou fuknci
 - živí se dravě
 - jejjich trávicí dutina má slepá ramena
     - plní hlavně funkci trávení a rozvodu živin
 - příjmací otvor slouoží také k vyvrhování nestrávených zbytků
+- jsou fotofobní
 - dýchají celým povrchem těla
 - mají vyvinuté vylučovací ústrojí tvořené pláménkovými buňkami
     - hromadí se zde tělu škodlivé nebo nepotřebné ve vodě rozpustné látky
     - vířivé brvy vyhánějí tyto látky ven z těla
 - nervová soustava má v přední části živočicha zauzliny, z nichž vedou nervy do smyslových orgánů
+    - tvoří hlavu jedince
+    - smyslové orgány zahrnují hmatové receptory, chemoreceptory
+- v pokožce mají tyčinky, které, které vylučují ochranný sliz
+- sladkovodní ploštěnky mají přímý vývoj
+- mořské ploštěnky mají nepřímý vývoj přes larvu
 - zpravidla jsou to hermafrodity
     - nakladená vajíčka ve formě kokonů usazují na kameny ve vodě
-- sladkovodní ploštěnky mají přímý vývoj
-- mořské ploštěnky mají nepřímý vývoj
+    - mohou se rozmnožovat i nepohlavně dělením těla
+- využívají se na výzkum regenerace těla
+    - mají dobré regenerační schopnosti
 ### Zástupci
 - **_ploštěnka mléčná_**
     - žije v potocích pod kameny
+    - často se vyskytuje ve znečištěné vodě
 - **_ploštěnka potoční_**
     - má kopinatou příď
+    - je hodně citlivá na čistotu vody
+        - je indikátorem čistotu vody
+    - v horských potocích
 - **_ploštěnka černá_**
     - má větší počet očí
+    - tmavě pigmentované tělo
+    - vyskytuje se i ve stojatých vodách
+- **_ploštěnka horská_**
+    - žije na horách
+    - přizpůsobuje se chadněšímu prostředí
+- **_ploštěnka skleníková_**
+    - vyskytuje se v Česku, ale není původní
+    - do skleníků se dostává skrze tropické rostliny
 ## Motolice (_Trematoda_)
 - mají nečlánkováné tělo
 - parazitují primárně na obratlovcích
@@ -109,6 +113,13 @@ pm: true
 - mají svalnatý hltan, kterým nasávají živiny hostitele
     - pokračuje jícnem
     - jícnem se potrava dostává do rozsáhlé gatrovaskulární sítě
+- **Jednorodí parazité**
+    - parazitují na vnější straně těla - _ektoparazité_
+    - vývoj probíhá jen na hlavním hostiteli
+- **Dvourodí parazité**
+    - parazitují uvnitř těla hostitele - _endoparazité_
+    - během vývoje prochází přes několik mezihostitelů
+    - mají anaerobní dýchání
 ### Rozmnožování
 - téměř celé tělo vyplňují pohlavní orgány
 - varlata jsou párová, vaječníky nepárové
@@ -123,20 +134,27 @@ pm: true
     - cerkárie opuští tělo hostitele a zapouzdří se na zatopené trávě
     - po usazení čekají larvy na konzumaci novým hostitelem
     - motolice jsou obrovsky plodné, protože existuje velké riziko, že cyklus nebude dokončen
+        - proto je vajíček kladeno mnoho
+        - jsou velmi odolné
 ### Zástupci
+- **_motolice kopinatá_**
+    - dospělec žije ve žlučovodech sudokopytníků - hovězí a jelení dobytek
+    - larvy žijí v suchozemských plžích
 - **_motolice jaterní_** (_fasciola hepatica_)
     - cizopasí ve žlučových kanálcích ovcí pasených na podmáčených loukách
+    - larvy se vyvijí ve vodních plžích
     - její tělo je protáhle lupenovité
     - na břišní straně v přední části má dvě přísavky, na té přední má ústní otvor
     - způsobuje těžké trávicí poruchy, úhyn
     - napadená zvířata jsou velmi málo užitková
+    - může postihnout i člověka
 - **_krevnička močová_** (_schistosoma haematobium_)
     - žije v oblastech pěstování rýže
     - způsobuje nemoc _billhariózu_
         - projevuje se těžkými záněty močového měchýře
     - hrotitá samiččí vajíčka způsobují protrhání močových cest, krvácení a sekundární infekci
     - jako jedna z mála motolic je pohlavně oddělena
-        - sameček má samišku permanentně umístěnou v břišní rýze a průběžně ji oplodňuje
+        - sameček má samičku permanentně umístěnou v břišní rýze a průběžně ji oplodňuje
 ## Tasemnice (_Cestoda_)
 - jsou přizpůsobeni životu v těle hostitele
 - v dospělosti žijí ve střevech obratlovců
@@ -163,9 +181,10 @@ pm: true
 - **_tasemnice dlouhočlenná_** (_taenia solium_)
     - v dospělosti žije v tenkém střevě člověka
     - byla běžná při chovu prasat
-    - po pozření proglotoidu se v praseti vylíhnou onkosfér, která pak ve svalech tvoří bělavé boubele
+    - po pozření proglotoidu se v praseti vylíhnou onkosféra, která pak ve svalech tvoří bělavé boubele
     - při nedokonalé teplné úpravě se tasemnice dostala do lidského střeva a usadí se skolex
     - s přechodem na vepřové velkochovy tento druh téměř vymizel
+    - má dobře vyvinuté háčky
 - **_tasemnice bezbranná_** (_taeniarhynchus saginatus_)
     - její hlavička není opatřena háčky
     - mívá až 2000 článků a dosahuje délky až 10 metrů
@@ -176,6 +195,9 @@ pm: true
     - žije ve střevě šelem
     - mezihostitelem je primárně srnčí zvěř, dobytek, ale také člověk
     - onkosféra se usazuje v játrech a tvoří boubel (_echinokok_) asi o velikosti kedlubny s obrovským množstvím skolexů
+- **_tasemník psí_**
+    - dospělec žije ve střevech psa
+    - larva žije v lolechách
 - **_škulovec široký_** (_diphyllobothrium latum_)
     - jeho tělo přesahuje délku 10 metrů a má více než 4000 článků
     - vyskytuje se v Pobaltí, Kanadě a Japonsku
@@ -215,7 +237,10 @@ pm: true
     - samičky kladou neoplozená vajíčka
     - bez oplození samcem se vajíčka vyvinou v další samičky
     - samci se objevují až na podzim
-- ve vodních nádržích je běžný _kruhýřenka obecná_
+## Zástupci
+- ve vodních nádržích je běžná _kruhýřenka obecná_
+- _pijavenka_
+- _obrněnka_
 # Hlístice (_Nematoda_) - pseudocoel
 - jsou evolučně velmi vyspělé
 - vytvářejí kutikulu, kterou periodicky svlékají a mohou tak snadno parazitovat
@@ -250,18 +275,35 @@ pm: true
     - infekcí se dostanou do těla, kde projdou skrze stěnu tenkého střeva a krví se dostanou do jater a později do plic
         - zde podněcují ke kašly a po polknutí v hlenu a dostávají znovu do střeva, kde dospívají
     - šíří se často mezi dětmi
+- **_škrkavka psí_**
+    - má 2 cm
+    - psi se musí pravidelně odčervovat
+- **_škrkavka koňská_**
+    - má 50 cm
+    - koni se musí pravidelně odčervovat
 - **_háďátka_** (_rhabditoidea_)
     - jsou volně žijící
     - parazitují na na hospodářských rostlinách
-    - _háďátko řepné, háďátko pšeničné_
+    - _háďátko řepné_
+        - v kořenech řepy
+        - snižuje cukernatost řepy
+    - _háďátko pšeničné_
+        - v obylkách a na listech pšenice
+        - snižuje úrodu
+    - _háďátko bramborové_
+        - na bramborách
+    - _háďátko octové_
+        - ve zkažených potravinách
 - **_roup dětský_** (_enterobius vermicularis_)
     - žije v tlustém střevě a konečníku dětí
         - může žít i v dospělých, kteří pijí hodně mléka
     - způsobuje nemoc _oxyurióza_
         - projevuje se snadnou podráždivostí, vyčerpáním, svěděním a kopřivkami
+        - léčí se protiparazitickými léky - _pyrvinium_
     - samičky kladou vajíčka do záhybů kůže v okolí řitního otvoru
         - může jich být i 10000
         - šíří se větrem, mouchami, ale hlavně špatně umytým ložním prádlem
+            - dá se tomu předejít jeho vyvařováním
         - rozhodující význam má dodržování hygienických předpisů v řízeních s více dětmi
 - **_vlasovec mízní_** (_wuchereria bancrofti_)
     - ucpávají mízní cévy
@@ -270,6 +312,11 @@ pm: true
         - nemoc je _elefantióza_
     - ve spojivkovém vaku žije _vlasovec oční_
         - způsobuje oční záněty a nádory kůže
+- **_vlasovec medinský_**
+    - dospělec žije v kůži člověka
+    - vyskytuje se v Africe
+    - dosahuje délky 60 - 100 cm
+    - musí se pomalu vytahovat natáčením na dřívko
 - **_svalovec stočený_** (_trichinella spiralis_)
     - vyskytuje se ve svalstvu potkanů
     - z potkanů se může dostat do prasat nebo šelem

@@ -49,3 +49,12 @@ pm: true
         - domníval se, že lze popsat společnost exaktně
     - _pozitivismus_
         - je to přesvědčení o tom, že lze vše popsat vědou
+# Teorie společnosti
+- _teorie konsensu_
+    - je založená na domluvě mezi členy společnosti
+    - vyhovuje většině
+    - je relativně stabilní
+- _teorie konfliktu_
+    - je založená na vnucování řádu většině
+    - vyhovuje menšině
+    - je nestabilní 
