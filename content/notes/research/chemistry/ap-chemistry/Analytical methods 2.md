@@ -1,12 +1,9 @@
 ---
-title: "Spectrosocpy and electromagnetic spectrum"
+title: "Analytical methods"
 layout: note
 toc: true
 pm: true
 ---
-See also:
-- [Atomic structure and electron configuration](/notes/research/chemistry/ap-chemistry/atomic-structure-and-properties/atomic-structure-and-electron-configuration)
-- [Photoelectron spectroscopy](/notes/research/chemistry/ap-chemistry/atomic-structure-and-properties/photoelectron-spectroscopy)
 # Absorption spectroscopy
 - it uses the fact that each atom has a different electron shell and thus all absorb different wevelengths
 - a spectrometer consists of a few parts:
@@ -27,3 +24,21 @@ See also:
 - the results is called an **_absorption spectrum_**
 
 {{< fig class="note-fig" src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FPetrGersl%2FdTk926RQbW.png?alt=media&token=c82e8a15-ccd3-4347-882e-bc12b9f5f50c" alt="Absorption spectrum of benzene" >}}
+
+# Beer-Lambert law
+- _Beer-Lambert law_ determines the realtionship between absorbance and concentration
+    - whilst absorption spectroscopy gives us a qualitative result, Beer-Lambert law gives us a qantitative result
+- formulation:
+
+$$A=\epsilon{lc}$$
+
+- where:
+    - $A$ is _absorbance_, dimensionless
+        - it is the result of absorption spectroscopy
+    - $\epsilon$ is the _molar mass coefficient_, [$dm^3\cdot{mol^{-1}}\cdot{cm^{-1}}$]
+        - it varies from wavelength to wavelength
+    - $l$ is the _length of the cuvette_
+    - $c$ is the _concentration_
+- concentration can be thus calculated as:
+
+$$c=\cfrac{A}{\epsilon{l}}$$

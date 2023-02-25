@@ -5,12 +5,18 @@ toc: true
 pm: true
 ---
 # Tvoření slova
-- v češtině se nejčastěji tvoří slova **odvozovaním** (př.: _fotbal_ -> _**fotbal**ista_)
-- dalším způsobem je **skladání** (př.: _červený a žlutý_ -> _červenožlutý_)
+- v češtině se nejčastěji tvoří slova **odvozovaním** (_derivací_) (př.: _fotbal_ -> _**fotbal**ista_)
+- dalším způsobem je **skladání** (_kompozice_) (př.: _červený a žlutý_ -> _červenožlutý_)
     - tento způsob tvorby slov je nejtypičtější pro němčinu
-- poseldním způsobem je zkracování (_**Če**ská **do**pravní **k**ancelář_ -> _ČEDOK_)
+- poseldním způsobem je zkracování (_abreviace_) (př.: _**Če**ská **do**pravní **k**ancelář_ -> _ČEDOK_)
 - slovo, ze kterého bylo jiné slovo vytvořené, se nazývá **slovo základové**, novému se potom říká **slovo odvozené**
 - nová slova vznikají přidáváním _předpon_ či _přípon_ nebo obojím k _základovému slovu_
+## Slovotvorná kategorie
+- obecný význam slov jedné slovotvorné kateogrie mají stejný význam, která ale vznikají od jednoho slovotvorného základu
+- jedná se primárně o slova zdrobnělá, názvy míst
+## Slovotovrný typ
+- obecný význam slov jednoho slovotvorného typu je nějak spojen
+- tato slova jsou tvořena stejnými formanty
 # Stavba slova
 - ve slovech podle jejich stavby rozlišujeme jednotlivé části, **morfémy**
     - **afixy**

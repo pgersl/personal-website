@@ -11,7 +11,7 @@ pm: true
     - it is established when the [rates](/notes/research/chemistry/ap-chemistry/kinetics/reaction-rates) of both reactants and products are the same
 - **_reverse reaction_** is the reverse direction of a reaction
 - **_forward reacion_** is the forward drection of a reaction
-# Reaction quotient $Q$
+# Reaction quotient $q$
 - _reaction quotient_ is a the ratio of the concentration of the products to the concentration of the reactants
 - if the ratio is larger than 1, the reaction proceeds in the reverse direction
 - if the ratio is smaller than 1, the reaction proceeds in the forward direction
@@ -21,7 +21,7 @@ $$aA \leftrightharpoons bB$$
 $$r_1 = k_1[A]$$
 $$r_2 = k_2[B]$$
 $$\cfrac{r_2}{r_1} = \cfrac{k_2[B]}{k_1[A]}$$
-$$Q = \cfrac{[B]^b}{[A]^a}$$
+$$q = \cfrac{[B]^b}{[A]^a}$$
 # Equilibrium constant $K_{eq}$
 - _equilibrium constant_ is a value of the reaction quotient with which the ratio $\cfrac{r_2}{r_1}$ is equal to 1
     - if $Q > K_{eq}$, the reaction proceeds in the reverse direction

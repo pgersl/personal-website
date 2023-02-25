@@ -32,7 +32,7 @@ pm: true
 
 $$\Delta{S^0} = \sum{nS^0_p} - \sum{mS^0_r}$$
 
-- where $n$ and $m$ are stoichiometric coefficients
+- where $n$ and $m$ are stoichiometric coefficients, $p$ stands for products and $r$ stands for reactants
 
 - Boltzmann formula approximates the absolute entropy of a system
 
@@ -45,3 +45,33 @@ $$S=k_B\ln{P}$$
 1. The sign of entropy of any substance at temperatures above absolute zero is positive.
 2. A fixed reference point was found, which allows us to measure the absolute entropy of any substance, at any temperature.
     - absolute entropy is this determined by the heat increase required to bring the substance from 0 K to the desired temperature
+# Gibbs free energy $\Delta{G}$
+- knowing the change in enthalpy is not enough to determine whether a process is or is not spontaneous
+- if the change in enthalpy is negative, the reaction is more likely to happen spontaneously
+    - an exothermic reaction which results in a more disordered system (creating more fragments) is more propable than an exothermic reaction which results in the creation of a less disordered system (energy needs to be added to keep the system ordered)
+    - if heat is not removed from the system during the reaction, the reaction slows down and can even stop
+- combining enthalpy, entropy a temperature together results in the change in Gibbs free energy
+
+$$\Delta{G} = \Delta{H} - T\Delta{S}$$
+
+- the lower the change in Gibbs energy the more spontaneous reaction
+    - spontaneous reaction is described by a negative change in Gibbs energy (exothermic processes)
+- an endothermic process and a positive change in entropy, the reaction will be spntaneous, though less favorable than an exothermic reaction
+- a process with a positive change in enthalpy and a negatve change in entropy will not occur spontaneously
+## Calculation
+
+$$\Delta{G^0} = \sum{nG^0_p} - \sum{mG^0_r}$$
+
+- where $n$ and $m$ are stoichiometric coefficients, $p$ stands for products and $r$ stands for reactants
+
+$$\Delta{G} = \Delta{G^0} + RT\ln{q}$$
+
+- if $\Delta{G}$ is zero, then:
+
+$$\Delta{G^0} = -RT\ln{K_{eq}}$$
+
+# Kinetic control
+- it is not the case that exothermic reactions (or indeed with any thermodynamically favorable process) proceed faster than thermodynamically less favorable processes
+- the rate of the rection is not determined by reaction thermodynamics but reaction kinetics
+- the speed of a reaction is determined by the activation energy and not by thermodynamic favorability
+- controling activation energy is called _kinetic control_

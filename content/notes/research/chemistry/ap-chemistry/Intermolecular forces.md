@@ -1,10 +1,10 @@
 ---
-title: "Intermolecular forces and properties"
+title: "Intermolecular forces"
 layout: note
 toc: true
 pm: true
 ---
-- **_intermolecular forces_** are all the different interactions between two molecules or atoms which do not [bond together](/notes/research/chemistry/ap-chemistry/molecular-and-ionic-compound-structure-and-properties/types-of-chemical-bonds)
+- **_intermolecular forces_** are all the different interactions between two molecules or atoms which do not bond together
 # Coulomb's force
 - it describes the interaction between two particles based on their charge
 - opposite charges are attracted towards one another, same charges are repelled from one another
@@ -12,7 +12,7 @@ pm: true
 - Coulomb's forces can be also described as _ion-ion interactions_
 # Van der Waals forces
 ## London dispersion forces
-- it descrbies the interaction of two molecules that do not have a [dipole](/notes/research/chemistry/ap-chemistry/molecular-and-ionic-compound-structure-and-properties/types-of-chemical-bonds#partial-charge)
+- it descrbies the interaction of two molecules that do not have a dipole
 - they are the results of temporary dipoles
 - **_instantaneous dipole_** occurs when in a non-polar molecule electron density is higher closer to one of the bonding partners
     - this is caused by the constant movement of electrons

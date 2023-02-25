@@ -4,8 +4,6 @@ layout: note
 toc: true
 pm: true
 ---
-See also:
-- [Equilibrium](/notes/research/chemistry/ap-chemistry/equilibrium/)
 # Definitions
 ## Arrhenius theory of acids and bases
 - **_acid_** is a compound that can release a proton $H^+$ in an aqueous solution

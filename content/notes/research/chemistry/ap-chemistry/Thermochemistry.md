@@ -1,5 +1,5 @@
 ---
-title: "Thermochemistry and reaction mechanisms"
+title: "Thermochemistry"
 layout: note
 toc: true
 pm: true
@@ -87,6 +87,7 @@ $$Q =m \cdot c_p \cdot \Delta{T}$$
 
 $$Q_1 = Q_2$$
 $$m_1 \cdot c_{p1} \cdot \Delta{T_1} = m_2 \cdot c_{p2} \cdot \Delta{T_2}$$
+
 # Phase changes
 - all substances have different phases - solid, liquid, gas
 - the phase of a substance depends on pressure and temperature
