@@ -18,3 +18,4 @@ pm: true
 - [Úvod do sociologie](/notes/school/social-sciences/introduction-to-sociology)
 - [Teorie společnosti](/notes/school/social-sciences/theories-of-society)
 - [Historie sociologie](/notes/school/social-sciences/history-of-sociology)
+- [Současná společnost](/notes/school/social-sciences/current-society)

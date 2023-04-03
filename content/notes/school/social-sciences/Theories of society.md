@@ -16,7 +16,7 @@ pm: true
     - legitimní autorita
     - jejím základem jsou normy a hodnoty
     - sociální život zahrnuje závazky
-    - závisís na konsensu
+    - závisí na konsensu
     - sociální systémy přetrvávají
 # Teorie konfliktu
 - jakákoliv forma lidského soužití vyhovuje pouze části zúčastněných, ostatná jsou nuceni
