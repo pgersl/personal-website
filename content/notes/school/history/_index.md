@@ -12,3 +12,4 @@ pm: true
 
 **G6**
 - [Evropa 17. - 18. století](/notes/school/history/evropa-17-18-století)
+- [Evropa 18. - 19. století](/notes/school/history/evropa-18-19-století)

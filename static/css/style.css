@@ -5,7 +5,7 @@
 :root {
     /* Colors */
     --black: #080708;
-    --dark-grey: #1C1C1C;
+    --dark-grey: #131313;
     --grey: #292929;
     --white: #F7F8F7;
     --red: #DA3838;
@@ -55,11 +55,11 @@ body {
     background: var(--black);
 }
 ::-webkit-scrollbar-thumb {
-    background: var(--grey);
+    background: var(--dark-grey);
     border-radius: 7px;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: var(--dark-grey);
+    background: var(--grey);
 }
 
 /* Article */
