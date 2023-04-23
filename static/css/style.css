@@ -78,6 +78,7 @@ article {
 }
 #note-article {
     text-align: left;
+    counter-reset: h1;
 }
 
 /* Section */
@@ -255,10 +256,12 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-size: var(--text-size-h1);
     font-weight: var(--font-weight);
+    counter-reset: h2;
 }
 h2 {
     font-size: var(--text-size-h2);
     font-weight: var(--font-weight);
+    counter-reset: h3
 }
 h3 {
     font-size: var(--text-size-h3);
@@ -275,6 +278,18 @@ h5 {
 h6 {
     font-size: var(--text-size);
     font-weight: var(--font-weight);
+}
+#note-main h1:before {
+    content: counter(h1)" ";
+    counter-increment: h1;
+}
+#note-main h2:before {
+    content: counter(h1)"."counter(h2)" ";
+    counter-increment: h2;
+}
+#note-main h3:before {
+    content: counter(h1)"."counter(h2)"."counter(h3)" ";
+    counter-increment: h3
 }
 
 /* Lists */
@@ -399,7 +414,7 @@ figure {
 .note-fig img {
     display: block;
     width: 90vw;
-    max-width: 500px;
+    max-width: 400px;
     margin: auto;
 }
 .note-fig figcaption, .note-fig-w figcaption {
@@ -410,8 +425,9 @@ figure {
     display: block;
     margin: auto;
     margin-top: 1vh;
+    margin-bottom: 1vh;
     width: 90vw;
-    max-width: 500px;
+    max-width: 350px;
 }
 .note-fig-w img {
     display: block;
