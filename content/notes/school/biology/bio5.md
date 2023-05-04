@@ -469,7 +469,7 @@ Systém měkkýšu
 - _kelnatka obecná_
     - má schránku dlohou 5 centimetrů
 # Paplži (_Amphoneura_)
-- chroustnatky a červovci
+- chroustnatky a červovcit
 - žijí při pobřeží na korálových útesech
 - jejich tělo je ploché
 - jejich plášť vylučuje schránku a vytváří na hřbetě taškovité destičky
