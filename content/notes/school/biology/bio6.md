@@ -13,8 +13,9 @@ pm: true
 - segmentace jejich těla je stejnocenná - _homonomní_
     - všechny články jsou podobně velké
 - s výjimkou prvního a posledního článku vypadají všechny články stejně
-- v předné části těla se soustřeďuje smyslové ústrojí
+- v předné části těla se soustřeďuje smyslové ústrojí - _prostomium_
     - to platí obzvláště u plovouvích forem
+    - vzniká zde mozkové ganglium
     - proces přetváření se nazývá _cefalizace_
 - v zadní části srůstají poslední články v _pygidium_
 - některé orgány se v těle opakují v každém článku
@@ -27,19 +28,24 @@ pm: true
 - obývají mělká šelfová moře
 - důkazem jejich starobylosti jsou fosilní nálezy
     - pochází z kambria
+- živí se dravě nebo planktonem
+## Stavba těla
 - kromě hlavy a pygidia mají mnoho stejnocenných článků
     - na bocích každého z nich se nacházejí specializované pohybové buňky - _parapodia_
+    - na parapodiích jsou nahoře žábry
+    - pod žábrami jsou umístěné hmatové buňky
 - na povrchu jejich těla je jednovrstevná pokožka
-    - u většiny druhu plní dýchací funkci
+    - u většiny druhu plní dýchací funkci, ale některé k tomu kombinují také žábry
 - pod pokožkou je umístěn svalový vak
-## Stavba těla
 - **cévní osustava** je uzavřená
     - krev je narůžovělá
         - vlivem přítomnosti barviva _chlorocruorinu_ může mít také smaragdově zelenou barvu
     - krev je vedena tepající hřbetní cévou k přídi těla a břišní tepající cévou opačně
 - vylučují metanefridiemi
 - **nervová soustava** je gangliová žebříčkovitého typu
-    - je uložena na břišní straně těla
+    - je uložena na břišní straně těla ve dvou pásech nervů
+    - v každém článku je pár ganglií
+    - dojde-li ke srůstu tohoto páru, hovoříme o břišní nervové pásce
 ## Rozmnožování
 - jsou to gonochoristé s nepřímým vývojem
 - z oplozeného vajíčka mnohoštětnatců se líhne larva přilbovitého tvaru
@@ -48,17 +54,35 @@ pm: true
 - pokročilejším  stádiem larvy je _metatrochofora_
     - začínají v ní narůstat tělní čánky
     - jakmile články dorostou, vývoj je dokončen
-- rozmnožování může probíhat také nepohlavně rozpadem vícesegmentového těla ve dva menší jedince, kteří růstem dospívají
+- rozmnožování může probíhat také nepohlavně rozpadem vícesegmentového těla ve dva menší jedince, kteří růstem dospívají - _fisiparie_
 ## Zástupci
 - _nereidka hnědá_
     - je nejznámější
-    - žije pelagicky - v otevřeném oceánu
+    - žije pelagicky
+    - dorůstá délky 10 cm
+    - je dravá
+        - má dobře vyvinutá kusadla
+        - šlápnutí na ni jě obvykle bolestivé
+- _pískovník rybářský_
+    - žije zahrabaný v písku u pobřeží
+    - živí se organickámi zbytky v písku
+    - rybáři jej používají jako návnadu
 - _palolo zelený_
     - žije v Tichém a Indickém oceánu
+    - v období rozmnožování zůtává část těla na útesu a zadní část s vajíčky a spermiemi vyplouvá na hladinu
+        - části chránící vajíčka postupně praskají a oplodňují se
+        - část těla, která zůstala na útesu dorůstá 
 - _afroditka plsnatá_
+    - "_mořská myš_"
     - žije v evropských mořách
+    - dorůstá délky asi 15 cm
+    - je jedovatá
+        - tělo je pokrytu hustými štětinami
+        - štětiny mohou být barevné
 - _rournatec vějířový_
     - žije přisedle v rourkách
+        - vystrukuje pouze vějířovitá tykadla
+        - tykadla jsou obvykle barevná
     - živí se mikroskopickou potravou
     - je hojný
 # Opaskovci (_Clitellata_)
@@ -75,16 +99,21 @@ pm: true
 - na bocích každého článku má čtyři páry štětinek
 - hřbetní strana je klenutější a tmavší než břišní strana
 - na hřbetě žížaly prosvítá hřbetní céva
+- na každém článku jsou 4 páry štětin, které umožňují pohyb
 - má jednovrstevnou pokožku
     - je vlhká a bohatě prokrvená
     - plní také dýchací funkci
-    - obsahuje mnoho hmatových buněk a světličivých buněk - _faosomy_
+    - obsahuje mnoho hmatových a světličivých buněk - _faosomy_ - a mechanoreceptorů
+    - pokožka vylučuje ochranou kutikulu
 - rozlišuje světlo a tmu
     - je fotofobní
 - je u nich vyvinuta dobrá schopnost regenerace
 - svou činností převrtává a převrstvuje půdu
     - přispívá tak k zúrodňování půdy a její ekologický význam je veliký
+    - provětrávají a nakypřují půdu
 - je součástí potravního řetězce
+- živí se oranickými zbytky v půdě
+    - jejich rozklad na látky anorganické vede ke vzniku humusu
 #### Trávicí soustava
 - trávicí trubice prochází celým tělem
     - začíná ústy a končí řitním otvorem v posledním článku
@@ -125,12 +154,19 @@ pm: true
 - _žížala podhorská_
     - žije v trouchnivějících pařezech v horských oblastech
     - je nápadná svým tmavým světélkujícím slizem
+- _žížala rousnice_
 - _potočnice račí_
     - parazituje na žábrech raků
 - _nitěnka obecná_
     - žije v zabahněných tocích
     - ze své rourky v bahně vystrkuje pouze záď, kteoru pohybuje do stran
     - je oblíbeným krmivem akvarijních rybek
+- _roupnice obecná_
+    - žije v půdě
+    - je mikroskopická
+- _naidky_
+    - žijí ve vodě a v bahně
+    - živí se jimi ryby
 ## Pijavice
 - v příčném řezu jsou shora mírně zploštělé
 - jejich povrchová segmentace je výrazně zmnožená
@@ -165,8 +201,12 @@ pm: true
     - má černohnědočervenou kresbu hřbetu a světlé černě skvrnité břicho
     - ve středověku se používala k odsávání krve nemocným
         - docházelo při tom často k druhotným infekcím hnisavými bakteriemi
+    - dnes se používá ke zprůchodňování cév při amputaci končetin
 - _pijavka koňská_
     - je predátorem
+    - živí se drobným hmyzem a měkkýši
+- _pijavka bahenní_
+    - žije pod kameny ve vodě
 - _hltanovka bahenní_
 - _chobotnatka rybí_
     - je přenašečem krevních parazitů ryb
