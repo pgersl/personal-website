@@ -19,3 +19,4 @@ pm: true
 - [Teorie společnosti](/notes/school/social-sciences/theories-of-society)
 - [Historie sociologie](/notes/school/social-sciences/history-of-sociology)
 - [Současná společnost](/notes/school/social-sciences/current-society)
+- [Terminologie sociologie](/notes/school/social-sciences/sociology-terms)
