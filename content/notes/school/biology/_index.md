@@ -23,3 +23,4 @@ pm: true
     - [Biologie 4](/notes/school/biology/bio4)
     - [Biologie 5](/notes/school/biology/bio5)
     - [Biologie 6](/notes/school/biology/bio6)
+    - [Biologie 7](/notes/school/biology/bio7)
