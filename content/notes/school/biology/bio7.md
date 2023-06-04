@@ -1,5 +1,5 @@
 ---
-title: Biologie 6 - Členovci
+title: Biologie 7 - Členovci
 layout: note
 toc: true
 pm: true
@@ -7,7 +7,7 @@ pm: true
 # Obecná charakteristika
 - je to nejpočetnější živočišný kmen s obrovským hospodářským významem
 - ve skupině prvoústých dosahují největšího stupně dokonalosti
-- jejich charakteristickým znbakem je heteronymní článkování těla (narozdíl od kroužkovců)
+- jejich charakteristickým znbakem je heteronomní článkování těla (narozdíl od kroužkovců)
 - během fylogeneze u nich došlo ke splývání sousedních článků ve větší celky
     - docházelo tak i ke splývání a jiným změnám uvnitř těla
 - u těla rozlišujem hlavu, hruď a zadeček
@@ -31,7 +31,7 @@ pm: true
 3. **[Žabernatí](#žabernatí-branchiata)** {{< icon-link link="https://cs.wikipedia.org/wiki/Kor%C3%BD%C5%A1i" >}}
     - první dva páry končetin přeměněny v tykadla
     - dýchají *žábrami*
-4. **[Vzdušnicovci]()** {{< icon-link link="https://cs.wikipedia.org/wiki/%C5%A0estinoz%C3%AD" >}}
+4. **[Vzdušnicovci](#vzdušnicovci-tracheata)** {{< icon-link link="https://cs.wikipedia.org/wiki/%C5%A0estinoz%C3%AD" >}}
     - první pár končetin přeměněn v tykadla
     - dýchyjí *vzdušnicemi*
 # Klepítkatci (*Chelicerata*)
@@ -345,3 +345,169 @@ pm: true
     - je významnou součástí potravy pstruhů
     - jsou bioindikátory kvality vody 
     - používají se jako krmivo akvarijních ryb
+# Vzdušnicovci (*Tracheata*)
+- dýchají rozvětvenou soustavou vzdušnic - *tracheje*
+    - soustava prostupuje celým tělem
+    - kyslík se tak dostává přímo do tkání
+        - nevyužívají k tomu hemolymfu
+    - stěna vzdušnic je tvořena tenkou biomembránou umožňující snadnou výměnu plynů
+- na hlavě je vždy pouze jeden pár tykadel
+- jejich nohy nejsou nikdy rozvětvené
+- naprostá většina druhů je suchozemská
+- podkmen vzdušnicovci je [zastaralý](https://cs.wikipedia.org/wiki/Vzdu%C5%A1nicovci#Zastaralost) a byl rozdělen na dva podkmeny:
+    1. **[Stonožkovci](#stonožkovci-myriapoda)** {{< icon-link link="https://cs.wikipedia.org/wiki/Stono%C5%BEkovci" >}} 
+    2. **[Šestinozí](#šestinozí-hexapoda)** {{< icon-link link="https://cs.wikipedia.org/wiki/%C5%A0estinoz%C3%AD" >}}
+- šestinozí se dále dělí na čtyři třídy:
+    1. **[Hmyz](#hmyz-insecta)** {{< icon-link link="https://cs.wikipedia.org/wiki/Hmyz" >}}
+    2. **[Vidličnatci](https://cs.wikipedia.org/wiki/Vidli%C4%8Dnatky)**
+    3. **[Hmyzenky](https://cs.wikipedia.org/wiki/Hmyzenky)**
+    4. **[Chvostenky](https://cs.wikipedia.org/wiki/Chvostoskoci)**
+## Stonožkovci (*Myriapoda*)
+- stonožky se dělí na dvě třídy: 
+    1. **[Mnohonožky](#mnohonožky-diplopoda)** {{< icon-link link="https://cs.wikipedia.org/wiki/Mnohono%C5%BEky" >}}
+    2. **[Stonožky](#stonožky-chilopoda)** {{< icon-link link="https://cs.wikipedia.org/wiki/Stono%C5%BEky" >}}
+### Mnohonožky (*Diplopoda*)
+- mají protáhlé válcovité tělo
+    - na průřezu je kruhovité
+    - je složeno z velkého množství článků vzniklých srůstem dvou článku původních 
+- každý článek těla nese dva páry noh dva páry stigmat
+- nohy jsou vkloubeny vespod těla
+    - každá noha páru vychází z jednoho bodu
+- na hlavě mají slabá a krátká tykadla a pár jednoduchých oček
+#### Zástupci
+- *mnohonožka slepá*
+    - žije pod kameny, kůrou nebo v tlejícím listí
+### Stonožky (*Chilopoda*)
+- jejich protáhlé tělo je zploštělé
+- na hlavě mají jeden pár níťovitých tykadel
+- každý tělní článek nese právě jeden pár noh a jeden pár stigmat
+- první pár noh byl přeměněn na kusadla s jedovou žlázou
+    - omračuje jimi kořist
+- dorůstají délky okolo 6 cm
+#### Zástupci
+- *stonožka škvorová*
+    - žije pod kůrou, kemeny a spadeným listím
+## Hmyz (*Insecta*)
+- je to největší třída suchozemských členovců a zároveň největší dosud popsaná skupina živočichů
+- kladou tisíce vajíček a roočně vznikne na několik generací
+- jsou **hospodářsky** velmi významní
+    - nejvíce potom opilovači, který zachovávají diversitu rostlinného genofondu a umožňují rozmnožování
+    - některé druhy člověku poskytují potraviny nebo jiné důležité suroviny
+    - přispívají k hygieně krajiny 
+    - vytváří humus a jsou důležitou součástí potravního řetězce
+- řada hmyzu naopak velmi **škodí**
+    - parazitují na hospodářských rostlinách a zvířatech, ale také na člověku
+    - někteří jsou přenašeči vážných onemocnění
+    - znehodnocují potraviny
+- mají nestejnocenné členění těla
+    - je tvořeno 21 články
+    - jsou rozděleny na tři zřetelné části - hlava, hruď a zadeček
+### Vnější stavba
+#### Hlava (*Caput*)
+- vznikla srůstem 6 článků
+    - první článek nese pár složených očí
+    - druhý článek nese jednovětevná tykadla
+    - třetí článek nic nenese
+    - čtvrtý článek nese pár jednočlenných kusadel
+    - pátý článek nese párové čelisti s makadly
+    - šestý článek nese spodní pysk s makadly
+- v závislosti na způsobu příjmu potravy je jejich ústní ústrojí:
+    - kousavé 
+    - savé
+    - lízavé
+    - bodavě savé
+- je vždy zřetelně oddělena od hrudi, k níž nasedá zúženou  krční částí - *colum*
+#### Hruď (*Thorax*)
+- je složena ze tří článku - *předohrudní, středohurdní, zadohrudní*
+- každý článek nese po páru končetin
+- *kráčivá končetina* se skládá z několika částí:
+    - kyčle - *coxa*
+    - příkyčlí - *trochanter*
+    - stehno - *femur*
+    - holeň - *tibia*
+    - chodidlo - *tarsus*
+        - je pětičlenné
+- nohy některých druhý josu uzpůsobeny konkrétním úkolům - skákání, hrabání, plování, rychlý běh
+- na středohrudi a zadohrudi bývá po páru křídel
+    - jsou to vchlípeniny pokožky protkané soustavou podélných a příčných ztluštěnin, které mají zpevňovací funkci
+    - zasahují do nich i tracheje, nervová vlákna a cévy
+    - struktura žilnatiny (ztulštetin) je druhově specifická
+    - oba páry jsou obvykle stejné a blanité
+        - u některých druhů je první pár tužší a kožovitý
+        - u některých druhů jsou první křídla tuhá a druhá jsou blanitá
+        - u brouků obsahuje první pár chytin a tvoří tak ochranou schránku okolo druhého páru a zadečku
+        - motýlí křídla jsou poseta barevnými šupinkai
+        - u některých druhů křídla zakrňují
+        - u dvoukřídlého hmyzu je druhý pár zredukován na kyvadélka - *haltery*
+        - některé druhy hmyzu křídla kvůli parazitickému zůsobu života ztrácejí
+        - nejprimitivnější hmyz nemá křísla zcela vyvinuta
+#### Zadeček (*Abdomen*)
+- má 6 až 11 článků
+- některé larvy a primitivní skupiny hmyzu mají na zadečku zbytky končetin
+- některé druhy mají na zedečku jedový hrot, kladélko nebo převislé štěty
+#### Pokožka (*Hypodermis*)
+- vylučuje chitinovou kutikulu
+    - má ochranou a opornou funkci
+- parva těla je dána obsažneými pigmenty, případně také strukturou
+### Vnitřní stavba
+#### Trávicí soustava
+- hmyz potravu přímá ústním ústrojím
+- potrava je hrubě nadrcena kusadly
+- jemněji je pak zrpacována čelistmi, které potravu posouvají do ústní dutiny
+- do ústní dutiny ústí slinové žlázy
+- dutina pokračuje svalnatým hltanem do jícnu, který se rozšiřuje ve vole
+- následuje žvýkací žaludek - *proventrikulus*
+- k trávení dochází ve žláznatém žaludku se slepými výběžky
+- následuje střevo rozšířené v konečník
+- k vylučování slouží Malpighiovy trubice
+    - ústí do zadní části střeva
+#### Dýchací soustava
+- tvoří je větvená soustava vzdušnic
+    - prostupují až k tkáním
+    - zasahují i do křdel
+- mají jeden pár stigmat, jimiž prochází vzduch
+    - jsou uzavíratelná
+    - jsou opatřeny chloupky, které brání vstupu nečistot
+#### Cévní soustava
+- je otevřená
+- mají hřbetní cévu uloženou v zadečku, kde čerpá hemolymfu
+- hemolymfa řenáší živiny, hormony a metabolity
+- nepodílí se na přenosu kyslíku
+#### Nervová soustava
+- je gangliová žebříčkovitého typu
+- jejich smyslové orgány jsou dokonalé
+- čich je soustředěn na tykadelch
+- hmatové ústrojí reguluje proudění vzduchu
+- většina druhů má vyvinuté párové složené oči - *oculi compositi*
+    - jsou tvořeny velkým počtem oček - *omatidia*
+        - každé očko sním pouze část obrazu
+        - spojením nervových vláken ze všech oček do jednoho zrakového nervu vzniká mozaikový obraz
+- kromě složených očí má většina druhů také jednoduché oči pro vnímání intenzity světla
+- mají vyvinuté také sluchové a zvukové orány
+- dorozumívají se chemicky pomoc feromonů
+#### Rozmnožování
+- jsou to gonochoristé
+- rozmnožují se pohlavně s vnitřním oplozením - *páření*
+    - některé druhy se rozmnožují z neoplodněných vajíček - *parentogeneze*
+    - některé druhy střídají páření a parentogenezi - *heterogonie*
+    - některé druhy jsou schopny rozmnožování už v larválním stádiu - *pedogeneze*
+- samičky kladou vajíčka - *oviparie*
+    - u některých druhů se líhnou larvy již v těle samičky při jejich kladení - *ovoviviparie*
+#### Vývoj
+- vývoj hmyzu je nepřímý
+- vývojová stadia - *instary* - jsou odděleny svlékáním - *ekdyze*
+- celý proces je řízen hormonálně
+##### Proměna nedokonalá (*Hemimetabolie*)
+- vajíkčo -> nymfa -> dospělec
+- ve stádiu nymfy se hmyz několikrát svléká a při každém svlečení roste a více se podobá dospělci
+- přo posledním svlékání se vyvíjí pohlanví orgány a křídla
+##### Proměna dokonalá (*Holometabolie*)
+- vajíčko -> larva -> kukla -> dospělec
+- larva není vůbec dospělci podobná
+    - je vždy bez křídel a očí
+    - u některých druhů nemá ani stejné ústní ústrojí
+    - je mimořádně žravá
+    - několikrát se svléká
+- kukla je nepohyblivá
+    - dochází k dokončení vývoje
+### Systém hmyzu
