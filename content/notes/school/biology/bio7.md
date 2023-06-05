@@ -511,3 +511,456 @@ pm: true
 - kukla je nepohyblivá
     - dochází k dokončení vývoje
 ### Systém hmyzu
+
+<table class="note-table">
+    <thead>
+        <tr>
+            <th>
+
+Třída
+            </th>
+            <th>
+
+Podtřída
+            </th>
+            <th>
+
+Proměna
+            </th>
+            <th>
+
+Řád
+            </th>
+            <th>
+
+Podřád
+            </th>
+            <th>
+
+Nižší taxon
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="54">
+
+**[Hmyz](https://cs.wikipedia.org/wiki/Hmyz)** (*Insecta*)
+            </td>
+            <td rowspan="2">
+
+**Bezkřídlí** (*Apterygota*)
+            </td>
+            <td rowspan="16">
+
+**[Nedokonalá](#proměna-nedokonalá-hemimetabolie)**
+            </td>
+            <td colspan="3">
+
+[Chovstnatky](https://cs.wikipedia.org/wiki/Chvostnatky) (*Archaeognata*)
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+
+[Šupinušky](https://cs.wikipedia.org/wiki/%C5%A0upinu%C5%A1ky) (*Thysanura*)
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="52">
+
+**[Křídlatí](https://cs.wikipedia.org/wiki/K%C5%99%C3%ADdlat%C3%AD)** (*Pterygoty*)
+            </td>
+            <td colspan="3">
+
+[Jepice](https://cs.wikipedia.org/wiki/Jepice) (*Ephemeroptera*)
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+
+[Vážky](#vážky-odonata) {{< icon-link link="https://cs.wikipedia.org/wiki/V%C3%A1%C5%BEky" >}} (*Odonata*)
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+
+[Pošvatky](https://cs.wikipedia.org/wiki/Po%C5%A1vatky) (*Plecoptera*)
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+[Švábi](https://cs.wikipedia.org/wiki/%C5%A0v%C3%A1bi) (*Blattodea*)
+            </td>
+            <td colspan="2">
+
+[Všekazi](https://cs.wikipedia.org/wiki/Termiti) (*Isoptera*)
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+
+[Škvoři](#škvoři-dermoptera) {{< icon-link link="https://cs.wikipedia.org/wiki/%C5%A0kvo%C5%99i" >}} (*Dermaptera*)
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+
+[Kudlanky](https://cs.wikipedia.org/wiki/Kudlanky) (*Mantodea*)
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+
+[Strašilky](https://cs.wikipedia.org/wiki/Stra%C5%A1ilky) (*Phasmotodea*)
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+
+[Rovnokřídlí](https://cs.wikipedia.org/wiki/Rovnok%C5%99%C3%ADdl%C3%AD) (*Orthoptera*)
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="2">
+
+[Pisivky](https://cs.wikipedia.org/wiki/Pisivky) (*Psocoptera*)
+            </td>
+            <td colspan="2">
+
+[Všenky](https://cs.wikipedia.org/wiki/V%C5%A1enky) (*Mallophaga*)
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+
+[Vši](https://cs.wikipedia.org/wiki/V%C5%A1i) (*Anoplura*)
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+
+[Třásnokřídlí](https://cs.wikipedia.org/wiki/T%C5%99%C3%A1snok%C5%99%C3%ADdl%C3%AD) (*Thysanoptera*)
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="3">
+
+[Polokřídlí](https://cs.wikipedia.org/wiki/Polok%C5%99%C3%ADdl%C3%AD) (*Hemiptera*)
+            </td>
+            <td rowspan="2">
+
+[Stejnokřídlí](https://cs.wikipedia.org/wiki/Stejnok%C5%99%C3%ADdl%C3%AD) (*Homoptera*)
+            </td>
+            <td>
+            
+[Mšice](https://cs.wikipedia.org/wiki/M%C5%A1ice) (*Aphidoidea*)
+            </td>
+        </tr>
+        <tr>
+            <td>
+            
+[Červci](https://cs.wikipedia.org/wiki/%C4%8Cervci) (*Coccoidea*)
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+
+[Ploštice](https://cs.wikipedia.org/wiki/Plo%C5%A1tice) (*Heteroptera*)
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="38">
+
+**[Dokonalá](#proměna-dokonalá-holometabolie)**
+            </td>
+            <td colspan="3">
+
+[Síťokřídlí](#síťokřídlí-neuroptera) {{< icon-link link="https://cs.wikipedia.org/wiki/S%C3%AD%C5%A5ok%C5%99%C3%ADdl%C3%AD" >}} (*Neuroptera*)
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="10">
+
+[Blanokřídlí](https://cs.wikipedia.org/wiki/Blanok%C5%99%C3%ADdl%C3%AD) (*Hymenoptera*)
+            </td>
+            <td colspan="2">
+
+[Širopasí](https://cs.wikipedia.org/wiki/%C5%A0iropas%C3%AD) (*Symphyta*)
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="9">
+
+[Štíhlopasí](https://cs.wikipedia.org/wiki/%C5%A0t%C3%ADhlopas%C3%AD) (*Apocrita*)
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+Žlabatky (*Cynipoidea*)
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+Lumci (*Ichneumonoidea*)
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+Žihadlovití
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+Kutilky
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+[Včely](https://cs.wikipedia.org/wiki/V%C4%8Dely) (*Apoidea*)
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+Mravenci
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+Vosy (a sršně)
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+Čmeláci
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="22">
+
+[Brouci](https://cs.wikipedia.org/wiki/Brouci) (*Coleoptera*)
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="3">
+
+[Masožraví](https://cs.wikipedia.org/wiki/Maso%C5%BErav%C3%AD) (*Adephaga*)
+            </td>
+            <td>
+
+[Svížnikovité](https://cs.wikipedia.org/wiki/Svi%C5%BEn%C3%ADkovit%C3%AD) (*Cicindelidae*)
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+[Střevlíkovití](https://cs.wikipedia.org/wiki/St%C5%99evl%C3%ADkovit%C3%AD) (*Carabidae*)
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+[Potápníkovití](https://cs.wikipedia.org/wiki/Pot%C3%A1pn%C3%ADkovit%C3%AD) (*Dysticidae*)
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="18">
+
+[Všežraví](https://cs.wikipedia.org/wiki/V%C5%A1e%C5%BErav%C3%AD) (*Polyphaga*)
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+Vodomilovití (*Hydrophilidae*)
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+Mrchožrouti (*Silphidae*)
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+Drabčíkovití (*Staphylinidae*)
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+Světluškovití (*Lampyridae*)
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+Kováříkovití (*Elateridae*)
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+Krascovití (*Buprestidae*)
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+Kožojedovití (*Dermistidae*)
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+Slunéčkovití (*Coccinellidae*)
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+Červotočovití (*Anobiidae*)
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+Majkovití (*Maloidae*)
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+Potemníkovití (*Terebrionidae*)
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+Roháčovití (*Lucanidae*)
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+Vrubounovití (*Scarabaeidae*)
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+Tesaříkovití (*Cerymbycidae*)
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+Mandelinkovití (*Chrysomelidae*)
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+Nosatcovití (*Curculionidae*)
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+Kůrovcovití (*Ipidae*)
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="2">
+
+[Dvoukřídlí](#dvoukřídlí-diptera) {{< icon-link link="https://cs.wikipedia.org/wiki/Dvouk%C5%99%C3%ADdl%C3%AD" >}} (*Diptera*)
+            </td>
+            <td colspan="2">
+
+Dlouhorozí
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+
+Krátkorozí
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+
+[Blechy](https://cs.wikipedia.org/wiki/Blechy) (*Aphaniptera*)
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+
+[Chrostíci](https://cs.wikipedia.org/wiki/Chrost%C3%ADci) (*Trichoptera*)
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+
+[Motýli](https://cs.wikipedia.org/wiki/Mot%C3%BDli) (*Lepidoptera*)
+            </td>
+        </tr>
+    </tbody>
+    <caption>
+
+Systém hmyzu
+    </caption>
+</table>
+
+### Vážky (*Odonata*)
+- proměna nedokonalá
+- mají štíhlý zadeček
+- po stranách hlavy mají krátka tykadla
+- v předních rozích křídel mají tmavě pigmentovanou *plamku*
+- mohou kopulovat za letu
+- jejich larvy dýchají střevem nebo žábrami na konci zadečku
+    - jsou mimořádně dravé
+#### Zástupci
+- *vážká ploska*
+- *šídlo modré*
+### Škvoři (*Dermoptera*)
+- proměna nedokonalá
+- mají protažené a silně zchitinizované tělo, nitkovitá tykadla a kousavé ústní ústrojí
+- zadeček je zakončen klíšťovitými štěty
+#### Zástupci
+- *škvor obecný*
+### Síťokřídlí (*Neuroptera*)
+- proměna dokonalá
+- jsou draví
+    - včetně larev
+- kusadly vstřikují do těla kořisti trávicí šťávy a pak ji vysávají
+- mají protáhlé křehké tělo se dvěma páry blanitých křídel
+#### Zástupci
+- *zlatoočka skvrnitá*
+    - živí se mšicemi
+- *mravkolev běžný*
+    - je největší
+    - obývá teplá stanoviště
+### Dvoukřídlí (*Diptera*)
+- proměna dokonalá
+- mají plně vyvinutý pouze přední pár křídel
+- druhý pár se přeměnil na kyvadélka
+- hrudní články jsou srostlé
+#### Zástupci
+- *komár pisklavý*
+    - je u nás nejrozšířenější
+    - larvy žijí ve vodě
+    - samičky přezimují ve sklepích
+- *ovád hovězí*
+    - obtěžuje dobytek
+    - mohou sát krev člověka
+        - zpsůobují olestivé zarudlé otoky
