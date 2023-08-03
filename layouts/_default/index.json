@@ -13,7 +13,6 @@
     },
     {{- end }}
     {{- end }}
-
     {{- $totalPages := len .Site.RegularPages -}}
     {{- $pagesRange := .Site.RegularPages -}}
     {{- range $index, $page := $pagesRange -}}
