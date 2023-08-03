@@ -85,22 +85,22 @@ defaultContentLanguageInSubdir = true
             [[languages.cs.menu.main]]
                 identifier = "about"
                 name = "O mně"
-                pageRef = "/about"
+                pageRef = "/cs/about"
                 weight = 1
             [[languages.cs.menu.main]]
                 identifier = "articles"
                 name = "Članky"
-                pageRef = "/articles"
+                pageRef = "/cs/articles"
                 weight = 2
             [[languages.cs.menu.main]]
                 identifier = "gallery"
                 name = "Galerie"
-                pageRef = "/gallery"
+                pageRef = "/cs/gallery"
                 weight = 3
             [[languages.cs.menu.main]]
                 identifier = "bio"
                 name = "Životopis"
-                pageRef = "/bio"
+                pageRef = "/cs/bio"
                 weight = 4
             # [[languages.cs.menu.sidebar]]
             #     identifier = "notes"
@@ -132,22 +132,22 @@ defaultContentLanguageInSubdir = true
             [[languages.fr.menu.main]]
                 identifier = "about"
                 name = "À propos"
-                pageRef = "/about"
+                pageRef = "/fr/about"
                 weight = 1
             [[languages.fr.menu.main]]
                 identifier = "articles"
                 name = "Articles"
-                pageRef = "/articles"
+                pageRef = "/fr/articles"
                 weight = 2
             [[languages.fr.menu.main]]
                 identifier = "gallery"
                 name = "Galerie"
-                pageRef = "/gallery"
+                pageRef = "/fr/gallery"
                 weight = 3
             [[languages.fr.menu.main]]
                 identifier = "bio"
                 name = "CV"
-                pageRef = "/bio"
+                pageRef = "/fr/bio"
                 weight = 4
             # [[languages.fr.menu.sidebar]]
             #     identifier = "notes"
