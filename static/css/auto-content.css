@@ -55,7 +55,7 @@
     flex-wrap: wrap;
     width: 100%;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-evenly;
 }
 .auto-content-gallery {
     flex-direction: column;
@@ -112,4 +112,16 @@
 .auto-content-gallery-title {
     font-size: var(--h4-size);
     font-weight: bold;
+}
+
+@media (max-width:925px) {
+    .auto-content-gallery {
+        width: 45%;
+    }
+}
+
+@media (max-width:395px) {
+    .auto-content-gallery {
+        width: 100%;
+    }
 }
