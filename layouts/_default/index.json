@@ -1,0 +1,12 @@
+[
+    {{- range $index, $page := .Site.RegularPages -}}
+    {
+        "link": "{{ $page.RelPermalink }}",
+        "title": "{{ $page.Title }}",
+        "date": "{{ $page.Date | time.Format "02/01/2006" | htmlEscape }}",
+        "type": "{{ $page.Params.type }}",
+        "search": "{{ $page.Params.search }}",
+        "show": "{{ $page.Params.show }}"
+    }{{- if ne (add $index 1) (len .Site.RegularPages) -}},{{- end -}}
+    {{- end -}}
+]

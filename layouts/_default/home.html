@@ -1,33 +1,82 @@
 <!DOCTYPE html>
-<html lang="{{.Site.LanguageCode}}">
+<html>
     <head>
-        {{partial "head-meta.html" .}}
-        {{partial "style.html" .}}
-        {{partial "title.html" .}}
-        {{partial "favicon.html" .}}
-        {{partial "tex.html" .}}
+        {{partial "head.html" .}}
     </head>
     <body>
-        <div id="home-main">
-            {{partial "header.html" .}}
-            <hr>
-            <div id="content">
-                <article id="home-article">
-                        {{.Content}}
-                </article>
-                <div id="home-nav">
-                    <div id="home-nav-content">
-                        <ul>
-                            {{range .Site.Menus.main}}
-                                <li>
-                                    <a href="{{ .URL }}">{{.Name}}</a>
-                                </li>
-                            {{end}}
-                        </ul>
+        <div class="body-content-container">
+            <div class="body-content">
+                <div class="column" id="sidebar-column">
+                    <div class="sidebar">
+                        {{partial "sidebar.html" .}}
+                    </div>
+                </div>
+                <div class="column" id="nav-content-column">
+                    <div class="navbar">
+                        {{partial "navbar.html" .}}
+                    </div>
+                    <div class="page-content">
+                        <main>
+                            <div class="page-header">
+                                {{.Title}}
+                            </div>
+                            {{.Content}}
+                            <h1>
+                                {{if strings.HasPrefix .RelPermalink "/cs/"}}
+                                    {{print "Nejnovější články"}}
+                                {{else if strings.HasPrefix .RelPermalink "/fr/"}}
+                                    {{print "Articles les plus récents"}}
+                                {{else}}
+                                    {{print "Newest articles"}}
+                                {{end}}
+                            </h1>
+                            <div class="auto-content">
+                                <div class="auto-content-container">
+                                    {{range where .Site.Pages ".Params.type" "==" "article" | first 3}}
+                                        <div class="auto-content-item"> 
+                                            <a class="auto-content-item-link" href="{{.RelPermalink}}">{{.Title}}</a>
+                                            <div class="auto-content-item-date">{{.Date | time.Format "02/01/2006"}}</div>
+                                            <div class="auto-content-item-content">{{.Params.show}}</div>
+                                        </div>
+                                    {{end}}
+                                </div>
+                            </div>
+                            <h1>
+                                {{if strings.HasPrefix .RelPermalink "/cs/"}}
+                                    {{print "Nejnovější příspěvky do galerie"}}
+                                {{else if strings.HasPrefix .RelPermalink "/fr/"}}
+                                    {{print "Posts sur la galerie les plus récents"}}
+                                {{else}}
+                                    {{print "Newest gallery posts"}}
+                                {{end}}
+                            </h1>
+                            <div class="auto-content">
+                                <div class="auto-content-container">
+                                    {{range where .Site.Pages ".Params.type" "==" "gallery" | first 3}}
+                                        <div class="auto-content-gallery">
+                                            <a class="auto-content-gallery-link" href="{{.RelPermalink}}">
+                                                <div class="auto-content-gallery-title-photo">
+                                                    <img src="{{.Params.show}}">
+                                                </div>
+                                                <div class="auto-content-gallery-wrapper">
+                                                    <div class="auto-content-gallery-title">{{.Title}}</div>
+                                                    <div class="auto-content-gallery-date">{{.Date | time.Format "02/01/2006"}}</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    {{end}}
+                                </div>
+                            </div>
+                        </main>
+                        <footer>
+                            {{partial "footer.html" .}}
+                        </footer>
                     </div>
                 </div>
             </div>
-            {{partial "footer.html" .}}
         </div>
+        <dialog id="search">
+            {{partial "search.html" .}}
+        </dialog>
     </body>
 </html>
