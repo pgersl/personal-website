@@ -48,7 +48,7 @@
     font-family: var(--serif);
 }
 
-.auto-content-container:has(.auto-content-gallery) {
+.auto-content-container:first-child {
     display: flex;
     flex-direction: row;
     gap: 2em;

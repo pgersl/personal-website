@@ -121,8 +121,14 @@
     font-size: var(--h4-size);
     font-weight: bold;
 }
+.search-card-date {
+    font-size: var(--tiny-size);
+    font-style: italic;
+    color: var(--accent-clr4);
+}
 .search-card-content {
     font-family: var(--serif);
+    font-size: var(--font-size);
 }
 .search-not-found {
     display: flex;
