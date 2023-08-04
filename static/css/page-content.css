@@ -58,8 +58,10 @@ h6 {
     line-height: calc(var(--font-size) * 1.15);
     letter-spacing: 4px;
 }
-p, .page-content ul, .page-content ol {
+p {
     padding-bottom: 1em;
+}
+p, .page-content ul, .page-content ol {
     letter-spacing: 0px;
     line-height: calc(var(--font-size) * 1.4);
 }
@@ -80,14 +82,14 @@ code {
     border-radius: 5px;
     background-color: var(--bg-clr2);
 }
-.page-content main p > a {
+.page-content main p > a, .page-content ul a, .page-content ol a {
     color: var(--txt-clr);
     text-decoration: underline;
 }
-.page-content main p > a:hover {
+.page-content main p > a:hover, .page-content ul a:hover, .page-content ol a:hover {
     color: var(--accent-clr);
 }
-.page-content main p > a:active {
+.page-content main p > a:active, .page-content ul a:active, .page-content ol a:active {
     color: var(--accent-clr2);
 }
 .page-content ul, .page-content ol {
@@ -96,6 +98,10 @@ code {
 }
 .page-content li {
     padding-left: .5em;
+    padding-bottom: .5em;
+}
+.page-content ul li:last-of-type, .page-content ol li:last-of-type {
+    padding-bottom: 1em;
 }
 .tags-header-link {
     color: var(--accent-clr);

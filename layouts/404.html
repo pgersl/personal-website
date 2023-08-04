@@ -18,17 +18,10 @@
                     <div class="page-content">
                         <main>
                             <div class="page-header">
-                                {{.Title}}
+                                Error 404: Nothing was found!
                             </div>
-                            {{if not (eq .Params.type "index")}}
-                                <div class="page-info">
-                                    {{.Params.date | time.Format "02/01/2006"}}
-                                </div>
-                            {{end}}
-                            {{if .Params.toc}}
-                                {{partial "toc.html" .}}
-                            {{end}}
-                            {{.Content}}
+                            <p>It seems that you've stumbled across a broken link or a page that doesn't exist, yet.</p>
+                            <p><a href="{{.Site.BaseURL}}">Go home</a></p>
                         </main>
                         <footer>
                             {{partial "footer.html" .}}
