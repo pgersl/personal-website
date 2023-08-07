@@ -10,6 +10,6 @@ navLinks.forEach(function(link) {
       }
 });
 
-if (currentPage === "https://pgersl.xyz/" || currentPage === "https://pgersl.xyz/cs/" || currentPage === "https://pgersl.xyz/fr/") {
+if (currentPage === "") {
   homeLink.classList.add('highlighted')
 }
