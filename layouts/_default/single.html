@@ -16,10 +16,10 @@
                         {{partial "navbar.html" .}}
                     </div>
                     <div class="page-content">
+                        <div class="page-header">
+                            {{.Title}}
+                        </div>
                         <main>
-                            <div class="page-header">
-                                {{.Title}}
-                            </div>
                             {{if not (eq .Params.type "index")}}
                                 <div class="page-info">
                                     {{.Params.date | time.Format "02/01/2006"}}

@@ -24,10 +24,11 @@ main {
     color: var(--bg-clr4);
     font-size: var(--tiny-size);
     font-style: italic;
+    padding-bottom: 1.3em;
 }
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
-    padding-bottom: .5em;
+    padding: .5em 0;
     color: var(--accent-clr4);
 }
 h1, h2, h3, h4, h5 {
@@ -47,7 +48,7 @@ h3 {
 }
 h4 {
     font-size: var(--h4-size);
-    line-height: calc(var(--h14-size) * 1.15);
+    line-height: calc(var(--h4-size) * 1.15);
 }
 h5 {
     font-size: var(--h5-size);
@@ -82,26 +83,23 @@ code {
     border-radius: 5px;
     background-color: var(--bg-clr2);
 }
-.page-content main p > a, .page-content ul a, .page-content ol a {
+.page-content main p a, .page-content main li a {
     color: var(--txt-clr);
     text-decoration: underline;
 }
-.page-content main p > a:hover, .page-content ul a:hover, .page-content ol a:hover {
+.page-content main p a:hover, .page-content main li a:hover {
     color: var(--accent-clr);
 }
-.page-content main p > a:active, .page-content ul a:active, .page-content ol a:active {
+.page-content main p a:active, .page-content main li a:active {
     color: var(--accent-clr2);
 }
 .page-content ul, .page-content ol {
     list-style-position: inside;
     font-family: var(--serif);
+    padding-bottom: .5em;
 }
 .page-content li {
     padding-left: .5em;
-    padding-bottom: .5em;
-}
-.page-content ul li:last-of-type, .page-content ol li:last-of-type {
-    padding-bottom: 1em;
 }
 .tags-header-link {
     color: var(--accent-clr);

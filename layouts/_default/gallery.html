@@ -17,10 +17,10 @@
                         {{partial "navbar.html" .}}
                     </div>
                     <div class="page-content">
+                        <div class="page-header">
+                            {{.Title}}
+                        </div>
                         <main>
-                            <div class="page-header">
-                                {{.Title}}
-                            </div>
                             {{.Content}}
                             <div class="gallery">
                                 <article class="gallery-content">

@@ -16,41 +16,38 @@
                         {{partial "navbar.html" .}}
                     </div>
                     <div class="page-content">
+                        <div class="page-header">
+                            <a class="tags-header-link" href=
+                                {{if strings.HasPrefix .RelPermalink "/cs/"}}
+                                        {{print "/cs/tags/"}}
+                                    {{else if strings.HasPrefix .RelPermalink "/fr/"}}
+                                        {{print "/fr/tags/"}}
+                                    {{else}}
+                                        {{print "/tags/"}}
+                                    {{end}}
+                            >#</a>{{.Title}}
+                        </div>
                         <main>
-                            <div class="page-header">
-                                <a class="tags-header-link" href=
-                                    {{if strings.HasPrefix .RelPermalink "/cs/"}}
-                                            {{print "/cs/tags/"}}
-                                        {{else if strings.HasPrefix .RelPermalink "/fr/"}}
-                                            {{print "/fr/tags/"}}
-                                        {{else}}
-                                            {{print "/tags/"}}
-                                        {{end}}
-                                >#</a>{{.Title}}
-                            </div>
-                            {{if .Params.toc}}
-                                {{partial "toc.html" .}}
-                            {{end}}
                             {{.Content}}
-                        </main>
-                        <div class="auto-content">
-                            {{range .Data.Terms.ByCount}}
-                                <div class="auto-content-item">
-                                    <a class="auto-content-item-link" href="{{.Page.RelPermalink}}">#{{.Page.Title}}</a>
-                                    <div class="auto-content-item-date">{{.Count}}</div>
-                                </div>
-                            {{end}}
-                            {{$currentTag := .Title}}
-                            {{range .Site.Pages}}
-                                {{if in .Params.tags $currentTag}}
-                                    <div class="auto-content-item"> 
-                                        <a class="auto-content-item-link" href="{{.RelPermalink}}">{{.Title}}</a>
-                                        <div class="auto-content-item-date">{{.Date | time.Format "02/01/2006"}}</div>
-                                        <div class="auto-content-item-content">{{.Params.show}}</div>
+                            <div class="auto-content">
+                                {{range .Data.Terms.ByCount}}
+                                    <div class="auto-content-item">
+                                        <a class="auto-content-item-link" href="{{.Page.RelPermalink}}">#{{.Page.Title}}</a>
+                                        <div class="auto-content-item-date">{{.Count}}</div>
                                     </div>
                                 {{end}}
-                            {{end}}
-                        </div>
+                                {{$currentTag := .Title}}
+                                {{range .Site.Pages}}
+                                    {{if in .Params.tags $currentTag}}
+                                        <div class="auto-content-item"> 
+                                            <a class="auto-content-item-link" href="{{.RelPermalink}}">{{.Title}}</a>
+                                            <div class="auto-content-item-date">{{.Date | time.Format "02/01/2006"}}</div>
+                                            <div class="auto-content-item-content">{{.Params.show}}</div>
+                                        </div>
+                                    {{end}}
+                                {{end}}
+                            </div>
+                        </main>
                         <footer>
                             {{partial "footer.html" .}}
                         </footer>
