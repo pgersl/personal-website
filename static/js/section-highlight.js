@@ -1,5 +1,5 @@
 var currentPage = window.location.pathname.slice(0, -1);
-console.log(currentPage)
+
 var navLinks = document.querySelectorAll('.navbar-content a');
 var homeLink = document.querySelector('.navbar-content-title-link')
 
