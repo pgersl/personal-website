@@ -19,7 +19,7 @@ toc: false
     - ***reference***: vedoucí prodejny, tel. č.: [731 668 617](tel:731668617)
     - ***popis činnosti***: organizace prodejny, úklid přiděleného úseku, příprava a dpolňování zboží, služby zákazníkům
 - **06/2021 - 08/2021**: Terranova SOLITAIRE, spol. s. r. o., Františkánská 1 Brno, **prodavač** (brigáda)
-    - ***reference***: store manager, phone: [774 996 631](tel:774996631)
+    - ***reference***: vedoucí prodejny, tel. č.: [774 996 631](tel:774996631)
     - ***popis činnosti***: organizace prodejny, úklid přiděleného úseku, příprava a dpolňování zboží, služby zákazníkům
     - ***důvody odchodu***: špatné pracovní proostředí, podezřelé činnosti, nové příležitosti
 #### Jazykové dovednosti
@@ -31,7 +31,7 @@ toc: false
 #### Technické dovednosti
 - **kancelářské aplikace** (MS Office, LibreOffice, Google Workspace) - pokročilý uživatel
 - **plain-text** (LaTeX, Markdown) - pokročilý uživatel
-- **web frontend** (HTML, CSS, JavaScript) - středně pokroočilý uživatel
+- **web frontend** (HTML, CSS, JavaScript) - středně pokročilý uživatel
     - ***vlastní projekty***: [pgersl.xyz](https://pgersl.xyz/), [astropi-hackathon.org](https://astropi-hackathon.org), [farnostmenin.cz](https://farnostmenin.cz)
 - **konfigurace/databáze** (TOML, JSON) - začátečník
 - **scripting** (Python, Bash) - niže pokročilý uživatel

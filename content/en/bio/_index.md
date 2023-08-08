@@ -15,7 +15,7 @@ toc: false
     - [latest report card](/media/docs/cv/vysvedceni-latest.pdf)
 - **09/2012 - 06/2017**: [Základní škola Měnín](https://www.zsmenin.cz/), elementary school
 #### Experience
-- **07/2022 - now**: Vágner department store, Česká 151/6 Brno, **retail salesperson** (part-time)
+- **07/2022 - now**: Obchodní dům Vágner, Česká 151/6 Brno, **retail salesperson** (part-time)
     - ***reference***: store manager, phone: [731 668 617](tel:731668617)
     - ***job description***: store organization, clean up of a given section of the shop, preparation and refilling, customer service
 - **06/2021 - 08/2021**: Terranova SOLITAIRE, spol. s. r. o., Františkánská 1 Brno, **retail salesperson** (part-time)
