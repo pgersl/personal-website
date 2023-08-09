@@ -1,3 +1,5 @@
+/* BASIC LAYOUT*/
+
 main {
     width: 100%;
     flex: 1;
@@ -26,6 +28,9 @@ main {
     font-style: italic;
     padding-bottom: 1.3em;
 }
+
+/* BASIC FEATURES*/
+
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     padding: .5em 0;
@@ -68,13 +73,26 @@ p, .page-content ul, .page-content ol {
 }
 blockquote {
     background-color: var(--accent-clr5);
-    margin: 1em 0;
+    margin-bottom: 1em;
     border-left: solid;
     border-width: 5px;
     border-color: var(--accent-clr);
+    display: flex;
+    flex-direction: column;
+    font-family: var(--serif);
 }
-blockquote p {
-    padding: 1em 1em 1em 2em;
+.quote-content {
+    padding: var(--font-size) var(--font-size) 0 calc(var(--font-size) * 2);
+    font-style: italic;
+}
+.quote-author {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    color: var(--accent-clr2);
+    font-size: var(--tiny-size);
+    padding: 0 var(--font-size) var(--font-size) calc(var(--font-size) * 2);
 }
 code {
     font-family: var(--mono);
@@ -93,7 +111,7 @@ code {
 .page-content main p a:active, .page-content main li a:active {
     color: var(--accent-clr2);
 }
-.page-content ul, .page-content ol {
+.page-content main > ul, .page-content main > ol {
     list-style-position: inside;
     font-family: var(--serif);
     padding-bottom: .5em;
@@ -101,52 +119,55 @@ code {
 .page-content li {
     padding-left: .5em;
 }
-.tags-header-link {
-    color: var(--accent-clr);
-    text-decoration: none;
-}
-.tags-header-link:hover {
-    text-decoration: underline;
-}
-.tags-header-link:active {
-    color: var(--accent-clr2);
-}
-footer {
-    border-top: var(--border);
+.button-links {
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    margin: 3em 0;
+    margin-bottom: .5em;
 }
-.footer-content {
-    margin-top: .5em;
+.button-links-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+}
+.button-link {
+    padding: .4em .6em;
+    border: 2px solid var(--accent-clr);
+    border-radius: 400em;
+    font-weight: bold;
+    color: var(--txt-clr);
+    text-decoration: none;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    transition: var(--transition);
+    margin: 0 1em .5em 0;
 }
-.footer-content-copy {
-    color: var(--bg-clr3);
-    padding-bottom: .5em;
+.button-link:hover {
+    background-color: var(--accent-clr);
+    color: var(--bg-clr);
 }
-.tooltip {
-    position: relative;
+.button-link:active {
+    background-color: var(--accent-clr2);
+    border-color: var(--accent-clr2);
 }
-.tooltip::before {
-    content: attr(data-content);
-    display: none;
-    position: absolute;
-    top: 120%;
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 5px;
-    background-color: var(--bg-clr3);
-    color: var(--txt-clr);
-    font-size: var(--tiny-size);
-    white-space: nowrap;
-    font-family: var(--sans);
+.icon-link {
+    padding: .3em .6em;
+    border-radius: 400em;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: var(--accent-clr);
+    color: var(--bg-clr);
+    width: fit-content;
+    transition: var(--transition);
 }
-.tooltip:hover::before {
-    display: block;
+.icon-link:hover {
+    background-color: var(--accent-clr2);
 }
-.tooltip:active::before {
-    background-color: var(--bg-clr4);
+.icon-link:active {
+    background-color: var(--accent-clr3);
 }

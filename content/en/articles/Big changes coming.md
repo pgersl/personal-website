@@ -9,7 +9,7 @@ tags:
 show: "My website is going through a big change. Take a look at what's new and what is yet to come. It is going to be a blast the next few weeks."
 search: "An article covering the changes made to the website in the summer of 2023." 
 ---
-> Do you even recognize this site?
+**Do you even recognize this site?**
 
 My website, pgersl.xyz, is going through a massive change, not only in terms of design. New features are here and more are soon to come. There is also more content coming, let's go through all of this.
 
@@ -31,13 +31,13 @@ The content of the **footer** didn't change a whole lot, only one new feature wa
 
 A new **monochromatic color palette** was devised carefully so that all colors work together and complement each other well. Check out all the colors that are being used below:
 
-{{< article-feature1 >}}
+{{< articles/article-feature1 >}}
 
 ## Fonts
 
 The site currently uses three fonts, serif, sans serif and monospace. The serif font is used for the main bodies of text, paragraphs, blockquotes and so on. Headings and other parts of the site use the sans serif font. Monospace font will be used very rarely when code is presented or mentioned somehow. Check out these fonts below:
 
-{{< article-feature2 >}}
+{{< articles/article-feature2 >}}
 
 ## New logo
 

@@ -2,6 +2,7 @@
 
 :root {
     --border: solid 2px var(--accent-clr2);
+    --transition: all 100ms;
     --gallery-bg-clr: #070B0B;
     --serif: 'Libre Baskerville', serif;
     --sans: 'REM', sans-serif;

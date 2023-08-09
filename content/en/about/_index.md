@@ -16,17 +16,9 @@ I think I am:
 - **a loner**, I like working alone, in fact, I prefer it. It is sometimes hard for me to work in a team, because I am a natural leader and manager, and I hate when something is being done below my expectations. It seems the team does a better job when I take care of everything myself,
 - **communicative, fair, decent, respectful and honest**
 
-You can check out the results of my [NEO PI-R](https://en.wikipedia.org/wiki/Revised_NEO_Personality_Inventory) testing [here](/about/neo-pi-r)!
+You can check out the results of my examinations and surveys here:
 
-You can check out the results of my [TSD-Z](https://files.eric.ed.gov/fulltext/EJ854980.pdf) testing [here](/about/tsd-z)!
-
-You can check out the results of my [I-S-T 2000R](https://de.wikipedia.org/wiki/I-S-T_2000R) testing [here](/about/i-s-t-2000r)!
-
-You can check out the results of my [MFQ-2](https://yourmorals.org/) survey [here](/media/docs/mfq-2.pdf)!
-
-You can check out the results of my [IPIP-BFFM](http://openpsychometrics.org/) survey [here](/media/docs/ipip-bffm.pdf)!
-
-You can view my [MBTI](https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator) profile [here](https://www.16personalities.com/profiles/09c3ad784e8fb)!
+{{< button-links multiple="true" title="NEO PI-R,TSD-Z,I-S-T 2000R,IPIP-BFFM,MBTI" href="/about/neo-pi-r,/about/tsd-z,/about/i-s-t-2000r,/media/docs/ipip-bffm.pdf,https://www.16personalities.com/profiles/09c3ad784e8fb" >}}
 
 # Background
 
@@ -54,7 +46,7 @@ I played the **flute** when I was younger, all the way in pre-school. My teacher
 
 You surely know this quote:
 
-> The limits of my language mean the limits of my world. -- *L. Wittgenstein (1889 - 1951)*
+{{< quote content="The limits of my language mean the limits of my world." author="Ludwig Wittgenstein (1889 - 1951)" >}}
 
 Well, I do agree with it. This is why I am learning to speak **English** and **French**, **Czech** and **Slovak** are my native languages, and I also learned a little bit of **Latin**. I might want to take up one more language at least in the future, **German** (for reasons that are not publishable) or **Spanish**.
 
@@ -70,9 +62,9 @@ However, my value system is also influenced by the economic system I live in. *C
 
 My political views are leaning toward the right. I am a conservative. I do, however, find some positive aspects of social states, like the Czech Republic, with free healthcare and education.
 
-You can check out my [political compass](https://www.politicalcompass.org/) [here](/media/docs/political-compass.pdf) (or see the certificate [here](/media/docs/political-compass-soy.pdf))!
+Check out the results of these surveys for more:
 
-You can check out my [Schwartz values scale](https://en.wikipedia.org/wiki/Values_scale#Schwartz) survey [here](/media/docs/schwartz-values-scale.pdf)!
+{{< button-links multiple="true" title="MFQ-2,Schwartz values scale,Political compass" href="/media/docs/mfq-2.pdf,/media/docs/schwartz-values-scale.pdf,/media/docs/political-compass.pdf" >}}
 
 # Purpose of this website
 

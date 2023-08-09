@@ -4,6 +4,9 @@ layout: single
 type: index
 toc: false
 ---
+
+{{< icon-link icon="fa-solid fa-print" href="/media/docs/cv/cv-cz.pdf" title="PDF" >}}
+
 #### Základní informace
 - **celé jméno**: Petr Geršl
 - **tel. č.**: [+420 731 347 915](tel:731347915)
@@ -34,7 +37,7 @@ toc: false
 - **web frontend** (HTML, CSS, JavaScript) - středně pokročilý uživatel
     - ***vlastní projekty***: [pgersl.xyz](https://pgersl.xyz/), [astropi-hackathon.org](https://astropi-hackathon.org), [farnostmenin.cz](https://farnostmenin.cz)
 - **konfigurace/databáze** (TOML, JSON) - začátečník
-- **scripting** (Python, Bash) - niže pokročilý uživatel
+- **scripting** (Python, Bash) - mírně pokročilý uživatel
 #### Koníčky
 - **výzkum**
     - chemie
