@@ -51,7 +51,6 @@
 .auto-content-container:first-child {
     display: flex;
     flex-direction: row;
-    gap: 2em;
     flex-wrap: wrap;
     width: 100%;
     align-items: center;
@@ -123,5 +122,6 @@
 @media (max-width:395px) {
     .auto-content-gallery {
         width: 100%;
+        margin: 1em;
     }
 }

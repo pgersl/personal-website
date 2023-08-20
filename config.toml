@@ -60,11 +60,11 @@ defaultContentLanguageInSubdir = true
             #     name = "Notes"
             #     url = "https://notes.pgersl.xyz"
             #     weight = 1
-            # [[languages.en.menu.sidebar]]
-            #     identifier = "music"
-            #     name = "Music"
-            #     url = "https://music.pgersl.xyz"
-            #     weight = 2
+            [[languages.en.menu.sidebar]]
+                identifier = "music"
+                name = "Music"
+                url = "https://music.pgersl.xyz"
+                weight = 2
             # [[languages.en.menu.sidebar]]
             #     identifier = "business"
             #     name = "Business"
@@ -107,11 +107,11 @@ defaultContentLanguageInSubdir = true
             #     name = "Poznámky"
             #     url = "https://notes.pgersl.xyz"
             #     weight = 1
-            # [[languages.cs.menu.sidebar]]
-            #     identifier = "music"
-            #     name = "Hudba"
-            #     url = "https://music.pgersl.xyz"
-            #     weight = 2
+            [[languages.cs.menu.sidebar]]
+                identifier = "music"
+                name = "Hudba"
+                url = "https://music.pgersl.xyz"
+                weight = 2
             # [[languages.cs.menu.sidebar]]
             #     identifier = "business"
             #     name = "Služby"
@@ -135,11 +135,6 @@ defaultContentLanguageInSubdir = true
                 pageRef = "/fr/about"
                 weight = 1
             [[languages.fr.menu.main]]
-                identifier = "articles"
-                name = "Articles"
-                pageRef = "/fr/articles"
-                weight = 2
-            [[languages.fr.menu.main]]
                 identifier = "gallery"
                 name = "Galerie"
                 pageRef = "/fr/gallery"
@@ -154,11 +149,11 @@ defaultContentLanguageInSubdir = true
             #     name = "Notes"
             #     url = "https://notes.pgersl.xyz"
             #     weight = 1
-            # [[languages.fr.menu.sidebar]]
-            #     identifier = "music"
-            #     name = "Musique"
-            #     url = "https://music.pgersl.xyz"
-            #     weight = 2
+            [[languages.fr.menu.sidebar]]
+                identifier = "music"
+                name = "Musique"
+                url = "https://music.pgersl.xyz"
+                weight = 2
             # [[languages.fr.menu.sidebar]]
             #     identifier = "business"
             #     name = "Affaires"

@@ -21,15 +21,12 @@
                         </div>
                         <main>
                             {{.Content}}
-                            <h1>
-                                {{if strings.HasPrefix .RelPermalink "/cs/"}}
-                                    {{print "Nejnovější články"}}
-                                {{else if strings.HasPrefix .RelPermalink "/fr/"}}
-                                    {{print "Articles les plus récents"}}
-                                {{else}}
-                                    {{print "Newest articles"}}
-                                {{end}}
-                            </h1>
+                            {{if strings.HasPrefix .RelPermalink "/cs/"}}
+                                <h1>Nějnovější články</h1>
+                            {{else if strings.HasPrefix .RelPermalink "/fr/"}}
+                            {{else}}
+                                <h1>Newest articles</h1>
+                            {{end}}
                             <div class="auto-content">
                                 <div class="auto-content-container">
                                     {{range where .Site.Pages ".Params.type" "==" "article" | first 3}}
