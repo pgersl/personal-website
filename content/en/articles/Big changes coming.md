@@ -1,5 +1,5 @@
 ---
-title: "Big Changes Coming"
+title: "Big changes coming"
 layout: single
 type: article
 date: 2023-08-03
