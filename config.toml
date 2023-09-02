@@ -55,11 +55,11 @@ defaultContentLanguageInSubdir = true
                 name = "Bio"
                 pageRef = "/bio"
                 weight = 4
-            # [[languages.en.menu.sidebar]]
-            #     identifier = "notes"
-            #     name = "Notes"
-            #     url = "https://notes.pgersl.xyz"
-            #     weight = 1
+            [[languages.en.menu.sidebar]]
+                identifier = "notes"
+                name = "Notes"
+                url = "https://notes.pgersl.xyz"
+                weight = 1
             [[languages.en.menu.sidebar]]
                 identifier = "music"
                 name = "Music"
@@ -102,11 +102,11 @@ defaultContentLanguageInSubdir = true
                 name = "Životopis"
                 pageRef = "/cs/bio"
                 weight = 4
-            # [[languages.cs.menu.sidebar]]
-            #     identifier = "notes"
-            #     name = "Poznámky"
-            #     url = "https://notes.pgersl.xyz"
-            #     weight = 1
+            [[languages.cs.menu.sidebar]]
+                identifier = "notes"
+                name = "Poznámky"
+                url = "https://notes.pgersl.xyz"
+                weight = 1
             [[languages.cs.menu.sidebar]]
                 identifier = "music"
                 name = "Hudba"
@@ -144,11 +144,11 @@ defaultContentLanguageInSubdir = true
                 name = "CV"
                 pageRef = "/fr/bio"
                 weight = 4
-            # [[languages.fr.menu.sidebar]]
-            #     identifier = "notes"
-            #     name = "Notes"
-            #     url = "https://notes.pgersl.xyz"
-            #     weight = 1
+            [[languages.fr.menu.sidebar]]
+                identifier = "notes"
+                name = "Notes"
+                url = "https://notes.pgersl.xyz"
+                weight = 1
             [[languages.fr.menu.sidebar]]
                 identifier = "music"
                 name = "Musique"

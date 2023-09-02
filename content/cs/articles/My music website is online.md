@@ -7,7 +7,7 @@ toc: true
 tags:
     - oznámení
 show: "Moje stránky s hudbou jsou online. Jděte a podívejte se na to, co mě skutečně baví, a zvažte podporu."
-search: "Článek informující o zahájení mé nové webové stránky zaměřené na hudbu."
+search: "Článek informující o zveřejnění mé nové webové stránky zaměřené na hudbu."
 ---
 
 Změnilo se něco?
@@ -24,7 +24,7 @@ Tyto stránky jsou jednodušší než moje osobní stránka. Nenajdete zde vyhle
 
 Napsal jsem vlastní JavaScriptový kód pro přehrávač hudby. Funguje skvěle. To také znamená, že...
 
-# Cíl
+# Účel
 
 Na těchto stránkách naleznete mou hudbu. Fungují jako jakýsi portál, kde lze snadno přejít k poslechu mé hudby na oblíbených platformách (snad brzy!), ke koupi mé hudby, k podpoře nebo k článkům o mé hudbě. Každá z mých skladeb je opatřena článkem, kde se dozvíte více.
 
