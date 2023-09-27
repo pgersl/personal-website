@@ -14,7 +14,7 @@ toc: false
 - **09/2017 - jusqu'ici**: [Cyrilometodějské gymnázium a střední odborná škola pedagogická Brno](https://www.cmgp.cz/en/), lycée
     - [nejaktuálnější vysvědčení](/media/docs/cv/vysvedceni-latest.pdf)
 - **09/2012 - 06/2017**: [Základní škola Měnín](https://www.zsmenin.cz/), école primaire
-#### Expériences
+#### Expérience professionnelle
 - **07/2022 - jusqu'ici**: Obchodní dům Vágner, Česká 151/6 Brno, **vendeur** (brigade)
     - ***réference***: directeur, numéro de télephone: [731 668 617](tel:731668617)
     - ***déscription du poste***: organisation du magasin, nettoyage de la section attribuée, préparation et réapprovisionnement des marchandises, service à la clientèle
