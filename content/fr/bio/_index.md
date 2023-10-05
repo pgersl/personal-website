@@ -12,7 +12,7 @@ toc: false
 - **lieu de travail**: Brno (la République Tchèque)
 #### Éducation
 - **09/2017 - jusqu'ici**: [Cyrilometodějské gymnázium a střední odborná škola pedagogická Brno](https://www.cmgp.cz/en/), lycée
-    - [nejaktuálnější vysvědčení](/media/docs/cv/vysvedceni-latest.pdf)
+    - [bulletin scolaire le plus récent](/media/docs/cv/vysvedceni-latest.pdf)
 - **09/2012 - 06/2017**: [Základní škola Měnín](https://www.zsmenin.cz/), école primaire
 #### Expérience professionnelle
 - **07/2022 - jusqu'ici**: Obchodní dům Vágner, Česká 151/6 Brno, **vendeur** (brigade)
