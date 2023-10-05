@@ -11,7 +11,7 @@ toc: false
 - **date de naissance**: 28/11/2005
 - **lieu de travail**: Brno (la République Tchèque)
 #### Éducation
-- **09/2017 - jusqu'ici**: [Cyrilometodějské gymnázium a střední odborná škola pedagogická Brno](https://www.cmgp.cz/en/), lycée
+- **09/2017 - jusqu'ici**: [Cyrilometodějské gymnázium a střední odborná škola pedagogická Brno](https://www.cmgp.cz/fr/), lycée
     - [bulletin scolaire le plus récent](/media/docs/cv/vysvedceni-latest.pdf)
 - **09/2012 - 06/2017**: [Základní škola Měnín](https://www.zsmenin.cz/), école primaire
 #### Expérience professionnelle
