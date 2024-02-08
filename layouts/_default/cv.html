@@ -1,0 +1,47 @@
+{{define "styles"}}<link rel="stylesheet" href="/css/cv.css">{{end}}
+{{define "title"}}<title>{{.Title}}</title>{{end}}
+{{define "header"}}
+    <header>{{.Title}}</header>
+{{end}}
+{{define "main"}}
+    <section>
+        <h1>Experience</h1>
+        <div class="section-content">
+            {{range where .Site.Pages ".Params.type" "==" "cv-entry"}}
+                {{if eq .Params.category "experience"}}
+                    {{partial "cv-entry.html" .}}
+                {{end}}
+            {{end}}
+        </div>
+    </section>
+    <section>
+        <h1>Skills</h1>
+        <div class="section-content" id="cv-skills">
+            {{range where .Site.Pages ".Params.type" "==" "cv-entry"}}
+                {{if eq .Params.category "skill"}}
+                    {{partial "skill-entry.html" .}}
+                {{end}}
+            {{end}}
+        </div>
+    </section>
+    <section>
+        <h1>Education</h1>
+        <div class="section-content">
+            {{range where .Site.Pages ".Params.type" "==" "cv-entry"}}
+                {{if eq .Params.category "education"}}
+                    {{partial "cv-entry.html" .}}
+                {{end}}
+            {{end}}
+        </div>
+    </section>
+    <section>
+        <h1>Projects</h1>
+        <div class="section-content">
+            {{range where .Site.Pages ".Params.type" "==" "cv-entry"}}
+                {{if eq .Params.category "project"}}
+                    {{partial "cv-entry.html" .}}
+                {{end}}
+            {{end}}
+        </div>
+    </section>
+{{end}}

@@ -1,5 +1,5 @@
 # Hey!
-My name is Petr Geršl. This is the code for my website. It is actually the second version of my site. It doesn't use any stupid bloated JS frameworks, it's a personal website and a little bit of javascript for simple interactions is enough.
+My name is Petr Geršl and this is the code for my website. This is the third iteration of my website. No bloat, just the most important code.
 
-## Why a second version?
-I wans't happy with the first version (bad design, lack of standard features), so I redid the whole thing. New design, which is now much more easily changable if needed, new features (search, toc, themes) and more.
+# Why a third version?
+The first version of my website was the first web-dev project of mine. It looked and worked horrible, so I decided to redo the design. Lately, I kind of lost interest in keeping basically a blogging website anymore, so this is why I am redoing this again.

@@ -1,9 +1,9 @@
 ---
-title: "Hey!"
+title: Petr Geršl
 layout: home
-type: index
-toc: false
 ---
-Welcome to my site. My name, as you might have already guessed, is Petr Geršl. I am a [highschool](https://www.cmgp.cz/) student interested in chemistry, music, technology and event organising.
+I'm a [high school](https://www.cmgp.cz/) student from the Czech Republic. I'm interested in chemistry, music, linguistics, technology and event organizing.
 
-This is MY website, a place on the internet where [I am in charge](https://www.youtube.com/watch?v=bdKZVIGRAKQ&list=PL-p5XmQHB_JRRnoQyjOfioJdDmu87DIJc). I created it to share what I [know](https://www.swyx.io/learn-in-public), think and create.
+Right now, I only do part-times here and there, tutor a few students and run a debating club. I have experience in event organizing and have gone through a number of academic courses.
+
+See my [bio](/bio/) for more.
