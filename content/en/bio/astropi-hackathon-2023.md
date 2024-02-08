@@ -6,7 +6,7 @@ link: https://astropi-hackathon.org/
 cover: /media/img/cv/astropi.png
 posper: Competition for high school students, 24. - 25. 11. 2023
 place: Brno, CZE
-date: 2022-11-24
+date: 2023-11-24
 ---
 Together with the same group of friends of mine, I again organized a competition for high schoolers. This year, we helped the participants come up with a method to measure the speed of the ISS for a new conception of the [AstroPi Challenge](https://astro-pi.org/) international competition.
 
