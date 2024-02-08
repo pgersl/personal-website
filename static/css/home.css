@@ -49,3 +49,9 @@
 .social-link:active {
     color: var(--blue3);
 }
+
+@media (max-width:450px) {
+    #home-now .section-content {
+        flex-direction: column;
+    }
+}

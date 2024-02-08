@@ -74,11 +74,11 @@
         align-items: center;
     }
     .skill-entry {
-        width: 100%;
+        max-width: 100%;
     }
 }
 
-@media (max-width:390px) {
+@media (max-width:450px) {
     .cv-entry {
         flex-direction: column;
         align-items: center;
