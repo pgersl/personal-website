@@ -43,11 +43,11 @@ a {
 }
 
 a:hover {
-    color: var(--blue2);
+    color: var(--accent2);
 }
 
 a:active {
-    color: var(--blue3);
+    color: var(--accent3);
 }
 
 ul, ol {
@@ -78,7 +78,7 @@ h1::before {
     top: 50%;
     height: 4px;
     width: 40px;
-    background-color: var(--blue2);
+    background-color: var(--accent2);
 }
 
 h1::after {
@@ -88,7 +88,7 @@ h1::after {
     top: 50%;
     height: 4px;
     width: 40px;
-    background-color: var(--blue2);
+    background-color: var(--accent2);
 }
 
 main {
@@ -153,6 +153,7 @@ header {
     align-items: center;
     justify-content: center;
     font-size: 36px;
+    font-weight: bold;
     color: var(--light1);
 }
 
@@ -161,7 +162,7 @@ header {
 nav {
     width: 100%;
     background-image: var(--gradient2);
-    color: var(--blue5);
+    color: var(--accent5);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -210,12 +211,12 @@ nav i {
 }
 
 .nav-link:hover {
-    background-color: var(--blue2);
+    background-color: var(--accent2);
     color: var(--light1);
 }
 
 .nav-link:active {
-    background-color: var(--blue3);
+    background-color: var(--accent3);
     color: var(--light1);
 }
 

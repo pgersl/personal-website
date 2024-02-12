@@ -39,7 +39,7 @@
 #send {
     width: fit-content;
     margin: 0 auto;
-    background-color: var(--blue2);
+    background-color: var(--accent2);
     color: var(--light1);
     border: none;
     padding: .5em 1em;
@@ -50,11 +50,11 @@
 
 #send:hover {
     cursor: pointer;
-    background-color: var(--blue3);
+    background-color: var(--accent3);
 }
 
 #send:active {
-    background-color: var(--blue5);
+    background-color: var(--accent5);
 }
 
 @media (max-width:540px) {

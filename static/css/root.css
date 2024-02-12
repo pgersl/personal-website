@@ -18,13 +18,13 @@
     --light3: #cfd3d3;
     --light4: #a1a4a4;
     --dark1: #0f1111;
-    --blue1: #334851;
-    --blue2: #4A6D7C;
-    --blue3: #5a8496;
-    --blue4: #243137;
-    --blue5: #6e96a7;
+    --accent1: #334851;
+    --accent2: #4A6D7C;
+    --accent3: #5a8496;
+    --accent4: #243137;
+    --accent5: #6e96a7;
 
-    --gradient1: linear-gradient(120deg, var(--dark1) 0%, var(--blue4) 100%);
-    --gradient2: linear-gradient(90deg, var(--dark1) 0%, var(--blue4) 27%, var(--blue2) 100%);
-    --gradient3: linear-gradient(120deg, var(--dark1) 0%, var(--blue4) 40%, var(--blue1) 100%);
+    --gradient1: linear-gradient(120deg, var(--dark1) 0%, var(--accent4) 100%);
+    --gradient2: linear-gradient(90deg, var(--dark1) 0%, var(--accent4) 27%, var(--accent2) 100%);
+    --gradient3: linear-gradient(120deg, var(--dark1) 0%, var(--accent4) 40%, var(--accent1) 100%);
 }

@@ -8,7 +8,7 @@
 #home-now img {
     width: 200px;
     border-radius: 1em;
-    border: solid 2px var(--blue2);
+    border: solid 2px var(--accent2);
 }
 
 .i-list {
@@ -23,7 +23,7 @@
 .i-list-item {
     font-size: var(--h3-size);
     font-weight: bold;
-    color: var(--blue2);
+    color: var(--accent2);
     white-space: nowrap;
 }
 
@@ -37,17 +37,17 @@
 }
 
 .social-link {
-    color: var(--blue1);
+    color: var(--accent1);
     font-size: 60px;
     transition: var(--transition);
 }
 
 .social-link:hover {
-    color: var(--blue2);
+    color: var(--accent2);
 }
 
 .social-link:active {
-    color: var(--blue3);
+    color: var(--accent3);
 }
 
 @media (max-width:450px) {

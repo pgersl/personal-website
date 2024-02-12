@@ -28,13 +28,13 @@
 }
 
 .cv-entry-title a:active {
-    color: var(--blue3);
+    color: var(--accent3);
 }
 
 .cv-entry-posper {
     font-weight: bold;
     margin-bottom: .3em;
-    color: var(--blue5);
+    color: var(--accent5);
 }
 
 .cv-entry-place {
