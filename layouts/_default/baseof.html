@@ -24,28 +24,27 @@
     <body>
         {{block "header" .}}{{end}}
         <nav>
-            <button id="nav-toggle">
-                <i class="fa-solid fa-bars" id="nav-toggle-icon"></i>
-            </button>
-            <div class="nav-links">
-                <div class="main-nav-links">
-                    {{range .Site.Menus.main}}
-                        <a href="{{.PageRef}}" class="nav-link">{{.Name}}</a>
-                    {{end}}
+            <div class="nav-content">
+                <div class="nav-links">
+                    <div class="main-nav-links">
+                        {{range .Site.Menus.main}}
+                            <a href="{{.PageRef}}" class="nav-link">{{.Name}}</a>
+                        {{end}}
+                    </div>
+                    <div class="sites-nav-links">
+                        {{range .Site.Menus.sites}}
+                            <a href="{{.URL}}" class="nav-link">{{.Name}} <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        {{end}}
+                    </div>
                 </div>
-                <div class="sites-nav-links">
-                    {{range .Site.Menus.sites}}
-                        <a href="{{.URL}}" class="nav-link">{{.Name}} <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <!-- <div class="nav-utils">
+                    {{if .IsTranslated}}
+                        {{range .Translations}}
+                            <a href="{{.Permalink}}" class="utils-link"><img src="/media/img/base/{{.Language.Lang}}.png"></a>
+                        {{end}}
                     {{end}}
-                </div>
+                </div> -->
             </div>
-            <!-- <div class="nav-utils">
-                {{if .IsTranslated}}
-                    {{range .Translations}}
-                        <a href="{{.Permalink}}" class="utils-link"><img src="/media/img/base/{{.Language.Lang}}.png"></a>
-                    {{end}}
-                {{end}}
-            </div> -->
         </nav>
         <main>
             {{block "main" .}}{{end}}
