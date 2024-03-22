@@ -180,9 +180,9 @@ nav i {
 
 .nav-content {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     width: 95vw;
 }
 
@@ -231,7 +231,6 @@ nav i {
     display: flex;
     flex-direction: row;
     gap: 1.5em;
-    padding-right: 2em;
 }
 
 .utils-link {
@@ -240,13 +239,15 @@ nav i {
 
 .utils-link img {
     width: 25px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 3px 3px #00000024;
 }
 
 .utils-link:hover img {
     filter: brightness(1.5);
 }
 
-@media (max-width:450px) {
+@media (max-width:600px) {
     .nav-links {
         flex-direction: column;
         align-items: flex-start;
@@ -257,6 +258,12 @@ nav i {
     .main-nav-links {
         padding-right: 0;
         border-right: none;
+    }
+}
+
+@media (max-width:320px) {
+    nav {
+        font-size: var(--tiny-size);
     }
 }
 

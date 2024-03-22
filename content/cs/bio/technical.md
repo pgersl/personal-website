@@ -1,7 +1,7 @@
 ---
 type: cv-entry
 category: skill
-title: Technical
+title: Technické
 icon: fa-solid fa-code
 date: 2000-01-02
 ---
@@ -11,5 +11,5 @@ date: 2000-01-02
     - Google Workspace (Docs, Sheets, Slides)
 - plain-text (LaTeX, Markdown)
 - web frontend (HTML, CSS, JS)
-- configuration/database (TOML, JSON)
+- konfigurace/databáze (TOML, JSON)
 - scripting (Python, Bash)

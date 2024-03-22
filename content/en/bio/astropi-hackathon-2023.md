@@ -3,7 +3,7 @@ type: cv-entry
 category: project
 title: AstroPi Hackathon Brno 2023
 link: https://astropi-hackathon.org/
-cover: /media/img/cv/astropi.png
+cover: /media/img/cv/hackathon23.png
 posper: Competition for high school students, 24. - 25. 11. 2023
 place: Brno, CZE
 date: 2023-11-24

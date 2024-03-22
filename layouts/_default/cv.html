@@ -5,7 +5,15 @@
 {{end}}
 {{define "main"}}
     <section>
-        <h1>Experience</h1>
+        <h1>
+            {{if strings.HasPrefix .RelPermalink "/cs/"}}
+                Zkušenosti
+            {{else if strings.HasPrefix .RelPermalink "/fr/"}}
+                Expérience
+            {{else}}
+                Experience
+            {{end}}
+        </h1>
         <div class="section-content">
             {{range where .Site.Pages ".Params.type" "==" "cv-entry"}}
                 {{if eq .Params.category "experience"}}
@@ -15,7 +23,15 @@
         </div>
     </section>
     <section>
-        <h1>Skills</h1>
+        <h1>
+            {{if strings.HasPrefix .RelPermalink "/cs/"}}
+                Dovednosti
+            {{else if strings.HasPrefix .RelPermalink "/fr/"}}
+                Compétences
+            {{else}}
+                Skills
+            {{end}}
+        </h1>
         <div class="section-content" id="cv-skills">
             {{range where .Site.Pages ".Params.type" "==" "cv-entry"}}
                 {{if eq .Params.category "skill"}}
@@ -25,7 +41,15 @@
         </div>
     </section>
     <section>
-        <h1>Education</h1>
+        <h1>
+            {{if strings.HasPrefix .RelPermalink "/cs/"}}
+                Vzdělání
+            {{else if strings.HasPrefix .RelPermalink "/fr/"}}
+                Éducation
+            {{else}}
+                Education
+            {{end}}
+        </h1>
         <div class="section-content">
             {{range where .Site.Pages ".Params.type" "==" "cv-entry"}}
                 {{if eq .Params.category "education"}}
@@ -35,7 +59,15 @@
         </div>
     </section>
     <section>
-        <h1>Projects</h1>
+        <h1>
+            {{if strings.HasPrefix .RelPermalink "/cs/"}}
+                Projekty
+            {{else if strings.HasPrefix .RelPermalink "/fr/"}}
+                Projets
+            {{else}}
+                Projects
+            {{end}}
+        </h1>
         <div class="section-content">
             {{range where .Site.Pages ".Params.type" "==" "cv-entry"}}
                 {{if eq .Params.category "project"}}

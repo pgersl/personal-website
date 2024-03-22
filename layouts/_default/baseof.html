@@ -18,7 +18,6 @@
         <script data-goatcounter="https://pgersl.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
         <script src="/js/nav.js" defer></script>
         {{block "scripts" .}}{{end}}
-
         {{block "title" .}}{{end}}
     </head>
     <body>
@@ -37,13 +36,13 @@
                         {{end}}
                     </div>
                 </div>
-                <!-- <div class="nav-utils">
+                <div class="nav-utils">
                     {{if .IsTranslated}}
                         {{range .Translations}}
                             <a href="{{.Permalink}}" class="utils-link"><img src="/media/img/base/{{.Language.Lang}}.png"></a>
                         {{end}}
                     {{end}}
-                </div> -->
+                </div> 
             </div>
         </nav>
         <main>
@@ -58,13 +57,29 @@
                     <div class="footer-item">Brno, CZE</div>
                 </div>
                 <div class="footer-container">
-                    <strong>Explore more:</strong>
+                    <strong>
+                        {{if strings.HasPrefix .RelPermalink "/cs/"}}
+                            Prozkoumejte více:
+                        {{else if strings.HasPrefix .RelPermalink "/fr/"}}
+                            En savoir plus:
+                        {{else}}
+                            Find me:
+                        {{end}}
+                    </strong>
                     {{range .Site.Menus.sites}}
                         <a href="{{.URL}}" class="footer-link">{{.Name}} <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     {{end}}
                 </div>
                 <div class="footer-container">
-                    <strong>Find me:</strong>
+                    <strong>
+                        {{if strings.HasPrefix .RelPermalink "/cs/"}}
+                            Najděte mě:
+                        {{else if strings.HasPrefix .RelPermalink "/fr/"}}
+                            Trouvez-moi:
+                        {{else}}
+                            Find me:
+                        {{end}}
+                    </strong>
                     <div class="footer-item"><a class="footer-link" href="linkedin.com/in/petr-geršl-9324491a6" target="_blank">LinkedIn</a></div>
                     <div class="footer-item"><a class="footer-link" href="https://github.com/pgersl" target="_blank">GitHub</a></div>
                 </div>

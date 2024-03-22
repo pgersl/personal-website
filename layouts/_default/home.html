@@ -22,8 +22,28 @@
     <section id="home-my-system">
         {{if strings.HasPrefix .RelPermalink "/cs/"}}
             <h1>Můj systém</h1>
+            <div class="section-content i-list">
+                <div class="i-list-item">Otevřenost</div>
+                <div class="i-list-item">Racionalita</div>
+                <div class="i-list-item">Optimismus</div>
+                <div class="i-list-item">Vize</div>
+                <div class="i-list-item">Zvědavost</div>
+                <div class="i-list-item">Respekt</div>
+                <div class="i-list-item">Upřímnost</div>
+                <div class="i-list-item">Férovost</div>
+            </div>
         {{else if strings.HasPrefix .RelPermalink "/fr/"}}
             <h1>Mon système</h1>
+            <div class="section-content i-list">
+                <div class="i-list-item">Ouverture d'espirit</div>
+                <div class="i-list-item">Rationalité</div>
+                <div class="i-list-item">Optimisme</div>
+                <div class="i-list-item">Vision</div>
+                <div class="i-list-item">Curiosité</div>
+                <div class="i-list-item">Respect</div>
+                <div class="i-list-item">Honnêteté</div>
+                <div class="i-list-item">Équité</div>
+            </div>
         {{else}}
             <h1>My system</h1>
             <div class="section-content i-list">
