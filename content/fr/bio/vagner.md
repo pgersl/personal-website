@@ -1,7 +1,7 @@
 ---
 type: cv-entry
 category: experience
-title: Vágner Department Store
+title: Grand magasin Vágner
 link: http://www.vagner.cz/
 cover: /media/img/cv/vagner.png
 posper: Assistant commercial, 07/2022 - 12/2023
