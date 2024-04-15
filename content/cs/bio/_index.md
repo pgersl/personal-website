@@ -1,4 +1,4 @@
 ---
-title: Bio
+title: Životopis
 layout: cv
 ---

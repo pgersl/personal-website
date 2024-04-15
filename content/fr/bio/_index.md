@@ -1,4 +1,4 @@
 ---
-title: Bio
+title: CV
 layout: cv
 ---
