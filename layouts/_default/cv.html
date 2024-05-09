@@ -59,15 +59,14 @@
         </div>
     </section>
     <section>
-        <h1>
-            {{if strings.HasPrefix .RelPermalink "/cs/"}}
-                Projekty
-            {{else if strings.HasPrefix .RelPermalink "/fr/"}}
-                Projets
-            {{else}}
-                Projects
-            {{end}}
-        </h1>
+        {{if strings.HasPrefix .RelPermalink "/cs/"}}
+            <h1>Projekty</h1>
+        {{else if strings.HasPrefix .RelPermalink "/fr/"}}
+            <h1>Projets</h1>
+        {{else}}
+            <h1>Projects</h1>
+            <p>See all my web-dev projects <a href="https://projects.pgersl.xyz/" target="_blank">here</a>!</p>
+        {{end}}
         <div class="section-content">
             {{range where .Site.Pages ".Params.type" "==" "cv-entry"}}
                 {{if eq .Params.category "project"}}
