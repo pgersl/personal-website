@@ -1,0 +1,18 @@
+{{define "styles"}}
+    <link rel="stylesheet" href="/css/web.css">
+{{end}}
+
+{{define "scripts"}}
+    <script src="/js/web.js" defer></script>
+{{end}}
+
+{{define "main"}}
+    <section id="web">
+        <div class="web-content">
+            <h1>{{.Title}}</h1>
+            <div class="web-grid">
+                {{.Content}}
+            </div>
+        </div>
+    </section>
+{{end}}

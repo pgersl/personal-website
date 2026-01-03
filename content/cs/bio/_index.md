@@ -1,4 +1,0 @@
----
-title: Životopis
-layout: cv
----

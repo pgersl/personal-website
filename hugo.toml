@@ -1,0 +1,76 @@
+baseURL = "https://pgersl.xyz/"
+title = "Petr Geršl"
+uglyURLs = false
+enableEmoji = true
+
+[frontmatter]
+    date = ['date', 'publishDate', 'lastmod']
+    expiryDate = ['expiryDate']
+    lastmod = [':git', 'lastmod', 'date', 'publishDate']
+    publishDate = ['publishDate', 'date']
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
+    [markup.tableOfContents]
+        ordered = true
+        startLevel = 0
+        endLevel = 3
+[outputs]
+    home = ['HTML', 'JSON', 'RSS']
+    page = ['HTML']
+
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = true
+
+[languages]
+    [languages.cs]
+        contentDir = "content/cs"
+        disabled = false
+        languageCode = "cs-CZ"
+        languageDirection = "ltr"
+        languageName = "Čeština"
+        title = "Petr Geršl"
+        [languages.cs.params]
+            description = "Osobní webové stránka - Petr Geršl"
+        [languages.cs.menu]
+            [[languages.cs.menu.main]]
+                identifier = "home"
+                name = "Domů"
+                pageRef = "/cs"
+                weight = 1
+            [[languages.cs.menu.main]]
+                identifier = "bio"
+                name = "Životopis"
+                pageRef = "/cs/bio"
+                weight = 2
+            [[languages.cs.menu.main]]
+                identifier = "contact"
+                name = "Kontakt"
+                pageRef = "/cs/contact"
+                weight = 3
+    [languages.en]
+        contentDir = "content/en"
+        disabled = false
+        languageCode = "en-US"
+        languageDirection = "ltr"
+        languageName = "English"
+        title = "Petr Geršl"
+        [languages.en.params]
+            description = "Personal website of Petr Geršl"
+        [languages.en.menu]
+            [[languages.en.menu.main]]
+                identifier = "home"
+                name = "Home"
+                pageRef = "/"
+                weight = 1
+            [[languages.en.menu.main]]
+                identifier = "bio"
+                name = "Bio"
+                pageRef = "/bio"
+                weight = 2
+            [[languages.en.menu.main]]
+                identifier = "contact"
+                name = "Contact"
+                pageRef = "/contact"
+                weight = 3

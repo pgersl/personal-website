@@ -1,78 +1,117 @@
-{{define "title"}}<title>{{.Site.Title}}</title>{{end}}
-{{define "styles"}}<link rel="stylesheet" href="/css/home.css">{{end}}
-{{define "header"}}
-    <header>Petr Geršl</header>
+{{define "styles"}}
+    <link rel="stylesheet" href="/css/home.css">
 {{end}}
+
+{{define "scripts"}}
+    <script src="/js/home.js" defer></script>
+{{end}}
+
 {{define "main"}}
-    <section id="home-now">
-        <h1>
-            {{if strings.HasPrefix .RelPermalink "/cs/"}}
-                Aktuálně
-            {{else if strings.HasPrefix .RelPermalink "/fr/"}}
-                Maintenant
-            {{else}}
-                Now
-            {{end}}
-        </h1>
-        <div class="section-content">
-            <img src="/media/img/base/me.png">
-            <div id="home-now-content">{{.Content}}</div>
+    <section id="hero">
+        <div class="hero-content">
+            <h1 class="reveal">Petr Geršl</h1>
+            <div class="hero-links">
+                <a href="#investing">#investing</a>
+                <a href="#music">#music</a>
+                <a href="#web">#web</a>
+                <a href="#tutoring">#tutoring</a>
+                <a href="#events">#events</a>
+            </div>
         </div>
     </section>
-    <section id="home-my-system">
+    <section id="now">
         {{if strings.HasPrefix .RelPermalink "/cs/"}}
-            <h1>Můj systém</h1>
-            <div class="section-content i-list">
-                <div class="i-list-item">Otevřenost</div>
-                <div class="i-list-item">Racionalita</div>
-                <div class="i-list-item">Optimismus</div>
-                <div class="i-list-item">Vize</div>
-                <div class="i-list-item">Zvědavost</div>
-                <div class="i-list-item">Respekt</div>
-                <div class="i-list-item">Upřímnost</div>
-                <div class="i-list-item">Férovost</div>
-            </div>
-        {{else if strings.HasPrefix .RelPermalink "/fr/"}}
-            <h1>Mon système</h1>
-            <div class="section-content i-list">
-                <div class="i-list-item">Ouverture d'espirit</div>
-                <div class="i-list-item">Rationalité</div>
-                <div class="i-list-item">Optimisme</div>
-                <div class="i-list-item">Vision</div>
-                <div class="i-list-item">Curiosité</div>
-                <div class="i-list-item">Respect</div>
-                <div class="i-list-item">Honnêteté</div>
-                <div class="i-list-item">Équité</div>
+            <h2 class="reveal">Co dělám?</h2>
+            <div class="activities">
+                <fieldset class="activity" id="investing">
+                    <legend>#investing</legend>
+                    <h3>Golden Gate</h3>
+                    <p>Pracuji jako investiční specialista v Golden Gate, kde se specializujeme na dlouhodobé investice do drahých kovů, kryptoměn a specifických podílových fondů.</p>
+                    <a href="https://goldengate.cz/" target="_blank">goldengate.cz</a>
+                </fieldset>
+                <fieldset class="activity" id="music">
+                    <legend>#music</legend>
+                    <h3>Hudba</h3>
+                    <p>Jsem amatérský skladatel a hudebník. Píšu hudbu pro různá uskupení ve stylu klasických skladatelů. Moji hudbu najdete na různých platformách.</p>
+                    <a href="https://music.pgersl.xyz/" target="_blank">music.pgersl.xyz</a>
+                </fieldset>
+                <fieldset class="activity" id="web">
+                    <legend>#web</legend>
+                    <h3>Web Development</h3>
+                    <p>Vytvářím a udržuji weby pomocí moderních technologií jako Hugo a HTML, CSS a JavaScript. Soustředím se na čistý design a optimální funkčnost.</p>
+                    <a href="/cs/web">portfolio</a>
+                </fieldset>
+                <fieldset class="activity" id="tutoring">
+                    <legend>#tutoring</legend>
+                    <h3>Doučování</h3>
+                    <p>Poskytuji doučování z chemie, angličtiny a matematiky pro žáky základních a středních škol. Svůj postup přizpůsobuji individuálním potřebám.</p>
+                    <a href="https://tidycal.com/pgersl05/doucovani" target="_blank">tidycal</a>
+                </fieldset>
+                <fieldset class="activity" id="events">
+                    <legend>#events</legend>
+                    <h3>AstroPi Hackathon</h3>
+                    <p>Jsem součástí organizačního týmu AstroPi Hackathonu v Brně. Starám se primárně o web pro všechny akce v Česku a o financování a práci na mistě.</p>
+                    <a href="https://astropi-hackathon.org/" target="_blank">astropi-hackathon.org</a>
+                </fieldset>
+                <fieldset class="activity" id="events">
+                    <legend>#events</legend>
+                    <h3>Zvaž vědu!</h3>
+                    <p>Jsem součástí hlavního organizačního týmu Zvaž vědu!, studenty organizované akce popularizující vědu. Vytvářel jsem web a starám se o účetnictví.</p>
+                    <a href="https://zvazvedu.cz/" target="_blank">zvazvedu.cz</a>
+                </fieldset>
             </div>
         {{else}}
-            <h1>My system</h1>
-            <div class="section-content i-list">
-                <div class="i-list-item">Open-mindedness</div>
-                <div class="i-list-item">Rationality</div>
-                <div class="i-list-item">Optimism</div>
-                <div class="i-list-item">Vision</div>
-                <div class="i-list-item">Curiosity</div>
-                <div class="i-list-item">Respect</div>
-                <div class="i-list-item">Honesty</div>
-                <div class="i-list-item">Fairness</div>
+            <h2 class="reveal">What I Do?</h2>
+            <div class="activities">
+                <fieldset class="activity" id="investing">
+                    <legend>#investing</legend>
+                    <h3>Golden Gate</h3>
+                    <p>I work as an investment specialist at Golden Gate, where we specialize in long term investment strategies using rare metals, crypto and specific mutual funds.</p>
+                    <a href="https://goldengate.cz/" target="_blank">goldengate.cz</a>
+                </fieldset>
+                <fieldset class="activity" id="music">
+                    <legend>#music</legend>
+                    <h3>Music</h3>
+                    <p>I am an amateur composer and musician. I write music for various ensembles in the style of classical composers. You can find it on various platforms.</p>
+                    <a href="https://music.pgersl.xyz/" target="_blank">music.pgersl.xyz</a>
+                </fieldset>
+                <fieldset class="activity" id="web">
+                    <legend>#web</legend>
+                    <h3>Web Development</h3>
+                    <p>I create and maintain websites using modern technologies like Hugo, HTML, CSS, and JavaScript. I focus on clean design and optimal performance.</p>
+                    <a href="/web">portfolio</a>
+                </fieldset>
+                <fieldset class="activity" id="tutoring">
+                    <legend>#tutoring</legend>
+                    <h3>Tutoring</h3>
+                    <p>I provide tutoring in chemistry, English and mathematics for high school and elementary school students. My approach is tailored to individual needs.</p>
+                    <a href="https://tidycal.com/pgersl05/doucovani" target="_blank">tidycal</a>
+                </fieldset>
+                <fieldset class="activity" id="events">
+                    <legend>#events</legend>
+                    <h3>AstroPi Hackathon</h3>
+                    <p>I take part in organizing the AstroPi Hackathon in Brno every year. I administer the website for all events in Czechia, and do the finances and some on-sight work.</p>
+                    <a href="https://astropi-hackathon.org/" target="_blank">astropi-hackathon.org</a>
+                </fieldset>
+                <fieldset class="activity" id="events">
+                    <legend>#events</legend>
+                    <h3>Zvaž vědu!</h3>
+                    <p>I am a part of the core organization team of Zvaž vědu!, a student-run science popularization event. I designed the website and take care of accounting.</p>
+                    <a href="https://zvazvedu.cz/" target="_blank">zvazvedu.cz</a>
+                </fieldset>
             </div>
-            <p>See my <a href="https://wiki.pgersl.xyz/" target="_blank">wiki</a> for more!</p>
         {{end}}
     </section>
-    <section id="home-find-me">
-        <h1>
-            {{if strings.HasPrefix .RelPermalink "/cs/"}}
-                Najděte mě
-            {{else if strings.HasPrefix .RelPermalink "/fr/"}}
-                Trouvez-moi
-            {{else}}
-                Find me
-            {{end}}
-        </h1>
-        <div class="social-links section-content">
-            <a href="http://localhost:1313/linkedin.com/in/petr-ger%C5%A1l-9324491a6" class="social-link"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://github.com/pgersl" class="social-link"><i class="fa-brands fa-square-github"></i></a>
-            <a href="https://pgersl.bandcamp.com/" class="social-link"><i class="fa-brands fa-bandcamp"></i></a>
+    <section id="find-me">
+        <h2>{{if strings.HasPrefix .RelPermalink "/cs/"}}Najděte mě!{{else}}Find Me!{{end}}</h2>
+        <div class="find-me-links">
+            <a href="https://www.linkedin.com/in/petr-ger%C5%A1l-9324491a6/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://instagram.com/pgersl.jpg" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.youtube.com/@petrgersl" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://x.com/GerslPetr" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://music.apple.com/us/artist/petr-ger%C5%A1l/1707910920" target="_blank"><i class="fa-brands fa-apple"></i></a>
+            <a href="https://open.spotify.com/artist/3jeeP8iPfuNDAXRqASrNV2" target="_blank"><i class="fa-brands fa-spotify"></i></a>
+            <a href="https://github.com/pgersl" target="_blank"><i class="fa-brands fa-github"></i></a>
         </div>
     </section>
 {{end}}

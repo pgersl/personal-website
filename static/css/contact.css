@@ -1,64 +1,75 @@
 #contact {
-    width: 100%;
+    min-height: calc(100vh - 349px);
+    align-items: center;
+}
+.contact-content {
+    width: 90%;
+    max-width: 1200px;
+    gap: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
 }
 
-#contact-form {
-    width: 90%;
+.contact-image {
+    width: min(330px, 80%);
+    border-radius: 100%;
+    border: 5px solid var(--text);
+    opacity: 0;
+    transform: translateY(10px);
+    animation: fadeUp .6s ease forwards;
+}
+
+.contacts {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    gap: 1.5rem;
+    width: min(400px, 100%);
 }
-
-#contact-form input, #contact-form textarea {
-    background-color: white;
-    border: solid 1px var(--light4);
-    padding: 1em;
-    font-family: var(--font);
-    font-size: var(--font-size);
-    color: var(--dark1);
-    border-radius: .6em;
-}
-
-#name-email {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    gap: 2em;
-    margin-bottom: 2em;
-}
-
-#name, #email {
-    flex-grow: 1;
-}
-
-#message {
-    flex-grow: 1;
-    margin-bottom: 2em;
-}
-
-#send {
-    width: fit-content;
-    margin: 0 auto;
-    background-color: var(--accent2);
-    color: var(--light1);
-    border: none;
-    padding: .5em 1em;
-    font-size: var(--font-size);
+#contacts {
+    font-size: 1.5rem;
     font-weight: bold;
-    border-radius: .3em;
-}
-
-#send:hover {
+    padding: 0;
+    text-align: left;
+    width: 100%;
+    border: none;
+    background-color: var(--background);
+    color: var(--text);
+    font-family: var(--font);
+    transition: var(--transition);
+    opacity: 0;
+    transform: translateY(10px);
+    animation: fadeUp .6s ease forwards;
     cursor: pointer;
-    background-color: var(--accent3);
 }
 
-#send:active {
-    background-color: var(--accent5);
+.contact-option {
+    display: none;
+    flex-direction: column;
+    padding-left: .3rem;
+    gap: 1rem;
+    transition: var(--transition);
+}
+.contact-option p {
+    opacity: 0;
+    transform: translateY(10px);
+    animation: fadeUp .6s ease forwards;
+}
+.contact-option#music p:nth-child(2) {
+    font-size: 1.5rem;
 }
 
-@media (max-width:540px) {
-    #name-email {
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width:700px) {
+    .contact-content {
         flex-direction: column;
+        gap: 2rem;
     }
 }
