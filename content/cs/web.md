@@ -12,6 +12,14 @@ link="/"
 >}}
 
 {{< web-snap
+title="dopenzebezpenze.cz"
+img="dopenzebezpenze-cz.png"
+description="web pro organizaci (design, administrativa)"
+text="Bez penze do penze je projekt, jehož cílem je mládež seznamovat s budoucími problémy spojenými s demografickou změnou a předat nutnou finanční gramotnost, kterou mohou využít a tyto problémy řešit."
+link="https://dopenzebezpenze.cz/"
+>}}
+
+{{< web-snap
 title="zvazvedu.cz"
 img="zvazvedu-cz.png"
 description="web pro akci (design)"

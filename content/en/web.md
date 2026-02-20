@@ -12,6 +12,14 @@ link="/"
 >}}
 
 {{< web-snap
+title="dopenzebezpenze.cz"
+img="dopenzebezpenze-cz.png"
+description="organization website (design, admin)"
+text="Bez penze do penze is a project which aims to educate the young generation with the problems caused by a demographic change and share the necessary aspects of financial literacy, which can be used to overcome these problems."
+link="https://dopenzebezpenze.cz/"
+>}}
+
+{{< web-snap
 title="zvazvedu.cz"
 img="zvazvedu-cz.png"
 description="event website (design)"
