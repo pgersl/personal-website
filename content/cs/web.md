@@ -64,7 +64,7 @@ title="notes.pgersl.xyz"
 img="notes-pgersl-xyz.png"
 description="osobní web (design, administrativa)"
 text="Osobní web s veškerými poznámkami pořízenými během studií. Web obsahuje vyhledávání a přehledně zorganizované poznámky z různých odvětví s obsahem."
-link="https://music.pgersl.xyz/"
+link="https://notes.pgersl.xyz/"
 >}}
 
 {{< web-snap
