@@ -60,6 +60,14 @@ link="https://music.pgersl.xyz/"
 >}}
 
 {{< web-snap
+title="notes.pgersl.xyz"
+img="notes-pgersl-xyz.png"
+description="personal website (design, admin)"
+text="A personal website containing all the notes collected during my studies. The web features a search function, neatly organized notes from various subjects with a table of content."
+link="https://music.pgersl.xyz/"
+>}}
+
+{{< web-snap
 title="karierkonacichnovce.cz"
 img="karierkonacichnovce-cz.png"
 description="organization website (design, admin)"
