@@ -1,0 +1,6 @@
+<fieldset class="activity" id="{{.Get "id"}}">
+    <legend>{{.Get "tag"}}</legend>
+    <h3>{{.Get "title"}}</h3>
+    <p>{{.Get "text"}}</p>
+    <a href="{{.Get "link"}}"{{with .Get "target"}} target="{{.}}"{{end}}>{{.Get "linktext"}}</a>
+</fieldset>

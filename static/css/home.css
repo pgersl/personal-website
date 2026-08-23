@@ -1,7 +1,7 @@
 #hero {
     padding: 12rem 0;
     width: 100%;
-    background: linear-gradient(var(--background), rgba(0, 0, 0, 0), var(--background)), url(/media/img/on-hands.png) no-repeat center center/cover;
+    background: linear-gradient(var(--background), rgba(0, 0, 0, 0), var(--background)), url(/media/img/on-hands.webp) no-repeat center center/cover;
     color: var(--text);
     background-blend-mode: multiply;
 }
@@ -116,13 +116,6 @@ h2 {
 .find-me-links a.is-visible {
   opacity: 1;
   transform: translateY(0);
-}
-
-@keyframes fadeUp {
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
 }
 
 @media (max-width:450px) {

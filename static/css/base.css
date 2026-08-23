@@ -46,10 +46,6 @@ a:hover {
     color: var(--primary);
 }
 
-a:active {
-    color: var(--accent3);
-}
-
 ul, ol {
     list-style-position: inside;
 }
@@ -177,4 +173,13 @@ section {
     gap: 2em;
     background-color: var(--background);
     color: var(--text);
+}
+
+/*ANIMATIONS*/
+
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

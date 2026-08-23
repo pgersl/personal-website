@@ -1,6 +1,6 @@
 #bio {
     width: 100%;
-    background: linear-gradient(var(--background), rgba(0, 0, 0, 0), var(--background)), url(/media/img/bio-pic.png) no-repeat top/cover;
+    background: linear-gradient(var(--background), rgba(0, 0, 0, 0), var(--background)), url(/media/img/bio-pic.webp) no-repeat top/cover;
 }
 .bio-content {
     width: 90%;
@@ -43,11 +43,4 @@
 .bio-text p.is-visible {
     opacity: 1;
     transform: translateY(0);
-}
-
-@keyframes fadeUp {
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
 }
