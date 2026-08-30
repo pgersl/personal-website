@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --font-sans: 'Inter', sans-serif;
+
+    --color-obsidian: #030303;
+    --color-ink: #ededed;
+
+    --color-music: #8B5CF6;
+    --color-web: #3B82F6;
+    --color-tutoring: #F59E0B;
+    --color-finance: #10B981;
+    --color-calculators: #EF4444;
+    --color-events: #EC4899;
+}
+
+/* Glassmorphism cards, used for nav, content panels and interactive tiles */
+.grain,
+.glass-card {
+    position: relative;
+}
+.grain::before,
+.glass-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    opacity: .05;
+    pointer-events: none;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
+.glass-card {
+    background: rgba(255, 255, 255, .03);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, .08);
+    overflow: hidden;
+    transition: background-color .4s cubic-bezier(.16, 1, .3, 1), border-color .4s cubic-bezier(.16, 1, .3, 1), transform .4s cubic-bezier(.16, 1, .3, 1);
+}
+.glass-card:hover {
+    background: rgba(255, 255, 255, .06);
+    border-color: rgba(255, 255, 255, .16);
+    transform: translateY(-4px);
+}
+
+/* Ambient floating background blobs */
+.blob {
+    position: absolute;
+    filter: blur(80px);
+    opacity: .15;
+    border-radius: 9999px;
+    z-index: -1;
+    pointer-events: none;
+    animation: float 20s infinite alternate cubic-bezier(.37, 0, .63, 1);
+}
+@keyframes float {
+    0% { transform: translate(0, 0) scale(1); }
+    50% { transform: translate(40px, 60px) scale(1.1); }
+    100% { transform: translate(-30px, 40px) scale(.9); }
+}
+
+/* Nav active-link indicator */
+.nav-link {
+    position: relative;
+}
+.nav-link.active {
+    color: #fff;
+}
+
+/* On-load fade for above-the-fold elements */
+.fade-up {
+    opacity: 0;
+    transform: translateY(10px);
+    animation: fadeUp .6s ease forwards;
+}
+/* Scroll-triggered reveal, toggled by reveal.js via IntersectionObserver */
+.reveal-item,
+.markdown-reveal p {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity .6s ease, transform .6s ease;
+    transition-delay: var(--delay, 0ms);
+    will-change: opacity, transform;
+}
+.reveal-item.is-visible,
+.markdown-reveal p.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Hidden scrollbar, kept minimal */
+body::-webkit-scrollbar {
+    width: .5em;
+}
+body::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    scrollbar-width: none;
+}

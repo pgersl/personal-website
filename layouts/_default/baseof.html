@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ .Site.Language.Lang }}" class="dark overflow-x-hidden">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,9 +10,8 @@
         <link rel="icon" type="image/png" sizes="16x16" href="/fav/favicon-16x16.png">
         <link rel="manifest" href="/fav/site.webmanifest">
 
-        <link rel="stylesheet" href="/css/root.css">
-        <link rel="stylesheet" href="/css/base.css">
-        {{block "styles" .}}{{end}}
+        {{ $css := resources.Get "css/main.css" | css.TailwindCSS (dict "minify" (not hugo.IsDevelopment)) }}
+        <link rel="stylesheet" href="{{ $css.RelPermalink }}">
 
         <script src="https://kit.fontawesome.com/9ab7bfa7fc.js" crossorigin="anonymous"></script>
         <script data-goatcounter="https://pgersl.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
@@ -21,35 +20,62 @@
         {{block "scripts" .}}{{end}}
         <title>{{.Title}}</title>
     </head>
-    <body>
-        <nav>
-            <div class="nav-content">
-                <div class="nav-links">
+    <body class="relative min-h-screen overflow-x-hidden bg-obsidian font-sans text-ink selection:bg-ink selection:text-obsidian">
+
+        <div class="blob h-96 w-96 bg-zinc-400" style="top: -4rem; left: 15%; animation-delay: 0s;"></div>
+        <div class="blob h-[500px] w-[500px] bg-zinc-600" style="top: 8rem; right: 10%; animation-delay: -5s;"></div>
+        <div class="blob h-96 w-96 bg-zinc-500" style="top: 22rem; left: 40%; animation-delay: -10s;"></div>
+
+        <header class="fixed inset-x-0 top-0 z-50 px-4 py-4 sm:px-6">
+            <div id="nav-card" class="glass-card mx-auto max-w-7xl rounded-full px-4 py-3 sm:px-6">
+                <nav class="relative z-10 flex items-center justify-between">
+                    <a href="{{ .Site.Home.RelPermalink }}" class="flex items-center gap-2 text-sm font-semibold uppercase tracking-wider text-white sm:text-base">
+                        <span class="h-2 w-2 rounded-full bg-white animate-pulse"></span>
+                        Petr Geršl
+                    </a>
+                    <div class="hidden items-center gap-8 text-sm font-medium tracking-wide text-zinc-400 md:flex">
+                        {{range .Site.Menus.main}}
+                            <a href="{{.PageRef}}" class="nav-link transition-colors hover:text-white">{{.Name}}</a>
+                        {{end}}
+                    </div>
+                    <div class="hidden items-center gap-3 md:flex">
+                        {{if .IsTranslated}}
+                            {{range .Translations}}
+                                <a href="{{.Permalink}}" class="rounded-full border border-white/10 px-3 py-1 text-xs uppercase tracking-widest text-zinc-400 transition-colors hover:text-white">{{.Language}}</a>
+                            {{end}}
+                        {{end}}
+                    </div>
+                    <button id="nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav-menu" class="flex h-8 w-8 items-center justify-center text-white md:hidden">
+                        <svg id="nav-icon-open" class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+                        <svg id="nav-icon-close" class="hidden h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+                    </button>
+                </nav>
+                <div id="nav-menu" class="hidden flex-col items-start gap-4 pb-1 pt-5 md:hidden">
                     {{range .Site.Menus.main}}
-                        <a href="{{.PageRef}}" class="nav-link">{{.Name}}</a>
+                        <a href="{{.PageRef}}" class="nav-link text-base font-medium text-zinc-300 transition-colors hover:text-white">{{.Name}}</a>
                     {{end}}
-                </div>
-                <div class="nav-utils">
                     {{if .IsTranslated}}
                         {{range .Translations}}
-                            <a href="{{.Permalink}}" class="utils-link">{{.Language}}</a>
+                            <a href="{{.Permalink}}" class="rounded-full border border-white/10 px-3 py-1 text-xs uppercase tracking-widest text-zinc-400 transition-colors hover:text-white">{{.Language}}</a>
                         {{end}}
                     {{end}}
-                </div> 
+                </div>
             </div>
-        </nav>
-        <main>
+        </header>
+
+        <main class="relative z-10">
             {{block "main" .}}{{end}}
         </main>
-        <footer>
-            <div class="footer-content">
-                <div class="footer-container">
-                    <strong>Petr Geršl</strong>
-                    <p>{{ now.Format "2006" }}</p>
+
+        <footer class="relative z-10 border-t border-white/10 px-6 py-8 text-center text-sm text-zinc-500">
+            <div class="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 md:flex-row">
+                <div class="flex items-center gap-2">
+                    <strong class="font-semibold text-white">Petr Geršl</strong>
+                    <span>{{ now.Format "2006" }}</span>
                 </div>
-                <div class="footer-container">
-                    <a id="linktree" href="https://linktr.ee/pgersl?utm_source=linktree_profile_share&ltsid=df6a1618-6fb2-4c28-929b-27bc68534dc5"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M128 237.4L253.8 237.4L164.4 152L213.9 101L299.1 188.8L299.1 64L373 64L373 188.8L458.2 101.2L507.6 152L418.2 237.2L543.9 237.2L543.9 307.7L417.5 307.7L507.5 395.3L458.2 445.1L336 322.1L213.8 445.1L164.3 395.5L254.3 307.9L127.9 307.9L127.9 237.4zM298.9 408.8L372.8 408.8L372.8 576L298.9 576L298.9 408.8z"/></svg></a>
-                </div>
+                <a id="linktree" href="https://linktr.ee/pgersl?utm_source=linktree_profile_share&ltsid=df6a1618-6fb2-4c28-929b-27bc68534dc5" class="text-zinc-500 transition-colors hover:text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" class="h-6 w-6 fill-current"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M128 237.4L253.8 237.4L164.4 152L213.9 101L299.1 188.8L299.1 64L373 64L373 188.8L458.2 101.2L507.6 152L418.2 237.2L543.9 237.2L543.9 307.7L417.5 307.7L507.5 395.3L458.2 445.1L336 322.1L213.8 445.1L164.3 395.5L254.3 307.9L127.9 307.9L127.9 237.4zM298.9 408.8L372.8 408.8L372.8 576L298.9 576L298.9 408.8z"/></svg>
+                </a>
             </div>
         </footer>
     </body>

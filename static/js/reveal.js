@@ -1,9 +1,5 @@
-const revealGroups = [
-    { selector: '.activity', step: 80 },
-    { selector: '.find-me-links a', step: 100 },
-    { selector: '.web-snap', step: 80 },
-    { selector: '.bio-text p', step: 80 },
-];
+const revealItems = document.querySelectorAll('.reveal-item, .markdown-reveal p');
+const groupIndex = new Map();
 
 const observer = new IntersectionObserver(
     entries => {
@@ -17,9 +13,11 @@ const observer = new IntersectionObserver(
     { threshold: 0.15 }
 );
 
-revealGroups.forEach(({ selector, step }) => {
-    document.querySelectorAll(selector).forEach((el, i) => {
-        el.style.setProperty('--delay', `${i * step}ms`);
-        observer.observe(el);
-    });
+revealItems.forEach(el => {
+    const parent = el.parentElement;
+    const step = Number(parent && parent.dataset.revealStep) || 80;
+    const index = groupIndex.get(parent) || 0;
+    groupIndex.set(parent, index + 1);
+    el.style.setProperty('--delay', `${index * step}ms`);
+    observer.observe(el);
 });

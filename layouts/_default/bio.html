@@ -1,13 +1,15 @@
-{{define "styles"}}
-    <link rel="stylesheet" href="/css/bio.css">
-{{end}}
-
 {{define "main"}}
-    <section id="bio">
-        <div class="bio-content">
-            <div class="bio-text">
-                <h1>{{.Title}}</h1>
-                {{.Content}}
+    <section class="grain flex min-h-screen items-end overflow-hidden px-6 pb-20 pt-40">
+        <img src="/media/img/bio-pic.webp" alt="" class="absolute inset-0 h-full w-full object-cover object-top">
+        <div class="absolute inset-0 bg-gradient-to-t from-obsidian via-obsidian/60 to-obsidian/85"></div>
+        <div class="relative z-10 mx-auto w-full max-w-7xl">
+            <div class="glass-card fade-up ml-auto w-full max-w-lg rounded-3xl p-8 md:p-10">
+                <div class="relative z-10">
+                    <h1 class="mb-6 text-3xl font-bold tracking-tight text-white md:text-4xl">{{.Title}}</h1>
+                    <div class="markdown-reveal space-y-4 text-base font-light leading-relaxed text-zinc-400 [&_h2]:mt-6 [&_h2]:text-xl [&_h2]:font-semibold [&_h2]:text-white">
+                        {{.Content}}
+                    </div>
+                </div>
             </div>
         </div>
     </section>

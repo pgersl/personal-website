@@ -1,11 +1,15 @@
-<div class="web-snap">
-    <a target="_blank" href="{{.Get "link"}}">
-        <img src="/media/img/web/{{.Get "img"}}">
-        <span><i class="fa-solid fa-arrow-right-long"></i></span>
+<div class="glass-card reveal-item group flex flex-col overflow-hidden rounded-3xl">
+    <a target="_blank" href="{{.Get "link"}}" class="relative z-10 block overflow-hidden">
+        <img src="/media/img/web/{{.Get "img"}}" alt="{{.Get "title"}}" class="h-auto w-full object-cover transition-all duration-500 group-hover:scale-105 group-hover:brightness-50">
+        <span class="absolute inset-0 flex items-center justify-center text-3xl text-web opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+            <i class="fa-solid fa-arrow-right-long"></i>
+        </span>
     </a>
-    <div class="web-snap-info">
-        <h3><a target="_blank" href="{{.Get "link"}}">{{.Get "title"}}</a></h3>
-        <p class="web-snap-info-description"><em>{{.Get "description"}}</em></p>
-        <p>{{.Get "text"}}</p>
+    <div class="relative z-10 flex flex-col gap-2 p-6">
+        <h3 class="text-lg font-semibold text-white transition-colors group-hover:text-web">
+            <a target="_blank" href="{{.Get "link"}}">{{.Get "title"}}</a>
+        </h3>
+        <p class="text-sm italic text-zinc-500">{{.Get "description"}}</p>
+        <p class="text-base font-light leading-relaxed text-zinc-400">{{.Get "text"}}</p>
     </div>
 </div>

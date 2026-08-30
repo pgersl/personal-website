@@ -1,6 +1,31 @@
-<fieldset class="activity" id="{{.Get "id"}}">
-    <legend>{{.Get "tag"}}</legend>
-    <h3>{{.Get "title"}}</h3>
-    <p>{{.Get "text"}}</p>
-    <a href="{{.Get "link"}}"{{with .Get "target"}} target="{{.}}"{{end}}>{{.Get "linktext"}}</a>
-</fieldset>
+{{ $domain := .Get "domain" }}
+{{ $colors := dict
+    "music"     (dict "glow" "bg-music/10 group-hover:bg-music/20" "badgeBg" "bg-music/10" "badgeBorder" "border-music/20" "badgeText" "text-music" "hoverText" "group-hover:text-music" "dot" "bg-music")
+    "web"       (dict "glow" "bg-web/10 group-hover:bg-web/20" "badgeBg" "bg-web/10" "badgeBorder" "border-web/20" "badgeText" "text-web" "hoverText" "group-hover:text-web" "dot" "bg-web")
+    "tutoring"  (dict "glow" "bg-tutoring/10 group-hover:bg-tutoring/20" "badgeBg" "bg-tutoring/10" "badgeBorder" "border-tutoring/20" "badgeText" "text-tutoring" "hoverText" "group-hover:text-tutoring" "dot" "bg-tutoring")
+    "events"    (dict "glow" "bg-events/10 group-hover:bg-events/20" "badgeBg" "bg-events/10" "badgeBorder" "border-events/20" "badgeText" "text-events" "hoverText" "group-hover:text-events" "dot" "bg-events")
+}}
+{{ $c := index $colors $domain }}
+{{ $link := .Get "link" }}
+{{ $ctx := dict "c" $c "s" . }}
+{{ if $link }}
+<a id="{{.Get "id"}}" href="{{ $link }}"{{ with .Get "target" }} target="{{.}}"{{ end }} class="glass-card reveal-item group flex flex-col justify-between rounded-3xl p-8">{{ template "activity-body" $ctx }}</a>
+{{ else }}
+<div id="{{.Get "id"}}" class="glass-card reveal-item group flex flex-col justify-between rounded-3xl p-8">{{ template "activity-body" $ctx }}</div>
+{{ end }}
+{{ define "activity-body" }}
+    <div class="pointer-events-none absolute right-0 top-0 h-32 w-32 rounded-full blur-2xl transition-all {{ .c.glow }}"></div>
+    <div class="relative z-10">
+        <div class="mb-6 flex h-10 w-10 items-center justify-center rounded-2xl border font-semibold {{ .c.badgeBg }} {{ .c.badgeBorder }} {{ .c.badgeText }}">
+            {{ .s.Get "num" }}
+        </div>
+        <h4 class="mb-3 text-xl font-semibold text-white transition-colors {{ .c.hoverText }}">{{ .s.Get "title" }}</h4>
+        <div class="mb-6 text-base font-light leading-relaxed text-zinc-400 [&_a]:text-white [&_a]:underline [&_a]:decoration-white/30 [&_a]:underline-offset-2 hover:[&_a]:decoration-white">
+            <p>{{ .s.Get "text" | safeHTML }}</p>
+        </div>
+    </div>
+    <div class="relative z-10 flex items-center justify-between border-t border-white/5 pt-4">
+        <span class="font-mono text-sm text-zinc-500 transition-colors {{ .c.hoverText }}">{{ .s.Get "tag" }}</span>
+        <span class="h-2 w-2 rounded-full {{ .c.dot }}"></span>
+    </div>
+{{ end }}

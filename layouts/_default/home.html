@@ -1,36 +1,44 @@
-{{define "styles"}}
-    <link rel="stylesheet" href="/css/home.css">
-{{end}}
-
 {{define "main"}}
-    <section id="hero">
-        <div class="hero-content">
-            <h1 class="reveal">Petr Geršl</h1>
-            <div class="hero-links">
-                <a href="#investing">#investing</a>
-                <a href="#music">#music</a>
-                <a href="#web">#web</a>
-                <a href="#tutoring">#tutoring</a>
-                <a href="#hackathon">#events</a>
+    <section class="grain flex min-h-screen items-center overflow-hidden px-6 pb-16 pt-40">
+        <img src="/media/img/on-hands.webp" alt="" class="absolute inset-0 h-full w-full object-cover">
+        <div class="absolute inset-0 bg-gradient-to-b from-obsidian via-obsidian/60 to-obsidian"></div>
+        <div class="relative z-10 mx-auto flex w-full max-w-7xl flex-col items-end text-right">
+            <div class="glass-card fade-up mb-6 inline-flex items-center gap-2 rounded-full px-3.5 py-1.5 text-sm font-medium text-zinc-300">
+                <span class="relative z-10 h-1.5 w-1.5 rounded-full bg-emerald-400"></span>
+                <span class="relative z-10">{{ i18n "available_badge" }}</span>
+            </div>
+            <p class="fade-up mb-3 text-sm font-semibold uppercase tracking-widest text-zinc-500" style="animation-delay:.05s">Petr Geršl</p>
+            <h1 class="fade-up mb-6 max-w-4xl text-7xl font-bold leading-[1.1] tracking-tight text-white md:text-6xl lg:text-8xl" style="animation-delay:.1s">{{ i18n "hero_headline" | safeHTML }}</h1>
+            <p class="fade-up mb-10 max-w-4xl text-lg font-light leading-relaxed text-zinc-400 md:text-xl" style="animation-delay:.2s">{{ i18n "hero_subhead" }}</p>
+            <div class="fade-up flex flex-wrap items-center justify-end gap-4" style="animation-delay:.3s">
+                <a href="#now" class="rounded-full bg-white px-6 py-3.5 text-base font-medium text-black transition-all hover:bg-zinc-200">{{ i18n "explore_activities" }}</a>
+                <a href="{{ with .Site.GetPage "/contact" }}{{.RelPermalink}}{{end}}" class="glass-card rounded-full px-6 py-3.5 text-base font-medium text-white transition-all hover:bg-white/10">
+                    <span class="relative z-10">{{ i18n "get_in_touch" }}</span>
+                </a>
             </div>
         </div>
     </section>
-    <section id="now">
-        <h2 class="reveal">{{ i18n "what_i_do" }}</h2>
-        <div class="activities">
+
+    <section id="now" class="mx-auto max-w-7xl px-6 py-20">
+        <div class="fade-up mb-12">
+            <h2 class="mb-3 text-sm font-semibold uppercase tracking-widest text-zinc-500">{{ i18n "core_disciplines" }}</h2>
+            <h3 class="text-3xl font-semibold tracking-tight text-white md:text-4xl">{{ i18n "what_i_do" }}</h3>
+        </div>
+        <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
             {{.Content}}
         </div>
     </section>
-    <section id="find-me">
-        <h2>{{ i18n "find_me" }}</h2>
-        <div class="find-me-links">
-            <a href="https://www.linkedin.com/in/petr-ger%C5%A1l-9324491a6/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://instagram.com/pgersl.jpg" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://www.youtube.com/@petrgersl" target="_blank"><i class="fa-brands fa-youtube"></i></a>
-            <a href="https://x.com/GerslPetr" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
-            <a href="https://music.apple.com/us/artist/petr-ger%C5%A1l/1707910920" target="_blank"><i class="fa-brands fa-apple"></i></a>
-            <a href="https://open.spotify.com/artist/3jeeP8iPfuNDAXRqASrNV2" target="_blank"><i class="fa-brands fa-spotify"></i></a>
-            <a href="https://github.com/pgersl" target="_blank"><i class="fa-brands fa-github"></i></a>
+
+    <section class="mx-auto flex max-w-7xl flex-col items-center px-6 py-20 text-center">
+        <h2 class="fade-up mb-8 text-3xl font-semibold tracking-tight text-white md:text-4xl">{{ i18n "find_me" }}</h2>
+        <div class="flex flex-wrap items-center justify-center gap-6 text-4xl" data-reveal-step="100">
+            <a href="https://www.linkedin.com/in/petr-ger%C5%A1l-9324491a6/" target="_blank" class="reveal-item text-zinc-400 transition-colors hover:text-white"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://instagram.com/pgersl.jpg" target="_blank" class="reveal-item text-zinc-400 transition-colors hover:text-white"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.youtube.com/@petrgersl" target="_blank" class="reveal-item text-zinc-400 transition-colors hover:text-white"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://x.com/GerslPetr" target="_blank" class="reveal-item text-zinc-400 transition-colors hover:text-white"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://music.apple.com/us/artist/petr-ger%C5%A1l/1707910920" target="_blank" class="reveal-item text-zinc-400 transition-colors hover:text-white"><i class="fa-brands fa-apple"></i></a>
+            <a href="https://open.spotify.com/artist/3jeeP8iPfuNDAXRqASrNV2" target="_blank" class="reveal-item text-zinc-400 transition-colors hover:text-white"><i class="fa-brands fa-spotify"></i></a>
+            <a href="https://github.com/pgersl" target="_blank" class="reveal-item text-zinc-400 transition-colors hover:text-white"><i class="fa-brands fa-github"></i></a>
         </div>
     </section>
 {{end}}

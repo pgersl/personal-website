@@ -3,6 +3,9 @@ title = "Petr Geršl"
 uglyURLs = false
 enableEmoji = true
 
+defaultContentLanguage = 'cs'
+defaultContentLanguageInSubdir = false
+
 [frontmatter]
     date = ['date', 'publishDate', 'lastmod']
     expiryDate = ['expiryDate']
@@ -20,9 +23,6 @@ enableEmoji = true
     home = ['HTML', 'JSON', 'RSS']
     page = ['HTML']
 
-defaultContentLanguage = 'en'
-defaultContentLanguageInSubdir = true
-
 [languages]
     [languages.cs]
         contentDir = "content/cs"
@@ -37,17 +37,17 @@ defaultContentLanguageInSubdir = true
             [[languages.cs.menu.main]]
                 identifier = "home"
                 name = "Domů"
-                pageRef = "/cs"
+                pageRef = "/"
                 weight = 1
             [[languages.cs.menu.main]]
                 identifier = "bio"
                 name = "Životopis"
-                pageRef = "/cs/bio"
+                pageRef = "/bio"
                 weight = 2
             [[languages.cs.menu.main]]
                 identifier = "contact"
                 name = "Kontakt"
-                pageRef = "/cs/contact"
+                pageRef = "/contact"
                 weight = 3
     [languages.en]
         contentDir = "content/en"
@@ -62,15 +62,15 @@ defaultContentLanguageInSubdir = true
             [[languages.en.menu.main]]
                 identifier = "home"
                 name = "Home"
-                pageRef = "/"
+                pageRef = "/en"
                 weight = 1
             [[languages.en.menu.main]]
                 identifier = "bio"
                 name = "Bio"
-                pageRef = "/bio"
+                pageRef = "/en/bio"
                 weight = 2
             [[languages.en.menu.main]]
                 identifier = "contact"
                 name = "Contact"
-                pageRef = "/contact"
+                pageRef = "/en/contact"
                 weight = 3

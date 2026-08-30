@@ -1,5 +1,23 @@
 [what_i_do]
-other = "Co dělám?"
+other = "Co dělám"
 
 [find_me]
 other = "Najděte mě!"
+
+[core_disciplines]
+other = "Hlavní obory"
+
+[available_badge]
+other = "Otevřený spolupráci"
+
+[hero_headline]
+other = 'Tvořím na pomezí <span class="bg-gradient-to-r from-zinc-200 via-zinc-400 to-zinc-600 bg-clip-text text-transparent">hudby, kódu a lidí</span>.'
+
+[hero_subhead]
+other = "Skladatel, webový vývojář, lektor a organizátor vědeckých akcí z Česka."
+
+[explore_activities]
+other = "Prozkoumat aktivity"
+
+[get_in_touch]
+other = "Kontaktujte mě"
