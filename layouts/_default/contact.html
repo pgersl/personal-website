@@ -8,7 +8,58 @@
             <img src="/media/img/jobs-pose.webp" alt="Petr Geršl" class="relative z-10 h-full w-full rounded-full object-cover">
         </div>
         <div class="w-full max-w-lg">
-            {{if strings.HasPrefix .RelPermalink "/cs/"}}
+            {{if strings.HasPrefix .RelPermalink "/en/"}}
+                <select name="contacts" id="contacts" class="fade-up mb-6 w-full cursor-pointer border-none bg-transparent font-sans text-2xl font-bold text-white">
+                    <option value="" disabled selected>How can I help?</option>
+                    <option value="networking">Networking</option>
+                    <option value="web">Web</option>
+                    <option value="tutoring">Tutoring</option>
+                    <option value="music">Music</option>
+                    <option value="zvazvedu">Zvaž vědu!</option>
+                    <option value="hackathon">AstroPi Hackathon</option>
+                </select>
+                <div class="contact-option flex-col gap-4 text-base font-light leading-relaxed text-zinc-400" id="networking" style="display:none">
+                    <p class="fade-up">Would you like to meet casually and share know-how, or just talk about business? Let's have an online call! You can book a time via <a href="https://tidycal.com/pgersl05/networking" class="text-white underline decoration-white/30 hover:decoration-white">Tidycal</a>.</p>
+                </div>
+                <div class="contact-option flex-col gap-4 text-base font-light leading-relaxed text-zinc-400" id="web" style="display:none">
+                    <p class="fade-up">Are you interested in having a website created or modified? Contact me for more information:</p>
+                    <p class="fade-up">
+                        <i class="fa-solid fa-phone text-web"></i>&nbsp;&nbsp;<a href="tel:+420731347915" class="text-white hover:text-zinc-300">+420 731 347 915</a><br>
+                        <i class="fa-solid fa-envelope text-web"></i>&nbsp;&nbsp;<a href="mailto:pgersl05@gmail.com" class="text-white hover:text-zinc-300">pgersl05@gmail.com</a>
+                    </p>
+                    <p class="fade-up">Or check out the <a href="/en/web" class="text-web underline decoration-web/40 hover:decoration-web">portfolio of websites</a> that I have designed or manage.</p>
+                </div>
+                <div class="contact-option flex-col gap-4 text-base font-light leading-relaxed text-zinc-400" id="tutoring" style="display:none">
+                    <p class="fade-up">Do you need help with a school subject? I offer tutoring in chemistry, mathematics, and English.</p>
+                    <p class="fade-up">More details and appointment booking can be found on my <a href="https://tidycal.com/pgersl05/doucovani" class="text-tutoring underline decoration-tutoring/40 hover:decoration-tutoring">Tidycal</a>.</p>
+                </div>
+                <div class="contact-option flex-col gap-4 text-base font-light leading-relaxed text-zinc-400" id="music" style="display:none">
+                    <p class="fade-up">My music is available on most major platforms:</p>
+                    <p class="fade-up text-xl">
+                        <a href="https://music.apple.com/us/artist/petr-ger%C5%A1l/1707910920" target="_blank" class="text-music hover:text-white"><i class="fa-brands fa-apple"></i></a>&nbsp;
+                        <a href="https://open.spotify.com/artist/3jeeP8iPfuNDAXRqASrNV2" target="_blank" class="text-music hover:text-white"><i class="fa-brands fa-spotify"></i></a>&nbsp;
+                        <a href="https://www.deezer.com/en/artist/230931175" class="text-music hover:text-white"><i class="fa-brands fa-deezer"></i></a>&nbsp;
+                        <a href="https://music.youtube.com/channel/UCYPOV-Ky14G0h0O-Xqob_ag?si=PBTFJtN6RkJ33nJz" class="text-music hover:text-white"><i class="fa-brands fa-youtube"></i></a>&nbsp;
+                        <a href="https://music.amazon.com/artists/B0CZ9F96YR/petr-ger%25C5%25A1l?marketplaceId=A3K6Y4MI8GDYMT&musicTerritory=CZ&ref=dm_sh_54hZJJLGMxnYAyQxdA8E5abhU" class="text-music hover:text-white"><i class="fa-brands fa-amazon"></i></a>
+                    </p>
+                    <p class="fade-up">Or you can support me on my <a href="https://pgersl.bandcamp.com/" class="text-music underline decoration-music/40 hover:decoration-music">Bandcamp</a>.</p>
+                    <p class="fade-up">If you'd like to learn more about my music, you can also explore it on <a href="https://music.pgersl.xyz" class="text-music underline decoration-music/40 hover:decoration-music">my website</a>.</p>
+                </div>
+                <div class="contact-option flex-col gap-4 text-base font-light leading-relaxed text-zinc-400" id="zvazvedu" style="display:none">
+                    <p class="fade-up">If you have a question about Zvaž vědu!, are interested in collaborating with us, or have an accounting-related inquiry, please contact me:</p>
+                    <p class="fade-up">
+                        <i class="fa-solid fa-envelope text-events"></i>&nbsp;&nbsp;<a href="mailto:gersl@zvazvedu.cz" class="text-white hover:text-zinc-300">gersl@zvazvedu.cz</a><br>
+                        <i class="fa-solid fa-phone text-events"></i>&nbsp;&nbsp;<a href="tel:+420731347915" class="text-white hover:text-zinc-300">+420 731 347 915</a><br>
+                    </p>
+                </div>
+                <div class="contact-option flex-col gap-4 text-base font-light leading-relaxed text-zinc-400" id="hackathon" style="display:none">
+                    <p class="fade-up">Do you have a question about the AstroPi Hackathon, are interested in collaboration, or have feedback regarding the website? Contact me:</p>
+                    <p class="fade-up">
+                        <i class="fa-solid fa-envelope text-events"></i>&nbsp;&nbsp;<a href="mailto:pgersl05@gmail.com" class="text-white hover:text-zinc-300">pgersl05@gmail.com</a><br>
+                        <i class="fa-solid fa-phone text-events"></i>&nbsp;&nbsp;<a href="tel:+420731347915" class="text-white hover:text-zinc-300">+420 731 347 915</a><br>
+                    </p>
+                </div>
+            {{else}}
                 <select name="contacts" id="contacts" class="fade-up mb-6 w-full cursor-pointer border-none bg-transparent font-sans text-2xl font-bold text-white">
                     <option value="" disabled selected>Co vás zajímá?</option>
                     <option value="networking">Networking</option>
@@ -55,57 +106,6 @@
                 </div>
                 <div class="contact-option flex-col gap-4 text-base font-light leading-relaxed text-zinc-400" id="hackathon" style="display:none">
                     <p class="fade-up">Máte dotaz ohledně AstroPi Hackathonu, zájem o spolupráci nebo podnět ohledně webu? Kontaktujte mě:</p>
-                    <p class="fade-up">
-                        <i class="fa-solid fa-envelope text-events"></i>&nbsp;&nbsp;<a href="mailto:pgersl05@gmail.com" class="text-white hover:text-zinc-300">pgersl05@gmail.com</a><br>
-                        <i class="fa-solid fa-phone text-events"></i>&nbsp;&nbsp;<a href="tel:+420731347915" class="text-white hover:text-zinc-300">+420 731 347 915</a><br>
-                    </p>
-                </div>
-            {{else}}
-                <select name="contacts" id="contacts" class="fade-up mb-6 w-full cursor-pointer border-none bg-transparent font-sans text-2xl font-bold text-white">
-                    <option value="" disabled selected>How can I help?</option>
-                    <option value="networking">Networking</option>
-                    <option value="web">Web</option>
-                    <option value="tutoring">Tutoring</option>
-                    <option value="music">Music</option>
-                    <option value="zvazvedu">Zvaž vědu!</option>
-                    <option value="hackathon">AstroPi Hackathon</option>
-                </select>
-                <div class="contact-option flex-col gap-4 text-base font-light leading-relaxed text-zinc-400" id="networking" style="display:none">
-                    <p class="fade-up">Would you like to meet casually and share know-how, or just talk about business? Let's have an online call! You can book a time via <a href="https://tidycal.com/pgersl05/networking" class="text-white underline decoration-white/30 hover:decoration-white">Tidycal</a>.</p>
-                </div>
-                <div class="contact-option flex-col gap-4 text-base font-light leading-relaxed text-zinc-400" id="web" style="display:none">
-                    <p class="fade-up">Are you interested in having a website created or modified? Contact me for more information:</p>
-                    <p class="fade-up">
-                        <i class="fa-solid fa-phone text-web"></i>&nbsp;&nbsp;<a href="tel:+420731347915" class="text-white hover:text-zinc-300">+420 731 347 915</a><br>
-                        <i class="fa-solid fa-envelope text-web"></i>&nbsp;&nbsp;<a href="mailto:pgersl05@gmail.com" class="text-white hover:text-zinc-300">pgersl05@gmail.com</a>
-                    </p>
-                    <p class="fade-up">Or check out the <a href="/en/web" class="text-web underline decoration-web/40 hover:decoration-web">portfolio of websites</a> that I have designed or manage.</p>
-                </div>
-                <div class="contact-option flex-col gap-4 text-base font-light leading-relaxed text-zinc-400" id="tutoring" style="display:none">
-                    <p class="fade-up">Do you need help with a school subject? I offer tutoring in chemistry, mathematics, and English.</p>
-                    <p class="fade-up">More details and appointment booking can be found on my <a href="https://tidycal.com/pgersl05/doucovani" class="text-tutoring underline decoration-tutoring/40 hover:decoration-tutoring">Tidycal</a>.</p>
-                </div>
-                <div class="contact-option flex-col gap-4 text-base font-light leading-relaxed text-zinc-400" id="music" style="display:none">
-                    <p class="fade-up">My music is available on most major platforms:</p>
-                    <p class="fade-up text-xl">
-                        <a href="https://music.apple.com/us/artist/petr-ger%C5%A1l/1707910920" target="_blank" class="text-music hover:text-white"><i class="fa-brands fa-apple"></i></a>&nbsp;
-                        <a href="https://open.spotify.com/artist/3jeeP8iPfuNDAXRqASrNV2" target="_blank" class="text-music hover:text-white"><i class="fa-brands fa-spotify"></i></a>&nbsp;
-                        <a href="https://www.deezer.com/en/artist/230931175" class="text-music hover:text-white"><i class="fa-brands fa-deezer"></i></a>&nbsp;
-                        <a href="https://music.youtube.com/channel/UCYPOV-Ky14G0h0O-Xqob_ag?si=PBTFJtN6RkJ33nJz" class="text-music hover:text-white"><i class="fa-brands fa-youtube"></i></a>&nbsp;
-                        <a href="https://music.amazon.com/artists/B0CZ9F96YR/petr-ger%25C5%25A1l?marketplaceId=A3K6Y4MI8GDYMT&musicTerritory=CZ&ref=dm_sh_54hZJJLGMxnYAyQxdA8E5abhU" class="text-music hover:text-white"><i class="fa-brands fa-amazon"></i></a>
-                    </p>
-                    <p class="fade-up">Or you can support me on my <a href="https://pgersl.bandcamp.com/" class="text-music underline decoration-music/40 hover:decoration-music">Bandcamp</a>.</p>
-                    <p class="fade-up">If you'd like to learn more about my music, you can also explore it on <a href="https://music.pgersl.xyz" class="text-music underline decoration-music/40 hover:decoration-music">my website</a>.</p>
-                </div>
-                <div class="contact-option flex-col gap-4 text-base font-light leading-relaxed text-zinc-400" id="zvazvedu" style="display:none">
-                    <p class="fade-up">If you have a question about Zvaž vědu!, are interested in collaborating with us, or have an accounting-related inquiry, please contact me:</p>
-                    <p class="fade-up">
-                        <i class="fa-solid fa-envelope text-events"></i>&nbsp;&nbsp;<a href="mailto:gersl@zvazvedu.cz" class="text-white hover:text-zinc-300">gersl@zvazvedu.cz</a><br>
-                        <i class="fa-solid fa-phone text-events"></i>&nbsp;&nbsp;<a href="tel:+420731347915" class="text-white hover:text-zinc-300">+420 731 347 915</a><br>
-                    </p>
-                </div>
-                <div class="contact-option flex-col gap-4 text-base font-light leading-relaxed text-zinc-400" id="hackathon" style="display:none">
-                    <p class="fade-up">Do you have a question about the AstroPi Hackathon, are interested in collaboration, or have feedback regarding the website? Contact me:</p>
                     <p class="fade-up">
                         <i class="fa-solid fa-envelope text-events"></i>&nbsp;&nbsp;<a href="mailto:pgersl05@gmail.com" class="text-white hover:text-zinc-300">pgersl05@gmail.com</a><br>
                         <i class="fa-solid fa-phone text-events"></i>&nbsp;&nbsp;<a href="tel:+420731347915" class="text-white hover:text-zinc-300">+420 731 347 915</a><br>
