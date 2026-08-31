@@ -1,15 +1,15 @@
 {{define "main"}}
     <section class="mx-auto max-w-7xl space-y-8 px-4 pb-20 pt-40 sm:px-6">
         <div class="grid grid-cols-1 items-start gap-8 lg:grid-cols-3">
-            <div class="grain relative flex min-h-[420px] flex-col justify-center overflow-hidden rounded-3xl p-8 shadow-2xl md:min-h-[560px] md:p-12 lg:col-span-2">
+            <div class="grain relative flex min-h-[420px] flex-col justify-end overflow-hidden rounded-3xl p-8 shadow-2xl md:min-h-[560px] md:p-12 lg:col-span-2">
                 <img src="/media/img/bio-pic.webp" alt="" class="absolute inset-0 h-full w-full object-cover object-top">
-                <div class="absolute inset-0 bg-gradient-to-t from-obsidian via-obsidian/60 to-obsidian/75"></div>
+                <div class="absolute inset-0 bg-gradient-to-t from-obsidian via-obsidian/40 to-obsidian/25"></div>
                 <div class="relative z-10 space-y-6">
                     <div class="flex items-center gap-3">
                         <span class="h-3 w-3 rounded-full bg-emerald-500 animate-pulse"></span>
-                        <h2 class="text-3xl font-bold tracking-tight text-white md:text-5xl lg:text-6xl">#now</h2>
+                        <h2 class="text-3xl font-bold tracking-tight text-white md:text-5xl lg:text-4xl">#now</h2>
                     </div>
-                    <p class="text-xl font-light leading-relaxed text-white drop-shadow-md md:text-2xl lg:text-3xl">{{ .Params.now }}</p>
+                    <p class="text-xl font-light leading-relaxed text-white drop-shadow-md md:text-xl lg:text-2xl">{{ .Params.now }}</p>
                 </div>
             </div>
 
