@@ -1,16 +1,76 @@
 {{define "main"}}
-    <section class="grain flex min-h-screen items-end overflow-hidden px-6 pb-20 pt-40">
-        <img src="/media/img/bio-pic.webp" alt="" class="absolute inset-0 h-full w-full object-cover object-top">
-        <div class="absolute inset-0 bg-gradient-to-t from-obsidian via-obsidian/60 to-obsidian/85"></div>
-        <div class="relative z-10 mx-auto w-full max-w-7xl">
-            <div class="glass-card fade-up ml-auto w-full max-w-lg rounded-3xl p-8 md:p-10">
-                <div class="relative z-10">
-                    <h1 class="mb-6 text-3xl font-bold tracking-tight text-white md:text-4xl">{{.Title}}</h1>
-                    <div class="markdown-reveal space-y-4 text-base font-light leading-relaxed text-zinc-400 [&_h2]:mt-6 [&_h2]:text-xl [&_h2]:font-semibold [&_h2]:text-white">
-                        {{.Content}}
+    <section class="mx-auto max-w-7xl space-y-8 px-4 pb-20 pt-40 sm:px-6">
+        <div class="grid grid-cols-1 items-start gap-8 lg:grid-cols-3">
+            <div class="grain relative flex min-h-[420px] flex-col justify-center overflow-hidden rounded-3xl p-8 shadow-2xl md:min-h-[560px] md:p-12 lg:col-span-2">
+                <img src="/media/img/bio-pic.webp" alt="" class="absolute inset-0 h-full w-full object-cover object-top">
+                <div class="absolute inset-0 bg-gradient-to-t from-obsidian via-obsidian/60 to-obsidian/75"></div>
+                <div class="relative z-10 space-y-6">
+                    <div class="flex items-center gap-3">
+                        <span class="h-3 w-3 rounded-full bg-emerald-500 animate-pulse"></span>
+                        <h2 class="text-3xl font-bold tracking-tight text-white md:text-5xl lg:text-6xl">#now</h2>
+                    </div>
+                    <p class="text-xl font-light leading-relaxed text-white drop-shadow-md md:text-2xl lg:text-3xl">{{ .Params.now }}</p>
+                </div>
+            </div>
+
+            <div class="flex flex-col lg:col-span-1">
+                <div class="glass-card flex flex-1 flex-col justify-between rounded-3xl p-6 shadow-xl md:p-8">
+                    <div class="relative z-10">
+                        <h1 class="mb-4 text-2xl font-bold tracking-tight text-white">{{ .Title }}</h1>
+                        <div class="markdown-reveal space-y-3 text-sm font-light leading-relaxed text-zinc-300 md:text-base">
+                            {{ .Content }}
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <section class="glass-card rounded-3xl p-8 md:p-12">
+            <h2 class="mb-10 border-b border-white/10 pb-4 text-2xl font-bold tracking-tight text-white md:text-3xl">Profesní profil</h2>
+            <div class="relative z-10 grid grid-cols-1 gap-12 lg:grid-cols-3">
+                <div>
+                    <h3 class="mb-6 flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-zinc-400">
+                        <span class="h-2 w-2 rounded-full bg-white"></span> Vzdělání
+                    </h3>
+                    <div class="relative space-y-8 pl-6">
+                        <div class="pointer-events-none absolute left-3 top-0 bottom-0 w-px bg-white/10"></div>
+                        {{ range .Site.Data.cv.education }}{{ template "cv-entry" . }}{{ end }}
+                    </div>
+                </div>
+                <div>
+                    <h3 class="mb-6 flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-zinc-400">
+                        <span class="h-2 w-2 rounded-full bg-white"></span> Praxe a projekty
+                    </h3>
+                    <div class="relative space-y-8 pl-6">
+                        <div class="pointer-events-none absolute left-3 top-0 bottom-0 w-px bg-white/10"></div>
+                        {{ range .Site.Data.cv.experience }}{{ template "cv-entry" . }}{{ end }}
+                    </div>
+                </div>
+                <div>
+                    <h3 class="mb-6 flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-zinc-400">
+                        <span class="h-2 w-2 rounded-full bg-white"></span> Dovednosti &amp; Zájmy
+                    </h3>
+                    <div class="relative space-y-8 pl-6">
+                        <div class="pointer-events-none absolute left-3 top-0 bottom-0 w-px bg-white/10"></div>
+                        {{ range .Site.Data.cv.skills }}{{ template "cv-entry" . }}{{ end }}
+                    </div>
+                </div>
+            </div>
+        </section>
     </section>
+{{end}}
+
+{{define "cv-entry"}}
+    <div class="group relative">
+        <span class="font-mono text-xs text-zinc-500">{{ .period }}</span>
+        <h4 class="mt-1 text-base font-semibold text-white">{{ .title }}</h4>
+        {{ if .url }}
+            <p class="mt-0.5 text-sm text-zinc-400">
+                <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="text-zinc-300 underline decoration-white/30 transition-all hover:text-white hover:decoration-white">{{ .org }}</a>
+                {{ with .description }}<span class="mt-0.5 block text-xs text-zinc-500">{{ . }}</span>{{ end }}
+            </p>
+        {{ else }}
+            <p class="mt-0.5 text-sm text-zinc-400">{{ .description }}</p>
+        {{ end }}
+    </div>
 {{end}}

@@ -1,12 +1,14 @@
 ---
 title: Petr Geršl
 layout: home
+badge: "Based in Czechia"
+headline: "Hi, I'm Petr Geršl."
+intro: "I am a student of Finance and Accounting at the University of South Bohemia, a classical music composer, and an active project coordinator with a background in administrative work, investments, and web technologies."
+background_title: "Background & Studies"
+contact_title: "Direct Contact"
+contact_intro: "Feel free to reach out directly via email or phone for international inquiries, collaborations, or professional networking."
 ---
 
-{{< activity id="music" domain="music" num="01" tag="#music" title="Music" text="I am an amateur composer and musician. I write music for various ensembles in the style of classical composers. You can find it on various platforms." link="https://music.pgersl.xyz/" target="_blank" >}}
+Born in Brno in 2005, I graduated from Cyrilometodějské Gymnázium and a vocational pedagogical school, with an early focus on chemistry and scientific research — including presenting original work at the Secondary School Professional Activity conference under the Faculty of Science, Masaryk University.
 
-{{< activity id="web" domain="web" num="02" tag="#web" title="Web Development" text="I create and maintain websites using modern technologies like Hugo, HTML, CSS, and JavaScript. I focus on clean design and optimal performance." link="/en/web" >}}
-
-{{< activity id="tutoring" domain="tutoring" num="03" tag="#tutoring" title="Tutoring" text="I provide tutoring in chemistry, English and mathematics for high school and elementary school students. My approach is tailored to individual needs." link="https://tidycal.com/pgersl05/doucovani" target="_blank" >}}
-
-{{< activity id="events" domain="events" num="04" tag="#events" title="Events" text=`I am part of the organizing teams behind <a href="https://astropi-hackathon.org/" target="_blank">AstroPi Hackathon</a> in Brno and <a href="https://zvazvedu.cz/" target="_blank">Zvaž vědu!</a>, student-run science events where I take on various roles.` >}}
+Today my focus centers on corporate finance and asset management at Golden Gate, administrative governance for non-profits like Zvaž vědu!, and composing late-Romantic orchestral music.

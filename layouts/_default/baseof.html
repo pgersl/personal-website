@@ -39,11 +39,11 @@
                         {{end}}
                     </div>
                     <div class="hidden items-center gap-3 md:flex">
-                        {{if .IsTranslated}}
-                            {{range .Translations}}
-                                <a href="{{.Permalink}}" class="rounded-full border border-white/10 px-3 py-1 text-xs uppercase tracking-widest text-zinc-400 transition-colors hover:text-white">{{.Language}}</a>
-                            {{end}}
-                        {{end}}
+                        {{ if eq .Site.Language.Lang "cs" }}
+                            <a href="/en/" class="rounded-full border border-white/10 px-3 py-1 text-xs uppercase tracking-widest text-zinc-400 transition-colors hover:text-white">en</a>
+                        {{ else }}
+                            <a href="/" class="rounded-full border border-white/10 px-3 py-1 text-xs uppercase tracking-widest text-zinc-400 transition-colors hover:text-white">cs</a>
+                        {{ end }}
                     </div>
                     <button id="nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav-menu" class="flex h-8 w-8 items-center justify-center text-white md:hidden">
                         <svg id="nav-icon-open" class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
@@ -54,11 +54,11 @@
                     {{range .Site.Menus.main}}
                         <a href="{{.PageRef}}" class="nav-link text-base font-medium text-zinc-300 transition-colors hover:text-white">{{.Name}}</a>
                     {{end}}
-                    {{if .IsTranslated}}
-                        {{range .Translations}}
-                            <a href="{{.Permalink}}" class="rounded-full border border-white/10 px-3 py-1 text-xs uppercase tracking-widest text-zinc-400 transition-colors hover:text-white">{{.Language}}</a>
-                        {{end}}
-                    {{end}}
+                    {{ if eq .Site.Language.Lang "cs" }}
+                        <a href="/en/" class="rounded-full border border-white/10 px-3 py-1 text-xs uppercase tracking-widest text-zinc-400 transition-colors hover:text-white">en</a>
+                    {{ else }}
+                        <a href="/" class="rounded-full border border-white/10 px-3 py-1 text-xs uppercase tracking-widest text-zinc-400 transition-colors hover:text-white">cs</a>
+                    {{ end }}
                 </div>
             </div>
         </header>

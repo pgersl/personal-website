@@ -1,0 +1,66 @@
+{{define "main"}}
+    <section class="mx-auto max-w-7xl px-4 pb-16 pt-40 sm:px-6">
+        <div class="glass-card fade-up relative overflow-hidden rounded-3xl p-10 shadow-2xl md:p-16">
+            <div class="pointer-events-none absolute -top-32 right-0 h-96 w-96 rounded-full bg-white/5 blur-3xl"></div>
+            <div class="relative z-10 grid grid-cols-1 items-center gap-12 lg:grid-cols-12">
+                <div class="flex justify-center lg:col-span-4">
+                    <div class="h-64 w-64 overflow-hidden rounded-full bg-gradient-to-b from-white/20 to-white/5 p-2 shadow-2xl md:h-72 md:w-72">
+                        <img src="/media/img/on-hands.webp" alt="Petr Geršl" class="h-full w-full rounded-full object-cover object-top">
+                    </div>
+                </div>
+                <div class="space-y-6 text-center lg:col-span-8 lg:text-left">
+                    <div class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-1.5 text-xs text-zinc-300">
+                        <span class="h-2 w-2 rounded-full bg-emerald-500 animate-pulse"></span> {{ .Params.badge }}
+                    </div>
+                    <h1 class="text-4xl font-bold tracking-tight text-white md:text-6xl">{{ .Params.headline }}</h1>
+                    <p class="max-w-3xl text-lg font-light leading-relaxed text-zinc-400 md:text-xl">{{ .Params.intro }}</p>
+                    <div class="flex flex-wrap justify-center gap-4 pt-4 lg:justify-start">
+                        <a href="#contact" class="inline-flex items-center gap-2 rounded-full bg-white px-7 py-3.5 text-sm font-medium text-black transition-transform hover:scale-105">
+                            <i class="fa-solid fa-envelope"></i> Get in Touch
+                        </a>
+                        <a href="https://www.linkedin.com/in/petr-ger%C5%A1l-9324491a6/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/5 px-7 py-3.5 text-sm font-medium text-white transition-colors hover:bg-white/10">
+                            <i class="fa-brands fa-linkedin"></i> LinkedIn Profile
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-10 grid grid-cols-1 gap-10 lg:grid-cols-2">
+            <div class="glass-card fade-up flex flex-col justify-between rounded-3xl p-10 md:p-12">
+                <div class="relative z-10">
+                    <h2 class="mb-6 text-2xl font-bold tracking-tight text-white">{{ .Params.background_title }}</h2>
+                    <div class="space-y-6 text-base font-light leading-relaxed text-zinc-400">
+                        {{ .Content }}
+                    </div>
+                </div>
+            </div>
+
+            <div id="contact" class="glass-card fade-up flex flex-col justify-between rounded-3xl p-10 md:p-12">
+                <div class="relative z-10">
+                    <h2 class="mb-6 text-2xl font-bold tracking-tight text-white">{{ .Params.contact_title }}</h2>
+                    <p class="mb-8 text-base font-light text-zinc-400">{{ .Params.contact_intro }}</p>
+                    <div class="mb-10 space-y-4">
+                        <a href="mailto:pgersl05@gmail.com" class="flex items-center gap-3 text-base text-white transition-colors hover:text-zinc-300">
+                            <i class="fa-solid fa-at text-zinc-500"></i>
+                            <span class="font-medium">pgersl05@gmail.com</span>
+                        </a>
+                        <a href="tel:+420731347915" class="flex items-center gap-3 text-base text-white transition-colors hover:text-zinc-300">
+                            <i class="fa-solid fa-phone text-zinc-500"></i>
+                            <span class="font-medium">+420 731 347 915</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="relative z-10">
+                    <h3 class="mb-4 text-xs font-semibold uppercase tracking-wider text-zinc-400">Profiles &amp; Platforms</h3>
+                    <div class="flex items-center gap-6 text-2xl text-zinc-400">
+                        <a href="https://github.com/pgersl" target="_blank" rel="noopener noreferrer" class="transition-colors hover:text-white" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/petr-ger%C5%A1l-9324491a6/" target="_blank" rel="noopener noreferrer" class="transition-colors hover:text-white" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://instagram.com/pgersl.jpg" target="_blank" rel="noopener noreferrer" class="transition-colors hover:text-white" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://open.spotify.com/artist/3jeeP8iPfuNDAXRqASrNV2" target="_blank" rel="noopener noreferrer" class="transition-colors hover:text-white" aria-label="Spotify"><i class="fa-brands fa-spotify"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{{end}}

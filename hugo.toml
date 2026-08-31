@@ -58,19 +58,3 @@ defaultContentLanguageInSubdir = false
         title = "Petr Geršl"
         [languages.en.params]
             description = "Personal website of Petr Geršl"
-        [languages.en.menu]
-            [[languages.en.menu.main]]
-                identifier = "home"
-                name = "Home"
-                pageRef = "/en"
-                weight = 1
-            [[languages.en.menu.main]]
-                identifier = "bio"
-                name = "Bio"
-                pageRef = "/en/bio"
-                weight = 2
-            [[languages.en.menu.main]]
-                identifier = "contact"
-                name = "Contact"
-                pageRef = "/en/contact"
-                weight = 3
