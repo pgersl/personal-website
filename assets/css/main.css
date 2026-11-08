@@ -61,6 +61,11 @@
     50% { transform: translate(40px, 60px) scale(1.1); }
     100% { transform: translate(-30px, 40px) scale(.9); }
 }
+/* Presentation slides are seen at a distance, so their ambient blobs need to read much stronger than the website's */
+.deck .blob {
+    opacity: .2;
+    filter: blur(60px);
+}
 
 /* Nav active-link indicator */
 .nav-link {
@@ -95,6 +100,323 @@
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+/* Slide-deck chrome, used by layouts/prezentace/*.html presentation pages */
+.deck {
+    position: relative;
+    height: 100dvh;
+    width: 100vw;
+    overflow: hidden;
+    background: var(--color-obsidian);
+    isolation: isolate;
+}
+.deck-slide {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(16px);
+    transition: opacity .45s cubic-bezier(.16,1,.3,1), transform .45s cubic-bezier(.16,1,.3,1);
+    overflow-y: auto;
+}
+.deck-slide.is-active {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+}
+.deck-slide-inner {
+    margin: auto;
+    width: 100%;
+    max-width: 82rem;
+    padding: 2rem clamp(1.5rem, 5vw, 4rem);
+}
+.deck-slide-inner.full {
+    max-width: none;
+    height: 100%;
+    padding: 2.5rem clamp(1.5rem, 5vw, 4.5rem);
+}
+.deck-title {
+    margin-top: .75rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: #fff;
+    font-size: clamp(1.75rem, 4.2vw, 3rem);
+    line-height: 1.1;
+}
+.deck-body {
+    margin-top: 1.25rem;
+    max-width: 44rem;
+    font-weight: 300;
+    line-height: 1.6;
+    color: var(--color-ink);
+    font-size: clamp(1rem, 1.6vw, 1.25rem);
+}
+.deck-stat {
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: var(--color-finance);
+    font-size: clamp(3rem, 9vw, 7rem);
+    line-height: 1;
+}
+.deck-source {
+    margin-top: 2rem;
+    font-size: .75rem;
+    color: rgb(113 113 122);
+}
+.deck-badge {
+    display: inline-block;
+    border-radius: 9999px;
+    border: 1px solid rgba(255,255,255,.15);
+    padding: .15rem .6rem;
+    font-size: .65rem;
+    font-weight: 600;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: rgb(161 161 170);
+}
+
+.icon-box svg { display: block; width: 100%; height: 100%; }
+
+/* Asset-class card: volatility range band + liquidity dots */
+.vol-band {
+    position: relative;
+    height: .6rem;
+    border-radius: 9999px;
+    background: rgba(255,255,255,.06);
+}
+.vol-band-fill {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    border-radius: 9999px;
+    background: var(--color-finance);
+}
+.vol-band-zero {
+    position: absolute;
+    top: -.25rem;
+    bottom: -.25rem;
+    width: 1px;
+    background: rgba(255,255,255,.25);
+}
+.liq-dots {
+    display: inline-flex;
+    gap: .3rem;
+}
+.liq-dots span {
+    width: .5rem;
+    height: .5rem;
+    border-radius: 9999px;
+    background: rgba(255,255,255,.12);
+}
+.liq-dots span.is-filled {
+    background: var(--color-finance);
+}
+
+/* Football pitch */
+.pitch {
+    position: relative;
+    background:
+        repeating-linear-gradient(90deg, rgba(16,185,129,.07) 0 10%, rgba(16,185,129,.03) 10% 20%),
+        var(--color-obsidian);
+    border: 1.5px solid rgba(255,255,255,.14);
+}
+.pitch-line { border-color: rgba(255,255,255,.22); }
+.player-badge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    background: rgba(10,10,10,.9);
+    border: 2px solid var(--color-finance);
+    color: #fff;
+    font-weight: 700;
+    transition: transform .3s cubic-bezier(.16,1,.3,1);
+}
+.player-badge.is-wildcard {
+    border-color: #fbbf24;
+    border-style: dashed;
+    background: radial-gradient(circle at 30% 30%, rgba(136, 36, 251, 0.25), rgba(10,10,10,.9));
+}
+.player-badge.is-bench {
+    border-color: rgba(255,255,255,.25);
+    opacity: .7;
+}
+
+/* Liquidity "health bar" loop: hits deplete segments in order, then GAME OVER flash */
+.health-bar-seg { position: relative; overflow: hidden; }
+.health-bar-fill {
+    position: absolute;
+    inset: 0;
+    transform-origin: left center;
+    background: currentColor;
+}
+.health-hit-cash .health-bar-fill { animation: hbCash 7s ease-in-out infinite; }
+.health-hit-conservative .health-bar-fill { animation: hbConservative 7s ease-in-out infinite; }
+.health-hit-dynamic .health-bar-fill { animation: hbDynamic 7s ease-in-out infinite; }
+@keyframes hbCash {
+    0%, 8% { transform: scaleX(1); }
+    22%, 100% { transform: scaleX(0); }
+}
+@keyframes hbConservative {
+    0%, 22% { transform: scaleX(1); }
+    40%, 100% { transform: scaleX(0); }
+}
+@keyframes hbDynamic {
+    0%, 40% { transform: scaleX(1); }
+    58%, 100% { transform: scaleX(0); }
+}
+.game-over-flash {
+    opacity: 0;
+    animation: gameOverFlash 7s steps(1, end) infinite;
+}
+@keyframes gameOverFlash {
+    0%, 55% { opacity: 0; }
+    58%, 78% { opacity: 1; }
+    82%, 100% { opacity: 0; }
+}
+.hit-flash { animation: hitFlash 7s steps(1, end) infinite; }
+@keyframes hitFlash {
+    0%, 6%, 9%, 100% { background-color: transparent; }
+    7%, 8% { background-color: rgba(239,68,68,.35); }
+}
+
+/* Correlation sine waves: click-revealed */
+.wave-path {
+    opacity: 0;
+    transition: opacity .6s ease;
+}
+.wave-path.is-revealed { opacity: 1; }
+.wave-label {
+    opacity: 0;
+    transition: opacity .6s ease .15s;
+}
+.wave-label.is-revealed { opacity: 1; }
+
+/* KaTeX theming: self-hosted, see static/vendor/katex */
+.katex { color: #fff; font-size: 1.35em; }
+.katex-display { margin: 0; }
+.deck-formula-row + .deck-formula-row { margin-top: 1.5rem; }
+.katex-formula.lg .katex { font-size: 2.4em; }
+.deck-slider {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 2px;
+    width: 100%;
+    background: rgba(255,255,255,.15);
+    border-radius: 9999px;
+}
+.deck-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 11px;
+    height: 11px;
+    border-radius: 9999px;
+    background: #fff;
+    border: 2px solid rgba(255,255,255,.3);
+    cursor: pointer;
+}
+.deck-slider::-moz-range-thumb {
+    width: 11px;
+    height: 11px;
+    border-radius: 9999px;
+    background: #fff;
+    border: 2px solid rgba(255,255,255,.3);
+    cursor: pointer;
+}
+.deck-slider::-moz-range-track {
+    height: 2px;
+    background: rgba(255,255,255,.15);
+    border-radius: 9999px;
+}
+.deck-formula-label {
+    font-size: .7rem;
+    font-weight: 600;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: rgb(113 113 122);
+    margin-bottom: .5rem;
+}
+
+/* Deck progress bar + counter + nav controls */
+.deck-progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 3px;
+    background: var(--color-finance);
+    transition: width .4s cubic-bezier(.16,1,.3,1);
+    z-index: 20;
+}
+.deck-counter {
+    position: absolute;
+    bottom: 1.25rem;
+    right: 1.5rem;
+    z-index: 20;
+    font-family: var(--font-mono, ui-monospace, monospace);
+    font-size: .75rem;
+    color: rgb(113 113 122);
+}
+.deck-part-tag {
+    position: absolute;
+    bottom: 1.25rem;
+    left: 1.5rem;
+    z-index: 20;
+    font-size: .7rem;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: rgb(82 82 91);
+}
+.deck-nav-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 20;
+    display: flex;
+    height: 2.75rem;
+    width: 2.75rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    border: 1px solid rgba(255,255,255,.1);
+    background: rgba(255,255,255,.03);
+    color: rgb(161 161 170);
+    transition: background-color .2s, color .2s, border-color .2s;
+}
+.deck-nav-btn:hover {
+    background: rgba(255,255,255,.08);
+    border-color: rgba(255,255,255,.2);
+    color: #fff;
+}
+.deck-nav-btn[disabled] {
+    opacity: 0;
+    pointer-events: none;
+}
+.deck-nav-zone {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 10%;
+    z-index: 5;
+    cursor: pointer;
+}
+.deck-nav-zone-prev { left: 0; }
+.deck-nav-zone-next { right: 0; }
+.deck-exit {
+    position: absolute;
+    top: 1.25rem;
+    left: 1.5rem;
+    z-index: 20;
+    color: rgb(82 82 91);
+    font-size: .8rem;
+    transition: color .2s;
+}
+.deck-exit:hover {
+    color: #fff;
 }
 
 /* Hidden scrollbar, kept minimal */

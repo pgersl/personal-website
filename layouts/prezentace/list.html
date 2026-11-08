@@ -1,0 +1,42 @@
+{{define "main"}}
+    <section class="mx-auto max-w-5xl px-4 pb-20 pt-40 sm:px-6">
+        <div class="fade-up mb-12 text-center">
+            <span class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs uppercase tracking-widest text-zinc-500">
+                <i class="fa-solid fa-lock"></i> Neveřejná sekce
+            </span>
+            <h1 class="mt-6 text-3xl font-bold tracking-tight text-white md:text-5xl">{{ .Title }}</h1>
+            <p class="mx-auto mt-4 max-w-xl text-base font-light leading-relaxed text-zinc-400">Prezentace a přednášky, které jsem dal nebo chystám. Stránka není odkazovaná odjinud na webu &mdash; pokud ji máte, máte ji od&nbsp;mě.</p>
+        </div>
+
+        {{ $colors := dict
+            "music"       (dict "glow" "bg-music/10 group-hover:bg-music/20" "text" "group-hover:text-music" "dot" "bg-music")
+            "web"         (dict "glow" "bg-web/10 group-hover:bg-web/20" "text" "group-hover:text-web" "dot" "bg-web")
+            "tutoring"    (dict "glow" "bg-tutoring/10 group-hover:bg-tutoring/20" "text" "group-hover:text-tutoring" "dot" "bg-tutoring")
+            "finance"     (dict "glow" "bg-finance/10 group-hover:bg-finance/20" "text" "group-hover:text-finance" "dot" "bg-finance")
+            "calculators" (dict "glow" "bg-calculators/10 group-hover:bg-calculators/20" "text" "group-hover:text-calculators" "dot" "bg-calculators")
+            "events"      (dict "glow" "bg-events/10 group-hover:bg-events/20" "text" "group-hover:text-events" "dot" "bg-events")
+        }}
+        <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
+            {{ range .Pages.ByDate.Reverse }}
+                {{ $c := index $colors (.Params.color | default "web") }}
+                <a href="{{ .RelPermalink }}" class="glass-card reveal-item group relative flex flex-col justify-between overflow-hidden rounded-3xl p-8">
+                    <div class="pointer-events-none absolute right-0 top-0 h-32 w-32 rounded-full blur-2xl transition-all {{ $c.glow }}"></div>
+                    <div class="relative z-10">
+                        <div class="mb-4 flex items-center gap-2 text-xs font-medium uppercase tracking-wider text-zinc-500">
+                            <span class="h-2 w-2 rounded-full {{ $c.dot }}"></span>
+                            {{ .Params.event }} &middot; {{ (.Params.eventdate | time.AsTime).Format "2. 1. 2006" }}
+                        </div>
+                        <h2 class="mb-2 text-xl font-semibold text-white transition-colors {{ $c.text }}">{{ .Title }}</h2>
+                        {{ with .Params.subtitle }}<p class="mb-6 text-sm font-light leading-relaxed text-zinc-400">{{ . }}</p>{{ end }}
+                    </div>
+                    <div class="relative z-10 flex items-center justify-between border-t border-white/5 pt-4">
+                        <span class="text-sm font-medium text-zinc-400 transition-colors group-hover:text-white">Otevřít prezentaci</span>
+                        <i class="fa-solid fa-arrow-right text-xs text-zinc-500 transition-transform group-hover:translate-x-1 {{ $c.text }}"></i>
+                    </div>
+                </a>
+            {{ else }}
+                <p class="text-zinc-500">Zatím žádné prezentace.</p>
+            {{ end }}
+        </div>
+    </section>
+{{end}}

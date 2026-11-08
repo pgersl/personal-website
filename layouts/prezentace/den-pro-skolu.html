@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="cs" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="icon" type="image/png" sizes="32x32" href="/fav/favicon-32x32.png">
+    {{ $css := resources.Get "css/main.css" | css.TailwindCSS (dict "minify" (not hugo.IsDevelopment)) }}
+    <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+    <link rel="stylesheet" href="/vendor/katex/katex.min.css">
+    <title>{{ .Title }} · Petr Geršl</title>
+    <style>
+        @keyframes flowDash { to { stroke-dashoffset: -16; } }
+        @keyframes beat1of3 { 0%, 4% { opacity: .18; } 9%, 28% { opacity: 1; } 33%, 100% { opacity: .18; } }
+        @keyframes beat2of3 { 0%, 33% { opacity: .18; } 38%, 61% { opacity: 1; } 66%, 100% { opacity: .18; } }
+        @keyframes beat3of3 { 0%, 66% { opacity: .18; } 71%, 94% { opacity: 1; } 100%, 100% { opacity: .18; } }
+        @keyframes popIn { 0%, 66% { opacity: 0; transform: scale(.5); } 71%, 94% { opacity: 1; transform: scale(1); } 100% { opacity: 0; transform: scale(.5); } }
+        @keyframes blockedPulse { 0%, 66% { opacity: .2; } 71%, 80%, 89%, 100% { opacity: .2; } 75%, 85% { opacity: 1; } }
+        .story-edge-1 { stroke-dasharray: 5 5; animation: flowDash 1s linear infinite, beat1of3 7s ease-in-out infinite; }
+        .story-edge-2 { stroke-dasharray: 5 5; animation: flowDash 1s linear infinite, beat2of3 7s ease-in-out infinite; }
+        .story-edge-3 { stroke-dasharray: 5 5; animation: flowDash 1s linear infinite, blockedPulse 7s ease-in-out infinite; stroke: #ef4444 !important; }
+        .story-badge-3 { animation: popIn 7s ease-in-out infinite; }
+        @keyframes coinPulse { 0%, 100% { transform: scale(1); opacity: .85; } 50% { transform: scale(1.15); opacity: 1; } }
+        @keyframes syncPulse { 0%, 100% { opacity: .35; } 50% { opacity: 1; } }
+        .unlocked-edge { stroke-dasharray: 5 5; animation: flowDash 1s linear infinite, syncPulse 1.8s ease-in-out infinite; }
+        .unlocked-coin { animation: coinPulse 1.8s ease-in-out infinite; }
+        .fr-round-1 { animation: beat1of3 6s ease-in-out infinite; }
+        .fr-round-2 { animation: beat2of3 6s ease-in-out infinite; }
+        .fr-round-3 { animation: beat3of3 6s ease-in-out infinite; }
+
+        /* Banknotes slide: 5-phase loop, triangle + bank, traveling icons via offset-path */
+        @keyframes spokeCycle {
+            0%, 4% { opacity: .15; stroke: #10B981; }
+            8%, 17% { opacity: 1; stroke: #10B981; }
+            20%, 20.5% { opacity: .15; stroke: #10B981; }
+            20.51% { stroke: #fbbf24; }
+            25%, 34% { opacity: 1; stroke: #fbbf24; }
+            38%, 71.5% { opacity: .15; stroke: #fbbf24; }
+            59%, 68% { opacity: 1; }
+            72% { opacity: .15; stroke: #fbbf24; }
+            72.01% { stroke: #10B981; }
+            76%, 85% { opacity: 1; stroke: #10B981; }
+            89%, 100% { opacity: .15; stroke: #10B981; }
+        }
+        @keyframes edgeCycle { 0%, 41% { opacity: .15; } 42%, 51% { opacity: 1; } 55%, 100% { opacity: .15; } }
+        .bn-spoke { stroke-dasharray: 5 5; animation: flowDash 1s linear infinite, spokeCycle 13s ease-in-out infinite; }
+        .bn-edge { stroke: #fbbf24; stroke-dasharray: 5 5; animation: flowDash 1s linear infinite, edgeCycle 13s ease-in-out infinite; }
+        @keyframes travelMetal {
+            0%, 8% { offset-distance: 0%; opacity: 0; }
+            10% { offset-distance: 25%; opacity: 1; }
+            15% { offset-distance: 75%; opacity: 1; }
+            17%, 76% { offset-distance: 100%; opacity: 0; }
+            78% { offset-distance: 75%; opacity: 1; }
+            83% { offset-distance: 25%; opacity: 1; }
+            85%, 100% { offset-distance: 0%; opacity: 0; }
+        }
+        @keyframes travelNote {
+            0%, 25% { offset-distance: 100%; opacity: 0; }
+            27% { offset-distance: 75%; opacity: 1; }
+            32% { offset-distance: 25%; opacity: 1; }
+            34%, 59% { offset-distance: 0%; opacity: 0; }
+            61% { offset-distance: 25%; opacity: 1; }
+            66% { offset-distance: 75%; opacity: 1; }
+            68%, 100% { offset-distance: 100%; opacity: 0; }
+        }
+        @keyframes travelEdge {
+            0%, 42% { offset-distance: 0%; opacity: 0; }
+            44% { offset-distance: 25%; opacity: 1; }
+            49% { offset-distance: 75%; opacity: 1; }
+            51%, 100% { offset-distance: 100%; opacity: 0; }
+        }
+        .bn-travel { position: absolute; width: 28px; height: 28px; offset-rotate: 0deg; }
+        .bn-travel-metal { animation: travelMetal 13s linear infinite; }
+        .bn-travel-note { animation: travelNote 13s linear infinite; }
+        .bn-travel-edge { animation: travelEdge 13s linear infinite; }
+
+        /* Liquidity health bar: snap hits + screen shake + red flash */
+        @keyframes hbSnapCash { 0%, 14% { transform: scaleX(1); } 16%, 100% { transform: scaleX(0); } }
+        @keyframes hbSnapConservative { 0%, 34% { transform: scaleX(1); } 36%, 100% { transform: scaleX(0); } }
+        @keyframes hbSnapDynamic { 0%, 54% { transform: scaleX(1); } 56%, 100% { transform: scaleX(0); } }
+        .health-hit-cash .health-bar-fill { animation: hbSnapCash 7s ease-in-out infinite; }
+        .health-hit-conservative .health-bar-fill { animation: hbSnapConservative 7s ease-in-out infinite; }
+        .health-hit-dynamic .health-bar-fill { animation: hbSnapDynamic 7s ease-in-out infinite; }
+        @keyframes shakeHits {
+            0%, 13%, 17%, 33%, 37%, 53%, 57%, 100% { transform: translateX(0); }
+            14% { transform: translateX(-10px); } 15% { transform: translateX(9px); } 16% { transform: translateX(0); }
+            34% { transform: translateX(-10px); } 35% { transform: translateX(9px); } 36% { transform: translateX(0); }
+            54% { transform: translateX(-12px); } 55% { transform: translateX(11px); } 56% { transform: translateX(0); }
+        }
+        .hb-shake { animation: shakeHits 7s ease-in-out infinite; }
+        @keyframes screenFlash {
+            0%, 13%, 17%, 33%, 37%, 53%, 57%, 100% { opacity: 0; }
+            14%, 15% { opacity: .55; } 34%, 35% { opacity: .55; } 54%, 55% { opacity: .75; }
+        }
+        .screen-flash { position: fixed; inset: 0; z-index: 30; pointer-events: none; background: radial-gradient(ellipse at center, rgba(239,68,68,.5), rgba(239,68,68,.15) 70%); animation: screenFlash 7s ease-in-out infinite; }
+    </style>
+</head>
+<body class="bg-obsidian font-sans text-ink">
+
+{{/* ============ ICON LIBRARY ============ */}}
+{{ define "ic-wheat" }}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M12 3v18"/><path d="M12 6l-4 2M12 6l4 2M12 10l-4 2M12 10l4 2M12 14l-4 2M12 14l4 2"/></svg>{{ end }}
+{{ define "ic-shoe" }}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18.5V13c2-.3 3-1.3 4.2-2.8 1-.4 2 .3 2.3 1.3.6.2 3-.3 4 1 .8.5 1.8.8 2.5.8 2 0 4 .8 4 2.7v2.5H3Z"/><path d="M3 16.2h18"/></svg>{{ end }}
+{{ define "ic-milk" }}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M9 3h6v3.2l2 3.3V20a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1V9.5l2-3.3V3Z"/><path d="M9 3h6M7.6 12h8.8"/></svg>{{ end }}
+{{ define "ic-coin" }}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="8.5"/><path d="M9.5 9.2c0-1 1-1.7 2.5-1.7s2.5.6 2.5 1.4c0 2-5 1-5 3 0 .8 1 1.4 2.5 1.4s2.5-.6 2.5-1.6M12 6.3v1.1M12 16.6v1.1"/></svg>{{ end }}
+{{ define "ic-banknote" }}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2.5" y="6.5" width="19" height="11" rx="1.5"/><circle cx="12" cy="12" r="2.6"/><path d="M5.5 9v0M18.5 15v0" stroke-linecap="round"/></svg>{{ end }}
+{{ define "ic-bank" }}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"><path d="M3 10l9-6 9 6"/><path d="M4.5 10v8M9 10v8M15 10v8M19.5 10v8"/><path d="M2.5 21h19"/></svg>{{ end }}
+{{ define "ic-stock" }}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l5.5-6 4 4L21 6"/><path d="M15.5 6H21v5.5"/></svg>{{ end }}
+{{ define "ic-bond" }}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><rect x="4" y="3.5" width="16" height="17" rx="1.2"/><path d="M7.5 8h9M7.5 11.5h9M7.5 15h5.5"/></svg>{{ end }}
+{{ define "ic-house" }}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M3.5 11L12 4l8.5 7"/><path d="M5.5 9.5V20h13V9.5"/><path d="M10 20v-5.5h4V20"/></svg>{{ end }}
+{{ define "ic-gold" }}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><rect x="7.5" y="6" width="9" height="7" rx=".8"/><rect x="2.3" y="14.8" width="8.6" height="6.7" rx=".8"/><rect x="13.1" y="14.8" width="8.6" height="6.7" rx=".8"/></svg>{{ end }}
+{{ define "ic-crypto" }}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="5.5" r="2"/><circle cx="5.5" cy="16" r="2"/><circle cx="18.5" cy="16" r="2"/><path d="M12 7.5L6.6 14.3M12 7.5l5.4 6.8M7.3 16h9.4"/></svg>{{ end }}
+{{ define "ic-wallet" }}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M3 7.5a1.5 1.5 0 0 1 1.5-1.5H18a2.5 2.5 0 0 1 2.5 2.5V17a1.5 1.5 0 0 1-1.5 1.5H4.5A1.5 1.5 0 0 1 3 17V7.5Z"/><path d="M3 9.5h17.5M15.5 13.3h2.3"/></svg>{{ end }}
+
+{{ define "asset-card" }}
+<div class="deck-slide-inner full grid grid-cols-1 items-center gap-10 md:grid-cols-5">
+    <div class="flex flex-col items-start gap-6 md:col-span-2">
+        <div class="icon-box flex h-24 w-24 items-center justify-center rounded-2xl border-2 p-6" style="border-color:{{ .color }}66;color:{{ .color }}">
+            {{ if eq .icon "ic-stock" }}{{ template "ic-stock" }}
+            {{ else if eq .icon "ic-bond" }}{{ template "ic-bond" }}
+            {{ else if eq .icon "ic-house" }}{{ template "ic-house" }}
+            {{ else if eq .icon "ic-gold" }}{{ template "ic-gold" }}
+            {{ else if eq .icon "ic-crypto" }}{{ template "ic-crypto" }}
+            {{ else if eq .icon "ic-wallet" }}{{ template "ic-wallet" }}
+            {{ end }}
+        </div>
+        <div>
+            <span class="deck-badge" style="border-color:{{ .color }}66;color:{{ .color }}">{{ .role }}</span>
+            <h2 class="mt-3 text-4xl font-bold tracking-tight text-white md:text-5xl">{{ .name }}</h2>
+            <p class="mt-2 text-lg text-zinc-400">{{ .tag }}</p>
+        </div>
+    </div>
+    <div class="flex flex-col gap-10 md:col-span-3">
+        <div>
+            <div class="text-xs uppercase tracking-wider text-zinc-500">Dlouhodobý výnos</div>
+            <div class="text-6xl font-bold tracking-tight" style="color:{{ .color }}">{{ .return }}</div>
+        </div>
+        <div>
+            <div class="mb-2 text-xs uppercase tracking-wider text-zinc-500">Typický roční výkyv <span class="normal-case text-zinc-600">(škála −50 % až +150 %)</span></div>
+            <div class="relative mb-1.5 h-4">
+                <span class="absolute -translate-x-1/2 text-xs font-semibold" style="left:{{ .volLeft }}%;color:{{ .color }}">{{ .volMin }}</span>
+                <span class="absolute -translate-x-1/2 text-xs font-semibold" style="left:{{ add .volLeft .volWidth }}%;color:{{ .color }}">{{ .volMax }}</span>
+            </div>
+            <div class="vol-band">
+                <div class="vol-band-zero" style="left:{{ .volZero }}%"></div>
+                <div class="vol-band-fill" style="left:{{ .volLeft }}%;width:{{ .volWidth }}%;background:{{ .color }}"></div>
+            </div>
+            <div class="relative mt-1.5 h-4 text-xs text-zinc-600">
+                <span class="absolute left-0">−50 %</span>
+                <span class="absolute -translate-x-1/2" style="left:{{ .volZero }}%">0</span>
+                <span class="absolute right-0">+150 %</span>
+            </div>
+        </div>
+        <div>
+            <div class="mb-2 text-xs uppercase tracking-wider text-zinc-500">Likvidita</div>
+            <div class="liq-dots">
+                {{ range seq 5 }}<span class="{{ if le . $.liquidity }}is-filled{{ end }}" style="{{ if le . $.liquidity }}background:{{ $.color }}{{ end }}"></span>{{ end }}
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}
+
+<div class="deck">
+    <div class="blob h-96 w-96 bg-finance" style="top:-4rem;left:8%;animation-delay:0s"></div>
+    <div class="blob h-[32rem] w-[32rem] bg-finance" style="bottom:-6rem;right:5%;animation-delay:-7s"></div>
+    <div class="blob h-80 w-80 bg-finance" style="top:40%;left:45%;animation-delay:-13s"></div>
+    <div class="deck-progress"></div>
+    <a href="/prezentace/" class="deck-exit" aria-label="Zavřít prezentaci">
+        <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+    </a>
+    <button class="deck-nav-btn deck-prev" style="left:1rem" aria-label="Předchozí slide">
+        <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+    </button>
+    <button class="deck-nav-btn deck-next" style="right:1rem" aria-label="Další slide">
+        <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+    </button>
+    <div class="deck-nav-zone deck-nav-zone-prev" data-dir="prev"></div>
+    <div class="deck-nav-zone deck-nav-zone-next" data-dir="next"></div>
+    <div class="deck-counter"></div>
+    <div class="deck-part-tag"></div>
+
+    <!-- ============ ČÁST 1 · ÚVOD ============ -->
+
+    <section class="deck-slide" data-part="Část 1 · Úvod">
+        <div class="deck-slide-inner full flex flex-col justify-center">
+            <h1 class="max-w-4xl text-5xl font-bold tracking-tight text-white md:text-7xl">Den pro školu</h1>
+            <p class="mt-3 max-w-2xl text-2xl font-light text-zinc-400 md:text-4xl">9. 11. 2026</p>
+            <p class="mt-10 text-sm font-medium text-zinc-500">Petr Geršl</p>
+        </div>
+    </section>
+
+    <section class="deck-slide" data-part="Část 1 · Úvod">
+        <div class="deck-slide-inner full grid grid-cols-1 items-stretch gap-0 md:grid-cols-5">
+            <div class="relative overflow-hidden rounded-3xl md:col-span-2">
+                <img src="/media/img/jobs-pose.webp" alt="Petr Geršl" class="absolute inset-0 h-full w-full object-cover">
+                <div class="absolute inset-0 bg-gradient-to-t from-obsidian via-obsidian/10 to-transparent"></div>
+            </div>
+            <div class="flex flex-col justify-center gap-10 py-8 md:col-span-3 md:pl-16">
+                <div class="flex items-baseline gap-5">
+                    <span class="font-mono text-sm text-finance">01</span>
+                    <p class="text-2xl font-light leading-snug text-white md:text-3xl">Studuji Finance a účetnictví na Jihočeské univerzitě</p>
+                </div>
+                <div class="flex items-baseline gap-5">
+                    <span class="font-mono text-sm text-finance">02</span>
+                    <p class="text-2xl font-light leading-snug text-white md:text-3xl">Pracuji jako kontrolor na Finanční správě ČR</p>
+                </div>
+                <div class="flex items-baseline gap-5">
+                    <span class="font-mono text-sm text-finance">03</span>
+                    <p class="text-2xl font-light leading-snug text-white md:text-3xl">V minulosti jsem pracoval jako investiční specialista</p>
+                </div>
+                <p class="mt-4 max-w-md border-l-2 border-finance/40 pl-4 text-base text-zinc-400">Vzdělávací obsah, ne investiční doporučení. Nic vám neprodávám.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="deck-slide" data-part="Část 1 · Úvod">
+        <div class="deck-slide-inner text-center">
+            <h2 class="deck-title">Co od dneška čekáte?</h2>
+        </div>
+    </section>
+
+    <section class="deck-slide" data-part="Část 1 · Úvod">
+        <div class="deck-slide-inner text-center">
+            <h2 class="deck-title">Kdo už investuje?</h2>
+            <div class="mx-auto mt-10 max-w-xl space-y-4 text-left">
+                <p class="rounded-xl border border-white/10 bg-white/5 px-5 py-3 text-zinc-300">Kdo už <strong class="text-white">někdy</strong> investoval?</p>
+                <p class="rounded-xl border border-white/10 bg-white/5 px-5 py-3 text-zinc-300">Kdo investuje <strong class="text-white">pravidelně</strong>, každý měsíc?</p>
+                <p class="rounded-xl border border-finance/30 bg-finance/5 px-5 py-3 text-zinc-300">Kdo nemá <strong class="text-white">žádnou</strong> zkušenost?</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="deck-slide" data-part="Část 1 · Úvod">
+        <div class="deck-slide-inner full flex flex-col justify-center">
+            <h2 class="text-4xl font-bold tracking-tight text-white md:text-6xl">Obsah</h2>
+            <div class="mt-14 grid grid-cols-2 gap-x-10 gap-y-8 md:grid-cols-3">
+                <div class="border-t border-white/10 pt-4"><span class="font-mono text-sm text-finance">01</span><p class="mt-2 text-xl text-zinc-200">Úvod</p></div>
+                <div class="border-t border-white/10 pt-4"><span class="font-mono text-sm text-finance">02</span><p class="mt-2 text-xl text-zinc-200">Historie peněz</p></div>
+                <div class="border-t border-white/10 pt-4"><span class="font-mono text-sm text-finance">03</span><p class="mt-2 text-xl text-zinc-200">Inflace</p></div>
+                <div class="border-t border-white/10 pt-4"><span class="font-mono text-sm text-finance">04</span><p class="mt-2 text-xl text-zinc-200">Aktiva a portfolio</p></div>
+                <div class="border-t border-white/10 pt-4"><span class="font-mono text-sm text-finance">05</span><p class="mt-2 text-xl text-zinc-200">Matematika</p></div>
+                <div class="border-t border-white/10 pt-4"><span class="font-mono text-sm text-finance">06</span><p class="mt-2 text-xl text-zinc-200">Moje portfolio</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ ČÁST 2 · HISTORIE PENĚZ A BANKOVNICTVÍ ============ -->
+
+    <section class="deck-slide" data-part="Část 2 · Historie peněz a bankovnictví">
+        <div class="deck-slide-inner full flex flex-col justify-center">
+            <h1 class="text-5xl font-bold tracking-tight text-white md:text-7xl">Historie peněz<br>a bankovnictví</h1>
+        </div>
+    </section>
+
+    <section class="deck-slide" data-part="Část 2 · Historie peněz a bankovnictví">
+        <div class="deck-slide-inner flex flex-col items-center">
+            <div class="relative mx-auto" style="width:520px;height:380px" data-loop>
+                <svg viewBox="0 0 520 380" width="520" height="380" class="absolute inset-0">
+                    <line x1="90" y1="320" x2="430" y2="320" stroke="#10B981" stroke-width="2.5" class="story-edge-1" data-loop/>
+                    <line x1="430" y1="320" x2="260" y2="30" stroke="#10B981" stroke-width="2.5" class="story-edge-2" data-loop/>
+                    <line x1="260" y1="30" x2="90" y2="320" stroke="#71717a" stroke-width="2.5" class="story-edge-3" data-loop/>
+                </svg>
+                <div class="absolute flex items-center justify-center rounded-full border border-red-400 bg-obsidian text-red-400 story-badge-3" data-loop style="left:175px;top:175px;width:44px;height:44px;transform:translate(-50%,-50%)">
+                    <svg viewBox="0 0 24 24" class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M6 6l12 12M6 18L18 6"/></svg>
+                </div>
+                <div class="absolute flex flex-col items-center gap-2" style="left:260px;top:30px;transform:translate(-50%,-50%)">
+                    <div class="icon-box flex h-20 w-20 items-center justify-center rounded-full border-2 border-finance/50 bg-obsidian p-5 text-finance">{{ template "ic-wheat" }}</div>
+                    <span class="text-base font-medium text-zinc-300">Farmář</span>
+                </div>
+                <div class="absolute flex flex-col items-center gap-2" style="left:90px;top:320px;transform:translate(-50%,-50%)">
+                    <div class="icon-box flex h-20 w-20 items-center justify-center rounded-full border-2 border-finance/50 bg-obsidian p-5 text-finance">{{ template "ic-shoe" }}</div>
+                    <span class="text-base font-medium text-zinc-300">Švec</span>
+                </div>
+                <div class="absolute flex flex-col items-center gap-2" style="left:430px;top:320px;transform:translate(-50%,-50%)">
+                    <div class="icon-box flex h-20 w-20 items-center justify-center rounded-full border-2 border-finance/50 bg-obsidian p-5 text-finance">{{ template "ic-milk" }}</div>
+                    <span class="text-base font-medium text-zinc-300">Mlékař</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="deck-slide" data-part="Část 2 · Historie peněz a bankovnictví">
+        <div class="deck-slide-inner flex flex-col items-center">
+            <div class="relative mx-auto" style="width:520px;height:380px">
+                <svg viewBox="0 0 520 380" width="520" height="380" class="absolute inset-0">
+                    <line x1="90" y1="320" x2="430" y2="320" stroke="#10B981" stroke-width="2.5" class="unlocked-edge"/>
+                    <line x1="430" y1="320" x2="260" y2="30" stroke="#10B981" stroke-width="2.5" class="unlocked-edge"/>
+                    <line x1="260" y1="30" x2="90" y2="320" stroke="#10B981" stroke-width="2.5" class="unlocked-edge"/>
+                </svg>
+                <div class="icon-box unlocked-coin absolute flex h-16 w-16 items-center justify-center rounded-full border-2 border-finance bg-finance/10 p-4 text-finance" data-loop style="left:235px;top:185px;transform:translate(-50%,-50%)">{{ template "ic-gold" }}</div>
+                <div class="absolute flex flex-col items-center gap-2" style="left:260px;top:30px;transform:translate(-50%,-50%)">
+                    <div class="icon-box flex h-20 w-20 items-center justify-center rounded-full border-2 border-finance/50 bg-obsidian p-5 text-finance">{{ template "ic-wheat" }}</div>
+                    <span class="text-base font-medium text-zinc-300">Farmář</span>
+                </div>
+                <div class="absolute flex flex-col items-center gap-2" style="left:90px;top:320px;transform:translate(-50%,-50%)">
+                    <div class="icon-box flex h-20 w-20 items-center justify-center rounded-full border-2 border-finance/50 bg-obsidian p-5 text-finance">{{ template "ic-shoe" }}</div>
+                    <span class="text-base font-medium text-zinc-300">Švec</span>
+                </div>
+                <div class="absolute flex flex-col items-center gap-2" style="left:430px;top:320px;transform:translate(-50%,-50%)">
+                    <div class="icon-box flex h-20 w-20 items-center justify-center rounded-full border-2 border-finance/50 bg-obsidian p-5 text-finance">{{ template "ic-milk" }}</div>
+                    <span class="text-base font-medium text-zinc-300">Mlékař</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="deck-slide" data-part="Část 2 · Historie peněz a bankovnictví">
+        <div class="deck-slide-inner flex flex-col items-center">
+            <div class="relative mx-auto" style="width:520px;height:380px" data-loop>
+                <svg viewBox="0 0 520 380" width="520" height="380" class="absolute inset-0">
+                    <line x1="260" y1="30" x2="260" y2="223" class="bn-spoke" data-loop/>
+                    <line x1="90" y1="320" x2="260" y2="223" class="bn-spoke" data-loop/>
+                    <line x1="430" y1="320" x2="260" y2="223" class="bn-spoke" data-loop/>
+                    <line x1="260" y1="30" x2="90" y2="320" class="bn-edge" data-loop/>
+                    <line x1="90" y1="320" x2="430" y2="320" class="bn-edge" data-loop/>
+                    <line x1="430" y1="320" x2="260" y2="30" class="bn-edge" data-loop/>
+                </svg>
+                <div class="bn-travel bn-travel-metal icon-box text-finance" data-loop style="offset-path:path('M 260,30 L 260,223')"><div class="h-full w-full rounded-full border-2 border-finance bg-obsidian p-1.5">{{ template "ic-gold" }}</div></div>
+                <div class="bn-travel bn-travel-metal icon-box text-finance" data-loop style="offset-path:path('M 90,320 L 260,223')"><div class="h-full w-full rounded-full border-2 border-finance bg-obsidian p-1.5">{{ template "ic-gold" }}</div></div>
+                <div class="bn-travel bn-travel-metal icon-box text-finance" data-loop style="offset-path:path('M 430,320 L 260,223')"><div class="h-full w-full rounded-full border-2 border-finance bg-obsidian p-1.5">{{ template "ic-gold" }}</div></div>
+                <div class="bn-travel bn-travel-note icon-box text-amber-400" data-loop style="offset-path:path('M 260,30 L 260,223')"><div class="h-full w-full rounded-full border-2 border-amber-400 bg-obsidian p-1.5">{{ template "ic-banknote" }}</div></div>
+                <div class="bn-travel bn-travel-note icon-box text-amber-400" data-loop style="offset-path:path('M 90,320 L 260,223')"><div class="h-full w-full rounded-full border-2 border-amber-400 bg-obsidian p-1.5">{{ template "ic-banknote" }}</div></div>
+                <div class="bn-travel bn-travel-note icon-box text-amber-400" data-loop style="offset-path:path('M 430,320 L 260,223')"><div class="h-full w-full rounded-full border-2 border-amber-400 bg-obsidian p-1.5">{{ template "ic-banknote" }}</div></div>
+                <div class="bn-travel bn-travel-edge icon-box text-amber-400" data-loop style="offset-path:path('M 260,30 L 90,320')"><div class="h-full w-full rounded-full border-2 border-amber-400 bg-obsidian p-1.5">{{ template "ic-banknote" }}</div></div>
+                <div class="bn-travel bn-travel-edge icon-box text-amber-400" data-loop style="offset-path:path('M 90,320 L 430,320')"><div class="h-full w-full rounded-full border-2 border-amber-400 bg-obsidian p-1.5">{{ template "ic-banknote" }}</div></div>
+                <div class="bn-travel bn-travel-edge icon-box text-amber-400" data-loop style="offset-path:path('M 430,320 L 260,30')"><div class="h-full w-full rounded-full border-2 border-amber-400 bg-obsidian p-1.5">{{ template "ic-banknote" }}</div></div>
+
+                <div class="absolute flex flex-col items-center gap-2" style="left:260px;top:223px;transform:translate(-50%,-50%)">
+                    <div class="icon-box flex h-24 w-24 items-center justify-center rounded-full border-2 border-amber-400 bg-obsidian p-6 text-amber-400">{{ template "ic-bank" }}</div>
+                    <span class="text-base font-medium text-zinc-300">Banka</span>
+                </div>
+                <div class="absolute flex flex-col items-center gap-2" style="left:260px;top:30px;transform:translate(-50%,-50%)">
+                    <div class="icon-box flex h-20 w-20 items-center justify-center rounded-full border-2 border-finance/50 bg-obsidian p-5 text-finance">{{ template "ic-wheat" }}</div>
+                    <span class="text-base font-medium text-zinc-300">Farmář</span>
+                </div>
+                <div class="absolute flex flex-col items-center gap-2" style="left:90px;top:320px;transform:translate(-50%,-50%)">
+                    <div class="icon-box flex h-20 w-20 items-center justify-center rounded-full border-2 border-finance/50 bg-obsidian p-5 text-finance">{{ template "ic-shoe" }}</div>
+                    <span class="text-base font-medium text-zinc-300">Švec</span>
+                </div>
+                <div class="absolute flex flex-col items-center gap-2" style="left:430px;top:320px;transform:translate(-50%,-50%)">
+                    <div class="icon-box flex h-20 w-20 items-center justify-center rounded-full border-2 border-finance/50 bg-obsidian p-5 text-finance">{{ template "ic-milk" }}</div>
+                    <span class="text-base font-medium text-zinc-300">Mlékař</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="deck-slide" data-part="Část 2 · Historie peněz a bankovnictví">
+        <div class="deck-slide-inner">
+            <h2 class="deck-title">Bankovnictví částečných rezerv <span class="deck-badge ml-2">zjednodušeně</span></h2>
+            <div class="mt-16 flex items-center justify-between gap-4" data-loop>
+                <div class="fr-round-1 flex flex-col items-center gap-3" data-loop>
+                    <div class="icon-box flex h-16 w-16 items-center justify-center rounded-full border-2 border-finance/60 bg-obsidian p-4 text-finance">{{ template "ic-bank" }}</div>
+                    <div class="text-sm text-zinc-400">vklad</div>
+                    <div class="text-2xl font-bold text-white">100</div>
+                    <div class="flex gap-1.5 text-xs">
+                        <span class="rounded bg-white/10 px-2 py-1 text-zinc-400">rezerva 10</span>
+                        <span class="rounded bg-finance/15 px-2 py-1 text-finance">půjčka 90</span>
+                    </div>
+                </div>
+                <svg class="h-6 w-16 shrink-0 text-zinc-600" fill="none" stroke="currentColor" viewBox="0 0 64 24"><path stroke-width="2" stroke-linecap="round" d="M2 12h56m0 0l-10-8m10 8l-10 8"/></svg>
+                <div class="fr-round-2 flex flex-col items-center gap-3" data-loop>
+                    <div class="icon-box flex h-16 w-16 items-center justify-center rounded-full border-2 border-finance/60 bg-obsidian p-4 text-finance">{{ template "ic-bank" }}</div>
+                    <div class="text-sm text-zinc-400">vklad</div>
+                    <div class="text-2xl font-bold text-white">90</div>
+                    <div class="flex gap-1.5 text-xs">
+                        <span class="rounded bg-white/10 px-2 py-1 text-zinc-400">rezerva 9</span>
+                        <span class="rounded bg-finance/15 px-2 py-1 text-finance">půjčka 81</span>
+                    </div>
+                </div>
+                <svg class="h-6 w-16 shrink-0 text-zinc-600" fill="none" stroke="currentColor" viewBox="0 0 64 24"><path stroke-width="2" stroke-linecap="round" d="M2 12h56m0 0l-10-8m10 8l-10 8"/></svg>
+                <div class="fr-round-3 flex flex-col items-center gap-3" data-loop>
+                    <div class="icon-box flex h-16 w-16 items-center justify-center rounded-full border-2 border-finance/60 bg-obsidian p-4 text-finance">{{ template "ic-bank" }}</div>
+                    <div class="text-sm text-zinc-400">vklad</div>
+                    <div class="text-2xl font-bold text-white">81</div>
+                    <div class="flex gap-1.5 text-xs">
+                        <span class="rounded bg-white/10 px-2 py-1 text-zinc-400">rezerva 8,1</span>
+                        <span class="rounded bg-finance/15 px-2 py-1 text-finance">půjčka 72,9</span>
+                    </div>
+                </div>
+                <span class="shrink-0 text-3xl text-zinc-600">…</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="deck-slide" data-part="Část 2 · Historie peněz a bankovnictví">
+        <div class="deck-slide-inner">
+            <h2 class="deck-title">Fiat a centrální banka</h2>
+            <div class="mt-10 grid grid-cols-1 gap-6 md:grid-cols-2">
+                <div class="glass-card rounded-2xl p-7">
+                    <div class="text-xs uppercase tracking-wider text-zinc-500">Motor růstu</div>
+                    <p class="mt-3 text-xl font-light leading-snug text-white">Bankovnictví částečných rezerv financuje domy a firmy — a tím pohání ekonomický růst.</p>
+                </div>
+                <div class="glass-card rounded-2xl border-finance/30 p-7">
+                    <div class="text-xs uppercase tracking-wider text-zinc-500">Vedlejší efekt</div>
+                    <p class="mt-3 text-xl font-light leading-snug text-white">Zároveň rozšiřuje množství peněz v oběhu rychleji, než roste množství zboží.</p>
+                </div>
+            </div>
+            <p class="mt-10 text-3xl font-bold text-red-500">Je to největší příčina inflace.</p>
+        </div>
+    </section>
+
+    <!-- ============ ČÁST 3 · INFLACE A ILUZE JEDNOHO ČÍSLA ============ -->
+
+    <section class="deck-slide" data-part="Část 3 · Inflace a iluze jednoho čísla">
+        <div class="deck-slide-inner full flex flex-col justify-center">
+            <h1 class="text-5xl font-bold tracking-tight text-white md:text-7xl">Inflace a iluze<br>jednoho čísla</h1>
+        </div>
+    </section>
+
+    <section class="deck-slide" data-part="Část 3 · Inflace a iluze jednoho čísla">
+        <div class="deck-slide-inner text-center">
+            <div class="flex items-center justify-center gap-10">
+                <div><div class="deck-stat">1 000 Kč</div><div class="text-sm uppercase tracking-wider text-zinc-500">2005</div></div>
+                <svg class="h-10 w-10 text-zinc-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                <div><div class="deck-stat" style="color:#ef4444">520 Kč</div><div class="text-sm uppercase tracking-wider text-zinc-500">dnes</div></div>
+            </div>
+            <p class="deck-source">ČSÚ — Míra inflace v ČR, roční průměry 2004–2025</p>
+        </div>
+    </section>
+
+    <section class="deck-slide" data-part="Část 3 · Inflace a iluze jednoho čísla">
+        <div class="deck-slide-inner">
+            <h2 class="deck-title">Spotřební koš</h2>
+            <div class="mt-10 space-y-2.5">
+                <div class="flex items-center gap-3 text-sm"><span class="w-44 shrink-0 text-zinc-400">Bydlení, voda, energie</span><div class="h-3 flex-1 overflow-hidden rounded-full bg-white/5"><div class="h-full rounded-full" style="width:100%;background:#10B981"></div></div><span class="w-14 shrink-0 text-right font-mono text-zinc-300">25,8 %</span></div>
+                <div class="flex items-center gap-3 text-sm"><span class="w-44 shrink-0 text-zinc-400">Potraviny a nápoje</span><div class="h-3 flex-1 overflow-hidden rounded-full bg-white/5"><div class="h-full rounded-full" style="width:69%;background:#f59e0b"></div></div><span class="w-14 shrink-0 text-right font-mono text-zinc-300">17,7 %</span></div>
+                <div class="flex items-center gap-3 text-sm"><span class="w-44 shrink-0 text-zinc-400">Doprava</span><div class="h-3 flex-1 overflow-hidden rounded-full bg-white/5"><div class="h-full rounded-full" style="width:41%;background:#3b82f6"></div></div><span class="w-14 shrink-0 text-right font-mono text-zinc-300">10,6 %</span></div>
+                <div class="flex items-center gap-3 text-sm"><span class="w-44 shrink-0 text-zinc-400">Alkohol a tabák</span><div class="h-3 flex-1 overflow-hidden rounded-full bg-white/5"><div class="h-full rounded-full" style="width:33%;background:#ec4899"></div></div><span class="w-14 shrink-0 text-right font-mono text-zinc-300">8,5 %</span></div>
+                <div class="flex items-center gap-3 text-sm"><span class="w-44 shrink-0 text-zinc-400">Rekreace a kultura</span><div class="h-3 flex-1 overflow-hidden rounded-full bg-white/5"><div class="h-full rounded-full" style="width:30%;background:#8b5cf6"></div></div><span class="w-14 shrink-0 text-right font-mono text-zinc-300">7,8 %</span></div>
+                <div class="flex items-center gap-3 text-sm"><span class="w-44 shrink-0 text-zinc-400">Ostatní zboží a služby</span><div class="h-3 flex-1 overflow-hidden rounded-full bg-white/5"><div class="h-full rounded-full" style="width:25%;background:#64748b"></div></div><span class="w-14 shrink-0 text-right font-mono text-zinc-300">6,6 %</span></div>
+                <div class="flex items-center gap-3 text-sm"><span class="w-44 shrink-0 text-zinc-400">Stravování a ubytování</span><div class="h-3 flex-1 overflow-hidden rounded-full bg-white/5"><div class="h-full rounded-full" style="width:25%;background:#f97316"></div></div><span class="w-14 shrink-0 text-right font-mono text-zinc-300">6,5 %</span></div>
+                <div class="flex items-center gap-3 text-sm"><span class="w-44 shrink-0 text-zinc-400">Bytové vybavení</span><div class="h-3 flex-1 overflow-hidden rounded-full bg-white/5"><div class="h-full rounded-full" style="width:22%;background:#14b8a6"></div></div><span class="w-14 shrink-0 text-right font-mono text-zinc-300">5,8 %</span></div>
+                <div class="flex items-center gap-3 text-sm"><span class="w-44 shrink-0 text-zinc-400">Odívání a obuv</span><div class="h-3 flex-1 overflow-hidden rounded-full bg-white/5"><div class="h-full rounded-full" style="width:17%;background:#eab308"></div></div><span class="w-14 shrink-0 text-right font-mono text-zinc-300">4,4 %</span></div>
+                <div class="flex items-center gap-3 text-sm"><span class="w-44 shrink-0 text-zinc-400">Pošty a telekomunikace</span><div class="h-3 flex-1 overflow-hidden rounded-full bg-white/5"><div class="h-full rounded-full" style="width:11%;background:#ef4444"></div></div><span class="w-14 shrink-0 text-right font-mono text-zinc-300">2,9 %</span></div>
+                <div class="flex items-center gap-3 text-sm"><span class="w-44 shrink-0 text-zinc-400">Zdraví</span><div class="h-3 flex-1 overflow-hidden rounded-full bg-white/5"><div class="h-full rounded-full" style="width:11%;background:#06b6d4"></div></div><span class="w-14 shrink-0 text-right font-mono text-zinc-300">2,8 %</span></div>
+                <div class="flex items-center gap-3 text-sm"><span class="w-44 shrink-0 text-zinc-400">Vzdělávání</span><div class="h-3 flex-1 overflow-hidden rounded-full bg-white/5"><div class="h-full rounded-full" style="width:2%;background:#84cc16"></div></div><span class="w-14 shrink-0 text-right font-mono text-zinc-300">0,6 %</span></div>
+            </div>
+            <p class="deck-source">ČSÚ — Indexy spotřebitelských cen, 12 oddílů, váhy 2022</p>
+        </div>
+    </section>
+
+    <section class="deck-slide" data-part="Část 3 · Inflace a iluze jednoho čísla">
+        <div class="deck-slide-inner">
+            <h2 class="deck-title">Tempo růstu cen</h2>
+            <div class="mt-10 space-y-2">
+                <div class="flex items-center gap-3 text-sm"><span class="w-44 shrink-0 text-right text-zinc-400">Bydlení, voda, energie</span><div class="relative flex h-3 flex-1"><div class="flex w-1/2 justify-end"></div><div class="w-px bg-white/15"></div><div class="flex w-1/2 justify-start"><div class="h-full rounded-r-full" style="width:94%;background:#10B981"></div></div></div><span class="w-14 shrink-0 font-mono text-zinc-300">+4,6 %</span></div>
+                <div class="flex items-center gap-3 text-sm"><span class="w-44 shrink-0 text-right text-zinc-400">Potraviny a nápoje</span><div class="relative flex h-3 flex-1"><div class="flex w-1/2 justify-end"></div><div class="w-px bg-white/15"></div><div class="flex w-1/2 justify-start"><div class="h-full rounded-r-full" style="width:65%;background:#f59e0b"></div></div></div><span class="w-14 shrink-0 font-mono text-zinc-300">+3,2 %</span></div>
+                <div class="flex items-center gap-3 text-sm"><span class="w-44 shrink-0 text-right text-zinc-400">Doprava</span><div class="relative flex h-3 flex-1"><div class="flex w-1/2 justify-end"></div><div class="w-px bg-white/15"></div><div class="flex w-1/2 justify-start"><div class="h-full rounded-r-full" style="width:29%;background:#3b82f6"></div></div></div><span class="w-14 shrink-0 font-mono text-zinc-300">+1,4 %</span></div>
+                <div class="flex items-center gap-3 text-sm"><span class="w-44 shrink-0 text-right text-zinc-400">Alkohol a tabák</span><div class="relative flex h-3 flex-1"><div class="flex w-1/2 justify-end"></div><div class="w-px bg-white/15"></div><div class="flex w-1/2 justify-start"><div class="h-full rounded-r-full" style="width:96%;background:#ec4899"></div></div></div><span class="w-14 shrink-0 font-mono text-zinc-300">+4,7 %</span></div>
+                <div class="flex items-center gap-3 text-sm"><span class="w-44 shrink-0 text-right text-zinc-400">Rekreace a kultura</span><div class="relative flex h-3 flex-1"><div class="flex w-1/2 justify-end"></div><div class="w-px bg-white/15"></div><div class="flex w-1/2 justify-start"><div class="h-full rounded-r-full" style="width:39%;background:#8b5cf6"></div></div></div><span class="w-14 shrink-0 font-mono text-zinc-300">+1,9 %</span></div>
+                <div class="flex items-center gap-3 text-sm"><span class="w-44 shrink-0 text-right text-zinc-400">Ostatní zboží a služby</span><div class="relative flex h-3 flex-1"><div class="flex w-1/2 justify-end"></div><div class="w-px bg-white/15"></div><div class="flex w-1/2 justify-start"><div class="h-full rounded-r-full" style="width:61%;background:#64748b"></div></div></div><span class="w-14 shrink-0 font-mono text-zinc-300">+3,0 %</span></div>
+                <div class="flex items-center gap-3 text-sm"><span class="w-44 shrink-0 text-right text-zinc-400">Stravování a ubytování</span><div class="relative flex h-3 flex-1"><div class="flex w-1/2 justify-end"></div><div class="w-px bg-white/15"></div><div class="flex w-1/2 justify-start"><div class="h-full rounded-r-full" style="width:100%;background:#f97316"></div></div></div><span class="w-14 shrink-0 font-mono text-zinc-300">+4,9 %</span></div>
+                <div class="flex items-center gap-3 text-sm"><span class="w-44 shrink-0 text-right text-zinc-400">Bytové vybavení</span><div class="relative flex h-3 flex-1"><div class="flex w-1/2 justify-end"></div><div class="w-px bg-white/15"></div><div class="flex w-1/2 justify-start"><div class="h-full rounded-r-full" style="width:24%;background:#14b8a6"></div></div></div><span class="w-14 shrink-0 font-mono text-zinc-300">+1,2 %</span></div>
+                <div class="flex items-center gap-3 text-sm"><span class="w-44 shrink-0 text-right text-zinc-400">Odívání a obuv</span><div class="relative flex h-3 flex-1"><div class="flex w-1/2 justify-end"></div><div class="w-px bg-white/15"></div><div class="flex w-1/2 justify-start"><div class="h-full rounded-r-full" style="width:29%;background:#eab308"></div></div></div><span class="w-14 shrink-0 font-mono text-zinc-300">+1,4 %</span></div>
+                <div class="flex items-center gap-3 text-sm"><span class="w-44 shrink-0 text-right text-zinc-400">Pošty a telekomunikace</span><div class="relative flex h-3 flex-1"><div class="flex w-1/2 justify-end"><div class="h-full rounded-l-full" style="width:24%;background:#ef4444"></div></div><div class="w-px bg-white/15"></div><div class="flex w-1/2 justify-start"></div></div><span class="w-14 shrink-0 font-mono text-zinc-400">−1,2 %</span></div>
+                <div class="flex items-center gap-3 text-sm"><span class="w-44 shrink-0 text-right text-zinc-400">Zdraví</span><div class="relative flex h-3 flex-1"><div class="flex w-1/2 justify-end"></div><div class="w-px bg-white/15"></div><div class="flex w-1/2 justify-start"><div class="h-full rounded-r-full" style="width:88%;background:#06b6d4"></div></div></div><span class="w-14 shrink-0 font-mono text-zinc-300">+4,3 %</span></div>
+                <div class="flex items-center gap-3 text-sm"><span class="w-44 shrink-0 text-right text-zinc-400">Vzdělávání</span><div class="relative flex h-3 flex-1"><div class="flex w-1/2 justify-end"></div><div class="w-px bg-white/15"></div><div class="flex w-1/2 justify-start"><div class="h-full rounded-r-full" style="width:65%;background:#84cc16"></div></div></div><span class="w-14 shrink-0 font-mono text-zinc-300">+3,2 %</span></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="deck-slide" data-part="Část 3 · Inflace a iluze jednoho čísla">
+        <div class="deck-slide-inner text-center">
+            <h2 class="deck-title">Individuální spotřební koš</h2>
+            <div class="mx-auto mt-12 grid max-w-4xl grid-cols-1 gap-10 sm:grid-cols-3">
+                <div class="text-center">
+                    <svg viewBox="0 0 140 140" class="mx-auto h-56 w-56 -rotate-90">
+                        <circle cx="70" cy="70" r="50" fill="none" stroke="#10B981" stroke-width="20" stroke-dasharray="131.95 314.16" stroke-dashoffset="0"/>
+                        <circle cx="70" cy="70" r="50" fill="none" stroke="#f59e0b" stroke-width="20" stroke-dasharray="72.26 314.16" stroke-dashoffset="-131.95"/>
+                        <circle cx="70" cy="70" r="50" fill="none" stroke="#3b82f6" stroke-width="20" stroke-dasharray="15.71 314.16" stroke-dashoffset="-204.21"/>
+                        <circle cx="70" cy="70" r="50" fill="none" stroke="#ec4899" stroke-width="20" stroke-dasharray="12.57 314.16" stroke-dashoffset="-219.92"/>
+                        <circle cx="70" cy="70" r="50" fill="none" stroke="#8b5cf6" stroke-width="20" stroke-dasharray="18.85 314.16" stroke-dashoffset="-232.49"/>
+                        <circle cx="70" cy="70" r="50" fill="none" stroke="#64748b" stroke-width="20" stroke-dasharray="3.14 314.16" stroke-dashoffset="-251.34"/>
+                        <circle cx="70" cy="70" r="50" fill="none" stroke="#f97316" stroke-width="20" stroke-dasharray="21.99 314.16" stroke-dashoffset="-254.48"/>
+                        <circle cx="70" cy="70" r="50" fill="none" stroke="#14b8a6" stroke-width="20" stroke-dasharray="4.71 314.16" stroke-dashoffset="-276.47"/>
+                        <circle cx="70" cy="70" r="50" fill="none" stroke="#eab308" stroke-width="20" stroke-dasharray="12.57 314.16" stroke-dashoffset="-281.18"/>
+                        <circle cx="70" cy="70" r="50" fill="none" stroke="#ef4444" stroke-width="20" stroke-dasharray="9.42 314.16" stroke-dashoffset="-293.75"/>
+                        <circle cx="70" cy="70" r="50" fill="none" stroke="#06b6d4" stroke-width="20" stroke-dasharray="3.14 314.16" stroke-dashoffset="-303.17"/>
+                        <circle cx="70" cy="70" r="50" fill="none" stroke="#84cc16" stroke-width="20" stroke-dasharray="7.85 314.16" stroke-dashoffset="-306.31"/>
+                    </svg>
+                    <div class="mt-3 text-lg font-semibold text-white">Student</div>
+                </div>
+                <div class="text-center">
+                    <svg viewBox="0 0 140 140" class="mx-auto h-56 w-56 -rotate-90">
+                        <circle cx="70" cy="70" r="50" fill="none" stroke="#10B981" stroke-width="20" stroke-dasharray="109.96 314.16" stroke-dashoffset="0"/>
+                        <circle cx="70" cy="70" r="50" fill="none" stroke="#f59e0b" stroke-width="20" stroke-dasharray="72.26 314.16" stroke-dashoffset="-109.96"/>
+                        <circle cx="70" cy="70" r="50" fill="none" stroke="#3b82f6" stroke-width="20" stroke-dasharray="18.85 314.16" stroke-dashoffset="-182.22"/>
+                        <circle cx="70" cy="70" r="50" fill="none" stroke="#ec4899" stroke-width="20" stroke-dasharray="18.85 314.16" stroke-dashoffset="-201.07"/>
+                        <circle cx="70" cy="70" r="50" fill="none" stroke="#8b5cf6" stroke-width="20" stroke-dasharray="15.71 314.16" stroke-dashoffset="-219.92"/>
+                        <circle cx="70" cy="70" r="50" fill="none" stroke="#64748b" stroke-width="20" stroke-dasharray="15.71 314.16" stroke-dashoffset="-235.63"/>
+                        <circle cx="70" cy="70" r="50" fill="none" stroke="#f97316" stroke-width="20" stroke-dasharray="12.57 314.16" stroke-dashoffset="-251.34"/>
+                        <circle cx="70" cy="70" r="50" fill="none" stroke="#14b8a6" stroke-width="20" stroke-dasharray="12.57 314.16" stroke-dashoffset="-263.91"/>
+                        <circle cx="70" cy="70" r="50" fill="none" stroke="#eab308" stroke-width="20" stroke-dasharray="9.42 314.16" stroke-dashoffset="-276.47"/>
+                        <circle cx="70" cy="70" r="50" fill="none" stroke="#ef4444" stroke-width="20" stroke-dasharray="9.42 314.16" stroke-dashoffset="-285.90"/>
+                        <circle cx="70" cy="70" r="50" fill="none" stroke="#06b6d4" stroke-width="20" stroke-dasharray="18.85 314.16" stroke-dashoffset="-295.32"/>
+                    </svg>
+                    <div class="mt-3 text-lg font-semibold text-white">Senior</div>
+                </div>
+                <div class="text-center">
+                    <svg viewBox="0 0 140 140" class="mx-auto h-56 w-56 -rotate-90">
+                        <circle cx="70" cy="70" r="50" fill="none" stroke="#10B981" stroke-width="20" stroke-dasharray="78.54 314.16" stroke-dashoffset="0"/>
+                        <circle cx="70" cy="70" r="50" fill="none" stroke="#f59e0b" stroke-width="20" stroke-dasharray="50.27 314.16" stroke-dashoffset="-78.54"/>
+                        <circle cx="70" cy="70" r="50" fill="none" stroke="#3b82f6" stroke-width="20" stroke-dasharray="62.83 314.16" stroke-dashoffset="-128.81"/>
+                        <circle cx="70" cy="70" r="50" fill="none" stroke="#ec4899" stroke-width="20" stroke-dasharray="21.99 314.16" stroke-dashoffset="-191.64"/>
+                        <circle cx="70" cy="70" r="50" fill="none" stroke="#8b5cf6" stroke-width="20" stroke-dasharray="18.85 314.16" stroke-dashoffset="-213.63"/>
+                        <circle cx="70" cy="70" r="50" fill="none" stroke="#64748b" stroke-width="20" stroke-dasharray="15.71 314.16" stroke-dashoffset="-232.48"/>
+                        <circle cx="70" cy="70" r="50" fill="none" stroke="#f97316" stroke-width="20" stroke-dasharray="17.28 314.16" stroke-dashoffset="-248.19"/>
+                        <circle cx="70" cy="70" r="50" fill="none" stroke="#14b8a6" stroke-width="20" stroke-dasharray="15.71 314.16" stroke-dashoffset="-265.47"/>
+                        <circle cx="70" cy="70" r="50" fill="none" stroke="#eab308" stroke-width="20" stroke-dasharray="11.00 314.16" stroke-dashoffset="-281.18"/>
+                        <circle cx="70" cy="70" r="50" fill="none" stroke="#ef4444" stroke-width="20" stroke-dasharray="14.14 314.16" stroke-dashoffset="-292.18"/>
+                        <circle cx="70" cy="70" r="50" fill="none" stroke="#06b6d4" stroke-width="20" stroke-dasharray="6.28 314.16" stroke-dashoffset="-306.32"/>
+                        <circle cx="70" cy="70" r="50" fill="none" stroke="#84cc16" stroke-width="20" stroke-dasharray="1.57 314.16" stroke-dashoffset="-312.60"/>
+                    </svg>
+                    <div class="mt-3 text-lg font-semibold text-white">Dojíždějící autem</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="deck-slide" data-part="Část 3 · Inflace a iluze jednoho čísla">
+        <div class="deck-slide-inner text-center">
+            <h2 class="deck-title">Kdo trpí nejvíc, se mění</h2>
+            <div class="mx-auto mt-14 flex max-w-xl items-end justify-around gap-6">
+                <div class="flex flex-col items-center gap-2"><span class="font-mono text-base text-zinc-300">3,4 %</span><div class="flex h-56 w-16 items-end"><div class="w-full rounded-t-lg bg-zinc-600" style="height:50%"></div></div><span class="text-xs text-zinc-500">Oficiální</span></div>
+                <div class="flex flex-col items-center gap-2"><span class="font-mono text-base text-red-500">3,7 %</span><div class="flex h-56 w-16 items-end"><div class="w-full rounded-t-lg bg-red-500" style="height:87.5%"></div></div><span class="text-xs text-zinc-500">Student</span></div>
+                <div class="flex flex-col items-center gap-2"><span class="font-mono text-base text-zinc-300">3,6 %</span><div class="flex h-56 w-16 items-end"><div class="w-full rounded-t-lg bg-zinc-500" style="height:75%"></div></div><span class="text-xs text-zinc-500">Senior</span></div>
+                <div class="flex flex-col items-center gap-2"><span class="font-mono text-base text-zinc-300">3,2 %</span><div class="flex h-56 w-16 items-end"><div class="w-full rounded-t-lg bg-zinc-600" style="height:25%"></div></div><span class="text-xs text-zinc-500">Řidič</span></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="deck-slide" data-part="Část 3 · Inflace a iluze jednoho čísla">
+        <div class="deck-slide-inner full grid grid-cols-1 items-center gap-10 md:grid-cols-5">
+            <div class="md:col-span-2">
+                <h2 class="deck-title">Ceny rostou</h2>
+                <span class="katex-formula lg mt-6 block" data-tex="P_t = P_0 (1+r)^t"></span>
+                <div class="mt-8 space-y-2 text-sm text-zinc-400">
+                    <div class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-zinc-400"></span>2,0 % &rarr; <span class="font-mono text-zinc-300">221 Kč</span></div>
+                    <div class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-finance"></span>3,3 % &rarr; <span class="font-mono text-finance">367 Kč</span></div>
+                    <div class="flex items-center gap-2"><span class="h-2 w-2 rounded-full" style="background:#f59e0b"></span>4,0 % &rarr; <span class="font-mono" style="color:#f59e0b">480 Kč</span></div>
+                </div>
+            </div>
+            <div class="md:col-span-3">
+                <svg viewBox="0 0 640 280" class="w-full">
+                    <line x1="50" y1="20" x2="630" y2="20" stroke="#27272a" stroke-width="1"/>
+                    <line x1="50" y1="66" x2="630" y2="66" stroke="#27272a" stroke-width="1"/>
+                    <line x1="50" y1="112" x2="630" y2="112" stroke="#27272a" stroke-width="1"/>
+                    <line x1="50" y1="158" x2="630" y2="158" stroke="#27272a" stroke-width="1"/>
+                    <line x1="50" y1="204" x2="630" y2="204" stroke="#27272a" stroke-width="1"/>
+                    <line x1="50" y1="250" x2="630" y2="250" stroke="#3f3f46" stroke-width="1"/>
+                    <text x="12" y="24" fill="#71717a" font-size="11">500</text>
+                    <text x="12" y="70" fill="#71717a" font-size="11">400</text>
+                    <text x="12" y="116" fill="#71717a" font-size="11">300</text>
+                    <text x="12" y="162" fill="#71717a" font-size="11">200</text>
+                    <text x="12" y="208" fill="#71717a" font-size="11">100</text>
+                    <text x="12" y="254" fill="#71717a" font-size="11">0</text>
+                    <text x="50" y="266" fill="#71717a" font-size="12">0 let</text>
+                    <text x="600" y="266" fill="#71717a" font-size="12">40 let</text>
+                    <polyline data-static-rate="2" data-p0="100" data-years="40" data-ymax="500" data-w="640" data-h="280" data-padl="50" data-padt="20" data-padb="30" data-growing fill="none" stroke="#71717a" stroke-width="2"/>
+                    <polyline data-static-rate="3.3" data-p0="100" data-years="40" data-ymax="500" data-w="640" data-h="280" data-padl="50" data-padt="20" data-padb="30" data-growing fill="none" stroke="#10B981" stroke-width="2.5"/>
+                    <polyline data-static-rate="4" data-p0="100" data-years="40" data-ymax="500" data-w="640" data-h="280" data-padl="50" data-padt="20" data-padb="30" data-growing fill="none" stroke="#f59e0b" stroke-width="2"/>
+                    <text x="600" y="146" fill="#71717a" font-size="11">221</text>
+                    <text x="600" y="85" fill="#10B981" font-size="11">367</text>
+                    <text x="600" y="33" fill="#f59e0b" font-size="11">480</text>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <section class="deck-slide" data-part="Část 3 · Inflace a iluze jednoho čísla">
+        <div class="deck-slide-inner full grid grid-cols-1 items-center gap-10 md:grid-cols-5">
+            <div class="md:col-span-2">
+                <h2 class="deck-title">Peníze ztrácí hodnotu</h2>
+                <span class="katex-formula lg mt-6 block" data-tex="P_t = \dfrac{P_0}{(1+r_i)^t}"></span>
+                <div class="mt-8 space-y-2 text-sm text-zinc-400">
+                    <div class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-zinc-400"></span>2,0 % &rarr; <span class="font-mono text-zinc-300">45 289 Kč</span></div>
+                    <div class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-finance"></span>3,3 % &rarr; <span class="font-mono text-finance">27 289 Kč</span></div>
+                    <div class="flex items-center gap-2"><span class="h-2 w-2 rounded-full" style="background:#f59e0b"></span>4,0 % &rarr; <span class="font-mono" style="color:#f59e0b">20 829 Kč</span></div>
+                    <div class="flex items-center gap-2 pt-2"><span class="h-2 w-2 rounded-full bg-white"></span>vlastní <span id="loss-live-label" class="font-mono text-white">3,3 %</span> &rarr; <span id="loss-live-value" class="font-mono text-white">27 289 Kč</span></div>
+                </div>
+                <input type="range" min="0" max="10" step="0.1" value="3.3" data-rate-slider="loss-live" class="deck-slider mt-4 max-w-xs">
+            </div>
+            <div class="md:col-span-3">
+                <svg viewBox="0 0 640 280" class="w-full">
+                    <line x1="50" y1="20" x2="630" y2="20" stroke="#27272a" stroke-width="1"/>
+                    <line x1="50" y1="77" x2="630" y2="77" stroke="#27272a" stroke-width="1"/>
+                    <line x1="50" y1="135" x2="630" y2="135" stroke="#27272a" stroke-width="1"/>
+                    <line x1="50" y1="192" x2="630" y2="192" stroke="#27272a" stroke-width="1"/>
+                    <line x1="50" y1="250" x2="630" y2="250" stroke="#3f3f46" stroke-width="1"/>
+                    <text x="6" y="24" fill="#71717a" font-size="11">100k</text>
+                    <text x="6" y="81" fill="#71717a" font-size="11">75k</text>
+                    <text x="6" y="139" fill="#71717a" font-size="11">50k</text>
+                    <text x="6" y="196" fill="#71717a" font-size="11">25k</text>
+                    <text x="24" y="254" fill="#71717a" font-size="11">0</text>
+                    <text x="50" y="266" fill="#71717a" font-size="12">0 let</text>
+                    <text x="600" y="266" fill="#71717a" font-size="12">40 let</text>
+                    <polyline data-static-rate="2" data-p0="100000" data-years="40" data-ymax="100000" data-w="640" data-h="280" data-padl="50" data-padt="20" data-padb="30" fill="none" stroke="#71717a" stroke-width="2"/>
+                    <polyline data-static-rate="3.3" data-p0="100000" data-years="40" data-ymax="100000" data-w="640" data-h="280" data-padl="50" data-padt="20" data-padb="30" fill="none" stroke="#10B981" stroke-width="2"/>
+                    <polyline data-static-rate="4" data-p0="100000" data-years="40" data-ymax="100000" data-w="640" data-h="280" data-padl="50" data-padt="20" data-padb="30" fill="none" stroke="#f59e0b" stroke-width="2"/>
+                    <polyline id="loss-live" data-p0="100000" data-years="40" data-ymax="100000" data-w="640" data-h="280" data-padl="50" data-padt="20" data-padb="30" fill="none" stroke="#ffffff" stroke-width="2.5"/>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ ČÁST 4 · AKTIVA A PORTFOLIO ============ -->
+
+    <section class="deck-slide" data-part="Část 4 · Aktiva a portfolio">
+        <div class="deck-slide-inner full flex flex-col justify-center">
+            <h1 class="text-5xl font-bold tracking-tight text-white md:text-7xl">Aktiva a portfolio</h1>
+        </div>
+    </section>
+
+    <section class="deck-slide" data-part="Část 4 · Aktiva a portfolio">
+        {{ template "asset-card" (dict "icon" "ic-stock" "role" "Útočník" "name" "Akcie" "tag" "Motor růstu" "return" "~10 %" "color" "#10B981" "volMin" "−30 %" "volMax" "+50 %" "volLeft" 10 "volWidth" 40 "volZero" 25 "liquidity" 5) }}
+    </section>
+
+    <section class="deck-slide" data-part="Část 4 · Aktiva a portfolio">
+        {{ template "asset-card" (dict "icon" "ic-bond" "role" "Obránce" "name" "Dluhopisy" "tag" "Tlumič nárazů" "return" "~5 %" "color" "#a1a1aa" "volMin" "−5 %" "volMax" "+10 %" "volLeft" 22.5 "volWidth" 7.5 "volZero" 25 "liquidity" 4) }}
+    </section>
+
+    <section class="deck-slide" data-part="Část 4 · Aktiva a portfolio">
+        {{ template "asset-card" (dict "icon" "ic-house" "role" "Záložník" "name" "Nemovitosti" "tag" "Hmotná hodnota" "return" "~8 %" "color" "#60a5fa" "volMin" "−15 %" "volMax" "+20 %" "volLeft" 17.5 "volWidth" 17.5 "volZero" 25 "liquidity" 1) }}
+    </section>
+
+    <section class="deck-slide" data-part="Část 4 · Aktiva a portfolio">
+        {{ template "asset-card" (dict "icon" "ic-gold" "role" "Brankář" "name" "Komodity a zlato" "tag" "Pojistka v panice" "return" "~7 %" "color" "#fbbf24" "volMin" "−20 %" "volMax" "+30 %" "volLeft" 15 "volWidth" 25 "volZero" 25 "liquidity" 3) }}
+    </section>
+
+    <section class="deck-slide" data-part="Část 4 · Aktiva a portfolio">
+        {{ template "asset-card" (dict "icon" "ic-crypto" "role" "Divoká karta" "name" "Krypto" "tag" "Vysoká volatilita" "return" "15 % (omezeno)" "color" "#a78bfa" "volMin" "−70 %" "volMax" "+150 %" "volLeft" 0 "volWidth" 100 "volZero" 25 "liquidity" 5) }}
+    </section>
+
+    <section class="deck-slide" data-part="Část 4 · Aktiva a portfolio">
+        {{ template "asset-card" (dict "icon" "ic-wallet" "role" "Lavička" "name" "Hotovost" "tag" "Okamžitá likvidita" "return" "0 %" "color" "#71717a" "volMin" "0 %" "volMax" "" "volLeft" 25 "volWidth" 0 "volZero" 25 "liquidity" 5) }}
+    </section>
+
+    <section class="deck-slide" data-part="Část 4 · Aktiva a portfolio">
+        <div class="deck-slide-inner full flex flex-col">
+            <h2 class="deck-title">Dohromady aktiva tvoří tým</h2>
+            <div class="pitch relative mt-6 flex-1 overflow-hidden rounded-3xl">
+                <div class="pitch-line absolute left-1/2 top-0 h-full w-px -translate-x-1/2 border-l border-dashed"></div>
+                <div class="pitch-line absolute left-1/2 top-1/2 h-40 w-40 -translate-x-1/2 -translate-y-1/2 rounded-full border"></div>
+                <div class="pitch-line absolute left-0 top-1/2 h-32 w-6 -translate-y-1/2 border-y border-r"></div>
+                <div class="pitch-line absolute right-0 top-1/2 h-32 w-6 -translate-y-1/2 border-y border-l"></div>
+
+                <div class="absolute flex -translate-x-1/2 -translate-y-1/2 flex-col items-center gap-2" style="left:8%;top:50%">
+                    <div class="player-badge icon-box h-16 w-16 p-4" style="color:#fbbf24;border-color:#fbbf24">{{ template "ic-gold" }}</div>
+                    <span class="text-xs font-medium text-zinc-300">Zlato</span>
+                </div>
+                <div class="absolute flex -translate-x-1/2 -translate-y-1/2 flex-col items-center gap-2" style="left:26%;top:50%">
+                    <div class="player-badge icon-box h-16 w-16 p-4" style="color:#a1a1aa;border-color:#a1a1aa">{{ template "ic-bond" }}</div>
+                    <span class="text-xs font-medium text-zinc-300">Dluhopisy</span>
+                </div>
+                <div class="absolute flex -translate-x-1/2 -translate-y-1/2 flex-col items-center gap-2" style="left:50%;top:50%">
+                    <div class="player-badge icon-box h-16 w-16 p-4" style="color:#60a5fa;border-color:#60a5fa">{{ template "ic-house" }}</div>
+                    <span class="text-xs font-medium text-zinc-300">Nemovitosti</span>
+                </div>
+                <div class="absolute flex -translate-x-1/2 -translate-y-1/2 flex-col items-center gap-2" style="left:76%;top:50%">
+                    <div class="player-badge icon-box h-20 w-20 p-5" style="color:#10B981">{{ template "ic-stock" }}</div>
+                    <span class="text-sm font-semibold text-white">Akcie</span>
+                </div>
+                <div class="absolute flex -translate-x-1/2 -translate-y-1/2 flex-col items-center gap-2" style="left:64%;top:18%">
+                    <div class="player-badge is-wildcard icon-box h-16 w-16 p-4" style="color:#a78bfa;border-color:#a78bfa ">{{ template "ic-crypto" }}</div>
+                    <span class="text-xs font-medium text-violet-300">Krypto · divoká karta</span>
+                </div>
+
+                <div class="absolute right-4 top-4 flex flex-col items-center gap-2 rounded-2xl border border-white/10 bg-obsidian/70 px-4 py-3">
+                    <div class="player-badge is-bench icon-box h-12 w-12 p-3" style="color:#71717a;border-color:#71717a">{{ template "ic-wallet" }}</div>
+                    <span class="text-xs text-zinc-500">Hotovost · lavička</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="deck-slide" data-part="Část 4 · Aktiva a portfolio" data-substeps="3">
+        <div class="deck-slide-inner full flex flex-col justify-center">
+            <h2 class="deck-title">Korelace</h2>
+            <div class="mt-6 flex flex-wrap gap-6 text-sm">
+                <span class="wave-label flex items-center gap-2 text-zinc-300" data-substep="0"><span class="h-2.5 w-2.5 rounded-full" style="background:#10B981"></span>Akcie</span>
+                <span class="wave-label flex items-center gap-2 text-zinc-300" data-substep="1"><span class="h-2.5 w-2.5 rounded-full" style="background:#60a5fa"></span>Nemovitosti a dluhopisy</span>
+                <span class="wave-label flex items-center gap-2 text-zinc-300" data-substep="2"><span class="h-2.5 w-2.5 rounded-full" style="background:#fbbf24"></span>Zlato</span>
+                <span class="wave-label flex items-center gap-2 text-zinc-300" data-substep="3"><span class="h-2.5 w-2.5 rounded-full" style="background:#a78bfa"></span>Krypto</span>
+            </div>
+            <svg viewBox="0 0 1200 300" class="mt-6 w-full">
+                <line x1="0" y1="150" x2="1200" y2="150" stroke="#27272a" stroke-width="1"/>
+                <polyline class="wave-path" data-substep="0" data-wave data-amp="55" data-cycles="5" data-phase-deg="0" data-w="1200" data-h="300" data-base-y="150" fill="none" stroke="#10B981" stroke-width="2.5"/>
+                <polyline class="wave-path" data-substep="1" data-wave data-amp="25" data-cycles="5" data-phase-deg="15" data-w="1200" data-h="300" data-base-y="150" fill="none" stroke="#60a5fa" stroke-width="2"/>
+                <polyline class="wave-path" data-substep="2" data-wave data-amp="45" data-cycles="5" data-phase-deg="180" data-w="1200" data-h="300" data-base-y="150" fill="none" stroke="#fbbf24" stroke-width="2"/>
+                <polyline class="wave-path" data-substep="3" data-wave data-amp="95" data-cycles="9" data-phase-deg="30" data-noise="45" data-w="1200" data-h="300" data-base-y="150" fill="none" stroke="#a78bfa" stroke-width="2"/>
+            </svg>
+        </div>
+    </section>
+
+    <section class="deck-slide" data-part="Část 4 · Aktiva a portfolio">
+        <div class="screen-flash" data-loop></div>
+        <div class="deck-slide-inner full flex flex-col justify-center">
+            <h2 class="deck-title">Likvidita</h2>
+            <div class="hb-shake mt-10 flex h-16 w-full overflow-hidden rounded-2xl" data-loop>
+                <div class="health-bar-seg health-hit-cash flex items-center justify-center text-sm font-semibold text-white" style="width:15%;background:rgba(239,68,68,.22)">
+                    <div class="health-bar-fill" data-loop style="background:#52525b"></div>
+                    <span class="relative z-10 drop-shadow">Hotovost</span>
+                </div>
+                <div class="health-bar-seg health-hit-conservative flex items-center justify-center text-sm font-semibold text-white" style="width:35%;background:rgba(239,68,68,.22)">
+                    <div class="health-bar-fill" data-loop style="background:#3f3f46"></div>
+                    <span class="relative z-10 drop-shadow">Konzervativní investice</span>
+                </div>
+                <div class="health-bar-seg health-hit-dynamic flex items-center justify-center text-sm font-semibold text-white" style="width:50%;background:rgba(239,68,68,.22)">
+                    <div class="health-bar-fill" data-loop style="background:#10B981"></div>
+                    <span class="relative z-10 drop-shadow">Dynamické investice</span>
+                </div>
+            </div>
+            <div class="mt-3 flex w-full text-xs text-zinc-500">
+                <span style="width:15%">nouzová rezerva</span>
+                <span style="width:35%">dluhopisy, nemovitosti</span>
+                <span style="width:50%">akcie, kovy, krypto</span>
+            </div>
+            <div class="game-over-flash mt-10 text-center text-5xl font-black tracking-tight text-red-500" data-loop>GAME OVER</div>
+        </div>
+    </section>
+
+    <!-- ============ ČÁST 5 · MATEMATIKA ============ -->
+
+    <section class="deck-slide" data-part="Část 5 · Matematika">
+        <div class="deck-slide-inner full flex flex-col justify-center">
+            <h1 class="text-5xl font-bold tracking-tight text-white md:text-7xl">Matematika</h1>
+        </div>
+    </section>
+
+    <section class="deck-slide" data-part="Část 5 · Matematika">
+        <div class="deck-slide-inner">
+            <h2 class="deck-title">Reálný výnos</h2>
+            <span class="katex-formula mt-6 block" data-tex="r_r = \dfrac{1+r}{1+r_i} - 1"></span>
+            <div class="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2">
+                <div class="glass-card rounded-2xl p-6">
+                    <div class="text-xs uppercase tracking-wider text-zinc-500">Spořicí účet, 4 %</div>
+                    <div class="mt-2 text-4xl font-bold text-white">0,7 %</div>
+                </div>
+                <div class="glass-card rounded-2xl border-finance/30 p-6">
+                    <div class="text-xs uppercase tracking-wider text-zinc-500">Portfolio, 8 %</div>
+                    <div class="mt-2 text-4xl font-bold text-finance">4,6 %</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="deck-slide" data-part="Část 5 · Matematika">
+        <div class="deck-slide-inner">
+            <h2 class="deck-title">Investování s měsíční úložkou</h2>
+            <div class="mt-6 grid grid-cols-1 gap-8 sm:grid-cols-2">
+                <div>
+                    <div class="deck-formula-label">nominálně</div>
+                    <span class="katex-formula block" data-tex="P_t = P_m \cdot \dfrac{(1+r)^t - 1}{(1+r)^{\frac{1}{12}} - 1}"></span>
+                </div>
+                <div>
+                    <div class="deck-formula-label">reálně</div>
+                    <span class="katex-formula block" data-tex="P_t = P_m \cdot \dfrac{\left[(1+r)^t - 1\right]}{\left[(1+r)^{\frac{1}{12}} - 1\right](1+r_i)^t}"></span>
+                </div>
+            </div>
+            <div class="glass-card mt-8 rounded-2xl p-6" data-calc="contribution">
+                <div class="grid grid-cols-2 gap-5 sm:grid-cols-4">
+                    <label class="block"><span class="text-xs text-zinc-500">měsíčně, Kč</span><input type="number" value="2000" step="100" data-input="pm" class="mt-1 w-full rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-white"></label>
+                    <label class="block"><span class="text-xs text-zinc-500">výnos, % p.a.</span><input type="number" value="8" step="0.1" data-input="rate" class="mt-1 w-full rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-white"></label>
+                    <label class="block"><span class="text-xs text-zinc-500">inflace, %</span><input type="number" value="3.3" step="0.1" data-input="inflation" class="mt-1 w-full rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-white"></label>
+                    <label class="block"><span class="text-xs text-zinc-500">roky</span><input type="number" value="30" step="1" data-input="years" class="mt-1 w-full rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-white"></label>
+                </div>
+                <div class="mt-6 grid grid-cols-2 gap-6">
+                    <div><div class="text-xs uppercase tracking-wider text-zinc-500">Nominálně</div><div class="text-3xl font-bold text-white" data-output="nominal"></div></div>
+                    <div><div class="text-xs uppercase tracking-wider text-zinc-500">Reálně</div><div class="text-3xl font-bold text-finance" data-output="real"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="deck-slide" data-part="Část 5 · Matematika">
+        <div class="deck-slide-inner full flex flex-col justify-center">
+            <h2 class="deck-title">Síla složeného úročení</h2>
+            <p class="mt-2 text-sm text-zinc-500" id="compound-desc">2 000 Kč měsíčně &middot; 8 % p.a. &middot; inflace 3,3 % &middot; 30 let</p>
+            <div class="mt-6 flex flex-wrap gap-6 text-sm text-zinc-400">
+                <span class="flex items-center gap-2"><span class="h-2 w-5 border-t-2 border-dashed border-zinc-500"></span>Vklady &middot; <span id="compound-deposits-val" class="font-mono text-zinc-300">720 000 Kč</span></span>
+                <span class="flex items-center gap-2"><span class="h-2 w-2 rounded-full" style="background:#60a5fa"></span>Nominální hodnota &middot; <span id="compound-nominal-val" class="font-mono" style="color:#60a5fa">2 817 101 Kč</span></span>
+                <span class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-finance"></span>Reálná hodnota &middot; <span id="compound-real-val" class="font-mono text-finance">1 063 635 Kč</span></span>
+            </div>
+            <svg viewBox="0 0 1300 420" class="mt-4 w-full" id="compound-svg">
+                <g id="compound-grid"></g>
+                <text x="70" y="400" fill="#71717a" font-size="13">0 let</text>
+                <text id="compound-x-end" x="1230" y="400" fill="#71717a" font-size="13">30 let</text>
+                <polyline id="compound-deposits" fill="none" stroke="#71717a" stroke-width="2" stroke-dasharray="4 4"/>
+                <polyline id="compound-nominal" fill="none" stroke="#60a5fa" stroke-width="2.5"/>
+                <polyline id="compound-real" fill="none" stroke="#10B981" stroke-width="2.5"/>
+            </svg>
+        </div>
+    </section>
+
+    <section class="deck-slide" data-part="Část 5 · Matematika">
+        <div class="deck-slide-inner">
+            <h2 class="deck-title">Konečná renta</h2>
+            <div class="mt-6 grid grid-cols-1 gap-8 sm:grid-cols-2">
+                <div>
+                    <div class="deck-formula-label">nominálně</div>
+                    <span class="katex-formula block" data-tex="P_r = P_t \cdot \dfrac{(1+r)^{\frac{1}{12}} - 1}{1-(1+r)^{-t}}"></span>
+                </div>
+                <div>
+                    <div class="deck-formula-label">reálně</div>
+                    <span class="katex-formula block" data-tex="P_r = P_t \cdot \dfrac{\left(\frac{1+r}{1+r_i}\right)^{\frac{1}{12}} - 1}{1 - \left(\frac{1+r}{1+r_i}\right)^{-t}}"></span>
+                </div>
+            </div>
+            <div class="glass-card mt-8 rounded-2xl p-6" data-calc="annuity">
+                <div class="grid grid-cols-2 gap-5 sm:grid-cols-4">
+                    <label class="block"><span class="text-xs text-zinc-500">naspořeno, Kč</span><input type="number" value="5000000" step="100000" data-input="pot" class="mt-1 w-full rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-white"></label>
+                    <label class="block"><span class="text-xs text-zinc-500">výnos, % p.a.</span><input type="number" value="4" step="0.1" data-input="rate" class="mt-1 w-full rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-white"></label>
+                    <label class="block"><span class="text-xs text-zinc-500">inflace, %</span><input type="number" value="3.3" step="0.1" data-input="inflation" class="mt-1 w-full rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-white"></label>
+                    <label class="block"><span class="text-xs text-zinc-500">roky čerpání</span><input type="number" value="25" step="1" data-input="years" class="mt-1 w-full rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-white"></label>
+                </div>
+                <div class="mt-6 grid grid-cols-2 gap-6">
+                    <div><div class="text-xs uppercase tracking-wider text-zinc-500">Nominálně / měsíc</div><div class="text-3xl font-bold text-white" data-output="nominal"></div></div>
+                    <div><div class="text-xs uppercase tracking-wider text-zinc-500">Reálně / měsíc</div><div class="text-3xl font-bold text-finance" data-output="real"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="deck-slide" data-part="Část 5 · Matematika">
+        <div class="deck-slide-inner">
+            <h2 class="deck-title">Věčná renta</h2>
+            <div class="mt-6 grid grid-cols-1 gap-8 sm:grid-cols-2">
+                <div>
+                    <div class="deck-formula-label">nominálně</div>
+                    <span class="katex-formula block" data-tex="P_r = P_t \cdot \left[(1+r)^\frac{1}{12}-1\right]"></span>
+                </div>
+                <div>
+                    <div class="deck-formula-label">reálně</div>
+                    <span class="katex-formula block" data-tex="P_r = P_t \left[\left(\frac{1+r}{1+r_i}\right)^{\frac{1}{12}} - 1\right]"></span>
+                </div>
+            </div>
+            <div class="glass-card mt-8 rounded-2xl p-6" data-calc="perpetuity">
+                <div class="grid grid-cols-1 gap-5 sm:grid-cols-3">
+                    <label class="block"><span class="text-xs text-zinc-500">naspořeno, Kč</span><input type="number" value="9000000" step="100000" data-input="pot" class="mt-1 w-full rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-white"></label>
+                    <label class="block"><span class="text-xs text-zinc-500">výnos, % p.a.</span><input type="number" value="4" step="0.1" data-input="rate" class="mt-1 w-full rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-white"></label>
+                    <label class="block"><span class="text-xs text-zinc-500">inflace, %</span><input type="number" value="3.3" step="0.1" data-input="inflation" class="mt-1 w-full rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-white"></label>
+                </div>
+                <div class="mt-6 grid grid-cols-2 gap-6">
+                    <div><div class="text-xs uppercase tracking-wider text-zinc-500">Nominálně / měsíc</div><div class="text-3xl font-bold text-white" data-output="nominal"></div></div>
+                    <div><div class="text-xs uppercase tracking-wider text-zinc-500">Reálně / měsíc, navždy</div><div class="text-3xl font-bold text-finance" data-output="real"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ ČÁST 6 · MOJE PORTFOLIO ============ -->
+
+    <section class="deck-slide" data-part="Část 6 · Moje portfolio">
+        <div class="deck-slide-inner full flex flex-col justify-center">
+            <h1 class="text-5xl font-bold tracking-tight text-white md:text-7xl">Moje portfolio</h1>
+        </div>
+    </section>
+
+    <section class="deck-slide" data-part="Část 6 · Moje portfolio">
+        <div class="deck-slide-inner full grid grid-cols-1 items-center gap-10 md:grid-cols-5">
+            <div class="flex flex-col items-center md:col-span-2">
+                <svg viewBox="0 0 220 220" class="h-64 w-64 -rotate-90">
+                    <circle cx="110" cy="110" r="90" fill="none" stroke="#27272a" stroke-width="26"/>
+                    <circle cx="110" cy="110" r="90" fill="none" stroke="#60a5fa" stroke-width="26" stroke-dasharray="197.9 565.5" stroke-dashoffset="0"/>
+                    <circle cx="110" cy="110" r="90" fill="none" stroke="#a1a1aa" stroke-width="26" stroke-dasharray="176.7 565.5" stroke-dashoffset="-197.9"/>
+                    <circle cx="110" cy="110" r="90" fill="none" stroke="#10B981" stroke-width="26" stroke-dasharray="63.6 565.5" stroke-dashoffset="-374.6"/>
+                    <circle cx="110" cy="110" r="90" fill="none" stroke="#fbbf24" stroke-width="26" stroke-dasharray="63.6 565.5" stroke-dashoffset="-438.2"/>
+                    <circle cx="110" cy="110" r="90" fill="none" stroke="#71717a" stroke-width="26" stroke-dasharray="63.6 565.5" stroke-dashoffset="-501.8"/>
+                </svg>
+                <div class="-mt-40 text-5xl font-bold text-white">6,5 %</div>
+                <div class="mt-44 flex flex-wrap justify-center gap-3 text-xs text-zinc-400">
+                    <span class="flex items-center gap-1.5"><span class="h-2 w-2 rounded-full bg-blue-400"></span>Nemovitosti</span>
+                    <span class="flex items-center gap-1.5"><span class="h-2 w-2 rounded-full bg-zinc-400"></span>Dluhopisy</span>
+                    <span class="flex items-center gap-1.5"><span class="h-2 w-2 rounded-full bg-finance"></span>Akcie</span>
+                    <span class="flex items-center gap-1.5"><span class="h-2 w-2 rounded-full" style="background:#fbbf24"></span>Zlato</span>
+                </div>
+            </div>
+            <div class="md:col-span-3">
+                <h2 class="deck-title">Střednědobé portfolio</h2>
+                <p class="mt-3 text-lg text-zinc-400">Cíl: Nemovitost v hodnotě 6,5 až 7 mil. do 10 let, spoření na akontaci</p>
+                <div class="mt-6 flex items-baseline gap-3">
+                    <span class="text-3xl font-bold text-finance">10 000 Kč</span>
+                    <span class="text-sm text-zinc-500">měsíčně</span>
+                </div>
+                <div class="mt-4 flex gap-4 text-xs text-zinc-500">
+                    <span class="flex items-center gap-1.5"><span class="h-2 w-2 rounded-full bg-zinc-500"></span>vklady</span>
+                    <span class="flex items-center gap-1.5"><span class="h-2 w-2 rounded-full bg-blue-400"></span>hodnota</span>
+                </div>
+                <svg viewBox="0 0 560 220" class="mt-2 w-full max-w-xl">
+                    <line x1="40" y1="40" x2="540" y2="40" stroke="#27272a" stroke-width="1"/>
+                    <line x1="40" y1="90" x2="540" y2="90" stroke="#27272a" stroke-width="1"/>
+                    <line x1="40" y1="140" x2="540" y2="140" stroke="#27272a" stroke-width="1"/>
+                    <line x1="40" y1="190" x2="540" y2="190" stroke="#3f3f46" stroke-width="1"/>
+                    <text x="2" y="44" fill="#71717a" font-size="11">1,5M</text>
+                    <text x="2" y="94" fill="#71717a" font-size="11">1M</text>
+                    <text x="2" y="144" fill="#71717a" font-size="11">500k</text>
+                    <text x="20" y="194" fill="#71717a" font-size="11">0</text>
+                    <polyline data-deposits-chart data-pm="10000" data-years="10" data-ymax="1700000" data-w="560" data-h="220" data-padl="40" data-padt="20" data-padb="30" fill="none" stroke="#71717a" stroke-width="2" stroke-dasharray="4 4"/>
+                    <polyline data-contrib-chart data-pm="10000" data-rate="6.5" data-years="10" data-ymax="1700000" data-w="560" data-h="220" data-padl="40" data-padt="20" data-padb="30" fill="none" stroke="#60a5fa" stroke-width="2.5"/>
+                    <text x="40" y="206" fill="#71717a" font-size="12">0 let</text>
+                    <text x="500" y="206" fill="#71717a" font-size="12">10 let</text>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <section class="deck-slide" data-part="Část 6 · Moje portfolio">
+        <div class="deck-slide-inner full grid grid-cols-1 items-center gap-10 md:grid-cols-5">
+            <div class="flex flex-col items-center md:col-span-2">
+                <svg viewBox="0 0 220 220" class="h-64 w-64 -rotate-90">
+                    <circle cx="110" cy="110" r="90" fill="none" stroke="#27272a" stroke-width="26"/>
+                    <circle cx="110" cy="110" r="90" fill="none" stroke="#10B981" stroke-width="26" stroke-dasharray="296.9 565.5" stroke-dashoffset="0"/>
+                    <circle cx="110" cy="110" r="90" fill="none" stroke="#fbbf24" stroke-width="26" stroke-dasharray="127.2 565.5" stroke-dashoffset="-296.9"/>
+                    <circle cx="110" cy="110" r="90" fill="none" stroke="#a78bfa" stroke-width="26" stroke-dasharray="56.55 565.5" stroke-dashoffset="-424.1"/>
+                    <circle cx="110" cy="110" r="90" fill="none" stroke="#71717a" stroke-width="26" stroke-dasharray="42.41 565.5" stroke-dashoffset="-480.7"/>
+                    <circle cx="110" cy="110" r="90" fill="none" stroke="#a1a1aa" stroke-width="26" stroke-dasharray="42.41 565.5" stroke-dashoffset="-523.1"/>
+                </svg>
+                <div class="-mt-40 text-5xl font-bold text-white">8,4 %</div>
+                <div class="mt-44 flex flex-wrap justify-center gap-3 text-xs text-zinc-400">
+                    <span class="flex items-center gap-1.5"><span class="h-2 w-2 rounded-full bg-finance"></span>Akcie</span>
+                    <span class="flex items-center gap-1.5"><span class="h-2 w-2 rounded-full" style="background:#fbbf24"></span>Zlato</span>
+                    <span class="flex items-center gap-1.5"><span class="h-2 w-2 rounded-full" style="background:#a78bfa"></span>Krypto</span>
+                    <span class="flex items-center gap-1.5"><span class="h-2 w-2 rounded-full bg-zinc-400"></span>Dluhopisy</span>
+                </div>
+            </div>
+            <div class="md:col-span-3">
+                <h2 class="deck-title">Dlouhodobé portfolio</h2>
+                <p class="mt-3 text-lg text-zinc-400">Cíl: nekonečná renta 50 000 Kč měsíčně v dnešních cenách, horizont 45 let</p>
+                <div class="mt-6 flex items-baseline gap-3">
+                    <span class="text-3xl font-bold text-finance">10 000 Kč</span>
+                    <span class="text-sm text-zinc-500">měsíčně</span>
+                </div>
+                <div class="mt-4 flex gap-4 text-xs text-zinc-500">
+                    <span class="flex items-center gap-1.5"><span class="h-2 w-2 rounded-full bg-zinc-500"></span>vklady</span>
+                    <span class="flex items-center gap-1.5"><span class="h-2 w-2 rounded-full bg-finance"></span>hodnota</span>
+                </div>
+                <svg viewBox="0 0 560 220" class="mt-2 w-full max-w-xl">
+                    <line x1="40" y1="20" x2="540" y2="20" stroke="#27272a" stroke-width="1"/>
+                    <line x1="40" y1="62" x2="540" y2="62" stroke="#27272a" stroke-width="1"/>
+                    <line x1="40" y1="105" x2="540" y2="105" stroke="#27272a" stroke-width="1"/>
+                    <line x1="40" y1="147" x2="540" y2="147" stroke="#27272a" stroke-width="1"/>
+                    <line x1="40" y1="190" x2="540" y2="190" stroke="#3f3f46" stroke-width="1"/>
+                    <text x="2" y="24" fill="#71717a" font-size="11">40M</text>
+                    <text x="2" y="66" fill="#71717a" font-size="11">30M</text>
+                    <text x="2" y="109" fill="#71717a" font-size="11">20M</text>
+                    <text x="2" y="151" fill="#71717a" font-size="11">10M</text>
+                    <text x="20" y="194" fill="#71717a" font-size="11">0</text>
+                    <polyline data-deposits-chart data-pm="10000" data-years="45" data-ymax="40000000" data-w="560" data-h="220" data-padl="40" data-padt="20" data-padb="30" fill="none" stroke="#71717a" stroke-width="2" stroke-dasharray="4 4"/>
+                    <polyline data-contrib-chart data-pm="10000" data-rate="8.4" data-years="45" data-ymax="40000000" data-w="560" data-h="220" data-padl="40" data-padt="20" data-padb="30" fill="none" stroke="#10B981" stroke-width="2.5"/>
+                    <text x="40" y="206" fill="#71717a" font-size="12">0 let</text>
+                    <text x="500" y="206" fill="#71717a" font-size="12">45 let</text>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ ZÁVĚR ============ -->
+
+    <section class="deck-slide" data-part="Závěr">
+        <div class="deck-slide-inner full flex flex-col justify-center">
+            <h1 class="text-6xl font-bold tracking-tight text-white md:text-8xl">Děkuji<br>za pozornost</h1>
+        </div>
+    </section>
+
+    <section class="deck-slide" data-part="Závěr">
+        <div class="deck-slide-inner full flex flex-col justify-center">
+            <h1 class="text-6xl font-bold tracking-tight text-white md:text-8xl">Otázky<br>a diskuze</h1>
+        </div>
+    </section>
+
+</div>
+
+<script src="/vendor/katex/katex.min.js"></script>
+<script src="/js/prezentace.js" defer></script>
+</body>
+</html>
