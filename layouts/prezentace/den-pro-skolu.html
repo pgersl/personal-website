@@ -731,7 +731,7 @@
     <section class="deck-slide" data-part="Část 5 · Matematika">
         <div class="deck-slide-inner">
             <h2 class="deck-title">Reálný výnos</h2>
-            <span class="katex-formula mt-6 block" data-tex="r_r = \dfrac{1+r}{1+r_i} - 1"></span>
+            <span class="katex-formula lg mt-6 block" data-tex="r_r = \dfrac{1+r}{1+r_i} - 1"></span>
             <div class="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2">
                 <div class="glass-card rounded-2xl p-6">
                     <div class="text-xs uppercase tracking-wider text-zinc-500">Spořicí účet, 4 %</div>
@@ -751,11 +751,11 @@
             <div class="mt-6 grid grid-cols-1 gap-8 sm:grid-cols-2">
                 <div>
                     <div class="deck-formula-label">nominálně</div>
-                    <span class="katex-formula block" data-tex="P_t = P_m \cdot \dfrac{(1+r)^t - 1}{(1+r)^{\frac{1}{12}} - 1}"></span>
+                    <span class="katex-formula lg block" data-tex="P_t = P_m \cdot \dfrac{(1+r)^t - 1}{(1+r)^{\frac{1}{12}} - 1}"></span>
                 </div>
                 <div>
                     <div class="deck-formula-label">reálně</div>
-                    <span class="katex-formula block" data-tex="P_t = P_m \cdot \dfrac{\left[(1+r)^t - 1\right]}{\left[(1+r)^{\frac{1}{12}} - 1\right](1+r_i)^t}"></span>
+                    <span class="katex-formula lg block" data-tex="P_t = P_m \cdot \dfrac{\left[(1+r)^t - 1\right]}{\left[(1+r)^{\frac{1}{12}} - 1\right](1+r_i)^t}"></span>
                 </div>
             </div>
             <div class="glass-card mt-8 rounded-2xl p-6" data-calc="contribution">
@@ -796,26 +796,15 @@
     <section class="deck-slide" data-part="Část 5 · Matematika">
         <div class="deck-slide-inner">
             <h2 class="deck-title">Konečná renta</h2>
-            <div class="mt-6 grid grid-cols-1 gap-8 sm:grid-cols-2">
-                <div>
-                    <div class="deck-formula-label">nominálně</div>
-                    <span class="katex-formula block" data-tex="P_r = P_t \cdot \dfrac{(1+r)^{\frac{1}{12}} - 1}{1-(1+r)^{-t}}"></span>
-                </div>
-                <div>
-                    <div class="deck-formula-label">reálně</div>
-                    <span class="katex-formula block" data-tex="P_r = P_t \cdot \dfrac{\left(\frac{1+r}{1+r_i}\right)^{\frac{1}{12}} - 1}{1 - \left(\frac{1+r}{1+r_i}\right)^{-t}}"></span>
-                </div>
-            </div>
+            <span class="katex-formula lg block" data-tex="P_r = P_t \cdot \dfrac{(1+r)^{\frac{1}{12}} - 1}{1-(1+r)^{-t}}"></span>
             <div class="glass-card mt-8 rounded-2xl p-6" data-calc="annuity">
-                <div class="grid grid-cols-2 gap-5 sm:grid-cols-4">
+                <div class="grid grid-cols-2 gap-5 sm:grid-cols-3">
                     <label class="block"><span class="text-xs text-zinc-500">naspořeno, Kč</span><input type="number" value="5000000" step="100000" data-input="pot" class="mt-1 w-full rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-white"></label>
                     <label class="block"><span class="text-xs text-zinc-500">výnos, % p.a.</span><input type="number" value="4" step="0.1" data-input="rate" class="mt-1 w-full rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-white"></label>
-                    <label class="block"><span class="text-xs text-zinc-500">inflace, %</span><input type="number" value="3.3" step="0.1" data-input="inflation" class="mt-1 w-full rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-white"></label>
                     <label class="block"><span class="text-xs text-zinc-500">roky čerpání</span><input type="number" value="25" step="1" data-input="years" class="mt-1 w-full rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-white"></label>
                 </div>
                 <div class="mt-6 grid grid-cols-2 gap-6">
                     <div><div class="text-xs uppercase tracking-wider text-zinc-500">Nominálně / měsíc</div><div class="text-3xl font-bold text-white" data-output="nominal"></div></div>
-                    <div><div class="text-xs uppercase tracking-wider text-zinc-500">Reálně / měsíc</div><div class="text-3xl font-bold text-finance" data-output="real"></div></div>
                 </div>
             </div>
         </div>
@@ -823,26 +812,15 @@
 
     <section class="deck-slide" data-part="Část 5 · Matematika">
         <div class="deck-slide-inner">
-            <h2 class="deck-title">Věčná renta</h2>
-            <div class="mt-6 grid grid-cols-1 gap-8 sm:grid-cols-2">
-                <div>
-                    <div class="deck-formula-label">nominálně</div>
-                    <span class="katex-formula block" data-tex="P_r = P_t \cdot \left[(1+r)^\frac{1}{12}-1\right]"></span>
-                </div>
-                <div>
-                    <div class="deck-formula-label">reálně</div>
-                    <span class="katex-formula block" data-tex="P_r = P_t \left[\left(\frac{1+r}{1+r_i}\right)^{\frac{1}{12}} - 1\right]"></span>
-                </div>
-            </div>
+            <h2 class="deck-title">Nekonečná renta</h2>
+            <span class="katex-formula lg block" data-tex="P_r = P_t \cdot \left[(1+r)^\frac{1}{12}-1\right]"></span>
             <div class="glass-card mt-8 rounded-2xl p-6" data-calc="perpetuity">
-                <div class="grid grid-cols-1 gap-5 sm:grid-cols-3">
+                <div class="grid grid-cols-1 gap-5 sm:grid-cols-2">
                     <label class="block"><span class="text-xs text-zinc-500">naspořeno, Kč</span><input type="number" value="9000000" step="100000" data-input="pot" class="mt-1 w-full rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-white"></label>
                     <label class="block"><span class="text-xs text-zinc-500">výnos, % p.a.</span><input type="number" value="4" step="0.1" data-input="rate" class="mt-1 w-full rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-white"></label>
-                    <label class="block"><span class="text-xs text-zinc-500">inflace, %</span><input type="number" value="3.3" step="0.1" data-input="inflation" class="mt-1 w-full rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-white"></label>
                 </div>
-                <div class="mt-6 grid grid-cols-2 gap-6">
+                <div class="mt-6 flex flex-col">
                     <div><div class="text-xs uppercase tracking-wider text-zinc-500">Nominálně / měsíc</div><div class="text-3xl font-bold text-white" data-output="nominal"></div></div>
-                    <div><div class="text-xs uppercase tracking-wider text-zinc-500">Reálně / měsíc, navždy</div><div class="text-3xl font-bold text-finance" data-output="real"></div></div>
                 </div>
             </div>
         </div>
